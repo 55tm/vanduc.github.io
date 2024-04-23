@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.124.1">
+    <meta name="generator" content="Relearn 5.26.2+tip">
+    <meta name="description" content="Documentation for Hugo Relearn Theme">
+    <meta name="author" content="Sören Weber">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/images/hero.png">
+    <meta name="twitter:title" content="Tạo USB nhiều chức năng :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="Bài viết này mình sẽ hướng dẫn chi tiết cho các bạn cách tạo một chiếc USB BOOT đầy đủ chức năng, và bản này là bản cải tiến của tác giả TranDuyLinh đã chia sẻ cho cộng đồng.
+Mình sẽ hướng dẫn chi tiết nhất (bằng hình ảnh ) để tạo một chiếc USB BOOT có đầy đủ chức năng và hỗ trợ các dòng máy tính đời mới chuẩn UEFI đảm bảo bạn sẽ hài lòng.">
+    <meta property="og:title" content="Tạo USB nhiều chức năng :: Hugo Relearn Theme">
+    <meta property="og:description" content="Bài viết này mình sẽ hướng dẫn chi tiết cho các bạn cách tạo một chiếc USB BOOT đầy đủ chức năng, và bản này là bản cải tiến của tác giả TranDuyLinh đã chia sẻ cho cộng đồng.
+Mình sẽ hướng dẫn chi tiết nhất (bằng hình ảnh ) để tạo một chiếc USB BOOT có đầy đủ chức năng và hỗ trợ các dòng máy tính đời mới chuẩn UEFI đảm bảo bạn sẽ hài lòng.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://localhost:1313/tips-pc/tao-usb-day-du-chuc-nang/index.html">
+    <meta property="og:image" content="http://localhost:1313/images/hero.png">
+    <meta property="article:section" content="TIPS PC :: Hugo Relearn Theme">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <title>Tạo USB nhiều chức năng :: Hugo Relearn Theme</title>
+    <link href="http://localhost:1313/tips-pc/tao-usb-day-du-chuc-nang/index.html" rel="canonical" type="text/html" title="Tạo USB nhiều chức năng :: Hugo Relearn Theme">
+    <link href="../../tips-pc/tao-usb-day-du-chuc-nang/index.xml" rel="alternate" type="application/rss+xml" title="Tạo USB nhiều chức năng :: Hugo Relearn Theme">
+    <link href="../../images/logo.svg?1713858605" rel="icon" type="image/svg+xml">
+    
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../css/fontawesome-all.min.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fontawesome-all.min.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../css/nucleus.css?1713858606" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/auto-complete.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../css/perfect-scrollbar.min.css?1713858606" rel="stylesheet">
+    <link href="../../css/fonts.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fonts.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../css/theme.css?1713858606" rel="stylesheet">
+    <link href="../../css/theme-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-style">
+    <link href="../../css/chroma-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="../../css/variant.css?1713858606" rel="stylesheet">
+    <link href="../../css/print.css?1713858606" rel="stylesheet" media="print">
+    <link href="../../css/format-print.css?1713858606" rel="stylesheet">
+    <link href="../../css/ie.css?1713858606" rel="stylesheet">
+    <script src="../../js/url.js?1713858606"></script>
+    <script src="../../js/variant.js?1713858606"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.index_js_url="../../index.search.js";
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../tips-pc/tao-usb-day-du-chuc-nang/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">TIPS PC</span><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Tạo USB nhiều chức năng</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+<div class=" taxonomy-tags term-list cstyle  tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <ul>
+    <li><a class="term-link" href="../../tags/tips/index.html">Tips</a></li>
+  </ul>
+</div>
+            </header>
+<h1 id="tạo-usb-nhiều-chức-năng">Tạo USB nhiều chức năng</h1>
+
+<p>Bài viết này mình sẽ hướng dẫn chi tiết cho các bạn cách <strong>tạo một chiếc USB BOOT đầy đủ chức năng</strong>, và bản này là bản cải tiến của tác giả TranDuyLinh đã chia sẻ cho cộng đồng.</p>
+<p>Mình sẽ hướng dẫn chi tiết nhất (bằng hình ảnh ) để tạo một chiếc USB BOOT có đầy đủ chức năng và hỗ trợ các dòng máy tính đời mới chuẩn UEFI đảm bảo bạn sẽ hài lòng.</p>
+<p>Mục Lục Nội Dung</p>
+<ul>
+<li><a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/tao-usb-boot-day-du-chuc-nang.html#i-cach-tao-usb-boot-day-du-chuc-nang" target="_blank">I. Cách tạo USB BOOT đầy đủ chức năng</a>
+<ul>
+<li><a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/tao-usb-boot-day-du-chuc-nang.html#cong-cu-can-chuan-bi" target="_blank">Công cụ cần chuẩn bị?</a></li>
+</ul>
+</li>
+<li><a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/tao-usb-boot-day-du-chuc-nang.html#ii-cac-cong-cu-cuu-ho-may-tinh-duoc-tich-hop-trong-dlc-boot" target="_blank">II. Các công cụ cứu hộ máy tính được tích hợp trong DLC BOOT</a>
+<ul>
+<li><a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/tao-usb-boot-day-du-chuc-nang.html#1-cach-tao-usb-boot-voi-ban-dlc-boot-2013" target="_blank">#1. Cách tạo USB BOOT với bản DLC BOOT 2013</a></li>
+<li><a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/tao-usb-boot-day-du-chuc-nang.html#2-update-ban-dlc-boot-2015-full-huong-dan" target="_blank">#2. UPDATE bản DLC BOOT 2015 (Full hướng dẫn)</a></li>
+<li><a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/tao-usb-boot-day-du-chuc-nang.html#3-update-ban-dlc-boot-2016-full-huong-dan" target="_blank">#3. UPDATE bản DLC BOOT 2016 (Full hướng dẫn)</a></li>
+<li><a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/tao-usb-boot-day-du-chuc-nang.html#4-update-ban-dlc-boot-2017-full-huong-dan" target="_blank">#4. UPDATE bản DLC BOOT 2017 (Full hướng dẫn)</a></li>
+<li><a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/tao-usb-boot-day-du-chuc-nang.html#5-update-ban-dlc-boot-2019-full-huong-dan" target="_blank">#5. UPDATE bản DLC BOOT 2019 (Full hướng dẫn)</a></li>
+<li><a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/tao-usb-boot-day-du-chuc-nang.html#6-update-ban-dlc-boot-2022-full-huong-dan" target="_blank">#6. UPDATE bản DLC BOOT 2022 (Full hướng dẫn)</a></li>
+</ul>
+</li>
+<li><a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/tao-usb-boot-day-du-chuc-nang.html#iii-loi-ket" target="_blank">III. Lời kết</a></li>
+</ul>
+<h2 id="i-cách-tạo-usb-boot-đầy-đủ-chức-năng"><strong>I. Cách tạo USB BOOT đầy đủ chức năng</strong></h2>
+<p>Nhưng tất nhiên, trước khi bắt tay vào làm thì bạn cần chuẩn bị “đồ nghề” trước.</p>
+<p>Bạn hãy chọn 1 trong các phiên bản bên dưới để sử dụng nhé, mình đã list ra các phiên bản từ cũ đến mới, bản nào cũng ngon hết 🙂 chỉ tiếc là không ăn được thôi :))</p>
+<h3 id="công-cụ-cần-chuẩn-bị"><strong>Công cụ cần chuẩn bị?</strong></h3>
+<h2 id="ii-các-công-cụ-cứu-hộ-máy-tính-được-tích-hợp-trong-dlc-boot"><strong>II. Các công cụ cứu hộ máy tính được tích hợp trong DLC BOOT</strong></h2>
+<p><a href="#R-image-754b1b86f1ceab4c390c417b0992bf06" class="lightbox-link"><img alt="cách tạo usb boot 3" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/02/cach-tao-usb-boot-3.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-754b1b86f1ceab4c390c417b0992bf06"><img alt="cách tạo usb boot 3" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/02/cach-tao-usb-boot-3.jpg"></a></p>
+<p>Bạn có thể chuyển qua ngôn ngữ Tiếng Việt để sử dụng cho dễ nhé, còn đây là một số tính năng, công cụ có trong chiếc USB BOOT này:</p>
+<ul>
+<li>Hỗ trợ boot được trên cả 2 chuẩn UEFI và LEGACY nếu bạn Format USB với <a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/dinh-dang-fat32-va-ntfs.html" target="_blank">định dạng FAT32</a>.</li>
+<li>Hỗ trợ Mini Win như: Mini Win XP, Mini Win 7 và Mini Win 8</li>
+<li>Công cụ chia phân vùng không mất dữ liệu: Partition Winzard</li>
+<li>Công cụ Backup dữ liệu như True Image, Ghost 32, Onkey Ghost..</li>
+<li>Công cụ update Driver như: 3DB Chip, Driver Genius, Double Driver.</li>
+<li>Công cụ internet như: IDM, Teamview…. và trình duyệt để truy cập internet.</li>
+<li>Công cụ để xem thông tin hệ thống, card như: <a href="http://blogchiasekienthuc.com/thu-thuat-may-tinh/tai-cpu-z-xem-cau-hinh-may-tinh.html" target="_blank">CPU-Z</a>, HWiNF032, GPU-Z, GetDiskSerial..</li>
+<li>Công cụ văn phòng như Word, Excel, PowerPoint, <a href="http://blogchiasekienthuc.com/phan-mem-mien-phi/tai-unikey-bo-go-tieng-viet.html" target="_blank">Unikey</a>, MsPaint….</li>
+<li>Công cụ quét Virus KAS Virus Remove, KAS TDSSkiller…</li>
+<li>Công cụ hệ thống như Your Uninstall ( Gỡ bỏ phần mềm), Total Uninstall, .. NetFramework…</li>
+<li>Công cụ quản lý File như: Total Commander, 7-zip, UltraISO, <a href="http://blogchiasekienthuc.com/phan-mem-mien-phi/tai-winrar-phan-mem-nen-va-giai-nen-file.html" target="_blank">Winrar</a>, Express Burn, <a href="http://blogchiasekienthuc.com/phan-mem-mien-phi/download-ccleaner.html" target="_blank">Ccleaner</a>…..</li>
+<li>Công cụ USB: Test USB, Rufus, USB Show…</li>
+<li>Công cụ phá Password: Reset Pass máy tính, Gỡ bỏ phần mềm đóng băng Deep Free….</li>
+<li>Công cụ dành cho Windows.</li>
+<li>….. Rất rất nhiều công cụ khác nữa..</li>
+</ul>
+<p>Còn rất nhiều nữa, bản này cực kỳ đầy đủ mình đã sử dụng gần 1 năm nay và đi cài máy chưa ngán 1 em nào. Nếu bạn đang tìm cho mình một công cụ cứu hộ máy tính thì đây thực sự là công cụ tuyệt vời cho bạn. Chúc các bạn thành công!!!</p>
+<p>Bắt đầu làm nào:</p>
+<h3 id="1-cách-tạo-usb-boot-với-bản-dlc-boot-2013"><strong>#1. Cách tạo USB BOOT với bản DLC BOOT 2013</strong></h3>
+<p><strong>+ Bước 1:</strong> Sau khi bạn đã cài đặt phần mềm UltraISO và tải bộ DLC về thì bạn mở file DLC BOOT ra bằng cách nháy đúp chuột vào file đó hoặc nhấn vào <code>File</code> =&gt; chọn <code>Open</code> =&gt; sau đó tìm đến file DLC Boot bạn vừa tải về.</p>
+<p><a href="#R-image-eced5f8f917befc190f92fb7c351a7cf" class="lightbox-link"><img alt="cách tạo usb boot 1" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/02/cach-tao-usb-boot-1.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-eced5f8f917befc190f92fb7c351a7cf"><img alt="cách tạo usb boot 1" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/02/cach-tao-usb-boot-1.jpg"></a></p>
+<p><strong>+ Bước 2:</strong> Tiếp theo bạn chọn <code>Bootable</code> =&gt; chọn <code>Write disk image</code> để ghi file iso ra USB.</p>
+<p>Tiếp theo tại dòng <code>Disk Drive</code> các bạn chọn USB mà mình muốn tạo, tại dòng <code>Write Method</code> các bạn chọn <code>USB-HDD+</code> . Làm theo hình sau:</p>
+<p><a href="https://blogchiasekienthuc.com/wp-content/uploads/2015/02/c%C3%A1ch-t%E1%BA%A1o-usb-boot.jpg" target="_blank"><a href="#R-image-654643d2891c6707e5e2b00a073e7e2e" class="lightbox-link"><img alt="cách tạo usb boot" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/02/cach-tao-usb-boot.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-654643d2891c6707e5e2b00a073e7e2e"><img alt="cách tạo usb boot" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/02/cach-tao-usb-boot.jpg"></a></a></p>
+<p>Tạo USB BOOT</p>
+<p><strong>+ Bước 3:</strong> Nhấn chọn <code>Write</code> để chương trình bắt đầu ghi đĩa. Đợi một lúc cho quá trình ghi đĩa kết thúc, sau đó mở USB của bạn lên sẽ có các thư mục như thế này:</p>
+<p><a href="#R-image-29df7c0f3b91a4912e7cdb792d493d48" class="lightbox-link"><img alt="cách tạo usb boot 2" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/02/cach-tao-usb-boot-21.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-29df7c0f3b91a4912e7cdb792d493d48"><img alt="cách tạo usb boot 2" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/02/cach-tao-usb-boot-21.jpg"></a></p>
+<p>USB BOOT</p>
+<p>Lúc này <strong>USB của bạn đã có khả năng BOOT</strong> rồi, bạn có thể chuyển từ <code>SysLinux</code> sang <code>Grub4DOS</code>.</p>
+<p><strong>Thực hiện:</strong></p>
+<p>Nhấn vào <code>DLC1Menu.exe</code> chọn <code>Other Tools</code> sau đó nhấn vào <strong>SysLinux Grub4DOS</strong> và làm theo hướng dẫn của chương trình.</p>
+<p><strong>+ Bước 4:</strong> Tiếp theo bạn có thể <a href="http://blogchiasekienthuc.com/thu-thuat-may-tinh/dong-bang-usb-o-cung-bao-ve-du-lieu.html" target="_blank">chuyển đổi định dạng USB từ FAT32 sang NTFS</a> để có thể chứa được các file &gt; 4GB.</p>
+<p>Sau đó bạn nên <a href="http://blogchiasekienthuc.com/thu-thuat-may-tinh/dong-bang-usb-o-cung-bao-ve-du-lieu.html" target="_blank">đóng băng USB</a> lại để hạn chế VIRUS xâm nhập vào USB.</p>
+<p>Đến đây bạn đã có một công cụ cứu hộ máy tính tuyệt vời rồi, đảm bảo sau khi sử dụng bản USB BOOT này bạn sẽ không muốn chuyển qua các loại khác nữa. ^^</p>
+<blockquote>
+<p><strong>Lưu ý:</strong><br>
+Nếu như bạn muốn tạo USB BOOT để truy cập vào <a href="https://blogchiasekienthuc.com/tag/uefi/" target="_blank">máy tính chuẩn UEFI</a> thì không được chuyển sang định dạng NTFS nhé.</p>
+<p>Vì nếu bạn chuyển sang định dạng NTFS thì USB BOOT của bạn sẽ không hoạt động được trên chuẩn này.</p>
+</blockquote>
+<h3 id="2-update-bản-dlc-boot-2015-full-hướng-dẫn"><strong>#2. UPDATE bản DLC BOOT 2015 (Full hướng dẫn)</strong></h3>
+<p>Bản ở trên mình chia sẻ đã rất ô kê rồi nhưng nếu các bạn thích trải nghiệm bản mới nhất (bản 2015) thì có thể tải về tại địa chỉ sau:</p>
+<blockquote>
+<p><strong>Note:</strong> Link download ở phần chuẩn bị (đầu bài viết nhé)</p>
+</blockquote>
+<p>Phiên bản này có một số thay đổi thú vị như sau:</p>
+<p>Hiển thị</p>
+<p><a href="#R-image-2481e0a15a2e04ec5bfcc6956e322319" class="lightbox-link"><img alt="1" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/02/11.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2481e0a15a2e04ec5bfcc6956e322319"><img alt="1" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/02/11.jpg"></a> <a href="#R-image-a6ca2353134cd707add98e3f09f4a875" class="lightbox-link"><img alt="2" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/02/21.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a6ca2353134cd707add98e3f09f4a875"><img alt="2" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/02/21.jpg"></a></p>
+<p>Hướng dẫn sử dụng bằng video <a href="https://www.youtube.com/watch?v=ckcwd3-NS2k" target="_blank">tại đây</a> hoặc tải về <a href="https://www.youtube.com/watch?v=k3JtO1OEQDI" target="_blank">Tại đây</a> .</p>
+<h3 id="3-update-bản-dlc-boot-2016-full-hướng-dẫn"><strong>#3. UPDATE bản DLC BOOT 2016 (Full hướng dẫn)</strong></h3>
+<p>Vâng ! đến hẹn lại lên, năm 2016 này Trần Duy Linh tiếp tục tung ra bản DLC BOOT 2016 với giao diện khá đẹp và update thêm nhiều công cụ mới.</p>
+<p><a href="#R-image-2c280c1f250c3ad546d34c370d62f066" class="lightbox-link"><img alt="DLCBOOT 2016" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/02/DLCBOOT-2016.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2c280c1f250c3ad546d34c370d62f066"><img alt="DLCBOOT 2016" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/02/DLCBOOT-2016.jpg"></a></p>
+<h4 id="31-bản-dlc-boot-2016-này-có-gì-đặc-biệt"><strong>3.1) Bản DLC BOOT 2016 này có gì đặc biệt?</strong></h4>
+<ul>
+<li>Hỗ trợ boot trên tất cả các chuẩn hiện nay và cụ thể là Boot trên UEFI, LEGACY.</li>
+<li>Hỗ trợ boot từ USB, HDD BOOT, LAN, Android.</li>
+<li>Tích hợp thêm Windows 10 32bit và 64bit.</li>
+<li>Tích hợp Mini Windows XP trích từ bản Hiren’s BootCD 15.2,  đã được xây dựng và tối ưu lại cực chuẩn.</li>
+<li>Tích hợp đầy đủ các công cụ cứu hộ từ đơn giản đến chuyên sâu.</li>
+<li>Còn rất nhiều tính năng khác đã được bổ sung và update.</li>
+</ul>
+<p><strong>Nhược điểm:</strong></p>
+<p>Dung lượng của bản này khá là nặng (1.7 GB), tuy nhiên nó rất đầy đủ và đã được đóng gói thành 1 file iso duy nhất nên rất dễ dàng sử dụng và lưu trữ.</p>
+<h4 id="32-download-dlc-boot-2016--cứu-hộ-máy-tính-chuyên-nghiệp"><strong>3.2) Download DLC BOOT 2016 – cứu hộ máy tính chuyên nghiệp</strong></h4>
+<blockquote>
+<p><strong>Note:</strong> Link download ở phần chuẩn bị (đầu bài viết nhé)</p>
+</blockquote>
+<p><strong>TIPs:</strong> Bạn có thể xem video hướng dẫn cách tạo usb boot bản 2016 và một vài hướng dẫn cơ bản <a href="https://www.youtube.com/watch?v=fGTQXQAeRZU&feature=youtu.be" target="_blank">tại đây</a>.</p>
+<h4 id="33-tích-hợp-bộ-cài-window-vào-usb-dlc-boot-2016"><strong>3.3.) Tích hợp bộ cài Window vào USB DLC BOOT 2016</strong></h4>
+<p>Có rất nhiều bạn có hỏi mình là làm thế nào để tích hợp thêm bộ cài Windows vào USB BOOT được tạo bằng DLC BOOT 2016.</p>
+<p>Theo quan điểm cá nhân của mình thì không cần tích hợp thêm vào làm gì cả, bạn chỉ cần copy nguyên bộ cài Windows mà bạn muốn vào trong USB BOOT đó, sau đó <a href="http://blogchiasekienthuc.com/thu-thuat-may-tinh/huong-dan-cai-win-7810-trong-mini-windows.html" target="_blank">vào trong Mini Windows để cài Win</a> cực kỳ đơn giản, tốc độ cài lại nhanh hơn nữa.</p>
+<p>Nhưng nếu như bạn vẫn muốn tích hợp thêm thì cũng được thôi, bạn làm như sau:</p>
+<p><strong>+ Bước 1:</strong> Tải Module của bản Windows mà bạn muốn tích hợp, ví dụ bạn muốn tích hợp bộ cài Windows 10 vào thì hãy tải file có tên tương ứng. Bạn <a href="http://blogchiasekienthuc.com/wp-content/uploads/2015/02/Module-Name.txt" target="_blank">vào đây</a> để tải nhé.</p>
+<p><strong>+ Bước 2:</strong> Tải file bộ cài Windows mà bạn muốn tích hợp. Bạn <a href="http://blogchiasekienthuc.com/thu-thuat-may-tinh/tai-file-windows-7-8-8-1-10-truc-tiep-tu-microsoft.html" target="_blank">vào đây</a> để tải bộ cài nguyên gốc từ Microsoft nhé.</p>
+<p><strong>+ Bước 3:</strong> Chọn biểu tượng cuối cùng bên phải là <code>Dos Soft Manager</code> &amp; <code>Win Soft Manager</code> tùy theo bạn thêm Module chạy trên nền Windows hay trên nền nền DOS.</p>
+<p><strong>+ Bước 4:</strong>  Nhấp vào biểu tượng ba khối vuông, chọn tới file <code>Module 7z</code> =&gt; lúc này chương trình sẽ tự động tích hợp cho bạn, bạn hãy đợi một chút vì quá trình diễn ra hơi lâu.</p>
+<p><strong>+ Bước 5:</strong> Chọn đường dẫn đến file cài đặt Windows mà bạn muốn tích hợp là xong,</p>
+<blockquote>
+<p><strong>Tips:</strong> Xem video hướng dẫn cách tích hợp thêm Module bộ cài Windows: Xem <a href="https://www.youtube.com/watch?v=bnqvlt7mih0" target="_blank">tại đây</a> !</p>
+</blockquote>
+<h3 id="4-update-bản-dlc-boot-2017-full-hướng-dẫn"><strong>#4. UPDATE bản DLC BOOT 2017 (Full hướng dẫn)</strong></h3>
+<blockquote>
+<p><strong>Note:</strong> Link download ở phần chuẩn bị (đầu bài viết nhé, trong phần công cụ cần chuẩn bị)</p>
+</blockquote>
+<p>Video hướng dẫn tạo DLC BOOT 2017 với phân vùng ẩn (<a href="https://drive.google.com/file/d/0B40FY3-5W__aSV9wRGd2a1p6UG8/view?resourcekey=0-dmk0lKECgA_1H037iTvegA" target="_blank">tải video về</a>).</p>
+<p>Video hướng dẫn tạo DLC BOOT 2017 với phân vùng thường (<a href="https://drive.google.com/file/d/0B40FY3-5W__aYlNkb0ZudjNpMnc/view?resourcekey=0-hU7kKBsFyUMRGD_YcbB3Wg" target="_blank">tải video về</a>).</p>
+<h3 id="5-update-bản-dlc-boot-2019-full-hướng-dẫn"><strong>#5. UPDATE bản DLC BOOT 2019 (Full hướng dẫn)</strong></h3>
+<p>Đã có phiên bản DLC BOOT 2019, mình đã có một bài viết riêng cho phiên bản này. Các bạn có thể xem hướng dẫn chi tiết tại bài viết này nhé:</p>
+<ul>
+<li><a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/tao-usb-boot-voi-dlc-boot.html" target="_blank">Cách tạo USB BOOT bằng DLC BOOT 2019 (không thể dễ hơn)</a></li>
+</ul>
+<p>Hiện tại mình đã mở cửa <a href="https://shop.blogchiasekienthuc.com/" target="_blank">Blog Chia Sẻ Kiến Thức Store !</a> – bán phần mềm trả phí với mức giá siêu rẻ – chỉ từ 180.000<sup>đ</sup> (bản quyền vĩnh viễn Windows 10/11, Office 365, 2021, 2016… và nhiều phần mềm bản quyền khác). Bảo hành full thời gian sử dụng nhé !</p>
+<h3 id="6-update-bản-dlc-boot-2022-full-hướng-dẫn"><strong>#6. UPDATE bản DLC BOOT 2022 (Full hướng dẫn)</strong></h3>
+<p>Đã có phiên bản DLC BOOT 2022 với rất nhiều cải tiến, đặc biệt hỗ trợ rất tốt cho các máy tính sử dụng CPU đời mới, mainboard mới…. Các bạn có thể xem hướng dẫn chi tiết tại bài viết này nhé:</p>
+<ul>
+<li><a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/tai-dlc-boot-2022.html" target="_blank">Tải DLC BOOT 2022 (bản chuẩn) – hỗ trợ tốt CPU đời mới !</a></li>
+</ul>
+<h2 id="iii-lời-kết"><strong>III. Lời kết</strong></h2>
+<p>Như vậy là mình đã hướng dẫn rất chi tiết cho các bạn cách tạo usb boot bằng DLC BOOT 2013, 2015, 2016 và 2017 .. 2022 rồi đấy.</p>
+<p>Mình thì vẫn đang sử dụng bản 2013 cũng thấy khá đầy đủ rồi, tùy theo nhu cầu sử dụng của bạn thôi.</p>
+<p>Bài viết thì dài vậy thôi, chứ cách làm thì cực thì đơn giản nhé. Mình viết gộp vào cho các bạn tiện theo dõi hơn.</p>
+<p>Lựa chọn bản nào cũng tốt cả, tùy theo nhu cầu của bạn mà sử dụng thôi nhé 😀 Chúc các bạn thành công!</p>
+<p><strong>Đề xuất bài viết:</strong></p>
+<ul>
+<li><a href="http://blogchiasekienthuc.com/thu-thuat-may-tinh/huong-dan-ghost-tao-file-ghost-trong-mini-windows.html" target="_blank">Hướng dẫn Ghost, tạo file Ghost, cài Win .. trong Mini Windows (WinPE)</a></li>
+<li><a href="http://blogchiasekienthuc.com/thu-thuat-may-tinh/cach-cai-windows-xp-7-88-1-nhanh-nhat.html" target="_blank">Cách cài Windows XP-7-8/8.1 trong vòng 10 phút</a></li>
+<li><a href="http://blogchiasekienthuc.com/thu-thuat-hay/tao-usb-boot-bang-hirens-boot.html" target="_blank">Hướng dẫn tạo USB BOOT bằng Hiren’s Boot để cứu hộ máy tính</a></li>
+<li><a href="http://blogchiasekienthuc.com/thu-thuat-may-tinh/bios-la-gi-cach-truy-cap-vao-bios-cua-may-hp-sony.html" target="_blank">BIOS là gì? Cách truy cập vào BIOS của máy HP, Sony</a>…</li>
+</ul>
+<p>Kiên Nguyễn – Blogchiasekienthuc.com<br>
+=&gt; <a href="http://blogchiasekienthuc.com/thu-thuat-may-tinh/tao-usb-boot-day-du-chuc-nang.html" target="_blank">Tạo USB BOOT</a></p>
+
+            <footer class="footline">
+<div class=" taxonomy-categories term-list cstyle  " title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="../../categories/anki/index.html">Anki</a></li>
+    <li><a class="term-link" href="../../categories/th%E1%BB%A7-thu%E1%BA%ADt-pc/index.html">Thủ Thuật PC</a></li>
+  </ul>
+</div>
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="../../js/clipboard.min.js?1713858606" defer></script>
+    <script src="../../js/perfect-scrollbar.min.js?1713858606" defer></script>
+    <script src="../../js/theme.js?1713858606" defer></script>
+  </body>
+</html>

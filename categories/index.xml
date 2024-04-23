@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Hugo Relearn Theme</title>
+    <link>https://example.com/categories/index.html</link>
+    <description>Recent content in Categories on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Mar 2024 09:57:41 +0700</lastBuildDate>
+    <atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>English</title>
+      <link>https://example.com/categories/english/index.html</link>
+      <pubDate>Sun, 31 Mar 2024 09:57:41 +0700</pubDate>
+      <guid>https://example.com/categories/english/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Obsidian</title>
+      <link>https://example.com/categories/obsidian/index.html</link>
+      <pubDate>Sun, 31 Mar 2024 09:57:41 +0700</pubDate>
+      <guid>https://example.com/categories/obsidian/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anki</title>
+      <link>https://example.com/categories/anki/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/anki/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Basic</title>
+      <link>https://example.com/categories/basic/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/basic/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Content</title>
+      <link>https://example.com/categories/content/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/content/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Custom</title>
+      <link>https://example.com/categories/custom/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/custom/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DGarden</title>
+      <link>https://example.com/categories/dgarden/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/dgarden/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>https://example.com/categories/github/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/github/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://example.com/categories/hugo/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/hugo/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jekyll</title>
+      <link>https://example.com/categories/jekyll/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/jekyll/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Taxonomy</title>
+      <link>https://example.com/categories/taxonomy/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/taxonomy/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Theming</title>
+      <link>https://example.com/categories/theming/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/theming/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thủ Thuật PC</title>
+      <link>https://example.com/categories/th%E1%BB%A7-thu%E1%BA%ADt-pc/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/th%E1%BB%A7-thu%E1%BA%ADt-pc/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wordpress</title>
+      <link>https://example.com/categories/wordpress/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/wordpress/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Relearn Theme</title>
+    <link>https://example.com/tags/index.html</link>
+    <description>Recent content on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Mar 2024 09:57:41 +0700</lastBuildDate>
+    <atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>English</title>
+      <link>https://example.com/tags/english/index.html</link>
+      <pubDate>Sun, 31 Mar 2024 09:57:41 +0700</pubDate>
+      <guid>https://example.com/tags/english/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Grammar</title>
+      <link>https://example.com/tags/grammar/index.html</link>
+      <pubDate>Sun, 31 Mar 2024 09:57:41 +0700</pubDate>
+      <guid>https://example.com/tags/grammar/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hoc</title>
+      <link>https://example.com/tags/hoc/index.html</link>
+      <pubDate>Sun, 31 Mar 2024 09:57:41 +0700</pubDate>
+      <guid>https://example.com/tags/hoc/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Takenote</title>
+      <link>https://example.com/tags/takenote/index.html</link>
+      <pubDate>Sun, 31 Mar 2024 09:57:41 +0700</pubDate>
+      <guid>https://example.com/tags/takenote/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>a secret</title>
+      <link>https://example.com/tags/the-hidden/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/the-hidden/index.html</guid>
+      <description>This lists all pages that are hidden from the home page. This includes pages that define hidden=true in their frontmatter as well as descendents of hidden pages.
+When giving term pages, you should give it a title. Otherwise it will print out a warning and will use the urlized title, which may looks weird.
+While internally this term is called hidden, it is referenced in the resulting english pages as a secret and as hush, matey in the piratish translation.</description>
+    </item>
+    <item>
+      <title>Anki</title>
+      <link>https://example.com/tags/anki/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/anki/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Children</title>
+      <link>https://example.com/tags/children/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/children/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Config</title>
+      <link>https://example.com/tags/config/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/config/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Content</title>
+      <link>https://example.com/tags/content/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/content/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DGarden</title>
+      <link>https://example.com/tags/dgarden/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/dgarden/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Documentation</title>
+      <link>https://example.com/tags/documentation/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/documentation/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>https://example.com/tags/github/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/github/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://example.com/tags/hugo/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/hugo/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jekyll</title>
+      <link>https://example.com/tags/jekyll/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/jekyll/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Non-Hidden</title>
+      <link>https://example.com/tags/non-hidden/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/non-hidden/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Obsidian</title>
+      <link>https://example.com/tags/obsidian/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/obsidian/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tips</title>
+      <link>https://example.com/tags/tips/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/tips/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorial</title>
+      <link>https://example.com/tags/tutorial/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/tutorial/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WebDesign</title>
+      <link>https://example.com/tags/webdesign/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/webdesign/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wordpress</title>
+      <link>https://example.com/tags/wordpress/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/wordpress/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

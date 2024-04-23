@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TIPS PC on Hugo Relearn Theme</title>
+    <link>http://localhost:1313/tips-pc/index.html</link>
+    <description>Recent content in TIPS PC on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tips-pc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boot Anhdv</title>
+      <link>http://localhost:1313/tips-pc/boot-adv-2024/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tips-pc/boot-adv-2024/index.html</guid>
+      <description>Vâng, đến hẹn lại lên các bạn êy!
+Năm 2024 này tác giả Đặng Văn Anh lại tiếp tục cho ra mắt bản Anhdv Boot 2024 với rất nhiều cải thiện đáng kể.
+Về cơ bản, các tính năng trước đây vẫn sẽ được giữ lại, tác giả tập trung cải thiện tính năng và khả năng tương thích với các máy tính đời mới (ví dụ chip Intel Gen 12, 13, 14.</description>
+    </item>
+    <item>
+      <title>Cài Win từ WinPE</title>
+      <link>http://localhost:1313/tips-pc/cai-win-tu-winpe/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tips-pc/cai-win-tu-winpe/index.html</guid>
+      <description>Đã có rất nhiều bài viết mà blogchiasekienthuc.com giới thiệu và hướng dẫn cho các bạn cách cài lại windows cho máy tính, nhưng có vẻ như chừng đó vẫn chưa đủ 😀
+Thú thật là với các bạn là phải viết blog hướng dẫn như mình thì các bạn mới biết được lắm yêu cầu phát sinh như thế nào, mỗi người một ý thích và mỗi người một câu hỏi khác nhau trong cùng một chủ đề.</description>
+    </item>
+    <item>
+      <title>Cài Win và Boot</title>
+      <link>http://localhost:1313/tips-pc/tich-hop-bo-cai-win-adv/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tips-pc/tich-hop-bo-cai-win-adv/index.html</guid>
+      <description>Làm thế nào để tích hợp bộ cài Win vào usb cứu hộ Anhdv Boot được rất nhiều bạn quan tâm. Hôm nay, mình sẽ hướng dẫn cách thêm menu cài đặt Windows vào giao diện của Anhdv Boot 2019. Cách này giúp bạn tạo usb boot vừa cài Win trực tiếp, lại vừa có đầy đủ công cụ cứu hộ của Anhdv Boot. Đương nhiên, cách tích hợp bộ cài Windows này hỗ trợ cả 2 chuẩn UEFI – Legacy.</description>
+    </item>
+    <item>
+      <title>Cập nhật Driver</title>
+      <link>http://localhost:1313/tips-pc/update-driver/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tips-pc/update-driver/index.html</guid>
+      <description>Bạn có cảm thấy việc đi tìm xem máy tính thiếu driver nào, driver nào đã cũ cần cập nhật là quá nhàm chán và mệt mỏi không? Nào là driver mạng, driver âm thanh, driver USB, driver màn hình, rất nhiều loại driver mà chỉ nhìn thôi cũng đủ hoa mắt rồi. Chưa kể là việc tìm đúng driver để cài cho máy cũng chả dễ dàng gì.
+Bạn mình có con Acer Aspire E15, cài Windows 8.</description>
+    </item>
+    <item>
+      <title>Học cài Win</title>
+      <link>http://localhost:1313/tips-pc/hoc-cai-win/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tips-pc/hoc-cai-win/index.html</guid>
+      <description>Bài viết này thuộc phần 1 của 14 phần trong series Học cài win
+Đây là bài mở đầu trong serie bài viết về học cài win, tôi sẽ cũng cấp cho các bạn những thông tin cơ bản nhất về cài Win. Cũng tại đây, bạn sẽ biết mình cần phải chuẩn bị những gì trước khi bắt tay vào việc cài win cho máy tính.
+Hệ điều hành là một phần mềm chạy trên máy tính, dùng để điều hành, quản lý các thiết bị phần cứng và phần mềm ứng dụng khác.</description>
+    </item>
+    <item>
+      <title>Tải bộ cài WindowsOffice</title>
+      <link>http://localhost:1313/tips-pc/tai-bo-cai-windowsoffice/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tips-pc/tai-bo-cai-windowsoffice/index.html</guid>
+      <description>Trong bài viết trước blogchiasekienthuc [.] com đã từng giới thiệu với các bạn cách để tải bộ cài đặt Windows nguyên gốc từ trang chủ Microsoft rồi.
+Đó là cách dùng script để dò tìm link tải trên Server lưu trữ của MS, nhưng rất tiếc là 2 trong 3 cách mà admin đã giới thiệu cho các bạn trước đó đã bị Microsoft fix nên bây giờ không còn hoạt động được nữa.</description>
+    </item>
+    <item>
+      <title>Tạo USB nhiều chức năng</title>
+      <link>http://localhost:1313/tips-pc/tao-usb-day-du-chuc-nang/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tips-pc/tao-usb-day-du-chuc-nang/index.html</guid>
+      <description>Bài viết này mình sẽ hướng dẫn chi tiết cho các bạn cách tạo một chiếc USB BOOT đầy đủ chức năng, và bản này là bản cải tiến của tác giả TranDuyLinh đã chia sẻ cho cộng đồng.
+Mình sẽ hướng dẫn chi tiết nhất (bằng hình ảnh ) để tạo một chiếc USB BOOT có đầy đủ chức năng và hỗ trợ các dòng máy tính đời mới chuẩn UEFI đảm bảo bạn sẽ hài lòng.</description>
+    </item>
+    <item>
+      <title>USB Boot WintoUSB</title>
+      <link>http://localhost:1313/tips-pc/usb-boot-wintousb/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tips-pc/usb-boot-wintousb/index.html</guid>
+      <description>Tạo usb boot cài win với WinToUSB, hỗ trợ cả UEFI và Legacy Anhdv Blog Bài viết này thuộc phần 5 của 14 phần trong series Học cài win
+Để cài đặt Windows dù là theo chuẩn UEFI hay Legacy, mình luôn khuyên cài trên Mini Windows 10. Còn nếu vẫn muốn tạo usb boot cài win đơn thuần thì bạn có thể sử dụng WinToUSB. Cách tạo usb boot cài win với WinToUSB sẽ hỗ trợ cả 2 chuẩn UEFI và Legacy.</description>
+    </item>
+  </channel>
+</rss>

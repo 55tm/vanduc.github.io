@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.124.1">
+    <meta name="generator" content="Relearn 5.26.2+tip">
+    <meta name="description" content="Documentation for Hugo Relearn Theme">
+    <meta name="author" content="Sören Weber">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/images/hero.png">
+    <meta name="twitter:title" content="Cài Win từ WinPE :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="Đã có rất nhiều bài viết mà blogchiasekienthuc.com giới thiệu và hướng dẫn cho các bạn cách cài lại windows cho máy tính, nhưng có vẻ như chừng đó vẫn chưa đủ 😀
+Thú thật là với các bạn là phải viết blog hướng dẫn như mình thì các bạn mới biết được lắm yêu cầu phát sinh như thế nào, mỗi người một ý thích và mỗi người một câu hỏi khác nhau trong cùng một chủ đề.">
+    <meta property="og:title" content="Cài Win từ WinPE :: Hugo Relearn Theme">
+    <meta property="og:description" content="Đã có rất nhiều bài viết mà blogchiasekienthuc.com giới thiệu và hướng dẫn cho các bạn cách cài lại windows cho máy tính, nhưng có vẻ như chừng đó vẫn chưa đủ 😀
+Thú thật là với các bạn là phải viết blog hướng dẫn như mình thì các bạn mới biết được lắm yêu cầu phát sinh như thế nào, mỗi người một ý thích và mỗi người một câu hỏi khác nhau trong cùng một chủ đề.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://localhost:1313/tips-pc/cai-win-tu-winpe/index.html">
+    <meta property="og:image" content="http://localhost:1313/images/hero.png">
+    <meta property="article:section" content="TIPS PC :: Hugo Relearn Theme">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <title>Cài Win từ WinPE :: Hugo Relearn Theme</title>
+    <link href="http://localhost:1313/tips-pc/cai-win-tu-winpe/index.html" rel="canonical" type="text/html" title="Cài Win từ WinPE :: Hugo Relearn Theme">
+    <link href="../../tips-pc/cai-win-tu-winpe/index.xml" rel="alternate" type="application/rss+xml" title="Cài Win từ WinPE :: Hugo Relearn Theme">
+    <link href="../../images/logo.svg?1713858605" rel="icon" type="image/svg+xml">
+    
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../css/fontawesome-all.min.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fontawesome-all.min.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../css/nucleus.css?1713858606" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/auto-complete.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../css/perfect-scrollbar.min.css?1713858606" rel="stylesheet">
+    <link href="../../css/fonts.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fonts.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../css/theme.css?1713858606" rel="stylesheet">
+    <link href="../../css/theme-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-style">
+    <link href="../../css/chroma-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="../../css/variant.css?1713858606" rel="stylesheet">
+    <link href="../../css/print.css?1713858606" rel="stylesheet" media="print">
+    <link href="../../css/format-print.css?1713858606" rel="stylesheet">
+    <link href="../../css/ie.css?1713858606" rel="stylesheet">
+    <script src="../../js/url.js?1713858606"></script>
+    <script src="../../js/variant.js?1713858606"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.index_js_url="../../index.search.js";
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../tips-pc/cai-win-tu-winpe/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">TIPS PC</span><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Cài Win từ WinPE</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+<div class=" taxonomy-tags term-list cstyle  tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <ul>
+    <li><a class="term-link" href="../../tags/anki/index.html">Anki</a></li>
+    <li><a class="term-link" href="../../tags/hoc/index.html">Hoc</a></li>
+    <li><a class="term-link" href="../../tags/tips/index.html">Tips</a></li>
+  </ul>
+</div>
+            </header>
+<h1 id="cài-win-từ-winpe">Cài Win từ WinPE</h1>
+
+<p>Đã có rất nhiều bài viết mà blogchiasekienthuc.com giới thiệu và hướng dẫn cho các bạn <a href="https://blogchiasekienthuc.com/tag/tao-usb-cai-win/" target="_blank">cách cài lại windows</a> cho máy tính, nhưng có vẻ như chừng đó vẫn chưa đủ 😀</p>
+<p>Thú thật là với các bạn là phải viết blog hướng dẫn như mình thì các bạn mới biết được lắm yêu cầu phát sinh như thế nào, mỗi người một ý thích và mỗi người một câu hỏi khác nhau trong cùng một chủ đề.</p>
+<p>Để đáp lại những yêu cầu đó của mọi người thì trong bài viết này mình sẽ hướng dẫn cho các bạn cách cài windows 7/ 8/ 10/ 11 từ môi trường Mini Windows với công cụ WinNTsetup.</p>
+<p><strong>NOTE:</strong><br>
+Bài viết này mình hướng dẫn bạn cách <strong>cài Windows chuẩn LEGACY/MBR cho máy tính</strong>.</p>
+<p>Còn nếu như bạn muốn cài Windows chuẩn UEFI/GPT thì <a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/cai-win-theo-chuan-uefi-gpt.html" target="_blank">xem bài này</a> nhé. Các bạn lưu ý nhé !</p>
+<h3 id="1-cần-chuẩn-bị-những-gì"><strong>#1. Cần chuẩn bị những gì?</strong></h3>
+<ol>
+<li>Đầu tiên bạn hãy tạo một chiếc <a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/tao-usb-boot-day-du-chuc-nang.html" target="_blank">USB boot đa năng</a>.</li>
+<li>File *.ISO Windows (Win gì thì tùy bạn). Bạn có thể tải các bộ Windows Setup nguyên gốc về <a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/cach-tai-bo-cai-windows-office-nguyen-goc.html" target="_blank">tại đây</a>.</li>
+</ol>
+<p>Chỉ đơn giản là như vậy thôi, các công cụ cần thiết thì đã có sẵn trong chiếc usb boot mà bạn đã tạo trước đó rồi.</p>
+<h3 id="2-cách-cài-win-trên-môi-trường-winpe"><strong>#2. Cách cài Win trên môi trường WinPE</strong></h3>
+<p><strong>Update thêm 1 cách hay:</strong> Trong môi trường WinPE (Mini Windows) thì ngoài cách bên dưới ra thì bạn có thể thực hiện cài Win một cách cực kỳ nhanh chóng đó là:</p>
+<p><strong>+ Bước 1:</strong> Truy cập <a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/huong-dan-ghost-tao-file-ghost-trong-mini-windows.html" target="_blank">vào Mini Windows</a>.</p>
+<p><strong>+ Bước 2:</strong> Mount file cài đặt Windows ra ổ đĩa ảo bằng cách nhấn chuột phải vào file iso đó =&gt; chọn <strong>Mount as ImDisk Virtual Disk</strong>.</p>
+<p><strong>+ Bước 3:</strong> Mở ổ đĩa ảo mà bạn vừa Mount ra =&gt; chạy file <strong>setup.exe</strong> =&gt; và bắt đầu quá trình cài Win.</p>
+<blockquote>
+<p><strong>Xem bài viết chi tiết:</strong> <a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/cach-cai-windows-don-gian.html" target="_blank">Cách cài Windows chuẩn Legacy/UEFI bằng file Setup.exe</a></p>
+</blockquote>
+<p><strong>Hoặc là làm theo các cách bên dưới:</strong></p>
+<blockquote>
+<p>Bạn hãy cắm USB BOOT vào máy tính và <a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/huong-dan-ghost-tao-file-ghost-trong-mini-windows.html" target="_blank">boot vào môi trường Mini Windows</a> (Mini Windows 7, 8, 10 hoặc 11 đều được.)</p>
+</blockquote>
+<p><strong>+ Bước 1:</strong> Vào <code>Computer</code> =&gt; và <code>Format</code> phân vùng ổ cứng mà bạn muốn cài Windows (trong phần <code>File Type</code> =&gt; bạn nhớ chọn là <code>NTFS</code> nhé).</p>
+<p>Bạn nên bỏ dấu tích tại ô kiểm <code>Quick Format</code> trước khi tiến hành Format ổ cứng nhé, chúng ta sẽ format ổ cứng ở chế độ bình thường sẽ tốt hơn.</p>
+<blockquote>
+<p>**TIPs:<br>
+**Ngoài các trên ra thì bạn có thể sử dung phần mềm <a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/huong-dan-su-dung-partition-winzard.html" target="_blank">Partition Wizard</a> để <strong>Delete</strong> phân vùng mà bạn muốn cài Win lên cũng được nhé.</p>
+</blockquote>
+<p><a href="#R-image-c3696f17d37ca2c6f503f01e1bffe928" class="lightbox-link"><img alt="cai-win-tren-moi-truong-win-pe-1" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-1.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c3696f17d37ca2c6f503f01e1bffe928"><img alt="cai-win-tren-moi-truong-win-pe-1" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-1.jpg"></a></p>
+<p>Bạn đợi một lát để máy tính Format nhé, cũng phải mất một lúc đó vì chúng ta đã bỏ chế độ Format nhanh mà. Sau khi xong thì chuyển sang bước tiếp theo.</p>
+<p><strong>+ Bước 2:</strong> Nhấp chuột vào biểu tượng <code>DLC BOOT</code> =&gt; chọn <code>Disk Tools</code> =&gt; chọn công cụ <code>BootICE</code>.</p>
+<p><a href="#R-image-146319037402c461522d90fc7bc5ab6e" class="lightbox-link"><img alt="ai-win-tren-moi-truong-win-pe-2" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-2.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-146319037402c461522d90fc7bc5ab6e"><img alt="ai-win-tren-moi-truong-win-pe-2" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-2.jpg"></a></p>
+<p>Tiếp theo chúng ta sẽ thiết lập để nạp MBR, PBR cho phân vùng ổ cứng mà chúng ta vừa Format:</p>
+<p>Chọn <code>Physical</code> =&gt; chọn đúng phân vùng bạn vừa Format lúc nãy =&gt; nhấn vào <code>Process MBR</code> =&gt; chọn Windows <code>NT 5.x/ 6.xMBR</code> =&gt; chọn <code>Install/ Confi</code>g. Bạn làm lần lượt như hình bên dưới nhé:</p>
+<p><a href="#R-image-a86ff7263f0c2a927bdad2c2fcd48b2a" class="lightbox-link"><img alt="cai-win-tren-moi-truong-win-pe-3" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-3.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a86ff7263f0c2a927bdad2c2fcd48b2a"><img alt="cai-win-tren-moi-truong-win-pe-3" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-3.jpg"></a></p>
+<p>Lựa chọn phiên bản mới nhất mà dùng nhé.</p>
+<p><a href="#R-image-9bb7079e47dfb4248eef6c305226b55d" class="lightbox-link"><img alt="cai-win-tren-moi-truong-win-pe-4" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-4.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9bb7079e47dfb4248eef6c305226b55d"><img alt="cai-win-tren-moi-truong-win-pe-4" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-4.jpg"></a></p>
+<p>Tiếp tục nhấn vào <code>Process MBR</code> =&gt; chọn đúng phân vùng ổ cứng mà bạn vừa Format =&gt; chọn <code>Install/ Config</code> và nhấn <code>OK</code> để cài đặt.</p>
+<blockquote>
+<p>Bạn thiết lập như hình bên dưới nhé.</p>
+</blockquote>
+<p><a href="#R-image-861883c24eeaf03bdcd07a801fd35985" class="lightbox-link"><img alt="cai-win-tren-moi-truong-win-pe-5" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-5.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-861883c24eeaf03bdcd07a801fd35985"><img alt="cai-win-tren-moi-truong-win-pe-5" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-5.jpg"></a></p>
+<p><strong>+ Bước 3:</strong> Bước này chúng ta sẽ có 2 cách để cài đặt đó là “<a href="https://blogchiasekienthuc.com/thu-thuat-hay/tao-o-dia-ao-va-cach-su-dung.html" target="_blank">Mount” ra ổ đĩa ảo</a> để cài đặt trực tiếp với file <strong>setup.exe</strong> có trong bộ cài, còn cách thứ 2 chúng ta sẽ sử dụng công cụ WinNTsetup có trong USB BOOT.</p>
+<p><strong>+ Cách 1:</strong> Mount file setup Windows ra ổ đĩa ảo bằng cách nhấp chuột phải vào file <code>*.iso</code> đó =&gt; và chọn <code>Mount as ImDisk Virtual Disk</code>.</p>
+<p>Lúc này nó sẽ tự động tạo cho chúng ta một ổ đĩa ảo chứa bộ cài Windows trong đó.</p>
+<p><a href="#R-image-261482c34772d0fd3305f0e99e56590e" class="lightbox-link"><img alt="cai-win-tren-moi-truong-win-pe-6" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-6.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-261482c34772d0fd3305f0e99e56590e"><img alt="cai-win-tren-moi-truong-win-pe-6" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-6.jpg"></a></p>
+<p>Sau đó bạn tiến hành cài đặt như bình thường, bạn có thể tham khảo bài viết cách cài Windows nếu như chưa biết nhé.</p>
+<ul>
+<li><a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/cach-cai-windows-10-nhanh-nhat.html" target="_blank">Hướng dẫn cách cài đặt Windows 10 (32bit và 64bit) chi tiết</a></li>
+<li><a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/cach-cai-windows-7.html" target="_blank">Hướng dẫn cách cài Windows 7 chi tiết bằng hình ảnh</a></li>
+<li><a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/huong-dan-cai-windows-8-8-1.html" target="_blank">Hướng dẫn cách cài Windows 8/8.1chi tiết bằng hình ảnh</a></li>
+</ul>
+<h3 id="3-cách-sử-dụng-winntsetup-để-cài-windows"><strong>#3. Cách sử dụng WinNTsetup để cài Windows</strong></h3>
+<p><strong>+ Cách 2:</strong> Sử dụng công cụ WinNTsetup để cài đặt. Để làm được việc này đầu tiên các bạn nhấn cũng <a href="https://blogchiasekienthuc.com/thu-thuat-hay/tao-o-dia-ao-va-cach-su-dung.html" target="_blank">Mount file iso ra ổ đĩa ảo</a> như hướng dẫn ở cách 1.</p>
+<p>Sau đó nhấn vào biểu tượng <code>DLC BOOT</code> =&gt; chọn <code>System</code> =&gt; mở phần mềm <code>WinNTSetup</code> lên như hình dưới đây:</p>
+<p><a href="#R-image-9d8fd5d79613bc6e9e7c26a7fbd149cc" class="lightbox-link"><img alt="cai-win-tren-moi-truong-win-pe-7" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-7.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9d8fd5d79613bc6e9e7c26a7fbd149cc"><img alt="cai-win-tren-moi-truong-win-pe-7" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-7.jpg"></a></p>
+<p>Tại giao diện chính của WinNTsetup bạn thiết lập như hướng dẫn sau đây.  Chọn <code>Windows Vista/7/8/2008/2012</code> nếu như bạn đang cài Windows 7 trở lên.</p>
+<p>Tiếp theo tại khung <code>Select location of the install.wim file</code> =&gt; bạn nhấn vào <code>Search</code> để tìm đến file <code>install.wim</code> hoặc là <code>install.esd</code> trong ổ đĩa ảo bạn đã Burn lúc nãy.</p>
+<p><strong>Lưu ý quan trọng:</strong><br>
+Phải có 3 dấu tích xanh như trong khung đỏ mình đã khoanh lại thì mới được nhé, còn nếu như có dấu chấm than vàng hay dấu x đỏ thì tỷ lệ lỗi sẽ cao hơn.</p>
+<p>Nếu như làm lần lượt các bước như hướng dẫn bên trên mình đảm bảo không bị lỗi tại đây.</p>
+<p><a href="#R-image-51d10f2e34a494f1688c6498886d47db" class="lightbox-link"><img alt="cai-win-tren-moi-truong-win-pe-8" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-8.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-51d10f2e34a494f1688c6498886d47db"><img alt="cai-win-tren-moi-truong-win-pe-8" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-8.jpg"></a></p>
+<p>Bạn làm như hình bên dưới để mở file <code>install.wim</code> (file install.wim hoặc là <code>install.esd</code> nằm trong Folder <code>sources</code> nhé )</p>
+<p><a href="#R-image-f51ae8464019a6602db389f0a44fdb27" class="lightbox-link"><img alt="cai-win-tren-moi-truong-win-pe-9" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-9.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f51ae8464019a6602db389f0a44fdb27"><img alt="cai-win-tren-moi-truong-win-pe-9" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-9.jpg"></a></p>
+<p>Bạn thiết lập tiếp như sau:</p>
+<p>Tại khung <code>Select localtion of the installation driver</code> =&gt; bạn nhấn vào <code>Search..</code> =&gt; và chọn đúng phân vùng mà bạn muốn cài win nhé.</p>
+<ol>
+<li>Tích vào ô kiểm <code>Patch UxTheme.dll to allow unsigned Themes</code></li>
+<li><strong>Tweaks:</strong> Thiếp lập tùy chọn nâng cao nếu bạn muốn (trong này có khá nhiều tính năng hay bạn có thể vào để xem, nếu không hiểu thì có thể sử dụng google dịch nhé :D)</li>
+<li><strong>Setup:</strong> Bắt đầu quá trình cài đặt Windows.</li>
+<li>Ngoài ra, tại phần Option Edition bạn có thể chọn hệ điều hành Windows mà bạn đang thực hiện cài đặt.</li>
+</ol>
+<p><a href="#R-image-c4741059cf0678679ade01f01f4cecaf" class="lightbox-link"><img alt="cai-win-tren-moi-truong-win-pe-10" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-10.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c4741059cf0678679ade01f01f4cecaf"><img alt="cai-win-tren-moi-truong-win-pe-10" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-tren-moi-truong-win-pe-10.jpg"></a></p>
+<p><strong>Lưu ý:</strong><br>
+Khi bạn nhấn là <code>Setup</code> thì sẽ có một thông báo hỏi bạn muốn chọn chế độ khởi động bằng BootICE hay là chế độ khác ở phần <code>Boot Menu</code>.</p>
+<p>Ở phiên bản cũ mình đang dùng thì chỉ có một lựa chọn là <code>BootICE</code> nhưng ở những phiên bản WinNTsetup mới hơn thì có thêm lựa chọn là <code>BootSect</code> (tức là mặc định của Windows Setup). Khuyến khích các bạn nên lựa chọn chế độ BootICE nhé.</p>
+<p>OK, giờ thì tranh thủ ra làm tách càfe trong lúc chờ đợi phần mềm bắt đầu quá trình cài đặt Win. Sau khi xong nó sẽ hiện lên thông báo như hình bên dưới. Bạn nhấn OK và khởi động lại máy tính để hoàn tất nốt quá trình cài Win.</p>
+<p><a href="#R-image-42db7f32df1a8f73d9843cf2541d796e" class="lightbox-link"><img alt="cai-win-bang-WinNTSetup" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-bang-WinNTSetup.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-42db7f32df1a8f73d9843cf2541d796e"><img alt="cai-win-bang-WinNTSetup" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blogchiasekienthuc.com/wp-content/uploads/2015/08/cai-win-bang-WinNTSetup.png"></a></p>
+<p>____________</p>
+<p>Các bạn có thể tham khảo video hướng dẫn cách cài Win chuẩn LEGACY bằng WinNTSetup sau đây:</p>
+<blockquote>
+<p>// Trong video có sử dụng bộ công cụ cứu hộ <a href="https://blogchiasekienthuc.com/thu-thuat-may-tinh/tao-usb-boot-nhieu-voi-nhv-boot.html" target="_blank">NHV BOOT</a>, bạn có thể sử dụng bộ cứu hộ khác cũng được nhé, cách làm hoàn toàn tương tự.</p>
+</blockquote>
+<p>Hiện tại mình đã mở cửa <a href="https://shop.blogchiasekienthuc.com/" target="_blank">Blog Chia Sẻ Kiến Thức Store !</a> – bán phần mềm trả phí với mức giá siêu rẻ – chỉ từ 180.000<sup>đ</sup> (bản quyền vĩnh viễn Windows 10/11, Office 365, 2021, 2016… và nhiều phần mềm bản quyền khác). Bảo hành full thời gian sử dụng nhé !</p>
+<h3 id="3-lời-kết"><strong>#3. Lời kết</strong></h3>
+<p>Như vậy là đã xong phần hướng dẫn <strong>cài Windows trong môi trường WinPE</strong> rồi nhé, hướng dẫn thì dài dòng vậy thôi chứ thao tác thì nhanh cực kỳ luôn.</p>
+<p>Hi vọng phương pháp cài win mới này sẽ giúp ích cho bạn trong việc cứu hộ máy tính, ngoài cách này ra để cài windows cho máy tính thì bạn có thể tham khảo các cách khác <a href="https://blogchiasekienthuc.com/tag/tao-usb-cai-win/" target="_blank">tại đây</a>. Chúc các bạn thành công !</p>
+<p>Kiên Nguyễn – Blogchiasekienthuc.com</p>
+
+            <footer class="footline">
+<div class=" taxonomy-categories term-list cstyle  " title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="../../categories/anki/index.html">Anki</a></li>
+    <li><a class="term-link" href="../../categories/th%E1%BB%A7-thu%E1%BA%ADt-pc/index.html">Thủ Thuật PC</a></li>
+  </ul>
+</div>
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="../../js/clipboard.min.js?1713858606" defer></script>
+    <script src="../../js/perfect-scrollbar.min.js?1713858606" defer></script>
+    <script src="../../js/theme.js?1713858606" defer></script>
+  </body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.124.1">
+    <meta name="generator" content="Relearn 5.26.2+tip">
+    <meta name="description" content="Documentation for Hugo Relearn Theme">
+    <meta name="author" content="Sören Weber">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/images/hero.png">
+    <meta name="twitter:title" content="USB Boot WintoUSB :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="Tạo usb boot cài win với WinToUSB, hỗ trợ cả UEFI và Legacy Anhdv Blog Bài viết này thuộc phần 5 của 14 phần trong series Học cài win
+Để cài đặt Windows dù là theo chuẩn UEFI hay Legacy, mình luôn khuyên cài trên Mini Windows 10. Còn nếu vẫn muốn tạo usb boot cài win đơn thuần thì bạn có thể sử dụng WinToUSB. Cách tạo usb boot cài win với WinToUSB sẽ hỗ trợ cả 2 chuẩn UEFI và Legacy.">
+    <meta property="og:title" content="USB Boot WintoUSB :: Hugo Relearn Theme">
+    <meta property="og:description" content="Tạo usb boot cài win với WinToUSB, hỗ trợ cả UEFI và Legacy Anhdv Blog Bài viết này thuộc phần 5 của 14 phần trong series Học cài win
+Để cài đặt Windows dù là theo chuẩn UEFI hay Legacy, mình luôn khuyên cài trên Mini Windows 10. Còn nếu vẫn muốn tạo usb boot cài win đơn thuần thì bạn có thể sử dụng WinToUSB. Cách tạo usb boot cài win với WinToUSB sẽ hỗ trợ cả 2 chuẩn UEFI và Legacy.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://localhost:1313/tips-pc/usb-boot-wintousb/index.html">
+    <meta property="og:image" content="http://localhost:1313/images/hero.png">
+    <meta property="article:section" content="TIPS PC :: Hugo Relearn Theme">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <title>USB Boot WintoUSB :: Hugo Relearn Theme</title>
+    <link href="http://localhost:1313/tips-pc/usb-boot-wintousb/index.html" rel="canonical" type="text/html" title="USB Boot WintoUSB :: Hugo Relearn Theme">
+    <link href="../../tips-pc/usb-boot-wintousb/index.xml" rel="alternate" type="application/rss+xml" title="USB Boot WintoUSB :: Hugo Relearn Theme">
+    <link href="../../images/logo.svg?1713858605" rel="icon" type="image/svg+xml">
+    
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../css/fontawesome-all.min.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fontawesome-all.min.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../css/nucleus.css?1713858606" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/auto-complete.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../css/perfect-scrollbar.min.css?1713858606" rel="stylesheet">
+    <link href="../../css/fonts.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fonts.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../css/theme.css?1713858606" rel="stylesheet">
+    <link href="../../css/theme-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-style">
+    <link href="../../css/chroma-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="../../css/variant.css?1713858606" rel="stylesheet">
+    <link href="../../css/print.css?1713858606" rel="stylesheet" media="print">
+    <link href="../../css/format-print.css?1713858606" rel="stylesheet">
+    <link href="../../css/ie.css?1713858606" rel="stylesheet">
+    <script src="../../js/url.js?1713858606"></script>
+    <script src="../../js/variant.js?1713858606"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.index_js_url="../../index.search.js";
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../tips-pc/usb-boot-wintousb/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">TIPS PC</span><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">USB Boot WintoUSB</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+<div class=" taxonomy-tags term-list cstyle  tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <ul>
+    <li><a class="term-link" href="../../tags/tips/index.html">Tips</a></li>
+  </ul>
+</div>
+            </header>
+<h1 id="usb-boot-wintousb">USB Boot WintoUSB</h1>
+
+<p>Tạo usb boot cài win với WinToUSB, hỗ trợ cả UEFI và Legacy Anhdv Blog
+Bài viết này thuộc phần 5 của 14 phần trong series <a href="https://anh-dv.com/series/hoc-cai-win" target="_blank" title="Học cài win">Học cài win</a></p>
+<p>Để cài đặt Windows dù là theo chuẩn UEFI hay Legacy, mình luôn khuyên <a href="https://anh-dv.com/windows-10/cai-dat-windows-10-64-bit-uefi-chuan-muot" target="_blank">cài trên Mini Windows 10</a>. Còn nếu vẫn muốn tạo usb boot cài win đơn thuần thì bạn có thể sử dụng WinToUSB. Cách tạo usb boot cài win với WinToUSB sẽ hỗ trợ cả 2 chuẩn UEFI và Legacy. Ngoài ra, WinToUSB còn hỗ trợ cho cả Windows AIO (nhiều Win trong 1).</p>
+<h2 id="một-số-tính-năng-của-phần-mềm-tạo-usb-boot-cài-win-với-wintousb">Một số tính năng của phần mềm tạo usb boot cài win với WinToUSB</h2>
+<p>Có thể bạn thắc mắc, tại sao phần mềm giúp cài Win lên USB lại tạo usb boot cài win được. Nhưng đúng là vậy, không những tạo usb cài win được mà còn tạo rất thông minh.</p>
+<ol>
+<li>Tính năng chính của WinToUSB là <a href="https://anh-dv.com/windows/cai-dat-windows-len-usb-ho-tro-cai-win-uef-legacy" target="_blank">cài Win lên USB</a>.</li>
+<li>Hỗ trợ tạo usb boot cài win cực kỳ thông minh. WinToUSB sẽ chia usb của bạn thành 2 phân vùng: phân vùng khởi động và phân vùng chứa bộ cài Win. Cách này cũng giống với cách tạo usb boot với phân vùng ẩn Anhdv Boot 2018. Vì thế bạn có thể dùng bộ cài Win AIO để tạo usb cài win với WinToUSB</li>
+</ol>
+<p>Phiên bản miễn phí không hỗ trợ Windows Enterprise và Server. Cách cài đặt phần mềm rất đơn giản với vài lần Next là hoàn tất.</p>
+<p><strong>Download WinToUSB Free (Sử dụng 7zip và Winrar mới nhất để giải nén với password: anh-dv.com)</strong><br>
+<strong><a href="https://www.easyuefi.com/wintousb/comparison.html" target="_blank">WinToUSB Free</a> | <a href="https://drive.google.com/file/d/1BSU2iQyvXSMgGFWqhaaCEDOL2AUF2cpP/view?usp=sharing" target="_blank">WinToUSB Enterpise Portable 3.9.1</a></strong></p>
+<p><strong>Đọc thêm</strong></p>
+<ul>
+<li><a href="https://anh-dv.com/usb-boot/bao-ve-usb-khoi-virus-chong-ghi-xoa-du-lieu" target="_blank">Bảo vệ USB khỏi Virus, chống ghi xóa dữ liệu usb</a></li>
+<li><a href="https://anh-dv.com/tai-mien-phi/tai-ve-cac-bo-cai-windows-cap-nhat-moi-nhat" target="_blank">Tải về các bộ cài Windows được cập nhật mới nhất hàng tháng</a></li>
+<li><a href="https://anh-dv.com/windows/download-windows-10-7-aio-cap-nhat-moi-nhat" target="_blank">Tải về Windows 10-8-7 AIO mới nhất 2017</a></li>
+</ul>
+<h2 id="hướng-dẫn-cách-tạo-usb-cài-win-với-wintousb">Hướng dẫn cách tạo usb cài win với WinToUSB</h2>
+<p>Chạy phần mềm WinToUSB sau khi cài đặt xong.</p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tao-usb-boot-cai-win-voi-WinToUSB-1.png?ssl=1" target="_blank"><a href="#R-image-9141057230eec570c45301f488b2bf96" class="lightbox-link"><img alt="Hướng dẫn tạo usb boot cài win với WinToUSB 10, 8, 7, AIO UEFI Legacy 1" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tao-usb-boot-cai-win-voi-WinToUSB-1.png?resize=696%2C157&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9141057230eec570c45301f488b2bf96"><img alt="Hướng dẫn tạo usb boot cài win với WinToUSB 10, 8, 7, AIO UEFI Legacy 1" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tao-usb-boot-cai-win-voi-WinToUSB-1.png?resize=696%2C157&ssl=1"></a></a></p>
+<p>Chọn <strong>Tools</strong> &gt; <strong>Windows Installation USB Creator</strong> để sử dụng tính năng tạo usb boot cài Windows của WinToUSB.</p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tao-usb-boot-cai-win-voi-WinToUSB-2.png?ssl=1" target="_blank"><a href="#R-image-fb621550ff6de7b363aff58546e66fbd" class="lightbox-link"><img alt="Hướng dẫn tạo usb boot cài win 10, 8, 7, AIO UEFI Legacy 2" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tao-usb-boot-cai-win-voi-WinToUSB-2.png?resize=602%2C357&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fb621550ff6de7b363aff58546e66fbd"><img alt="Hướng dẫn tạo usb boot cài win 10, 8, 7, AIO UEFI Legacy 2" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tao-usb-boot-cai-win-voi-WinToUSB-2.png?resize=602%2C357&ssl=1"></a></a></p>
+<p>Tại mục <strong>ISO File</strong>, dẫn đến file ISO của bộ cài Windows mà bạn định tạo usb boot. Mục <strong>USB Device</strong>, chọn usb dùng để tạo boot. Tiếp theo, phần mềm sẽ xuất hiện thông báo với nội dụng usb sẽ bị format. Nếu đồng ý tiếp tục thì chọn <strong>Yes</strong>.</p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tao-usb-boot-cai-win-voi-WinToUSB-3.png?ssl=1" target="_blank"><a href="#R-image-b96944a90549d4c6386a6749041632ce" class="lightbox-link"><img alt="Hướng dẫn tạo usb boot cài win 10, 8, 7, AIO UEFI Legacy 3" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tao-usb-boot-cai-win-voi-WinToUSB-3.png?resize=602%2C234&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b96944a90549d4c6386a6749041632ce"><img alt="Hướng dẫn tạo usb boot cài win 10, 8, 7, AIO UEFI Legacy 3" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tao-usb-boot-cai-win-voi-WinToUSB-3.png?resize=602%2C234&ssl=1"></a></a></p>
+<p>Bạn đợi để phần mềm định dạng lại usb</p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tao-usb-boot-cai-win-voi-WinToUSB-4.png?ssl=1" target="_blank"><a href="#R-image-aa627a6efe16903fdb73795edd2e6abe" class="lightbox-link"><img alt="Hướng dẫn tạo usb boot cài win 10, 8, 7, AIO UEFI Legacy 4" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tao-usb-boot-cai-win-voi-WinToUSB-4.png?resize=602%2C357&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-aa627a6efe16903fdb73795edd2e6abe"><img alt="Hướng dẫn tạo usb boot cài win 10, 8, 7, AIO UEFI Legacy 4" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tao-usb-boot-cai-win-voi-WinToUSB-4.png?resize=602%2C357&ssl=1"></a></a></p>
+<p>Như hình trên, phần mềm sẽ chia usb thành 2 phân vùng: phân vùng System được định dạng FAT32 và phân vùng WinToUSB NTFS để chứa bộ cài Win. Chính vì phân vùng chứa bộ cài Windows là NTFS nên bạn tạo usb boot với Windows AIO được.</p>
+<p>Chọn <strong>OK</strong> để tạo usb boot cài Win (hỗ trợ cài đặt Windows theo cả 2 chuẩn UEFI lẫn Legacy).</p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tao-usb-boot-cai-win-voi-WinToUSB-5.png?ssl=1" target="_blank"><a href="#R-image-b584976c26cabfee93e827325e9ab0b8" class="lightbox-link"><img alt="Hướng dẫn tạo usb boot cài win 10, 8, 7, AIO UEFI Legacy 5" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tao-usb-boot-cai-win-voi-WinToUSB-5.png?resize=602%2C238&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b584976c26cabfee93e827325e9ab0b8"><img alt="Hướng dẫn tạo usb boot cài win 10, 8, 7, AIO UEFI Legacy 5" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tao-usb-boot-cai-win-voi-WinToUSB-5.png?resize=602%2C238&ssl=1"></a></a></p>
+<p>Bây giờ bạn chỉ cần đợi đến khi hoàn tất là có ngay usb cài Win cực chuẩn rồi. Ngoài ra, bạn có thể tạo usb boot vừa cài Win vừa dùng để cứu hộ máy tính <a href="https://anh-dv.com/winpe/tao-usb-boot-uefi-legacy-cuu-ho-may-tinh-chuyen" target="_blank"><strong>Tại đây</strong>.</a></p>
+<p><strong>Đọc thêm</strong>:</p>
+<ul>
+<li><a href="https://anh-dv.com/windows-10/cai-win-10-moi-nhat-ca-chuan-uefi-gpt-va-legacy" target="_blank">Hướng dẫn chi tiết cài Win 10 mới nhất Fall Creator 1709</a></li>
+<li><a href="https://anh-dv.com/windows-10/cai-dat-windows-10-64-bit-uefi-chuan-muot" target="_blank">Cài đặt Windows từ USB qua Mini Windows Anhdv Boot</a></li>
+</ul>
+<h2 id="cách-khôi-phục-xóa-usb-cài-win-về-trạng-thái-ban-đầu">Cách khôi phục, xóa usb cài win về trạng thái ban đầu</h2>
+<p>Cách tạo usb boot cài Win với WinToUSB sẽ phân chia USB thành 2 phân vùng. Để xóa usb cài đặt Windows và khôi phục về trạng thái bạn đầu thì làm như sau. Tải về phần mềm <a href="https://sites.google.com/site/gbrtools/home/software/bootice-portable/files/BOOTICE_v1.3.3.2.zip?attredirects=0&d=1" target="_blank">BootIce</a>, đây là phần mềm Portable nên không cần cài đặt.</p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/Parts-manage-bootice.png?ssl=1" target="_blank"><a href="#R-image-238b6b0a44d02b990008e663f9fd5d28" class="lightbox-link"><img alt="Partition Manage BootIce 1" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/Parts-manage-bootice.png?resize=413%2C294&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-238b6b0a44d02b990008e663f9fd5d28"><img alt="Partition Manage BootIce 1" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/Parts-manage-bootice.png?resize=413%2C294&ssl=1"></a></a></p>
+<p>Chọn USB trong mục Destination Disk &gt; Chọn <strong>Parts Manage</strong>.</p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/Parts-manage-bootice-1.png?ssl=1" target="_blank"><a href="#R-image-0bbca9fe07504dff0372eca7742a7bb9" class="lightbox-link"><img alt="Partition Manage BootIce 2" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/Parts-manage-bootice-1.png?resize=622%2C396&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0bbca9fe07504dff0372eca7742a7bb9"><img alt="Partition Manage BootIce 2" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/Parts-manage-bootice-1.png?resize=622%2C396&ssl=1"></a></a></p>
+<p>Chọn mục <strong>Re-Partitioning</strong> ở cuối hình trên.</p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/Parts-manage-bootice-2.png?ssl=1" target="_blank"><a href="#R-image-a3cdd2d3ac77bd8f0b2da532abfd0bbc" class="lightbox-link"><img alt="Partition Manage BootIce 3" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/Parts-manage-bootice-2.png?resize=341%2C493&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a3cdd2d3ac77bd8f0b2da532abfd0bbc"><img alt="Partition Manage BootIce 3" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/Parts-manage-bootice-2.png?resize=341%2C493&ssl=1"></a></a></p>
+<p>Chọn mục USB-HDD mode (Single Partition) như hình trên. Lựa chọn định dạng USB, đặt tên và bấm OK.</p>
+<h2 id="kết-luận"><strong>Kết luận</strong></h2>
+<p>Như vậy, mình đã giới thiệu đến bạn cách tạo usb cài win với WinToUSB. So với tạo usb cài Windows bằng Rufus thì cách này tối ưu hơn. Bởi vì hỗ trợ cả Windows AIO, hỗ trợ cài đặt Windows UEFI lẫn Legacy. Ủng hộ và động viên mình bằng cách tham gia đánh giá bài viết ở cuối bài. Nếu cần trao đổi bạn có thể gửi bình luận ở phía dưới, hoặc nhắn tin với mình qua <a href="https://facebook.com/anhdvblog" target="_blank">Fanpage</a>.</p>
+
+            <footer class="footline">
+<div class=" taxonomy-categories term-list cstyle  " title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="../../categories/th%E1%BB%A7-thu%E1%BA%ADt-pc/index.html">Thủ Thuật PC</a></li>
+  </ul>
+</div>
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="../../js/clipboard.min.js?1713858606" defer></script>
+    <script src="../../js/perfect-scrollbar.min.js?1713858606" defer></script>
+    <script src="../../js/theme.js?1713858606" defer></script>
+  </body>
+</html>

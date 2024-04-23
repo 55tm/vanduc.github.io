@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Relearn Theme</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Mar 2024 09:57:41 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>English</title>
+      <link>http://localhost:1313/tags/english/</link>
+      <pubDate>Sun, 31 Mar 2024 09:57:41 +0700</pubDate>
+      <guid>http://localhost:1313/tags/english/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Grammar</title>
+      <link>http://localhost:1313/tags/grammar/</link>
+      <pubDate>Sun, 31 Mar 2024 09:57:41 +0700</pubDate>
+      <guid>http://localhost:1313/tags/grammar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hoc</title>
+      <link>http://localhost:1313/tags/hoc/</link>
+      <pubDate>Sun, 31 Mar 2024 09:57:41 +0700</pubDate>
+      <guid>http://localhost:1313/tags/hoc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>a secret</title>
+      <link>http://localhost:1313/tags/the-hidden/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/the-hidden/</guid>
+      <description>This lists all pages that are hidden from the home page. This includes pages that define hidden=true in their frontmatter as well as descendents of hidden pages.&#xA;When giving term pages, you should give it a title. Otherwise it will print out a warning and will use the urlized title, which may looks weird.&#xA;While internally this term is called hidden, it is referenced in the resulting english pages as a secret and as hush, matey in the piratish translation.</description>
+    </item>
+    <item>
+      <title>DGarden</title>
+      <link>http://localhost:1313/tags/dgarden/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/dgarden/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jekyll</title>
+      <link>http://localhost:1313/tags/jekyll/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WebDesign</title>
+      <link>http://localhost:1313/tags/webdesign/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/webdesign/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

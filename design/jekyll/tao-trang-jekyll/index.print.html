@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.124.1">
+    <meta name="generator" content="Relearn 5.26.2+tip">
+    <meta name="description" content="Documentation for Hugo Relearn Theme">
+    <meta name="author" content="Sören Weber">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/images/hero.png">
+    <meta name="twitter:title" content="Tạo trang Jekyll :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="Tạo trang blog cá nhân đẹp và đơn giản với Jekyll YAT theme và Github Pages - LEarn Anything Excerpt Chia sẻ các bài viết từ Obsidian lên blog sử dụng Jekyll YAT theme và Github Pages hoàn toàn miễn phí
+Tổng quan các bước thực hiện¶ Sơ đồ này tóm tắt thành phần và chức năng các công cụ cần sử dụng trong hướng dẫn. Click để xem hình lớn hơn.">
+    <meta property="og:title" content="Tạo trang Jekyll :: Hugo Relearn Theme">
+    <meta property="og:description" content="Tạo trang blog cá nhân đẹp và đơn giản với Jekyll YAT theme và Github Pages - LEarn Anything Excerpt Chia sẻ các bài viết từ Obsidian lên blog sử dụng Jekyll YAT theme và Github Pages hoàn toàn miễn phí
+Tổng quan các bước thực hiện¶ Sơ đồ này tóm tắt thành phần và chức năng các công cụ cần sử dụng trong hướng dẫn. Click để xem hình lớn hơn.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://localhost:1313/design/jekyll/tao-trang-jekyll/index.html">
+    <meta property="og:image" content="http://localhost:1313/images/hero.png">
+    <meta property="article:section" content="JEKYLL :: Hugo Relearn Theme">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <title>Tạo trang Jekyll :: Hugo Relearn Theme</title>
+    <link href="http://localhost:1313/design/jekyll/tao-trang-jekyll/index.html" rel="canonical" type="text/html" title="Tạo trang Jekyll :: Hugo Relearn Theme">
+    <link href="../../../design/jekyll/tao-trang-jekyll/index.xml" rel="alternate" type="application/rss+xml" title="Tạo trang Jekyll :: Hugo Relearn Theme">
+    <link href="../../../images/logo.svg?1713858605" rel="icon" type="image/svg+xml">
+    
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../../css/fontawesome-all.min.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/nucleus.css?1713858606" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar.min.css?1713858606" rel="stylesheet">
+    <link href="../../../css/fonts.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/theme.css?1713858606" rel="stylesheet">
+    <link href="../../../css/theme-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-style">
+    <link href="../../../css/chroma-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="../../../css/variant.css?1713858606" rel="stylesheet">
+    <link href="../../../css/print.css?1713858606" rel="stylesheet" media="print">
+    <link href="../../../css/format-print.css?1713858606" rel="stylesheet">
+    <link href="../../../css/ie.css?1713858606" rel="stylesheet">
+    <script src="../../../js/url.js?1713858606"></script>
+    <script src="../../../js/variant.js?1713858606"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.index_js_url="../../../index.search.js";
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../../design/jekyll/tao-trang-jekyll/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">DESIGN</span><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">JEKYLL</span><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Tạo trang Jekyll</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+<div class=" taxonomy-tags term-list cstyle  tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <ul>
+    <li><a class="term-link" href="../../../tags/hoc/index.html">Hoc</a></li>
+    <li><a class="term-link" href="../../../tags/jekyll/index.html">Jekyll</a></li>
+    <li><a class="term-link" href="../../../tags/webdesign/index.html">WebDesign</a></li>
+  </ul>
+</div>
+            </header>
+<h1 id="tạo-trang-jekyll">Tạo trang Jekyll</h1>
+
+<h1 id="tạo-trang-blog-cá-nhân-đẹp-và-đơn-giản-với-jekyll-yat-theme-và-github-pages---learn-anything">Tạo trang blog cá nhân đẹp và đơn giản với Jekyll YAT theme và Github Pages - LEarn Anything</h1>
+<blockquote>
+<h2 id="excerpt">Excerpt</h2>
+<p>Chia sẻ các bài viết từ Obsidian lên blog sử dụng Jekyll YAT theme và Github Pages hoàn toàn miễn phí</p>
+</blockquote>
+<iframe width="914" height="514" src="https://www.youtube.com/embed/Q57Rv-LG1FQ?si=SGKIDxFM1QMBEpzR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<h2 id="tổng-quan-các-bước-thực-hiệnhttpslearn-anythingvnkien-thuccong-nghejamstacktao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidianfbclidiwar1m4hjuxufpwubbzqarkaavnip9tyrtg67m9n12kq-flpuij_o_cigtg54tong-quan-cac-buoc-thuc-hien-nội-dung-chính">Tổng quan các bước thực hiện<a href="https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/?fbclid=IwAR1m4hjUXufpWUBbzQarkAAVnIp9TyrTG67M9n12KQ-FLpUiJ_O_cIGTg54#tong-quan-cac-buoc-thuc-hien" target="_blank" title="Nội dung chính">¶</a></h2>
+<blockquote>
+<p>Sơ đồ này tóm tắt thành phần và chức năng các công cụ cần sử dụng trong hướng dẫn. Click để xem hình lớn hơn.</p>
+</blockquote>
+<p><a href="https://learn-anything.vn/assets/images/cau-hinh-trang-blog-voi-jekyll-yat-theme-obsidian-markdown.png" target="_blank"><a href="#R-image-3595d5ecb659b94c945c31c4c270251f" class="lightbox-link"><img class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://learn-anything.vn/assets/images/cau-hinh-trang-blog-voi-jekyll-yat-theme-obsidian-markdown.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3595d5ecb659b94c945c31c4c270251f"><img class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://learn-anything.vn/assets/images/cau-hinh-trang-blog-voi-jekyll-yat-theme-obsidian-markdown.png"></a></a></p>
+<h3 id="công-cụ-cần-thiếthttpslearn-anythingvnkien-thuccong-nghejamstacktao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidianfbclidiwar1m4hjuxufpwubbzqarkaavnip9tyrtg67m9n12kq-flpuij_o_cigtg54cong-cu-can-thiet-nội-dung-chính">Công cụ cần thiết<a href="https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/?fbclid=IwAR1m4hjUXufpWUBbzQarkAAVnIp9TyrTG67M9n12KQ-FLpUiJ_O_cIGTg54#cong-cu-can-thiet" target="_blank" title="Nội dung chính">¶</a></h3>
+<blockquote>
+<p>Đây là những công cụ bạn cần có để có thể làm theo hướng dẫn.</p>
+</blockquote>
+<ul>
+<li>Tài khoản <a href="https://github.com/" target="_blank">Github</a>: Truy cập vào <a href="https://github.com/signup" target="_blank">link</a> để tạo tài khoản nếu chưa có.</li>
+<li>Đồng bộ &amp; quản lý phiên bản: Tải và cài đặt<a href="https://desktop.github.com/" target="_blank">Github Desktop</a>. Bạn có thể sử dụng <a href="https://git-scm.com/downloads" target="_blank">Git</a> và giao diện dòng lệnh nếu đã quen.</li>
+<li>Soạn thảo Code: <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a></li>
+<li>Soạn thảo Markdown: <a href="https://obsidian.md/" target="_blank">Obsidian</a></li>
+</ul>
+<h3 id="công-cụ-bổ-sunghttpslearn-anythingvnkien-thuccong-nghejamstacktao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidianfbclidiwar1m4hjuxufpwubbzqarkaavnip9tyrtg67m9n12kq-flpuij_o_cigtg54cong-cu-bo-sung-nội-dung-chính">Công cụ bổ sung<a href="https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/?fbclid=IwAR1m4hjUXufpWUBbzQarkAAVnIp9TyrTG67M9n12KQ-FLpUiJ_O_cIGTg54#cong-cu-bo-sung" target="_blank" title="Nội dung chính">¶</a></h3>
+<blockquote>
+<p>Những công cụ này nếu bạn cài đặt thêm hoặc sử dụng thì tốt để xem trước trang blog ở môi trường cục bộ (local) trước khi đưa lên web.</p>
+</blockquote>
+<ul>
+<li>Ngôn ngữ lập trình: <strong><a href="https://www.ruby-lang.org/vi/" target="_blank">Ruby</a></strong> cung cấp môi trường để chạy được công cụ Jekyll. Tưởng tượng như nó là hệ điều hành Windows còn Jekyll là một ứng dụng trong Windows vậy.</li>
+<li>Trình tạo trang tĩnh: <strong><a href="https://jekyllrb.com/" target="_blank">Jekyll</a></strong> là công cụ tạo trang web tĩnh kiểu JAMstack (HTML, CSS, JavaScript) cho phép tạo ra các trang web nhanh chóng với các thiết lập theo cú pháp.</li>
+<li>Trình duyệt web: Chrome</li>
+<li>Trang quản lý tên miền riêng (nếu có) để trỏ tên miền về địa chỉ IP của Github. Hướng dẫn của Github <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site" target="_blank">tại đây</a></li>
+</ul>
+<h3 id="yat-themehttpslearn-anythingvnkien-thuccong-nghejamstacktao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidianfbclidiwar1m4hjuxufpwubbzqarkaavnip9tyrtg67m9n12kq-flpuij_o_cigtg54yat-theme-nội-dung-chính">YAT theme<a href="https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/?fbclid=IwAR1m4hjUXufpWUBbzQarkAAVnIp9TyrTG67M9n12KQ-FLpUiJ_O_cIGTg54#yat-theme" target="_blank" title="Nội dung chính">¶</a></h3>
+<blockquote>
+<p>Để sao chép giao diện blog của tôi giới thiệu, bạn có thể clone mã nguồn trên github <a href="https://github.com/thinh-vu/learn-anything" target="_blank">tại đây</a></p>
+</blockquote>
+<p>Bạn cũng có thể truy cập trang dự án của giao diện nguyên bản trên Github: <a href="https://jeffreytse.github.io/jekyll-theme-yat/about.html" target="_blank">yekyll theme yat</a></p>
+<h2 id="sao-chép-mã-nguồn-với-githubhttpslearn-anythingvnkien-thuccong-nghejamstacktao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidianfbclidiwar1m4hjuxufpwubbzqarkaavnip9tyrtg67m9n12kq-flpuij_o_cigtg54sao-chep-ma-nguon-voi-github-nội-dung-chính">Sao chép mã nguồn với Github<a href="https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/?fbclid=IwAR1m4hjUXufpWUBbzQarkAAVnIp9TyrTG67M9n12KQ-FLpUiJ_O_cIGTg54#sao-chep-ma-nguon-voi-github" target="_blank" title="Nội dung chính">¶</a></h2>
+<blockquote>
+<p>Đây là bước đầu tiên bạn cần thực hiện, sao chép toàn bộ Github repo về máy để có thể chỉnh sửa cấu hình và viết bài.</p>
+</blockquote>
+<p>Trong hướng dẫn này bạn sử dụng Github Desktop để sao chép mã nguồn và sau khi hoàn thành chỉnh sửa thì đồng bộ mã nguồn (commit và push) lên trang Github. Bạn có thể xem chi tiết trong video. <a href="https://learn-anything.vn/assets/images/clone-github-repo-toan-bo-ma-nguon-de-chinh-sua.png" target="_blank"><a href="#R-image-e8d99a1907b86f1e913f2256f5b82a42" class="lightbox-link"><img class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://learn-anything.vn/assets/images/clone-github-repo-toan-bo-ma-nguon-de-chinh-sua.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e8d99a1907b86f1e913f2256f5b82a42"><img class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://learn-anything.vn/assets/images/clone-github-repo-toan-bo-ma-nguon-de-chinh-sua.png"></a></a></p>
+<h2 id="cấu-hình-theme-jekyll-yathttpslearn-anythingvnkien-thuccong-nghejamstacktao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidianfbclidiwar1m4hjuxufpwubbzqarkaavnip9tyrtg67m9n12kq-flpuij_o_cigtg54cau-hinh-theme-jekyll-yat-nội-dung-chính">Cấu hình theme Jekyll YAT<a href="https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/?fbclid=IwAR1m4hjUXufpWUBbzQarkAAVnIp9TyrTG67M9n12KQ-FLpUiJ_O_cIGTg54#cau-hinh-theme-jekyll-yat" target="_blank" title="Nội dung chính">¶</a></h2>
+<p>Xem chi tiết tại <a href="https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg/" target="_blank">Cài đặt công cụ tạo trang tĩnh Jekyll</a></p>
+<h3 id="chức-năng-của-các-file-thiết-lậphttpslearn-anythingvnkien-thuccong-nghejamstacktao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidianfbclidiwar1m4hjuxufpwubbzqarkaavnip9tyrtg67m9n12kq-flpuij_o_cigtg54chuc-nang-cua-cac-file-thiet-lap-nội-dung-chính">Chức năng của các file thiết lập<a href="https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/?fbclid=IwAR1m4hjUXufpWUBbzQarkAAVnIp9TyrTG67M9n12KQ-FLpUiJ_O_cIGTg54#chuc-nang-cua-cac-file-thiet-lap" target="_blank" title="Nội dung chính">¶</a></h3>
+<ul>
+<li>File <code>Gemfile</code> chứa thông tin thiết lập về theme được sử dụng, các gói phụ thuộc cần được chỉ rõ. Trong hướng dẫn ban đầu tác giả nêu không đầy đủ do đó khi sử dụng sẽ gặp lỗi khi thiết lập và người dùng không có kinh nghiệm sẽ loay hoay.</li>
+<li>File <code>_config.yml</code> chứa tất cả các cài đặt cho site. Bỏ comment cho các dòng lệnh bằng cách xóa dấu # phía trước hoặc bôi đen và chọn phím tắt <code>Ctrl</code> + <code>/</code>. Thay đổi các giá trị mặc định để cập nhật.</li>
+<li>Thư mục <code>_saas</code>: chứa các file cấu hình định dạng cho website (css)</li>
+<li>Thư mục <code>_posts</code> chứa các file markdown bài viết cho trang blog.</li>
+<li>Thư mục <code>_includes</code> có thể chỉnh sửa phần mã tùy chỉnh để theo dõi lượt truy cập website với công cụ Google Tag Manager thông qua file <code>custom_head.html</code>. Ngoài ra các bạn không cần tùy chỉnh thêm trong thư mục này.</li>
+<li>Thư mục <code>assets</code> chứa các hình ảnh và file sẽ được đính kèm trong bài viết hoặc blog.</li>
+<li>Tùy biến các file <code>home.html</code>, <code>about.html</code>, <code>archives.html</code>, <code>categories.html</code>, <code>tags.html</code> theo cách đặt tên bạn muốn.</li>
+</ul>
+<h3 id="giao-diệnhttpslearn-anythingvnkien-thuccong-nghejamstacktao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidianfbclidiwar1m4hjuxufpwubbzqarkaavnip9tyrtg67m9n12kq-flpuij_o_cigtg54giao-dien-nội-dung-chính">Giao diện<a href="https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/?fbclid=IwAR1m4hjUXufpWUBbzQarkAAVnIp9TyrTG67M9n12KQ-FLpUiJ_O_cIGTg54#giao-dien" target="_blank" title="Nội dung chính">¶</a></h3>
+<ul>
+<li>Đặt properties <code>sidebar: []</code> để ẩn TOC bên phải</li>
+<li>Cấu hình sidebar tại file <code>article_menu</code> tại đường dẫn <code>jekyll-theme-yat\_includes\sidebar</code></li>
+<li>Thay đổi tên <code>Dark/Light</code> thành <code>Tối/Sáng</code> tại file <code>jekyll-theme-yat/_includes/extensions/theme-toggle.html</code></li>
+<li>Thay đổi màu sắc chủ đạo cho theme trong <code>_config.yml</code></li>
+</ul>
+<h3 id="theo-dõi--phân-tích-websitehttpslearn-anythingvnkien-thuccong-nghejamstacktao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidianfbclidiwar1m4hjuxufpwubbzqarkaavnip9tyrtg67m9n12kq-flpuij_o_cigtg54theo-doi-phan-tich-website-nội-dung-chính">Theo dõi &amp; phân tích website<a href="https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/?fbclid=IwAR1m4hjUXufpWUBbzQarkAAVnIp9TyrTG67M9n12KQ-FLpUiJ_O_cIGTg54#theo-doi-phan-tich-website" target="_blank" title="Nội dung chính">¶</a></h3>
+<ul>
+<li>Tạo tài khoản Google Analytics (nếu chưa có) <a href="https://analytics.google.com/" target="_blank">tại đây</a></li>
+<li>Sửa đổi đoạn mã theo dõi GA thành GTM (nếu cần) tại file <code>jekyll-theme-yat/_includes/extensions/google-analytics.html</code></li>
+</ul>
+<h2 id="soạn-thảo-bài-viết-bằng-markdownhttpslearn-anythingvnkien-thuccong-nghejamstacktao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidianfbclidiwar1m4hjuxufpwubbzqarkaavnip9tyrtg67m9n12kq-flpuij_o_cigtg54soan-thao-bai-viet-bang-markdown-nội-dung-chính">Soạn thảo bài viết bằng Markdown<a href="https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/?fbclid=IwAR1m4hjUXufpWUBbzQarkAAVnIp9TyrTG67M9n12KQ-FLpUiJ_O_cIGTg54#soan-thao-bai-viet-bang-markdown" target="_blank" title="Nội dung chính">¶</a></h2>
+<h3 id="tính-năng-chínhhttpslearn-anythingvnkien-thuccong-nghejamstacktao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidianfbclidiwar1m4hjuxufpwubbzqarkaavnip9tyrtg67m9n12kq-flpuij_o_cigtg54tinh-nang-chinh-nội-dung-chính">Tính năng chính<a href="https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/?fbclid=IwAR1m4hjUXufpWUBbzQarkAAVnIp9TyrTG67M9n12KQ-FLpUiJ_O_cIGTg54#tinh-nang-chinh" target="_blank" title="Nội dung chính">¶</a></h3>
+<blockquote>
+<p>YAT theme hỗ trợ nhiều tính năng markdown thú vị, bạn có thể tham khảo thêm chi tiết tại mục Features <a href="https://github.com/thinh-vu/learn-anything" target="_blank">ở đây</a>.</p>
+</blockquote>
+<ul>
+<li>Diagram: Có thể sử dụng <a href="https://plantuml.com/guide" target="_blank">PlantUML</a> hoặc Mermaid</li>
+<li>Table: Hỗ trợ nhiều cài đặt như gộp ô, headless</li>
+<li>Hỗ trợ đa dạng các cú pháp markdown cơ bản lẫn nâng cao.</li>
+</ul>
+<h3 id="thiết-lập-obsidian-để-soạn-thảo-bài-viếthttpslearn-anythingvnkien-thuccong-nghejamstacktao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidianfbclidiwar1m4hjuxufpwubbzqarkaavnip9tyrtg67m9n12kq-flpuij_o_cigtg54thiet-lap-obsidian-e-soan-thao-bai-viet-nội-dung-chính">Thiết lập Obsidian để soạn thảo bài viết<a href="https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/?fbclid=IwAR1m4hjUXufpWUBbzQarkAAVnIp9TyrTG67M9n12KQ-FLpUiJ_O_cIGTg54#thiet-lap-obsidian-e-soan-thao-bai-viet" target="_blank" title="Nội dung chính">¶</a></h3>
+<blockquote>
+<p>Có hai thiết lập chính cần lưu ý với Obsidian là <code>Files &amp; Links</code> và <code>Templates</code></p>
+</blockquote>
+<h2 id="live-preview-và-tạo-trang-webhttpslearn-anythingvnkien-thuccong-nghejamstacktao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidianfbclidiwar1m4hjuxufpwubbzqarkaavnip9tyrtg67m9n12kq-flpuij_o_cigtg54live-preview-va-tao-trang-web-nội-dung-chính">Live Preview và tạo trang web<a href="https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/?fbclid=IwAR1m4hjUXufpWUBbzQarkAAVnIp9TyrTG67M9n12KQ-FLpUiJ_O_cIGTg54#live-preview-va-tao-trang-web" target="_blank" title="Nội dung chính">¶</a></h2>
+<h3 id="cập-nhật-cài-đặt-và-xem-trướchttpslearn-anythingvnkien-thuccong-nghejamstacktao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidianfbclidiwar1m4hjuxufpwubbzqarkaavnip9tyrtg67m9n12kq-flpuij_o_cigtg54cap-nhat-cai-at-va-xem-truoc-nội-dung-chính">Cập nhật cài đặt và xem trước<a href="https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/?fbclid=IwAR1m4hjUXufpWUBbzQarkAAVnIp9TyrTG67M9n12KQ-FLpUiJ_O_cIGTg54#cap-nhat-cai-at-va-xem-truoc" target="_blank" title="Nội dung chính">¶</a></h3>
+<blockquote>
+<p>Chỉ áp dụng khi bạn cài Ruby &amp; Jekyll trên máy tính.</p>
+</blockquote>
+<ul>
+<li>Chạy lệnh <code>bundle install</code> để cài đặt các gói phụ thuộc.</li>
+<li>Cuối cùng, chạy lệnh <code>bundle exec jekyll serve</code> để chạy local server và xem trước nội dung để có thể tùy biến trang web.</li>
+<li>Để build (generate site) tại môi trường local, chạy lệnh <code>bundle exec jekyll build</code> từ thư mục dự án. Khi chạy lệnh build, các thay đổi tự động được gán cho nhánh <code>gh-pages</code>.</li>
+</ul>
+<h3 id="build-local-hay-github-action-và-github-pagehttpslearn-anythingvnkien-thuccong-nghejamstacktao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidianfbclidiwar1m4hjuxufpwubbzqarkaavnip9tyrtg67m9n12kq-flpuij_o_cigtg54build-local-hay-github-action-va-github-page-nội-dung-chính">Build local hay github action và github page?<a href="https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/?fbclid=IwAR1m4hjUXufpWUBbzQarkAAVnIp9TyrTG67M9n12KQ-FLpUiJ_O_cIGTg54#build-local-hay-github-action-va-github-page" target="_blank" title="Nội dung chính">¶</a></h3>
+<ul>
+<li>Nên sử dụng local mặc dù mất công thiết lập môi trường (1 lần), về sau chạy lệnh build nhanh chóng và cho phép preview trang để dễ dàng debug. Sau khi live preview thành công thì tạo trang web với câu lệnh build và lưu vào 1 nhánh riêng để đẩy lên github thông qua một nhánh riêng, ví dụ <code>gh_pages</code>.</li>
+<li>Github page chạy mất thời gian, không thể live preview, lỗi thì khó debug hơn hoặc khôi phục lại phiên bản cũ.</li>
+</ul>
+<h2 id="thiết-lập-tên-miền-riênghttpslearn-anythingvnkien-thuccong-nghejamstacktao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidianfbclidiwar1m4hjuxufpwubbzqarkaavnip9tyrtg67m9n12kq-flpuij_o_cigtg54thiet-lap-ten-mien-rieng-nội-dung-chính">Thiết lập tên miền riêng<a href="https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/?fbclid=IwAR1m4hjUXufpWUBbzQarkAAVnIp9TyrTG67M9n12KQ-FLpUiJ_O_cIGTg54#thiet-lap-ten-mien-rieng" target="_blank" title="Nội dung chính">¶</a></h2>
+<p>Để thiết lập tên miền riêng, bạn thêm tên miền riêng vào mục cài đặt Gihub Pages <a href="https://github.com/thinh-vu/learn-anything/settings/pages" target="_blank">tại đây</a> <a href="https://learn-anything.vn/assets/images/cau-hinh-ten-mien-rieng-voi-Github-Page.png" target="_blank"><a href="#R-image-4604c90e426d0c87cf094f3832b1e6f1" class="lightbox-link"><img class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://learn-anything.vn/assets/images/cau-hinh-ten-mien-rieng-voi-Github-Page.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4604c90e426d0c87cf094f3832b1e6f1"><img class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://learn-anything.vn/assets/images/cau-hinh-ten-mien-rieng-voi-Github-Page.png"></a></a> Sau đó thêm một bản ghi CNAME cho trang cấu hình DNS của tên miền. Ở đây tôi sử dụng dịch vụ của PA Việt Nam. <a href="https://learn-anything.vn/assets/images/cau-hinh-dns-cho-trang-github-page.png" target="_blank"><a href="#R-image-6daf2c57c82c8efe70ded1f42fc42c4b" class="lightbox-link"><img class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://learn-anything.vn/assets/images/cau-hinh-dns-cho-trang-github-page.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6daf2c57c82c8efe70ded1f42fc42c4b"><img class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://learn-anything.vn/assets/images/cau-hinh-dns-cho-trang-github-page.png"></a></a></p>
+
+            <footer class="footline">
+<div class=" taxonomy-categories term-list cstyle  " title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="../../../categories/jekyll/index.html">Jekyll</a></li>
+  </ul>
+</div>
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="../../../js/clipboard.min.js?1713858606" defer></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1713858606" defer></script>
+    <script src="../../../js/theme.js?1713858606" defer></script>
+  </body>
+</html>

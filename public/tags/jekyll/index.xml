@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jekyll on Hugo Relearn Theme</title>
+    <link>http://localhost:1313/tags/jekyll/</link>
+    <description>Recent content in Jekyll on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quick start</title>
+      <link>http://localhost:1313/design/jekyll/quick-start-jekyll/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/design/jekyll/quick-start-jekyll/</guid>
+      <description>Quickstart | Jekyll • Simple, blog-aware, static sites Excerpt Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more.&#xA;Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website.</description>
+    </item>
+    <item>
+      <title>Tạo trang Jekyll</title>
+      <link>http://localhost:1313/design/jekyll/tao-trang-jekyll/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/design/jekyll/tao-trang-jekyll/</guid>
+      <description>Tạo trang blog cá nhân đẹp và đơn giản với Jekyll YAT theme và Github Pages - LEarn Anything Excerpt Chia sẻ các bài viết từ Obsidian lên blog sử dụng Jekyll YAT theme và Github Pages hoàn toàn miễn phí&#xA;Tổng quan các bước thực hiện¶ Sơ đồ này tóm tắt thành phần và chức năng các công cụ cần sử dụng trong hướng dẫn. Click để xem hình lớn hơn.</description>
+    </item>
+  </channel>
+</rss>

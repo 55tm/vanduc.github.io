@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.124.1">
+    <meta name="generator" content="Relearn 5.26.2+tip">
+    <meta name="description" content="Documentation for Hugo Relearn Theme">
+    <meta name="author" content="Sören Weber">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/images/hero.png">
+    <meta name="twitter:title" content="Practical Guide :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="A Practical Guide To GitHub Actions Excerpt The software development lifecycle, such as writing, testing, and pushing code to the GitHub repository, takes a lot of effort and is quite time-consuming. To save time and avoid manual effort, we can automate the entire software development lifecycl&hellip;
+Vòng đời phát triển phần mềm như viết, kiểm tra và đẩy mã lên kho GitHub tốn rất nhiều công sức và khá thời gian.">
+    <meta property="og:title" content="Practical Guide :: Hugo Relearn Theme">
+    <meta property="og:description" content="A Practical Guide To GitHub Actions Excerpt The software development lifecycle, such as writing, testing, and pushing code to the GitHub repository, takes a lot of effort and is quite time-consuming. To save time and avoid manual effort, we can automate the entire software development lifecycl&hellip;
+Vòng đời phát triển phần mềm như viết, kiểm tra và đẩy mã lên kho GitHub tốn rất nhiều công sức và khá thời gian.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://localhost:1313/design/github/a-practical-guide-to-github-actions/index.html">
+    <meta property="og:image" content="http://localhost:1313/images/hero.png">
+    <meta property="article:section" content="GITHUB :: Hugo Relearn Theme">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <title>Practical Guide :: Hugo Relearn Theme</title>
+    <link href="http://localhost:1313/design/github/a-practical-guide-to-github-actions/index.html" rel="canonical" type="text/html" title="Practical Guide :: Hugo Relearn Theme">
+    <link href="../../../design/github/a-practical-guide-to-github-actions/index.xml" rel="alternate" type="application/rss+xml" title="Practical Guide :: Hugo Relearn Theme">
+    <link href="../../../images/logo.svg?1713858605" rel="icon" type="image/svg+xml">
+    
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../../css/fontawesome-all.min.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/nucleus.css?1713858606" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar.min.css?1713858606" rel="stylesheet">
+    <link href="../../../css/fonts.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/theme.css?1713858606" rel="stylesheet">
+    <link href="../../../css/theme-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-style">
+    <link href="../../../css/chroma-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="../../../css/variant.css?1713858606" rel="stylesheet">
+    <link href="../../../css/print.css?1713858606" rel="stylesheet" media="print">
+    <link href="../../../css/format-print.css?1713858606" rel="stylesheet">
+    <link href="../../../css/ie.css?1713858606" rel="stylesheet">
+    <script src="../../../js/url.js?1713858606"></script>
+    <script src="../../../js/variant.js?1713858606"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.index_js_url="../../../index.search.js";
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../../design/github/a-practical-guide-to-github-actions/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">DESIGN</span><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">GITHUB</span><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Practical Guide</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+<div class=" taxonomy-tags term-list cstyle  tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <ul>
+    <li><a class="term-link" href="../../../tags/github/index.html">Github</a></li>
+    <li><a class="term-link" href="../../../tags/webdesign/index.html">WebDesign</a></li>
+  </ul>
+</div>
+            </header>
+<h1 id="practical-guide">Practical Guide</h1>
+
+<h1 id="a-practical-guide-to-github-actions">A Practical Guide To GitHub Actions</h1>
+<blockquote>
+<h2 id="excerpt">Excerpt</h2>
+<p>The software development lifecycle, such as writing, testing, and pushing code to the GitHub repository, takes a lot of effort and is quite time-consuming.
+To save time and avoid manual effort, we can automate the entire software development lifecycl&hellip;</p>
+</blockquote>
+<hr>
+<p>Vòng đời phát triển phần mềm như viết, kiểm tra và đẩy mã lên kho GitHub tốn rất nhiều công sức và khá thời gian.</p>
+<p>Để tiết kiệm thời gian và tránh nỗ lực thủ công, chúng tôi có thể tự động hóa toàn bộ vòng đời phát triển phần mềm với sự trợ giúp của nền tảng <strong>GitHub Actions</strong> rất mạnh mẽ .</p>
+<p>Trong bài viết này, chúng tôi sẽ đề cập đến <a href="https://docs.github.com/en/actions" target="_blank">GitHub Actions</a> là gì, nó giải quyết vấn đề gì, cách bạn xây dựng hành động và một ví dụ thực tế.</p>
+<h2 id="hành-động-github-là-gì"><strong>Hành động GitHub là gì?</strong></h2>
+<p>GitHub Actions là một nền tảng mạnh mẽ để tự động hóa quy trình làm việc của bạn, bao gồm xây dựng, thử nghiệm và triển khai mã.</p>
+<p>Nó cho phép bạn xác định quy trình công việc tùy chỉnh được kích hoạt bởi các sự kiện khác nhau, chẳng hạn như khi bạn đẩy mã vào kho lưu trữ hoặc khi ai đó mở yêu cầu kéo.</p>
+<p>Bạn có thể tự động hóa toàn bộ vòng đời phát triển phần mềm của mình bằng GitHub Actions, từ viết và kiểm tra mã đến triển khai vào sản xuất.</p>
+<p>Bạn cũng có thể sử dụng các hành động được xác định trước do cộng đồng GitHub cung cấp hoặc tạo các hành động để sử dụng trong quy trình làm việc của mình.</p>
+<h2 id="vấn-đề-gì-nó-giải-quyết"><strong>vấn đề gì nó giải quyết?</strong></h2>
+<p>GitHub Actions giải quyết vấn đề về các tác vụ thủ công, tốn thời gian trong quá trình phát triển phần mềm bằng cách cung cấp cách tự động hóa các tác vụ này.</p>
+<p>Bằng cách sử dụng Hành động, bạn có thể tạo quy trình công việc tùy chỉnh được kích hoạt bởi các sự kiện cụ thể, chẳng hạn như khi mã được đẩy đến kho lưu trữ hoặc ai đó mở yêu cầu kéo.</p>
+<p>Điều này cho phép bạn tự động hóa toàn bộ vòng đời phát triển phần mềm của mình, từ viết và kiểm tra mã đến triển khai vào sản xuất.</p>
+<p>Điều này có thể tiết kiệm thời gian và giảm khả năng xảy ra lỗi, cho phép bạn tập trung vào các nhiệm vụ quan trọng hơn.</p>
+<h2 id="các-thành-phần-của-hành-động-github"><strong>Các thành phần của hành động GitHub</strong></h2>
+<p>GitHub Actions có một số thành phần quan trọng phối hợp với nhau để cho phép tự động hóa quy trình làm việc của bạn.</p>
+<ul>
+<li>
+<p><strong>Sự kiện</strong> : Các sự kiện xảy ra trong kho lưu trữ của bạn, chẳng hạn như khi bạn đẩy mã đến một nhánh hoặc khi ai đó mở yêu cầu kéo. Khi một sự kiện xảy ra, nó có thể kích hoạt một quy trình công việc để chạy.</p>
+</li>
+<li>
+<p><strong>Quy trình công việc</strong> : Quy trình công việc là các quy trình tự động tùy chỉnh mà bạn xác định trong kho lưu trữ của mình. Một quy trình công việc bao gồm một hoặc nhiều công việc và có thể được kích hoạt bởi một số sự kiện nhất định.</p>
+</li>
+<li>
+<p><strong>Công việc</strong> : Công việc là những nhiệm vụ tạo nên một quy trình công việc. Một công việc có thể thực hiện một loạt các bước, chẳng hạn như xây dựng và thử nghiệm mã hoặc triển khai nó vào sản xuất.</p>
+</li>
+<li>
+<p><strong>Người chạy</strong> : Người chạy là các máy hoặc môi trường ảo chạy các công việc trong quy trình làm việc. Bạn có thể sử dụng trình chạy do GitHub cung cấp hoặc bạn có thể sử dụng trình chạy tự lưu trữ của mình.</p>
+</li>
+<li>
+<p><strong>Hành động</strong> : Hành động là những đoạn mã được xác định trước mà bạn có thể sử dụng trong quy trình làm việc của mình. Bạn có thể sử dụng các hành động do cộng đồng GitHub cung cấp hoặc tạo các hành động để sử dụng trong quy trình làm việc của mình.</p>
+</li>
+</ul>
+<h2 id="phát-lại-phiên-mã-nguồn-mở"><strong>Phát lại phiên mã nguồn mở</strong></h2>
+<p><a href="https://github.com/openreplay/openreplay" target="_blank"><em>OpenReplay</em></a> <em>là bộ phát lại phiên, mã nguồn mở cho phép bạn xem người dùng làm gì trên ứng dụng web của mình, giúp bạn khắc phục sự cố nhanh hơn. OpenReplay tự lưu trữ để kiểm soát hoàn toàn dữ liệu của bạn.</em></p>
+<p><a href="#R-image-20bfaa838f956534fb3179afd7629117" class="lightbox-link"><img alt="mở phát lại" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blog.openreplay.com/assets/banner-blog_1oYPGT.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-20bfaa838f956534fb3179afd7629117"><img alt="mở phát lại" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blog.openreplay.com/assets/banner-blog_1oYPGT.png"></a></p>
+<p><em>Bắt đầu tận hưởng trải nghiệm sửa lỗi của bạn -</em> <a href="https://github.com/openreplay/openreplay" target="_blank"><em>bắt đầu sử dụng OpenReplay miễn phí</em></a> <em>.</em></p>
+<h2 id="ví-dụ-thực-tế-về-hành-động-github"><strong>Ví dụ thực tế về Hành động GitHub</strong></h2>
+<p>Một ví dụ thực tế về việc sử dụng GitHub Actions là tự động hóa việc xây dựng, thử nghiệm và triển khai mã của bạn.</p>
+<p>Ví dụ: bạn có thể tạo quy trình làm việc được kích hoạt khi mã được đẩy tới nhánh của kho lưu trữ <code>main</code>.</p>
+<p>Quy trình làm việc có thể thực hiện một loạt công việc, chẳng hạn như xây dựng mã, chạy thử nghiệm và triển khai mã vào sản xuất.</p>
+<p>Dưới đây là ví dụ về tệp quy trình làm việc cho kịch bản này có thể trông như thế nào:</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>&lt;span&gt;name:&lt;/span&gt; &lt;span&gt;Build,&lt;/span&gt; &lt;span&gt;Test,&lt;/span&gt; &lt;span&gt;and&lt;/span&gt; &lt;span&gt;Deploy&lt;/span&gt;&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;on:&lt;/span&gt;
+  &lt;span&gt;push:&lt;/span&gt;
+    &lt;span&gt;branches:&lt;/span&gt;
+      &lt;span&gt;-&lt;/span&gt; &lt;span&gt;main&lt;/span&gt;&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;jobs:&lt;/span&gt;
+  &lt;span&gt;build:&lt;/span&gt;
+    &lt;span&gt;runs-on:&lt;/span&gt; &lt;span&gt;ubuntu-latest&lt;/span&gt;
+    &lt;span&gt;steps:&lt;/span&gt;
+      &lt;span&gt;-&lt;/span&gt; &lt;span&gt;uses:&lt;/span&gt; &lt;span&gt;actions/checkout@v2&lt;/span&gt;
+      &lt;span&gt;-&lt;/span&gt; &lt;span&gt;uses:&lt;/span&gt; &lt;span&gt;actions/setup-node@v1&lt;/span&gt;
+        &lt;span&gt;with:&lt;/span&gt;
+          &lt;span&gt;node-version:&lt;/span&gt; &lt;span&gt;16&lt;/span&gt;
+      &lt;span&gt;-&lt;/span&gt; &lt;span&gt;run:&lt;/span&gt; &lt;span&gt;npm&lt;/span&gt; &lt;span&gt;install&lt;/span&gt;
+      &lt;span&gt;-&lt;/span&gt; &lt;span&gt;run:&lt;/span&gt; &lt;span&gt;npm&lt;/span&gt; &lt;span&gt;run&lt;/span&gt; &lt;span&gt;build&lt;/span&gt;&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+  &lt;span&gt;test:&lt;/span&gt;
+    &lt;span&gt;runs-on:&lt;/span&gt; &lt;span&gt;ubuntu-latest&lt;/span&gt;
+    &lt;span&gt;steps:&lt;/span&gt;
+      &lt;span&gt;-&lt;/span&gt; &lt;span&gt;uses:&lt;/span&gt; &lt;span&gt;actions/checkout@v2&lt;/span&gt;
+      &lt;span&gt;-&lt;/span&gt; &lt;span&gt;uses:&lt;/span&gt; &lt;span&gt;actions/setup-node@v1&lt;/span&gt;
+        &lt;span&gt;with:&lt;/span&gt;
+          &lt;span&gt;node-version:&lt;/span&gt; &lt;span&gt;16&lt;/span&gt;
+      &lt;span&gt;-&lt;/span&gt; &lt;span&gt;run:&lt;/span&gt; &lt;span&gt;npm&lt;/span&gt; &lt;span&gt;install&lt;/span&gt;
+      &lt;span&gt;-&lt;/span&gt; &lt;span&gt;run:&lt;/span&gt; &lt;span&gt;npm&lt;/span&gt; &lt;span&gt;test&lt;/span&gt;&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+  &lt;span&gt;deploy:&lt;/span&gt;
+    &lt;span&gt;runs-on:&lt;/span&gt; &lt;span&gt;ubuntu-latest&lt;/span&gt;
+    &lt;span&gt;steps:&lt;/span&gt;
+      &lt;span&gt;-&lt;/span&gt; &lt;span&gt;uses:&lt;/span&gt; &lt;span&gt;actions/checkout@v2&lt;/span&gt;
+      &lt;span&gt;-&lt;/span&gt; &lt;span&gt;uses:&lt;/span&gt; &lt;span&gt;actions/setup-node@v1&lt;/span&gt;
+        &lt;span&gt;with:&lt;/span&gt;
+          &lt;span&gt;node-version:&lt;/span&gt; &lt;span&gt;16&lt;/span&gt;
+      &lt;span&gt;-&lt;/span&gt; &lt;span&gt;run:&lt;/span&gt; &lt;span&gt;npm&lt;/span&gt; &lt;span&gt;install&lt;/span&gt;
+      &lt;span&gt;-&lt;/span&gt; &lt;span&gt;run:&lt;/span&gt; &lt;span&gt;npm&lt;/span&gt; &lt;span&gt;run&lt;/span&gt; &lt;span&gt;deploy&lt;/span&gt;</code></pre></div><p>Mã này xác định quy trình công việc được GitHub Actions tự động chạy trên một số sự kiện nhất định. Quy trình làm việc có ba công việc: <code>build</code>, <code>test</code>, và <code>deploy</code>. Những công việc này được thực hiện theo thứ tự chúng xuất hiện trong mã.</p>
+<p>Khối <code>on</code>chỉ định thời điểm quy trình làm việc sẽ được kích hoạt. Trong trường hợp này, nó được kích hoạt khi mã được đẩy tới nhánh <code>main</code>.</p>
+<p><code>actions/checkout@v2</code>là một Hành động GitHub cho phép bạn kiểm tra kho lưu trữ hoặc một nhánh, cam kết hoặc gắn thẻ cụ thể trong kho lưu trữ. Nó thường được sử dụng trong quy trình làm việc để sao chép kho lưu trữ và kiểm tra mã ở một bản sửa đổi cụ thể.</p>
+<p><code>actions/setup-node@v1</code>là một Hành động GitHub thiết lập môi trường Node.js trên trình chạy. Nó thường được sử dụng trong quy trình làm việc để cài đặt và định cấu hình một phiên bản cụ thể của Node.js cũng như mọi gói hoặc phụ thuộc bắt buộc.</p>
+<p>The <code>v2</code>và <code>v1</code>in <code>actions/checkout@v2</code>và <code>actions/setup-node@v1</code>, tương ứng, đề cập đến phiên bản của hành động. Hành động có thể có nhiều phiên bản và mỗi phiên bản có thể có chức năng hoặc hành vi khác nhau.</p>
+<p>Mỗi công việc bao gồm các bước được thực hiện theo thứ tự chúng xuất hiện trong mã. Công <code>build</code>việc đầu tiên sử dụng hành động <a href="https://github.com/actions/checkout" target="_blank">actions/checkout@v2</a> để kiểm tra mã từ kho lưu trữ. Sau đó, nó sử dụng hành động <a href="https://github.com/actions/setup-node" target="_blank">actions/setup-node@v1</a> để thiết lập môi trường Node.js đã cài đặt phiên bản 16.</p>
+<p>Cuối cùng, nó chạy lệnh <code>npm install</code>và <code>npm run build</code>để cài đặt các phần phụ thuộc cần thiết và xây dựng mã.</p>
+<p>Công <code>test</code>việc tương tự như <code>build</code>công việc, nhưng thay vì chạy <code>npm run build</code>lệnh, nó chạy <code>npm test</code>lệnh để thực hiện kiểm tra mã.</p>
+<p>Công <code>deploy</code>việc cũng tương tự như <code>build</code>công việc nhưng thay vì chạy lệnh <code>npm run build</code>thì nó chạy <code>npm run deploy</code>lệnh triển khai mã.</p>
+<p>Tóm lại, mã này xác định quy trình làm việc được kích hoạt khi mã được đẩy đến nhánh <code>main</code>. Quy trình làm việc chạy các <code>build</code>công <code>test</code>việc <code>deploy</code>theo thứ tự đó, mỗi công việc bao gồm một loạt các bước để kiểm tra mã, thiết lập môi trường Node.js và chạy các lệnh cụ thể để xây dựng, kiểm tra và triển khai mã.</p>
+<h2 id="phần-kết-luận"><strong>Phần kết luận</strong></h2>
+<p>Tóm lại, GitHub Actions là một nền tảng mạnh mẽ để tự động hóa quy trình phát triển phần mềm của bạn.</p>
+<p>Nó cho phép bạn xác định quy trình công việc tùy chỉnh được kích hoạt bởi các sự kiện khác nhau, chẳng hạn như khi bạn đẩy mã vào kho lưu trữ hoặc khi ai đó mở yêu cầu kéo.</p>
+<p>Bạn có thể tự động hóa toàn bộ vòng đời phát triển phần mềm của mình bằng GitHub Actions, từ viết và kiểm tra mã đến triển khai vào sản xuất.</p>
+<p>Bạn cũng có thể sử dụng các hành động được xác định trước từ cộng đồng GitHub hoặc tạo các hành động trong quy trình làm việc của mình.</p>
+<p>Bằng cách sử dụng Hành động, bạn có thể tiết kiệm thời gian, công sức và tập trung vào các nhiệm vụ quan trọng hơn.</p>
+<p>Và đó là tất cả cho chủ đề này. Cảm ơn bạn đã đọc.</p>
+<h2 id="đọc-thêm"><strong>Đọc thêm</strong></h2>
+<p>Dưới đây là một số tài nguyên có thể giúp bạn tìm hiểu về GitHub Actions:</p>
+<ul>
+<li>
+<p><a href="https://docs.github.com/en/actions" target="_blank">Tài liệu hành động GitHub</a> chính thức<a href="https://docs.github.com/en/actions" target="_blank"></a></p>
+</li>
+<li>
+<p>Diễn <a href="https://github.community/c/actions" target="_blank">đàn cộng đồng GitHub Actions</a></p>
+</li>
+<li>
+<p>Kênh <a href="https://www.youtube.com/github" target="_blank">YouTube GitHub</a> có một số video về GitHub Actions.</p>
+</li>
+<li>
+<p>GitHub <a href="https://github.com/marketplace?type=actions" target="_blank">Actions Marketplace</a> có một tập hợp các hành động được tạo sẵn mà bạn có thể sử dụng trong quy trình làm việc của mình.</p>
+</li>
+</ul>
+<p><a href="https://newsletter.openreplay.com/" target="_blank"><a href="#R-image-3ca1dd67e055aa96f26e235d3871d523" class="lightbox-link"><img alt="bản tin" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://blog.openreplay.com/assets/newsletter_Z1P0UIP.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3ca1dd67e055aa96f26e235d3871d523"><img alt="bản tin" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://blog.openreplay.com/assets/newsletter_Z1P0UIP.png"></a></a></p>
+
+            <footer class="footline">
+<div class=" taxonomy-categories term-list cstyle  " title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="../../../categories/github/index.html">Github</a></li>
+  </ul>
+</div>
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="../../../js/clipboard.min.js?1713858606" defer></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1713858606" defer></script>
+    <script src="../../../js/theme.js?1713858606" defer></script>
+  </body>
+</html>

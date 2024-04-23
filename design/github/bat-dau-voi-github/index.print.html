@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.124.1">
+    <meta name="generator" content="Relearn 5.26.2+tip">
+    <meta name="description" content="Documentation for Hugo Relearn Theme">
+    <meta name="author" content="Sören Weber">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/images/hero.png">
+    <meta name="twitter:title" content="Bắt đầu với Github :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="Lại là mình trở lại với series &ldquo;xây nhà&rdquo; rồi đây.
+Hôm nay mình sẽ giới thiệu với mọi người về một công cụ để quản lí và chia sẻ source code. Đó là Git
+1. Vấn đề đặt ra Nhiều bạn sẽ đặt câu hỏi tại sao lại phải có hẳn một chương trình để quản lí và chia sẻ source code trong khi code thì ở trong tay mình, do mình toàn quyền quản lí, còn việc chia sẻ thì quá đơn giản: nén lại rồi gửi qua usb/mail/chatwork/&hellip;?">
+    <meta property="og:title" content="Bắt đầu với Github :: Hugo Relearn Theme">
+    <meta property="og:description" content="Lại là mình trở lại với series &ldquo;xây nhà&rdquo; rồi đây.
+Hôm nay mình sẽ giới thiệu với mọi người về một công cụ để quản lí và chia sẻ source code. Đó là Git
+1. Vấn đề đặt ra Nhiều bạn sẽ đặt câu hỏi tại sao lại phải có hẳn một chương trình để quản lí và chia sẻ source code trong khi code thì ở trong tay mình, do mình toàn quyền quản lí, còn việc chia sẻ thì quá đơn giản: nén lại rồi gửi qua usb/mail/chatwork/&hellip;?">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://localhost:1313/design/github/bat-dau-voi-github/index.html">
+    <meta property="og:image" content="http://localhost:1313/images/hero.png">
+    <meta property="article:section" content="GITHUB :: Hugo Relearn Theme">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <title>Bắt đầu với Github :: Hugo Relearn Theme</title>
+    <link href="http://localhost:1313/design/github/bat-dau-voi-github/index.html" rel="canonical" type="text/html" title="Bắt đầu với Github :: Hugo Relearn Theme">
+    <link href="../../../design/github/bat-dau-voi-github/index.xml" rel="alternate" type="application/rss+xml" title="Bắt đầu với Github :: Hugo Relearn Theme">
+    <link href="../../../images/logo.svg?1712917530" rel="icon" type="image/svg+xml">
+    
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../../css/fontawesome-all.min.css?1712917531" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1712917531" rel="stylesheet"></noscript>
+    <link href="../../../css/nucleus.css?1712917531" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1712917531" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1712917531" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar.min.css?1712917531" rel="stylesheet">
+    <link href="../../../css/fonts.css?1712917531" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1712917531" rel="stylesheet"></noscript>
+    <link href="../../../css/theme.css?1712917531" rel="stylesheet">
+    <link href="../../../css/theme-relearn-auto.css?1712917531" rel="stylesheet" id="R-variant-style">
+    <link href="../../../css/chroma-relearn-auto.css?1712917531" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="../../../css/variant.css?1712917531" rel="stylesheet">
+    <link href="../../../css/print.css?1712917531" rel="stylesheet" media="print">
+    <link href="../../../css/format-print.css?1712917531" rel="stylesheet">
+    <link href="../../../css/ie.css?1712917531" rel="stylesheet">
+    <script src="../../../js/url.js?1712917531"></script>
+    <script src="../../../js/variant.js?1712917531"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.index_js_url="../../../index.search.js";
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../../design/github/bat-dau-voi-github/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">DESIGN</span><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">GITHUB</span><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Bắt đầu với Github</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+<div class=" taxonomy-tags term-list cstyle  tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <ul>
+    <li><a class="term-link" href="../../../tags/github/index.html">Github</a></li>
+    <li><a class="term-link" href="../../../tags/webdesign/index.html">WebDesign</a></li>
+  </ul>
+</div>
+            </header>
+<h1 id="bắt-đầu-với-github">Bắt đầu với Github</h1>
+
+<p>Lại là mình trở lại với series &ldquo;xây nhà&rdquo; rồi đây.</p>
+<p>Hôm nay mình sẽ giới thiệu với mọi người về một công cụ để quản lí và chia sẻ source code. Đó là <strong>Git</strong></p>
+<h2 id="1-vân-đê-đăt-ra">1. Vấn đề đặt ra</h2>
+<ul>
+<li>Nhiều bạn sẽ đặt câu hỏi tại sao lại phải có hẳn một chương trình để quản lí và chia sẻ source code trong khi code thì ở trong tay mình, do mình toàn quyền quản lí, còn việc chia sẻ thì quá đơn giản: nén lại rồi gửi qua usb/mail/chatwork/&hellip;? Trước đây mình cũng nghĩ như vậy và cũng đã làm như vậy (copy source code từ máy này sang máy khác qua usb ^^) &mdash;&gt; mình xin gọi cách làm này là &ldquo;<strong>cách nông dân</strong>&rdquo; <a href="#R-image-1167e6fb4388d8f7913fb2d9334c9c3d" class="lightbox-link"><img alt="😄" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://twemoji.maxcdn.com/v/14.0.2/72x72/1f604.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1167e6fb4388d8f7913fb2d9334c9c3d"><img alt="😄" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://twemoji.maxcdn.com/v/14.0.2/72x72/1f604.png"></a></li>
+<li>Cho đến khi gặp phải một project lớn mà một mình mình không thể ôm hết được và bắt buộc phải có thêm 1 người nữa code cùng mình, vấn đề của &ldquo;<strong>cách nông dân</strong>&rdquo; kia bắt đầu xuất hiện. Đó là khi hai người đã hoàn thành phần việc của mình và muốn ghép code lại với nhau.</li>
+<li>Nó không giống như việc xếp hình, chỉ cần đặt cùng với nhau là có thể sử dụng được. Nhất là khi trong quá trình code, sẽ có những file bị cả 2 người cùng đụng vào gây ra xung đột (gọi là <strong>conflict</strong>).</li>
+</ul>
+<p>--&gt; và để giải quyết vấn đề này, GIT đã được Linus Torvalds phát triển vào năm 2005, ban đầu dành cho việc phát triển nhân Linux. Đến nay, Git trở thành một trong các phần mềm quản lý mã nguồn phổ biến nhất.</p>
+<ul>
+<li>Và trong bài viết này, mình chỉ xin giới thiệu về cách hoạt động và các câu lệnh cơ bản của Git, còn việc cài đặt và cấu hình thì có rất nhiều bài hướng dẫn trên <a href="https://viblo.asia/p/www.google.com" target="_blank">đây</a> rồi.</li>
+</ul>
+<h2 id="2-băt-đâu-vơi-git-va-cấu-trúc-hoạt-động-của-nó">2. Bắt đầu với git và cấu trúc hoạt động của nó:</h2>
+<h3 id="hình-ảnh-dưới-đây-thể-hiện-các-hoạt-động-mà-người-dùng-tương-tác-với-hệ-thống-git">Hình ảnh dưới đây thể hiện các hoạt động mà người dùng tương tác với hệ thống Git</h3>
+<p><a href="#R-image-3889cafe62c8858bc9c9588718954479" class="lightbox-link"><img class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://images.viblo.asia/a8430b4b-121b-4d54-af30-5e85fd69762e.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3889cafe62c8858bc9c9588718954479"><img class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://images.viblo.asia/a8430b4b-121b-4d54-af30-5e85fd69762e.png"></a></p>
+<ul>
+<li>Ở đây chúng ra sẽ tìm hiểu về khái niệm <strong>Repository</strong>: hay được gọi tắt là Repo đơn giản là nơi chứa/cơ sở dữ liệu (database) tất cả những thông tin cần thiết để duy trì và quản lý các sửa đổi và lịch sử của dự án (theo <a href="http://wikipedia.org/" target="_blank">wikipedia.org</a>).</li>
+<li>Và trong hình ảnh trên, ta thấy có 2 loại Repo là Repo bên phía <strong>Server</strong> (Remote Repository) và Repo bên phía <strong>Workstation</strong> (Local Repository):
+<ul>
+<li><strong>Remote repository</strong>: Là repository để chia sẻ giữa nhiều người và bố trí trên server chuyên dụng.</li>
+<li><strong>Local repository</strong>: Là repository bố trí trên máy của bản thân mình, dành cho một người dùng sử dụng.</li>
+</ul>
+</li>
+<li>Về cách hoạt động:
+<ul>
+<li>Lập trình viên sẽ làm việc trực tiếp với &ldquo;<strong>Local Repo</strong>&rdquo;, và sau khi hoàn thành công việc của mình sẽ lưu commit trên &ldquo;<strong>Local Repo</strong>&rdquo; rồi push request lên &ldquo;<strong>Remote Repo</strong>&rdquo;.</li>
+<li><strong>Remote Repo</strong> sẽ do <strong>Team-Lead</strong> quản lí, sẽ kiểm tra trước ghi quyết định có gộp request đó vào hay không. Nếu không sẽ thông báo cho lập trình viên sửa lại rồi gửi lại request. Đến khi có request được gộp vào <strong>Remote Repo</strong>, tất cả các máy cá nhân (<strong>Local Repo</strong>) sẽ phải tải lại bản mới nhất trên <strong>Remote Repo</strong> về và tiếp tục làm việc.</li>
+</ul>
+</li>
+</ul>
+<h3 id="hoạt-động-trên-repository">Hoạt động trên Repository:</h3>
+<p><a href="#R-image-271e72011c477adc2f4c1d123f6ca8a1" class="lightbox-link"><img class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://images.viblo.asia/fb582cf4-e36e-4a91-acb6-0cb108d9245c.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-271e72011c477adc2f4c1d123f6ca8a1"><img class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://images.viblo.asia/fb582cf4-e36e-4a91-acb6-0cb108d9245c.png"></a></p>
+<p>Khái niệm <strong>branch</strong>: dùng để phân nhánh và ghi lại luồng của lịch sử. Branch đã phân nhánh sẽ không ảnh hưởng đến branch khác nên có thể tiến hành nhiều thay đổi đồng thời trong cùng 1 repository. Hơn nữa, branch đã phân nhánh có thể chỉnh sửa tổng hợp lại thành 1 branch bằng việc hợp lại (merge) với branch khác.</p>
+<p>Git sẽ quản lí code giống như sơ đồ xương cá với 1 nhánh chính là <strong>branch Master</strong> (nhánh màu xanh lá).</p>
+<p>Khi bạn bắt đầu làm việc, bạn sẽ phải tạo một branch khác và làm việc trên đó. Đến khi phần công việc đó hoàn thành, bạn có thể gộp nó vào branch master rồi tiếp tục thực hiện phần việc khác, và lịch sử sửa đổi này sẽ được lưu lại (nếu cần có thể quay trở về giống như Ctrl Z vậy).</p>
+<p><strong>CHÚ Ý</strong>:</p>
+<ul>
+<li>Mỗi branch chỉ nên thực hiện một công việc cụ thể</li>
+<li>Branch mới bắt buộc phải được tạo ra từ branch master (chứ không phải một branch nhánh khác)</li>
+</ul>
+<h2 id="3-các-câu-lệnh-cơ-bản">3. Các câu lệnh cơ bản:</h2>
+<h2 id="quản-lý-branch">Quản lý branch:</h2>
+<ul>
+<li>Kiểm tra danh sách branch: <code>$ git branch</code> , để <strong>thực thi trên remote repo, ta chỉ cần cho thêm tùy chọn <code>-r</code> hoặc <code>--remote</code></strong></li>
+<li>Xóa branch:
+<ul>
+<li>khi đang ở branch khác: <code>$ git branch -d &lt;branch_name&gt;</code></li>
+<li>khi đang ở branch cùng tên với remote branch muốn xóa: <code>$ git push &lt;remote_name&gt; -d &lt;branch_name&gt;</code></li>
+</ul>
+</li>
+<li>Push branch từ Local lên Remote với tên khác:
+<ul>
+<li>Bình thường, việc push một branch ở local lên remote branch được thực hiện bằng cách: <code>$ git push &lt;remote_name&gt; &lt;branch_name&gt;</code></li>
+<li>Tuy nhiên việc push dưới một tên khác sẽ có khác biệt, cụ thể: <code>$ git push &lt;remote_name&gt; &lt;local_branch_name&gt;:&lt;remote_branch_name&gt;</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="rebase-và-merge">Rebase và merge:</h2>
+<ul>
+<li>
+<p><strong>Rebase</strong>:</p>
+<p><code>$ git checkout &lt;branch_name&gt;</code></p>
+<p><code>$ git rebase &lt;rebase_branch_name&gt;</code></p>
+<ul>
+<li><strong>Cách thực hiện</strong>: Lấy code từ rebase_branch_name sau đó từ những commit ở đó tạo ra những commit tương tự lên branch_name. Thực hiện rebase thì các commit đã tồn tại bị bỏ đi và tái tạo lại các commit tương tự nhưng thực ra là khác biệt. Điều này làm lịch sử commit ở local và remote khác nhau.</li>
+<li><strong>Đặc điểm</strong>: các commit của nhánh được tạo mới sẽ nằm liền mạch, và các commit của rebase-branch sẽ là các commit mới nhất.</li>
+</ul>
+</li>
+<li>
+<p><strong>Merge</strong>:</p>
+</li>
+<li>
+<p><code>$ git checkout &lt;branch_name&gt;</code></p>
+<p><code>$ git merge &lt;branch_2_name&gt;</code></p>
+<ul>
+<li><strong>Cách thực hiện</strong>: git dùng 2 bản commit cuối cùng của từng nhánh rồi tích hợp lại với nhau tạo thành 1 commit mới theo kiểu hình thoi. Thực hiện merge thì các commit đã tồn tại không bị thay đổi, chỉ tạo ra 1 commit mới tích hợp của 2 commit mới nhất.</li>
+<li><strong>Đặc điểm</strong>: các commit của 2 nhánh được sắp xếp theo thời gian tạo commit.</li>
+</ul>
+</li>
+</ul>
+<h2 id="gộp-commit">Gộp commit:</h2>
+<p>Tùy vào từng môi trường, công ty khác nhau sẽ có những yêu cầu khác nhau về việc quản lý commit. Ví dụ công ty yêu cầu mỗi request bạn gửi lên chỉ có duy nhất 1 commit. Bạn vào kiểm tra thì lại thấy nhiều hơn, thì công việc của bạn là gộp những commit ấy lại. Và việc thực hiện sẽ ra sao?</p>
+<p><code>$ git rebase -i &lt;id_commit_end&gt; || $ git rebase -i HEAD~&lt;index&gt;</code></p>
+<ul>
+<li><strong>&lt;id_commit_end&gt;</strong> là id của commit cuối trong nhóm cần gộp.</li>
+<li><strong><index></strong>: số commit cần gộp. Sau đó, cửa sổ làm việc hiện lên, Ta có các lựa chọn <strong>pick|squash|fixup</strong> các commit trước khi save.</li>
+</ul>
+<p>Sau đó kiểm tra lại bằng lệnh: <code>$ git log --oneline</code> xem commit đã được gộp thành công hay chưa.</p>
+<h2 id="git-stash">Git stash:</h2>
+<p>Khi đang làm việc với một branch rồi bạn chợt nhận ra mình cần sửa ở branch cũ, bạn sẽ cần checkout và phải commit những thay đổi. Tuy nhiên, bạn chỉ cần lưu nó lại mà chưa commit, và <strong>git stash</strong> sẽ giúp bạn. Ngoài ra, có 1 số tuỳ chọn như:</p>
+<ul>
+<li>Xem lại lịch sử thay đổi: <code>$ git stash list</code></li>
+<li>Xem lại lịch sử thay đổi cùng nội dung của nó: <code>$ git stash list -p</code></li>
+<li>Xem lại lịch sử thay đổi: <code>$ git stash list</code></li>
+<li>Xem lại lịch sử thay đổi cụ thể của lần 1: <code>$ git stash show stash@{1}</code></li>
+<li>Apply thay đổi của lần 1: <code>$ git stash apply stash@{1}</code></li>
+<li>Xoá thay đổi: <code>$ git stash drop stash@{1}</code></li>
+<li>Xoá toàn bộ: <code>$ git stash clear</code></li>
+</ul>
+<h2 id="git-reset">Git reset:</h2>
+<p>Trong cuộc sống, mọi hành động thì không thể &ldquo;hoàn tác&rdquo; được. Nhưng khi làm việc với máy tính, Ctrl-Z luôn sẵn sàng để sửa chữa sai lầm cho bạn, và git cung cấp cho bạn 3 phương pháp:</p>
+<ul>
+<li><code>$ git reset &lt;commit_id&gt;</code> khi ta muốn di chuyển HEAD đến commit reset và giữ nguyên tất cả thay đổi của file đến vị trị hiện tại. Tuy nhiên sẽ loại bỏ thay đổi khỏi stage.</li>
+<li><code>$ git reset --hard &lt;commit_id&gt;</code> khi nó vẫn di chuyển HEAD đến commit reset nhưng sẽ loại bỏ tất cả thay đổi của file sau commit reset.</li>
+<li><code>$ git reset --soft &lt;commit_id&gt;</code> khi muốn di chuyển HEAD đến commit reset và có <strong>ưu điểm</strong> là sẽ <strong>giữ nguyên tất cả thay đổi của file và các thay đổi ở stage</strong>. &ndash;&gt; vì vậy reset &ndash;soft được khuyến khích sử dụng hơn, tuy vậy, bạn cũng nên tùy chọn phù hợp với hoàn cảnh và mục đích bạn mong muốn.</li>
+</ul>
+<h2 id="kết-luận">Kết luận:</h2>
+<p>Trên đây chỉ là một số tình huống thường gặp khi làm việc với <strong>Git</strong> mà mình gặp phải. Ngoài ra, muốn trở thành Master Git thì mình khuyên các bạn nên lao vào làm thực tế, khi đó sẽ phát sinh ra nhiều tình huống hơn, giúp bạn nâng cao trình độ. Ngoài ra, cuốn <strong>Pro Git</strong> ở dưới sẽ giúp đỡ các bạn phần nào.</p>
+<p>Cảm ơn các bạn và mong sớm gặp lại các bạn trong các bài viết tiếp theo.</p>
+<h2 id="tham-khảo">Tham khảo:</h2>
+<p>Khái niệm, lịch sử phát triển của Git: <a href="https://vi.wikipedia.org/wiki/Git_(ph%E1%BA%A7n_m%E1%BB%81m)" target="_blank">https://vi.wikipedia.org/wiki/Git_(phần_mềm)</a></p>
+<p>Ebook <strong>Pro Git</strong> rất chi tiết, bài bản về git: <a href="https://git-scm.com/book/vi/v1/B%E1%BA%AFt-%C4%90%E1%BA%A7u-C%C6%A1-B%E1%BA%A3n-v%E1%BB%81-Git" target="_blank">https://git-scm.com/book/vi/v1/Bắt-Đầu-Cơ-Bản-về-Git</a></p>
+<p><a href="https://viblo.asia/p/mot-vai-cau-hoi-ve-git-GrLZDAgOlk0" target="_blank">https://viblo.asia/p/mot-vai-cau-hoi-ve-git-GrLZDAgOlk0</a></p>
+
+            <footer class="footline">
+<div class=" taxonomy-categories term-list cstyle  " title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="../../../categories/github/index.html">Github</a></li>
+  </ul>
+</div>
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="../../../js/clipboard.min.js?1712917531" defer></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1712917531" defer></script>
+    <script src="../../../js/theme.js?1712917531" defer></script>
+  </body>
+</html>

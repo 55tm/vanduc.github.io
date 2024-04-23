@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.124.1">
+    <meta name="generator" content="Relearn 5.26.2+tip">
+    <meta name="description" content="Documentation for Hugo Relearn Theme">
+    <meta name="author" content="Sören Weber">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/images/hero.png">
+    <meta name="twitter:title" content="Quản lý ghi chú trong Obsidian :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="Excerpt Sử dụng properties (metadata) và các trường thông tin mô tả một ghi chú bất kỳ giúp bạn phân loại và tổ chức thông tin trong Obsidian khoa học, thuận tiện.
+obsidian sử dụng hàng ngày properties metadata
+Giới thiệu
+Metadata hay properties trong Obsidian (hay YAML frontmatter trong markdown) là những thông tin bạn miêu tả các thuộc tính, đặc điểm nhận dạng một ghi chú bất kỳ của bạn.">
+    <meta property="og:title" content="Quản lý ghi chú trong Obsidian :: Hugo Relearn Theme">
+    <meta property="og:description" content="Excerpt Sử dụng properties (metadata) và các trường thông tin mô tả một ghi chú bất kỳ giúp bạn phân loại và tổ chức thông tin trong Obsidian khoa học, thuận tiện.
+obsidian sử dụng hàng ngày properties metadata
+Giới thiệu
+Metadata hay properties trong Obsidian (hay YAML frontmatter trong markdown) là những thông tin bạn miêu tả các thuộc tính, đặc điểm nhận dạng một ghi chú bất kỳ của bạn.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://localhost:1313/tuhoc/obsidian/quan-ly-ghi-chu-obsidian/index.html">
+    <meta property="og:image" content="http://localhost:1313/images/hero.png">
+    <meta property="article:section" content="OBSIDIAN :: Hugo Relearn Theme">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <title>Quản lý ghi chú trong Obsidian :: Hugo Relearn Theme</title>
+    <link href="http://localhost:1313/tuhoc/obsidian/quan-ly-ghi-chu-obsidian/index.html" rel="canonical" type="text/html" title="Quản lý ghi chú trong Obsidian :: Hugo Relearn Theme">
+    <link href="../../../tuhoc/obsidian/quan-ly-ghi-chu-obsidian/index.xml" rel="alternate" type="application/rss+xml" title="Quản lý ghi chú trong Obsidian :: Hugo Relearn Theme">
+    <link href="../../../images/logo.svg?1713858605" rel="icon" type="image/svg+xml">
+    
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../../css/fontawesome-all.min.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/nucleus.css?1713858606" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar.min.css?1713858606" rel="stylesheet">
+    <link href="../../../css/fonts.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/theme.css?1713858606" rel="stylesheet">
+    <link href="../../../css/theme-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-style">
+    <link href="../../../css/chroma-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="../../../css/variant.css?1713858606" rel="stylesheet">
+    <link href="../../../css/print.css?1713858606" rel="stylesheet" media="print">
+    <link href="../../../css/format-print.css?1713858606" rel="stylesheet">
+    <link href="../../../css/ie.css?1713858606" rel="stylesheet">
+    <script src="../../../js/url.js?1713858606"></script>
+    <script src="../../../js/variant.js?1713858606"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.index_js_url="../../../index.search.js";
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../../tuhoc/obsidian/quan-ly-ghi-chu-obsidian/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">TỰ HỌC</span><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">OBSIDIAN</span><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Quản lý ghi chú trong Obsidian</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+<div class=" taxonomy-tags term-list cstyle  tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <ul>
+    <li><a class="term-link" href="../../../tags/hoc/index.html">Hoc</a></li>
+    <li><a class="term-link" href="../../../tags/obsidian/index.html">Obsidian</a></li>
+  </ul>
+</div>
+            </header>
+<h1 id="quản-lý-ghi-chú-trong-obsidian">Quản lý ghi chú trong Obsidian</h1>
+
+<h2 id="excerpt">Excerpt</h2>
+<blockquote>
+<p>Sử dụng properties (metadata) và các trường thông tin mô tả một ghi chú bất kỳ giúp bạn phân loại và tổ chức thông tin trong Obsidian khoa học, thuận tiện.</p>
+</blockquote>
+<hr>
+<p>obsidian sử dụng hàng ngày properties metadata</p>
+<p>Giới thiệu</p>
+<p>Metadata hay properties trong Obsidian (hay YAML frontmatter trong markdown) là những thông tin bạn miêu tả các thuộc tính, đặc điểm nhận dạng một ghi chú bất kỳ của bạn. Việc này giúp bạn phân loại, lưu trữ, tra cứu và sử dụng được dễ dàng, thuận tiện nhất. Ngoài ra trong Obsidian, bạn có thể sử dụng plugin Dataview để thống kê, biểu diễn thông tin có trong hệ cơ sở dữ liệu ghi chú của mình một cách linh hoạt và thú vị.</p>
+<iframe width="914" height="514" src="https://www.youtube.com/embed/H4I3d_xpkAs?si=BA9ffybbu1Wk50LS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<h2 id="quá-trình-quản-lý-ghi-chú-và-sử-dụnghttpslearn-anythingvnkien-thucobsidianquan-ly-ghi-chu-obsidian-bang-properties-metadataqua-trinh-quan-ly-ghi-chu-va-su-dung-nội-dung-chính">Quá trình quản lý, ghi chú và sử dụng<a href="https://learn-anything.vn/kien-thuc/obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata/#qua-trinh-quan-ly-ghi-chu-va-su-dung" target="_blank" title="Nội dung chính">¶</a></h2>
+<p>Quá trình quản lý ghi chú với thuộc tính metadata</p>
+<p>Toàn bộ quá trình quản lý ghi chú bằng thông tin mô tả thuộc tính/metadata được tóm tắt như dưới đây. Trong đó bạn sẽ có thêm ý tưởng rõ ràng để hình dung về các loại mẫu ghi chú mình thường xuyên sử dụng cũng như các thuộc tính quan trọng nhất mình sử dụng cho từng loại ghi chú.</p>
+<p><a href="https://learn-anything.vn/assets/images/obsidian_quan_ly_thong_tin_ghi_chu_voi_metadata_visual_note.png" target="_blank"><a href="#R-image-6aa438736585fba1e6610c2125a195fb" class="lightbox-link"><img class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://learn-anything.vn/assets/images/obsidian_quan_ly_thong_tin_ghi_chu_voi_metadata_visual_note.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6aa438736585fba1e6610c2125a195fb"><img class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://learn-anything.vn/assets/images/obsidian_quan_ly_thong_tin_ghi_chu_voi_metadata_visual_note.png"></a></a></p>
+<p>Quá trình quản lý, ghi chú và sử dụng gồm 3 bước chính như sau:</p>
+<ol>
+<li>Tạo mẫu ghi chú (template)</li>
+<li>Phân loại thông tin mô tả khi ghi chú</li>
+<li>Tra cứu (sử dụng thông tin đã mô tả)</li>
+</ol>
+<h3 id="tạo-mẫu-ghi-chúhttpslearn-anythingvnkien-thucobsidianquan-ly-ghi-chu-obsidian-bang-properties-metadatatao-mau-ghi-chu-nội-dung-chính">Tạo mẫu ghi chú<a href="https://learn-anything.vn/kien-thuc/obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata/#tao-mau-ghi-chu" target="_blank" title="Nội dung chính">¶</a></h3>
+<p>Giới thiệu templates</p>
+<p>Mẫu ghi chú hay templates được cài đặt trong Obsidian tại mục Templates (một core plugin có sẵn) cho phép bạn sử dụng một mẫu ghi chú đã có cấu trúc sẵn để chèn vào một ghi chú khi bạn làm việc. Tính năng này thích hợp cho lối tư duy mạch lạc, có cấu trúc và hỗ trợ bạn việc phân loại ghi chú của mình tốt hơn thông qua các trường thông tin đã cấu trúc sẵn.</p>
+<h4 id="hệ-thống-hóa-tất-cả-ghi-chú-của-bạn-với-mẫu-tương-ứnghttpslearn-anythingvnkien-thucobsidianquan-ly-ghi-chu-obsidian-bang-properties-metadatahe-thong-hoa-tat-ca-ghi-chu-cua-ban-voi-mau-tuong-ung-nội-dung-chính">Hệ thống hóa tất cả ghi chú của bạn với mẫu tương ứng<a href="https://learn-anything.vn/kien-thuc/obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata/#he-thong-hoa-tat-ca-ghi-chu-cua-ban-voi-mau-tuong-ung" target="_blank" title="Nội dung chính">¶</a></h4>
+<p>Có một sự thật là bạn có thể tạo ra các mẫu ghi chú bao quát toàn bộ hoạt động trong cuộc sống thường ngày của bạn từ công việc đến mục đích cá nhân, từ sáng tạo nội dung cho đến học tập hay viết luận. Hãy thử áp dụng <a href="https://learn-anything.vn/kien-thuc/phat-trien-ban-than/nguyen-tac-mece/" target="_blank">Nguyên tắc MECE</a> và <a href="https://learn-anything.vn/kien-thuc/phat-trien-ban-than/nguyen-ly-kim-tu-thap-minto/" target="_blank">Nguyên lý kim tự tháp Minto</a> mà mình giới thiệu qua blog này để giúp bạn tư duy mạch lạc và tổ chức các chi chú của mình chặt chẽ nhất.</p>
+<p>Mình chia hệ thống mẫu ghi chú cho cá nhân thành 2 nhóm chính như dưới đây. bạn có thể tìm thấy một số mẫu trong hệ thống <a href="https://learn-anything.vn/kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian/#cai-at-mau-obsidian-go" target="_blank">Obsidian Go</a> mình chia sẻ.</p>
+<ol>
+<li>
+<p><strong>CÔNG VIỆC (Professional):</strong> Các ghi chú công việc thể hiện đặc trưng cho hoạt động tại công ty, dự án yêu cầu tính chuyên nghiệp. Một vài ví dụ giúp bạn dễ hình dung hơn.</p>
+<ul>
+<li>New Notes: Các ghi chú chung chưa phân loại hoặc có mẫu cụ thể.</li>
+<li>Meeting Notes: ghi chú cuộc họp</li>
+<li>Documentation: các ghi chú công việc chung hoặc thuật lại các phương pháp, cách thức thực hiện một số công việc phức tạp cần lưu lại.</li>
+<li>Decision Log: Ghi chú lại bối cảnh và cách tiếp cận khi ra các quyết định quan trọng.</li>
+<li>Retrospective: Đánh giá lại hoạt động, dự án hoặc kết quả của bộ phận theo tháng/quý.</li>
+<li>Brainstorming: Mẫu tư duy và tìm kiếm ý tưởng.</li>
+<li>To-do: Công việc thường ngày, hoặc theo kế hoạch cần làm. Sử dụng kèm các plugin như Project, Kanban, Obsidian GTD</li>
+<li>Research: Các ghi chú mang tính chất nghiên cứu, tìm kiếm và tổng hợp thông tin cho chủ đề hoặc một lĩnh vực công việc.</li>
+<li>Presentation: Tổng hợp nội dung cho bài trình bày, câu chuyện cụ thể.</li>
+</ul>
+</li>
+<li>
+<p><strong>CÁ NHÂN (Personal):</strong> Tất cả các ghi chú còn lại không thuộc lĩnh vực công việc.</p>
+<ul>
+<li>Daily Notes: nhật ký nhìn nhận lại một số sự kiện quan trọng diễn ra trong ngày.</li>
+<li>Book Highlights: Các đoạn trích dẫn từ việc đọc sách (chủ yếu xuất ra từ Kindle).</li>
+<li>Life Reflection: Mẫu ghi chú này giúp mình nhìn nhận lại hành trình, kết quả thực hiện các mục tiêu trong khung thời gian dài hoặc những bài học sau những sự kiện đáng nhớ trong cuộc sống.</li>
+<li>People profile: Ghi chú lại những thông tin quan trọng về một người cụ thể xuất hiện trong cuộc sống của mình, có thể là bạn bè, đối tác hoặc những cá nhân mình cảm thấy có một sự hiểu biết, ghi nhớ cá nhân về họ để phát triển mối quan hệ.</li>
+<li>Blog / Script: là nội dung các bài viết hoặc bản thảo cho nội dung video dự định xuất bản.</li>
+</ul>
+</li>
+</ol>
+<h4 id="thành-phần--nội-dung-của-mẫu-ghi-chúhttpslearn-anythingvnkien-thucobsidianquan-ly-ghi-chu-obsidian-bang-properties-metadatathanh-phan-noi-dung-cua-mau-ghi-chu-nội-dung-chính">Thành phần &amp; nội dung của mẫu ghi chú<a href="https://learn-anything.vn/kien-thuc/obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata/#thanh-phan-noi-dung-cua-mau-ghi-chu" target="_blank" title="Nội dung chính">¶</a></h4>
+<p>Một mẫu ghi chú có thể chia thành 2 phần chính:</p>
+<ol>
+<li>
+<p><strong>Metadata</strong> (hay phần thông tin mô tả, trong Obsidian được gọi là Properties). Phần thông tin mô tả này khi xem trong chế độ <code>Source mode</code> được bao quanh bởi cặp dấu <code>---</code>. Khi soạn thảo với Obsidian chế độ <code>Live Preview</code> sẽ được trình bày như dưới đây. <a href="https://learn-anything.vn/assets/images/properties-thuoc-tinh-cua-ghi-chu-trong-obsidian.png" target="_blank"><a href="#R-image-658d54826cd8a884643b2378765c81a5" class="lightbox-link"><img class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://learn-anything.vn/assets/images/properties-thuoc-tinh-cua-ghi-chu-trong-obsidian.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-658d54826cd8a884643b2378765c81a5"><img class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://learn-anything.vn/assets/images/properties-thuoc-tinh-cua-ghi-chu-trong-obsidian.png"></a></a></p>
+</li>
+<li>
+<p><strong>Nội dung ghi chú mẫu</strong> là cấu trúc các thành phần, hướng dẫn hoặc điều bạn muốn nhắc nhở bản thân mình làm theo trình tự, khung nội dung thống nhất với bất kỳ ghi chú nào trong cùng một loại bạn đã định hình. Ví dụ dưới đây là mẫu ghi chú hàng ngày của mình với 4 nhóm thông tin chính gồm:</p>
+<ul>
+<li>Win the day: Việc mình muốn hoàn thành trong ngày&quot; được nêu ra khi bắt đầu một ngày</li>
+<li>Reflection: Ghi lại một vài sự kiện chính và hồi tưởng lại một ngày đã qua, đánh giá lại mục tiêu có hoàn thành hay chưa.</li>
+<li>On this day: Thông tin trả về từ plugin Dataview lọc các ghi chú được tạo ra cùng ngày tương tự theo thời gian (năm trước, tháng trước, vv)</li>
+</ul>
+</li>
+</ol>
+<div class="highlight wrap-code"><pre tabindex="0"><code>&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span id=&#34;__span-0-1&#34;&gt;---
+&lt;/span&gt;&lt;span id=&#34;__span-0-2&#34;&gt;aliases: 
+&lt;/span&gt;&lt;span id=&#34;__span-0-3&#34;&gt;date: { date: &#34;YYYY-MM-DD HH:mm&#34; }
+&lt;/span&gt;&lt;span id=&#34;__span-0-4&#34;&gt;tags:
+&lt;/span&gt;&lt;span id=&#34;__span-0-5&#34;&gt;  - &#34;#reflection&#34;
+&lt;/span&gt;&lt;span id=&#34;__span-0-6&#34;&gt;mood: 
+&lt;/span&gt;&lt;span id=&#34;__span-0-7&#34;&gt;---
+&lt;/span&gt;&lt;span id=&#34;__span-0-8&#34;&gt;
+&lt;/span&gt;&lt;span id=&#34;__span-0-9&#34;&gt;# Win the Day ✨
+&lt;/span&gt;&lt;span id=&#34;__span-0-10&#34;&gt;
+&lt;/span&gt;&lt;span id=&#34;__span-0-11&#34;&gt;
+&lt;/span&gt;&lt;span id=&#34;__span-0-12&#34;&gt;# Reflection 💬
+&lt;/span&gt;&lt;span id=&#34;__span-0-13&#34;&gt;
+&lt;/span&gt;&lt;span id=&#34;__span-0-14&#34;&gt;
+&lt;/span&gt;&lt;span id=&#34;__span-0-15&#34;&gt;# On this day 🧠
+&lt;/span&gt;&lt;/code&gt;</code></pre></div><p>Bạn có thể tự dành chút thời gian động não (brainstorming) ra các mẫu ghi chú mình cần sử dụng, việc này chỉ có bạn mới có thể biết mình muốn gì. Bạn cũng có thể hỏi ChatGPT để tạo ra các mẫu ghi chú markdown theo kiểu/chủ đề nhất định sau khi đã nghĩ ra các loại thông tin mình cần ghi chú.</p>
+<p>Cuối cùng, bạn tạo các file ghi chú, đặt chung trong một thư mục tại Vault của mình. Ví dụ, trong Vault của mình có thư mục <code>template</code> là thư mục con trong <code>3. RESOURCE/src/template</code>. Sau đó, bạn vào phần cài đặt <code>Settings &gt; Templates</code> thuộc core plugins để chọn địa chỉ thư mục mẫu nói trên tại mục <code>Template folder location</code>.</p>
+<p><a href="https://learn-anything.vn/assets/images/thiet-lap-thu-muc-mau-ghi-chu-obsidian-templates.png" target="_blank"><a href="#R-image-84cb1b10cdc0b1b5c6a1ae988cb8c894" class="lightbox-link"><img class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://learn-anything.vn/assets/images/thiet-lap-thu-muc-mau-ghi-chu-obsidian-templates.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-84cb1b10cdc0b1b5c6a1ae988cb8c894"><img class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://learn-anything.vn/assets/images/thiet-lap-thu-muc-mau-ghi-chu-obsidian-templates.png"></a></a></p>
+<h3 id="phân-loại-thông-tin-mô-tảhttpslearn-anythingvnkien-thucobsidianquan-ly-ghi-chu-obsidian-bang-properties-metadataphan-loai-thong-tin-mo-ta-nội-dung-chính">Phân loại thông tin mô tả<a href="https://learn-anything.vn/kien-thuc/obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata/#phan-loai-thong-tin-mo-ta" target="_blank" title="Nội dung chính">¶</a></h3>
+<p>Giới thiệu</p>
+<p>Khi bắt đầu bất kỳ một ghi chú mới, việc bạn cần làm là chèn mẫu ghi chú đã thiết lập theo đúng nội dung mình đang cần tạo ra. Việc này ví như bạn điền &ldquo;giấy khai sinh&rdquo; cho ghi chú của mình.</p>
+<p>Mình thường bắt đầu ghi chú mới bằng cách nhấn tổ hợp phím <code>Ctrl + Shift + Alt + T</code> đã gán từ trước cho tính năng Templates để chọn mẫu ghi chú cần sử dụng. Bạn cũng có thể chèn mẫu qua 2 cách khác phổ biến bao gồm:</p>
+<ol>
+<li><strong>Command palette:</strong> Sử dụng tổ hợp phím tắt <code>Ctrl + P</code> và tìm kiếm với từ khóa <code>template</code> để tìm hành động là <code>Templates: Insert template</code>. Tính năng tìm lệnh này được bật mặc định khi cài Obsidian, nếu bạn sử dụng tổ hợp phím tắt mà không kích hoạt được tính năng thì vào phần <code>Settings &gt; Core plugins</code> tìm và kích hoạt tính năng. <a href="https://learn-anything.vn/kien-thuc/obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata/obsidian-command-palette-chen-mau-ghi-chu-templates.png" target="_blank"><a href="#R-image-3021590944b76f3e7c1866f5548998cf" class="lightbox-link"><img class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://learn-anything.vn/kien-thuc/obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata/obsidian-command-palette-chen-mau-ghi-chu-templates.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3021590944b76f3e7c1866f5548998cf"><img class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://learn-anything.vn/kien-thuc/obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata/obsidian-command-palette-chen-mau-ghi-chu-templates.png"></a></a></li>
+<li><strong>Slash command:</strong> Sử dụng dấu <code>/</code> và nhập từ khóa tìm kiếm lệnh trong giao diện ghi chú tại vị trí bất kỳ, Enter hoặc click chuột vào lệnh để chọn kích hoạt lệnh tương tự như với <code>Command Palette</code>. <a href="https://learn-anything.vn/assets/images/kich-hoat-lenh-qua-slash-command-obsidian.png" target="_blank"><a href="#R-image-0fd0b871d7817883f80358162c4dd7ec" class="lightbox-link"><img class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://learn-anything.vn/assets/images/kich-hoat-lenh-qua-slash-command-obsidian.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0fd0b871d7817883f80358162c4dd7ec"><img class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://learn-anything.vn/assets/images/kich-hoat-lenh-qua-slash-command-obsidian.png"></a></a> Với các mẫu ghi chú được chèn, bạn lần lượt điền các thông tin mô tả ở phần thuộc tính ghi chú (properties) để tiến hành phân loại/tổ chức thông tin của mình.</li>
+</ol>
+<p>Tips quan trọng</p>
+<p>Bạn nên chèn sẵn các thông tin mô tả cơ bản cho từng loại ghi chú ngay trong mẫu. Ví dụ với <code>status</code> mặc định sẽ có giá trị là <code>raw</code>, <code>tags</code> với bài viết blog của mình sẽ có giá trị <code>#obsidian, #metadata</code>, phần <code>category</code> sẽ là <code>Blog, Youtube</code> chẳng hạn. Việc này giúp cho nhiệm vụ phân loại của bạn chỉ đơn giản là chèn mẫu ghi chú và chỉnh sửa, thêm 1 vài thông tin cụ thể cho ghi chú của mình thay vì làm &ldquo;nô lệ&rdquo; cho việc mô tả lặp đi lặp lại tốn thời gian.</p>
+<h3 id="tra-cứu-và-sử-dụng-thuộc-tínhhttpslearn-anythingvnkien-thucobsidianquan-ly-ghi-chu-obsidian-bang-properties-metadatatra-cuu-va-su-dung-thuoc-tinh-nội-dung-chính">Tra cứu và sử dụng thuộc tính<a href="https://learn-anything.vn/kien-thuc/obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata/#tra-cuu-va-su-dung-thuoc-tinh" target="_blank" title="Nội dung chính">¶</a></h3>
+<h4 id="tìm-kiếm-trong-obsidianhttpslearn-anythingvnkien-thucobsidianquan-ly-ghi-chu-obsidian-bang-properties-metadatatim-kiem-trong-obsidian-nội-dung-chính">Tìm kiếm trong Obsidian<a href="https://learn-anything.vn/kien-thuc/obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata/#tim-kiem-trong-obsidian" target="_blank" title="Nội dung chính">¶</a></h4>
+<p>Với tính năng tìm kiếm trong Obsidian thì cú pháp ở đây khá đơn giản thôi, bạn sử dụng tên file hoặc một thuộc tính bất kỳ của loại ghi chú mục tiêu và thực hiện tìm kiếm.</p>
+<p>Trong ví dụ minh họa, mình lọc tất cả ghi chú có trạng thái là <code>raw</code> tức mới chỉ ở giai đoạn ý tưởng và có chứa từ <code>CCCD</code> thì nhận được 13 kết quả bao gồm 2 kết quả dưới đây.</p>
+<p><a href="https://learn-anything.vn/assets/images/obsidian-search-tim-kiem-ghi-chu-theo-thuoc-tinh-mo-ta.png" target="_blank"><a href="#R-image-983e9992feed4881278a953ea273bb44" class="lightbox-link"><img class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://learn-anything.vn/assets/images/obsidian-search-tim-kiem-ghi-chu-theo-thuoc-tinh-mo-ta.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-983e9992feed4881278a953ea273bb44"><img class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://learn-anything.vn/assets/images/obsidian-search-tim-kiem-ghi-chu-theo-thuoc-tinh-mo-ta.png"></a></a></p>
+<h4 id="dataviewhttpslearn-anythingvnkien-thucobsidianquan-ly-ghi-chu-obsidian-bang-properties-metadatadataview-nội-dung-chính">DataView<a href="https://learn-anything.vn/kien-thuc/obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata/#dataview" target="_blank" title="Nội dung chính">¶</a></h4>
+<p>Đoạn mã Dataview dưới đây có thể được chèn vào một ghi chú bất kỳ trong Obsidian để hiển thị dữ liệu/ghi chú/kết quả lọc được trả về từ câu truy vấn. Bạn cũng có thể sử Dataview kết hợp một thẻ/ghi chú bất kỳ trong chế độ Obsidian Canvas để tạo ra trang tổng quan như ý muốn.</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span id=&#34;__span-1-1&#34;&gt;    TABLE status, file.ext AS type WHERE contains(lower(file.name), &#34;obsidian&#34;)
+&lt;/span&gt;&lt;span id=&#34;__span-1-2&#34;&gt;    SORT status ASC
+&lt;/span&gt;&lt;/code&gt;</code></pre></div><p>Trong đó, thành phần của câu truy vấn gồm:</p>
+<ul>
+<li>TABLE: hiển thị dữ liệu trả về dưới dạng bảng, dạng khác có thể là LIST, TASK, CALENDAR</li>
+<li><code>status, file.ext</code> là tên các cột hiển thị bổ sung cho cột <code>File</code> mặc định. <code>status</code> là thuộc tính được tạo tự do, trong khi <code>file.ext</code> là thuộc tính tên định dạng file (mặc định của file ghi chú khi được tạo ra).</li>
+<li><code>AS</code> cho phép đổi tên <code>file.ext</code> thành <code>type</code> cho thuận tiện mục đích sử dụng</li>
+<li><code>WHERE</code> là thao tác lọc các kết quả theo điều kiện đặt ra, ví dụ tên file tức thuộc tính <code>file.name</code> phải chứa chữ <code>obsidian</code> dù viết hoa hay thường (sử dụng hàm <code>lower()</code> để định dạng tên file về kiểu chữ thường để so sánh).</li>
+<li><code>SORT</code> cho phép sắp xếp cột <code>status</code> theo chiều thuận <code>ASC</code> tức ascending.</li>
+</ul>
+<p>Chi tiết về cách sử dụng Dataview, bạn có thể tham khảo tại trang web chính thức <a href="https://blacksmithgu.github.io/obsidian-dataview/" target="_blank">tại đây</a></p>
+<p>Tada, dưới đây là kết quả trả về từ câu truy vấn trên, được hiển thị trong một thẻ (card) của Obsidian Canvas. <a href="https://learn-anything.vn/assets/images/obsidian-dataview-plugin-truy-van-danh-sach-cac-ghi-chu-voi-properties-metadata.png" target="_blank"><a href="#R-image-5ca75394a3ef6af7230d425db2bffb33" class="lightbox-link"><img class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://learn-anything.vn/assets/images/obsidian-dataview-plugin-truy-van-danh-sach-cac-ghi-chu-voi-properties-metadata.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5ca75394a3ef6af7230d425db2bffb33"><img class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://learn-anything.vn/assets/images/obsidian-dataview-plugin-truy-van-danh-sach-cac-ghi-chu-voi-properties-metadata.png"></a></a></p>
+<h2 id="thuộc-tính-ghi-chú-vs-lý-lịch-công-dân-qua-cccdhttpslearn-anythingvnkien-thucobsidianquan-ly-ghi-chu-obsidian-bang-properties-metadatathuoc-tinh-ghi-chu-vs-ly-lich-cong-dan-qua-cccd-nội-dung-chính">Thuộc tính ghi chú vs lý lịch công dân qua CCCD<a href="https://learn-anything.vn/kien-thuc/obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata/#thuoc-tinh-ghi-chu-vs-ly-lich-cong-dan-qua-cccd" target="_blank" title="Nội dung chính">¶</a></h2>
+<p>Hình dung dễ hiểu</p>
+<p>Nhà nước quản lý công dân bằng cơ sở dữ liệu dân cư, bạn quản lý ghi chú trong kho tàng của mình thông qua cấu trúc thư mục, tên và các thuộc tính lưu trữ bên trong file hay cụ thể ở đây là ghi chú trên hệ thống máy tính, bộ nhớ cloud của bạn. Dưới đây là một sự so sánh giúp bạn dễ hình dung và hình thành cho mình cách quản lý thông tin hiệu quả.</p>
+<p><a href="https://learn-anything.vn/assets/images/so-sanh-thong-tin-ghi-chu-voi-can-cuoc-cong-dan.png" target="_blank"><a href="#R-image-5480d0e43901d4bfdb71e0d3bb485925" class="lightbox-link"><img class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://learn-anything.vn/assets/images/so-sanh-thong-tin-ghi-chu-voi-can-cuoc-cong-dan.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5480d0e43901d4bfdb71e0d3bb485925"><img class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://learn-anything.vn/assets/images/so-sanh-thong-tin-ghi-chu-voi-can-cuoc-cong-dan.png"></a></a></p>
+<h3 id="các-thông-tin-trong-cccdhttpslearn-anythingvnkien-thucobsidianquan-ly-ghi-chu-obsidian-bang-properties-metadatacac-thong-tin-trong-cccd-nội-dung-chính">Các thông tin trong CCCD<a href="https://learn-anything.vn/kien-thuc/obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata/#cac-thong-tin-trong-cccd" target="_blank" title="Nội dung chính">¶</a></h3>
+<p>Từ bảng so sánh dưới đây, mình tin bạn đã có một sự hình dung rõ ràng về cách tạo và quản lý các ghi chú trong Obsidian của mình một cách có tổ chức.</p>
+<h3 id="các-thông-tin-sơ-yếu-lý-lịch-thường-gặphttpslearn-anythingvnkien-thucobsidianquan-ly-ghi-chu-obsidian-bang-properties-metadatacac-thong-tin-so-yeu-ly-lich-thuong-gap-nội-dung-chính">Các thông tin sơ yếu lý lịch thường gặp<a href="https://learn-anything.vn/kien-thuc/obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata/#cac-thong-tin-so-yeu-ly-lich-thuong-gap" target="_blank" title="Nội dung chính">¶</a></h3>
+<p>Dưới đây là một số thông tin các bạn thường gặp trong mẫu lý lịch công việc, và tương tự bạn cũng có thể mô phỏng thuộc tính ghi chú của mình kiểu vậy để tiện sử dụng.</p>
+
+            <footer class="footline">
+<div class=" taxonomy-categories term-list cstyle  " title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="../../../categories/obsidian/index.html">Obsidian</a></li>
+  </ul>
+</div>
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="../../../js/clipboard.min.js?1713858606" defer></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1713858606" defer></script>
+    <script src="../../../js/theme.js?1713858606" defer></script>
+  </body>
+</html>

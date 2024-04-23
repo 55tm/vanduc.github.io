@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Takenote on Hugo Relearn Theme</title>
+    <link>https://example.com/tags/takenote/index.html</link>
+    <description>Recent content in Takenote on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Mar 2024 09:57:41 +0700</lastBuildDate>
+    <atom:link href="https://example.com/tags/takenote/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsidian Publish</title>
+      <link>https://example.com/takenote/obsidian/obsidian-publish/index.html</link>
+      <pubDate>Sun, 31 Mar 2024 09:57:41 +0700</pubDate>
+      <guid>https://example.com/takenote/obsidian/obsidian-publish/index.html</guid>
+      <description>Obsidian Publish™ là một dịch vụ lưu trữ trả phí cho các ghi chú của bạn.
+Để biết hướng dẫn về cách publish ghi chú của bạn từ bên trong ứng dụng Obsidian, hãy tham khảo Publish plugin.
+Privacy Bạn có toàn quyền kiểm soát những gì sẽ publish thông qua publish plugin - toàn bộ vault của bạn hoặc chỉ các ghi chú đã chọn trong vault của bạn. Đối với bất kỳ ghi chú nào bạn chọn không publish, bạn có thể tin tưởng rằng những ghi chú đó vẫn hoàn toàn privacy và Obsidian Publish không hề biết về chúng.</description>
+    </item>
+    <item>
+      <title>Obsidian Publish</title>
+      <link>https://example.com/tuhoc/obsidian/obsidian-publish/index.html</link>
+      <pubDate>Sun, 31 Mar 2024 09:57:41 +0700</pubDate>
+      <guid>https://example.com/tuhoc/obsidian/obsidian-publish/index.html</guid>
+      <description>Obsidian Publish™ là một dịch vụ lưu trữ trả phí cho các ghi chú của bạn.
+Để biết hướng dẫn về cách publish ghi chú của bạn từ bên trong ứng dụng Obsidian, hãy tham khảo Publish plugin.
+Privacy Bạn có toàn quyền kiểm soát những gì sẽ publish thông qua publish plugin - toàn bộ vault của bạn hoặc chỉ các ghi chú đã chọn trong vault của bạn. Đối với bất kỳ ghi chú nào bạn chọn không publish, bạn có thể tin tưởng rằng những ghi chú đó vẫn hoàn toàn privacy và Obsidian Publish không hề biết về chúng.</description>
+    </item>
+  </channel>
+</rss>

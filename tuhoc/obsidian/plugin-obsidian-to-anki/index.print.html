@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.124.1">
+    <meta name="generator" content="Relearn 5.26.2+tip">
+    <meta name="description" content="Documentation for Hugo Relearn Theme">
+    <meta name="author" content="Sören Weber">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/images/hero.png">
+    <meta name="twitter:title" content="Plugin Obsidian to Anki :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="1)Truy cập Huggingface tạo tài khoản và lấy key API paste key vào templater 2)Vào &ldquo;File and link&rdquo; enable &ldquo;Automatically update internal links&rdquo; 3)Tạo folder &ldquo;assets&rdquo; attachment và set folder attachment 4)Tạo folder template và set folder template 5)Cài đặt plugin &ldquo;templater&rdquo; 6)Tạo template để tra cứu từ vựng đồng thời thiết lập shortcut để thuận tiện cho việc tra cứu 7)## Thiết lập kết nối giữa Obsidian và Anki">
+    <meta property="og:title" content="Plugin Obsidian to Anki :: Hugo Relearn Theme">
+    <meta property="og:description" content="1)Truy cập Huggingface tạo tài khoản và lấy key API paste key vào templater 2)Vào &ldquo;File and link&rdquo; enable &ldquo;Automatically update internal links&rdquo; 3)Tạo folder &ldquo;assets&rdquo; attachment và set folder attachment 4)Tạo folder template và set folder template 5)Cài đặt plugin &ldquo;templater&rdquo; 6)Tạo template để tra cứu từ vựng đồng thời thiết lập shortcut để thuận tiện cho việc tra cứu 7)## Thiết lập kết nối giữa Obsidian và Anki">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://localhost:1313/tuhoc/obsidian/plugin-obsidian-to-anki/index.html">
+    <meta property="og:image" content="http://localhost:1313/images/hero.png">
+    <meta property="article:section" content="OBSIDIAN :: Hugo Relearn Theme">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <title>Plugin Obsidian to Anki :: Hugo Relearn Theme</title>
+    <link href="http://localhost:1313/tuhoc/obsidian/plugin-obsidian-to-anki/index.html" rel="canonical" type="text/html" title="Plugin Obsidian to Anki :: Hugo Relearn Theme">
+    <link href="../../../tuhoc/obsidian/plugin-obsidian-to-anki/index.xml" rel="alternate" type="application/rss+xml" title="Plugin Obsidian to Anki :: Hugo Relearn Theme">
+    <link href="../../../images/logo.svg?1713858605" rel="icon" type="image/svg+xml">
+    
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../../css/fontawesome-all.min.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/nucleus.css?1713858606" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar.min.css?1713858606" rel="stylesheet">
+    <link href="../../../css/fonts.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/theme.css?1713858606" rel="stylesheet">
+    <link href="../../../css/theme-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-style">
+    <link href="../../../css/chroma-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="../../../css/variant.css?1713858606" rel="stylesheet">
+    <link href="../../../css/print.css?1713858606" rel="stylesheet" media="print">
+    <link href="../../../css/format-print.css?1713858606" rel="stylesheet">
+    <link href="../../../css/ie.css?1713858606" rel="stylesheet">
+    <script src="../../../js/url.js?1713858606"></script>
+    <script src="../../../js/variant.js?1713858606"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.index_js_url="../../../index.search.js";
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../../tuhoc/obsidian/plugin-obsidian-to-anki/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">TỰ HỌC</span><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">OBSIDIAN</span><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Plugin Obsidian to Anki</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+<div class=" taxonomy-tags term-list cstyle  tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <ul>
+    <li><a class="term-link" href="../../../tags/anki/index.html">Anki</a></li>
+    <li><a class="term-link" href="../../../tags/hoc/index.html">Hoc</a></li>
+    <li><a class="term-link" href="../../../tags/obsidian/index.html">Obsidian</a></li>
+  </ul>
+</div>
+            </header>
+<h1 id="plugin-obsidian-to-anki">Plugin Obsidian to Anki</h1>
+
+<p>1)Truy cập <a href="https://huggingface.co/" target="_blank">Huggingface</a> tạo tài khoản và lấy key API
+paste key vào templater
+2)Vào &ldquo;File and link&rdquo; enable &ldquo;Automatically update internal links&rdquo;
+3)Tạo folder &ldquo;assets&rdquo; attachment và set folder attachment
+4)Tạo folder template và set folder template
+5)Cài đặt plugin &ldquo;templater&rdquo;
+6)Tạo template để tra cứu từ vựng đồng thời thiết lập shortcut để thuận tiện cho việc tra cứu
+7)## Thiết lập kết nối giữa Obsidian và Anki</p>
+<ul>
+<li><input disabled="" type="checkbox"> Cài đặt Obsidian_to_Anki</li>
+<li><input disabled="" type="checkbox"> Thiết lập AnkiConnect (mã addon: 2055492159)</li>
+<li><input disabled="" type="checkbox"> Tạo note type phù hợp với các field tương ứng trên template</li>
+</ul>
+<h2 id="templater">Templater</h2>
+<div class="highlight wrap-code"><pre tabindex="0" class="chroma"><code class="language-JS" data-lang="JS"><span class="line"><span class="cl"><span class="c1">// Nhập API key
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">api_key</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Nhập folder attachment 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">attachment_folder</span> <span class="o">=</span> <span class="s2">&#34;Assets&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Nhập deck Anki để thêm từ vựng
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">deck</span> <span class="o">=</span> <span class="sb">`English`</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">fs</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;node:fs&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">model_audio</span> <span class="o">=</span> <span class="s2">&#34;https://api-inference.huggingface.co/models/espnet/kan-bayashi_ljspeech_vits&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">line</span> <span class="o">=</span> <span class="nx">removeLinks</span><span class="p">(</span><span class="nx">tp</span><span class="p">.</span><span class="nx">file</span><span class="p">.</span><span class="nx">content</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="s2">&#34;\n&#34;</span><span class="p">)[</span><span class="k">this</span><span class="p">.</span><span class="nx">app</span><span class="p">.</span><span class="nx">workspace</span><span class="p">.</span><span class="nx">activeEditor</span><span class="o">?</span><span class="p">.</span><span class="nx">editor</span><span class="p">.</span><span class="nx">getCursor</span><span class="p">().</span><span class="nx">line</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="s2">&#34;- &#34;</span><span class="p">,</span><span class="s2">&#34;&#34;</span><span class="p">).</span><span class="nx">trim</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">select</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">app</span><span class="p">.</span><span class="nx">workspace</span><span class="p">.</span><span class="nx">activeEditor</span><span class="o">?</span><span class="p">.</span><span class="nx">editor</span><span class="p">.</span><span class="nx">getSelection</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="k">this</span><span class="p">.</span><span class="nx">app</span><span class="p">.</span><span class="nx">workspace</span><span class="p">.</span><span class="nx">activeEditor</span><span class="o">?</span><span class="p">.</span><span class="nx">editor</span><span class="o">?</span><span class="p">.</span><span class="nx">replaceSelection</span><span class="p">(</span><span class="sb">`[[▲ </span><span class="si">${</span><span class="nx">select</span><span class="si">}</span><span class="sb">|`</span> <span class="o">+</span> <span class="nx">select</span> <span class="o">+</span> <span class="sb">`]]`</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// tra nghĩa của từ trong ngữ cảnh
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">definition</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">lookup</span><span class="p">(</span><span class="sb">`
+</span></span></span><span class="line"><span class="cl"><span class="sb">Sentence: </span><span class="si">${</span><span class="nx">line</span><span class="si">}</span><span class="sb">
+</span></span></span><span class="line"><span class="cl"><span class="sb">Word/ Phrase: </span><span class="si">${</span><span class="nx">select</span><span class="si">}</span><span class="sb">
+</span></span></span><span class="line"><span class="cl"><span class="sb">`</span>
+</span></span><span class="line"><span class="cl"><span class="p">,</span> <span class="s2">&#34;Definition&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Sau khi có được nghĩa của từ thì yêu cầu model dịch sang Tiếng Việt.
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Khả khăng xử lí ngôn ngữ Tiếng Việt còn nhiều hạn chế, nên có thể xóa function phí dưới để tăng tốc độ tra cứu.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">definition_vn</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">lookup</span><span class="p">(</span><span class="sb">`
+</span></span></span><span class="line"><span class="cl"><span class="sb">English: </span><span class="si">${</span><span class="nx">definition</span><span class="si">}</span><span class="sb">
+</span></span></span><span class="line"><span class="cl"><span class="sb">`</span>
+</span></span><span class="line"><span class="cl"><span class="p">,</span> <span class="s2">&#34;Translate into Vietnamese&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Yêu cầu model đặt câu ví dụ với nghĩa nhất định của từ 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">example</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">lookup</span><span class="p">(</span><span class="sb">`
+</span></span></span><span class="line"><span class="cl"><span class="sb">Word/ Phrase: </span><span class="si">${</span><span class="nx">select</span><span class="si">}</span><span class="sb">
+</span></span></span><span class="line"><span class="cl"><span class="sb">Definition: </span><span class="si">${</span><span class="nx">definition</span><span class="si">}</span><span class="sb">
+</span></span></span><span class="line"><span class="cl"><span class="sb">`</span>
+</span></span><span class="line"><span class="cl"><span class="p">,</span> <span class="s2">&#34;Example&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Dịch example tiếng Anh sang tiếng Việt.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">example_vn</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">lookup</span><span class="p">(</span><span class="sb">`
+</span></span></span><span class="line"><span class="cl"><span class="sb">English: </span><span class="si">${</span><span class="nx">example</span><span class="si">}</span><span class="sb">
+</span></span></span><span class="line"><span class="cl"><span class="sb">`</span>
+</span></span><span class="line"><span class="cl"><span class="p">,</span> <span class="s2">&#34;Translate into Vietnamese&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Yêu cầu model tra cứu IPA của từ (không phải lúc nào cũng chính xác)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">ipa</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">lookup</span><span class="p">(</span><span class="sb">`
+</span></span></span><span class="line"><span class="cl"><span class="sb">Word/ Phrase: </span><span class="si">${</span><span class="nx">select</span><span class="si">}</span><span class="sb">
+</span></span></span><span class="line"><span class="cl"><span class="sb">`</span>
+</span></span><span class="line"><span class="cl"><span class="p">,</span> <span class="s2">&#34;IPA&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Nội dung file trả về sau khi tra cứu xong, người dùng nên tùy chỉnh theo nhu cầu của bản thân
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Cú pháp: 
+</span></span></span><span class="line"><span class="cl"><span class="c1">// [Anki Field]: ${biến}
+</span></span></span><span class="line"><span class="cl"><span class="c1">// (await textToSpeech(text)) function này sẽ chuyển văn bản thành giọng nói (chỉ hỗ trợ tiếng Anh)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">template</span> <span class="o">=</span> <span class="sb">`
+</span></span></span><span class="line"><span class="cl"><span class="sb">English Vocab
+</span></span></span><span class="line"><span class="cl"><span class="sb">Word: </span><span class="si">${</span><span class="nx">select</span><span class="si">}</span><span class="sb">
+</span></span></span><span class="line"><span class="cl"><span class="sb">Definition: 
+</span></span></span><span class="line"><span class="cl"><span class="sb"></span><span class="si">${</span><span class="nx">definition</span><span class="si">}</span><span class="sb">  
+</span></span></span><span class="line"><span class="cl"><span class="sb">Vn:
+</span></span></span><span class="line"><span class="cl"><span class="sb"></span><span class="si">${</span><span class="nx">definition_vn</span><span class="si">}</span><span class="sb"> 
+</span></span></span><span class="line"><span class="cl"><span class="sb">IPA:
+</span></span></span><span class="line"><span class="cl"><span class="sb"></span><span class="si">${</span><span class="nx">ipa</span><span class="si">}</span><span class="sb">  
+</span></span></span><span class="line"><span class="cl"><span class="sb">Example: 
+</span></span></span><span class="line"><span class="cl"><span class="sb"></span><span class="si">${</span><span class="nx">example</span><span class="si">}</span><span class="sb">  
+</span></span></span><span class="line"><span class="cl"><span class="sb"></span><span class="si">${</span><span class="nx">example_vn</span><span class="si">}</span><span class="sb">  
+</span></span></span><span class="line"><span class="cl"><span class="sb">Audio: 
+</span></span></span><span class="line"><span class="cl"><span class="sb"></span><span class="si">${</span><span class="p">(</span><span class="kr">await</span> <span class="nx">textToSpeech</span><span class="p">(</span><span class="nx">select</span><span class="p">))</span><span class="si">}</span><span class="sb">
+</span></span></span><span class="line"><span class="cl"><span class="sb">Audio Example: 
+</span></span></span><span class="line"><span class="cl"><span class="sb"></span><span class="si">${</span><span class="p">(</span><span class="kr">await</span> <span class="nx">textToSpeech</span><span class="p">(</span><span class="nx">example</span><span class="p">))</span><span class="si">}</span><span class="sb">
+</span></span></span><span class="line"><span class="cl"><span class="sb">
+</span></span></span><span class="line"><span class="cl"><span class="sb">`</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">template</span> <span class="o">=</span> <span class="nx">template</span> <span class="o">+</span> <span class="sb">`TARGET DECK: </span><span class="si">${</span><span class="nx">deck</span><span class="si">}</span><span class="sb">\n`</span> <span class="o">+</span> <span class="s2">&#34;END\n&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">template</span> <span class="o">=</span> <span class="s2">&#34;START&#34;</span> <span class="o">+</span> <span class="nx">template</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">file</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">app</span><span class="p">.</span><span class="nx">vault</span><span class="p">.</span><span class="nx">getMarkdownFiles</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">			<span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="nx">f</span> <span class="p">=&gt;</span> <span class="nx">f</span><span class="p">.</span><span class="nx">path</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="s2">&#34;.md&#34;</span><span class="p">,</span><span class="s2">&#34;&#34;</span><span class="p">)</span> <span class="o">==</span> <span class="sb">`▲ </span><span class="si">${</span><span class="nx">select</span><span class="si">}</span><span class="sb">`</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nx">file</span><span class="p">.</span><span class="nx">length</span> <span class="o">!==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">this</span><span class="p">.</span><span class="nx">app</span><span class="p">.</span><span class="nx">vault</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="nx">file</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="nx">template</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kr">const</span> <span class="nx">newNote</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">app</span><span class="p">.</span><span class="nx">vault</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="sb">`▲ </span><span class="si">${</span><span class="nx">select</span><span class="si">}</span><span class="sb">.md`</span><span class="p">,</span> <span class="nx">template</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">async</span> <span class="kd">function</span> <span class="nx">lookup</span><span class="p">(</span><span class="nx">context</span><span class="p">,</span> <span class="nx">q</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">let</span> <span class="nx">prompt</span> <span class="o">=</span> <span class="nx">context</span> <span class="o">+</span> <span class="sb">`\n</span><span class="si">${</span><span class="nx">q</span><span class="si">}</span><span class="sb">:\n&gt;`</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">let</span> <span class="nx">res</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">query</span><span class="p">({</span><span class="s2">&#34;inputs&#34;</span><span class="o">:</span> <span class="nx">prompt</span><span class="p">})</span>
+</span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="p">(</span><span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="kd">let</span> <span class="nx">reg</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">RegExp</span><span class="p">(</span><span class="sb">`</span><span class="si">${</span><span class="nx">q</span><span class="si">}</span><span class="sb">:\n&gt;(.*?)\n`</span><span class="p">,</span><span class="s2">&#34;g&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="kd">let</span> <span class="nx">r</span> <span class="o">=</span> <span class="sb">`</span><span class="si">${</span><span class="nx">res</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s2">&#34;generated_text&#34;</span><span class="p">]</span><span class="si">}</span><span class="sb">\n`</span><span class="p">.</span><span class="nx">match</span><span class="p">(</span><span class="nx">reg</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="k">if</span> <span class="p">(</span><span class="nx">r</span><span class="p">)</span> <span class="k">return</span> <span class="nx">r</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/\n/g</span><span class="p">,</span><span class="s2">&#34;&#34;</span><span class="p">).</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/(.*?)\&gt;/g</span><span class="p">,</span><span class="s2">&#34;&#34;</span><span class="p">).</span><span class="nx">replace</span><span class="p">(</span><span class="s2">&#34;-&#34;</span><span class="p">,</span><span class="s2">&#34;&#34;</span><span class="p">).</span><span class="nx">trim</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">async</span> <span class="kd">function</span> <span class="nx">query</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kr">const</span> <span class="nx">response</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">fetch</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">		<span class="s2">&#34;https://api-inference.huggingface.co/models/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="nx">headers</span><span class="o">:</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl">                <span class="s2">&#34;Content-Type&#34;</span><span class="o">:</span> <span class="s2">&#34;application/json&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">Authorization</span><span class="o">:</span> <span class="s2">&#34;Bearer &#34;</span> <span class="o">+</span> <span class="nx">api_key</span> 
+</span></span><span class="line"><span class="cl">            <span class="p">},</span>
+</span></span><span class="line"><span class="cl">			<span class="nx">method</span><span class="o">:</span> <span class="s2">&#34;POST&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">			<span class="nx">body</span><span class="o">:</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">data</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="kr">const</span> <span class="nx">result</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="nx">result</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">removeLinks</span><span class="p">(</span><span class="nx">text</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">let</span> <span class="nx">links</span> <span class="o">=</span> <span class="nx">text</span><span class="p">.</span><span class="nx">match</span><span class="p">(</span><span class="sr">/\[\[(.*?)\]\]/g</span><span class="p">)</span> <span class="o">?</span> <span class="nx">text</span><span class="p">.</span><span class="nx">match</span><span class="p">(</span><span class="sr">/\[\[(.*?)\]\]/g</span><span class="p">)</span> <span class="o">:</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">let</span> <span class="nx">webs</span> <span class="o">=</span> <span class="nx">text</span><span class="p">.</span><span class="nx">match</span><span class="p">(</span><span class="sr">/\[(.*?)\]\((.*?)\)/g</span><span class="p">)</span> <span class="o">?</span> 
+</span></span><span class="line"><span class="cl">    <span class="nx">text</span><span class="p">.</span><span class="nx">match</span><span class="p">(</span><span class="sr">/\[(.*?)\]\((.*?)\)/g</span><span class="p">)</span> <span class="o">:</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">link</span> <span class="k">of</span> <span class="nx">links</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="kd">let</span> <span class="nx">x</span> <span class="o">=</span> <span class="nx">link</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/\[\[(.*?)\|/g</span><span class="p">,</span><span class="s2">&#34;&#34;</span><span class="p">).</span><span class="nx">replace</span><span class="p">(</span><span class="s2">&#34;]]&#34;</span><span class="p">,</span><span class="s2">&#34;&#34;</span><span class="p">).</span><span class="nx">replace</span><span class="p">(</span><span class="s2">&#34;[[&#34;</span><span class="p">,</span><span class="s2">&#34;&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="nx">text</span> <span class="o">=</span> <span class="nx">text</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="nx">link</span><span class="p">,</span> <span class="nx">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">web</span> <span class="k">of</span> <span class="nx">webs</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kd">let</span> <span class="nx">x</span> <span class="o">=</span> <span class="nx">web</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/\](.*?)\)/g</span><span class="p">,</span><span class="s2">&#34;&#34;</span><span class="p">).</span><span class="nx">replace</span><span class="p">(</span><span class="s2">&#34;\[&#34;</span><span class="p">,</span><span class="s2">&#34;&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">text</span> <span class="o">=</span> <span class="nx">text</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="nx">web</span><span class="p">,</span> <span class="nx">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nx">text</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">async</span> <span class="kd">function</span> <span class="nx">textToSpeech</span><span class="p">(</span><span class="nx">text</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">let</span> <span class="nx">id</span> <span class="o">=</span> <span class="nb">Date</span><span class="p">.</span><span class="nx">now</span><span class="p">()</span> <span class="o">+</span> <span class="nx">text</span><span class="p">.</span><span class="nx">length</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">query</span><span class="p">({</span><span class="s2">&#34;inputs&#34;</span><span class="o">:</span> <span class="nx">text</span><span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="kr">async</span> <span class="p">(</span><span class="nx">response</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nx">content</span> <span class="o">=</span> <span class="nx">Buffer</span><span class="p">.</span><span class="nx">from</span><span class="p">((</span><span class="kr">await</span> <span class="nx">response</span><span class="p">.</span><span class="nx">arrayBuffer</span><span class="p">()))</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nx">path</span> <span class="o">=</span> <span class="sb">`</span><span class="si">${</span><span class="k">this</span><span class="p">.</span><span class="nx">app</span><span class="p">.</span><span class="nx">vault</span><span class="p">.</span><span class="nx">adapter</span><span class="p">.</span><span class="nx">getBasePath</span><span class="p">()</span><span class="si">}</span><span class="sb">/</span><span class="si">${</span><span class="nx">attachment_folder</span><span class="si">}</span><span class="sb">/</span><span class="si">${</span><span class="nx">id</span><span class="si">}</span><span class="sb">.flac`</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">fs</span><span class="p">.</span><span class="nx">writeFile</span><span class="p">(</span><span class="nx">path</span><span class="p">,</span> <span class="nx">content</span><span class="p">,</span> <span class="nx">err</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">err</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}});</span>
+</span></span><span class="line"><span class="cl">    <span class="p">});</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="sb">`![[</span><span class="si">${</span><span class="nx">attachment_folder</span><span class="si">}</span><span class="sb">/</span><span class="si">${</span><span class="nx">id</span><span class="si">}</span><span class="sb">.flac]]`</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="kr">async</span> <span class="kd">function</span> <span class="nx">query</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">const</span> <span class="nx">response</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">fetch</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">model_audio</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">headers</span><span class="o">:</span> <span class="p">{</span> <span class="nx">Authorization</span><span class="o">:</span> <span class="s2">&#34;Bearer &#34;</span> <span class="o">+</span> <span class="nx">api_key</span>  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">method</span><span class="o">:</span> <span class="s2">&#34;POST&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">body</span><span class="o">:</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">data</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">const</span> <span class="nx">result</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">response</span><span class="p">.</span><span class="nx">blob</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nx">result</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+            <footer class="footline">
+<div class=" taxonomy-categories term-list cstyle  " title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="../../../categories/obsidian/index.html">Obsidian</a></li>
+  </ul>
+</div>
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="../../../js/clipboard.min.js?1713858606" defer></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1713858606" defer></script>
+    <script src="../../../js/theme.js?1713858606" defer></script>
+  </body>
+</html>

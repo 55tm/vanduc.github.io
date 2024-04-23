@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.124.1">
+    <meta name="generator" content="Relearn 5.26.2+tip">
+    <meta name="description" content="Documentation for Hugo Relearn Theme">
+    <meta name="author" content="Sören Weber">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/images/hero.png">
+    <meta name="twitter:title" content="Thêm Menu phụ :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách thêm menu phụ (menu lồng nhau) trong Hugo Website.
+Tổng quan Khi bạn tạo một trang web bằng cách sử dụng trình tạo trang web tĩnh Hugo, bạn thường hiển thị tiêu đề menu trên trang web và các trang khác. Đôi khi bạn cần một sự hỗ trợ cho cấu trúc menu lồng nhau mà không có sẵn với Hugo.">
+    <meta property="og:title" content="Thêm Menu phụ :: Hugo Relearn Theme">
+    <meta property="og:description" content="Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách thêm menu phụ (menu lồng nhau) trong Hugo Website.
+Tổng quan Khi bạn tạo một trang web bằng cách sử dụng trình tạo trang web tĩnh Hugo, bạn thường hiển thị tiêu đề menu trên trang web và các trang khác. Đôi khi bạn cần một sự hỗ trợ cho cấu trúc menu lồng nhau mà không có sẵn với Hugo.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://localhost:1313/design/hugo/them-menu-phu/index.html">
+    <meta property="og:image" content="http://localhost:1313/images/hero.png">
+    <meta property="article:section" content="HUGO :: Hugo Relearn Theme">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <title>Thêm Menu phụ :: Hugo Relearn Theme</title>
+    <link href="http://localhost:1313/design/hugo/them-menu-phu/index.html" rel="canonical" type="text/html" title="Thêm Menu phụ :: Hugo Relearn Theme">
+    <link href="../../../design/hugo/them-menu-phu/index.xml" rel="alternate" type="application/rss+xml" title="Thêm Menu phụ :: Hugo Relearn Theme">
+    <link href="../../../images/logo.svg?1713858605" rel="icon" type="image/svg+xml">
+    
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../../css/fontawesome-all.min.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/nucleus.css?1713858606" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar.min.css?1713858606" rel="stylesheet">
+    <link href="../../../css/fonts.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/theme.css?1713858606" rel="stylesheet">
+    <link href="../../../css/theme-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-style">
+    <link href="../../../css/chroma-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="../../../css/variant.css?1713858606" rel="stylesheet">
+    <link href="../../../css/print.css?1713858606" rel="stylesheet" media="print">
+    <link href="../../../css/format-print.css?1713858606" rel="stylesheet">
+    <link href="../../../css/ie.css?1713858606" rel="stylesheet">
+    <script src="../../../js/url.js?1713858606"></script>
+    <script src="../../../js/variant.js?1713858606"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.index_js_url="../../../index.search.js";
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../../design/hugo/them-menu-phu/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">DESIGN</span><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">HUGO</span><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Thêm Menu phụ</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+<div class=" taxonomy-tags term-list cstyle  tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <ul>
+    <li><a class="term-link" href="../../../tags/hoc/index.html">Hoc</a></li>
+    <li><a class="term-link" href="../../../tags/hugo/index.html">Hugo</a></li>
+    <li><a class="term-link" href="../../../tags/webdesign/index.html">WebDesign</a></li>
+  </ul>
+</div>
+            </header>
+<h1 id="thêm-menu-phụ">Thêm Menu phụ</h1>
+
+<p>Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách thêm menu phụ (menu lồng nhau) trong Hugo Website.</p>
+<h2 id="tổng-quan">Tổng quan</h2>
+<p>Khi bạn tạo một trang web bằng cách sử dụng trình tạo trang web tĩnh Hugo, bạn thường hiển thị tiêu đề menu trên trang web và các trang khác. Đôi khi bạn cần một sự hỗ trợ cho cấu trúc menu lồng nhau mà không có sẵn với Hugo.</p>
+<p>Bạn có thể làm theo các bước sau để hỗ trợ cấu trúc menu lồng nhau: -</p>
+<ol>
+<li>Cập nhật tệp <strong>config.toml</strong> để cung cấp cấu hình menu và menu con.</li>
+<li>Tạo <strong>layouts/partials/menu.html</strong> để tạo HTML từ cấu hình menu và menu con.</li>
+<li>Sử dụng <em>menu</em> một phần trong <strong>layouts/partials/header.html</strong> hoặc <strong>layouts/_defaults/baseof.html</strong> tùy thuộc vào chủ đề bạn đang sử dụng.</li>
+<li>Cuối cùng, bạn cần cập nhật tệp <strong>style.css</strong> của mình bằng CSS liên quan đến menu</li>
+</ol>
+<h2 id="làm-theo-các-bước--">Làm theo các bước: -</h2>
+<h3 id="cập-nhật-configtoml">Cập nhật <code>config.toml</code></h3>
+<p>Hãy cập nhật cấu hình menu và menu con để tạo cấu trúc menu lồng nhau như thế này:<code>config.toml</code></p>
+<p><a href="#R-image-625d6a0b2baebcd6ec2bbfe8a206397f" class="lightbox-link"><img alt="Hugo Nested Menu" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://codingnconcepts.com/img/hugo/hugo-nested-menu.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-625d6a0b2baebcd6ec2bbfe8a206397f"><img alt="Hugo Nested Menu" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://codingnconcepts.com/img/hugo/hugo-nested-menu.png"></a></p>
+<h6 id="cấu-hìnhtoml">cấu hình.toml</h6>
+<div class="highlight wrap-code"><pre tabindex="0"><code>...
+[menu]
+  [[menu.main]]
+    identifier = &#34;home&#34;
+    name = &#34;Home&#34;
+    url = &#34;/&#34;
+    weight = 1
+  [[menu.main]]
+    identifier = &#34;category&#34;
+    name = &#34;Category&#34;
+    url = &#34;/category&#34;
+    weight = 2
+  [[menu.main]]
+    identifier = &#34;category1&#34;
+    name = &#34;Category1&#34;
+    url = &#34;/tags/category1&#34;
+    parent = &#34;category&#34;
+    weight = 1
+  [[menu.main]]
+    identifier = &#34;category2&#34;
+    name = &#34;Category2&#34;
+    url = &#34;/tags/category2&#34;
+    parent = &#34;category&#34;
+    weight = 2
+  [[menu.main]]
+    identifier = &#34;category3&#34;
+    name = &#34;Category3&#34;
+    url = &#34;/tags/category3&#34;
+    parent = &#34;category&#34;
+    weight = 3
+  [[menu.main]]
+    identifier = &#34;another-category&#34;
+    name = &#34;Another Category&#34;
+    url = &#34;/another-category&#34;
+    weight = 3
+  [[menu.main]]
+    identifier = &#34;another-category1&#34;
+    name = &#34;Another Category1&#34;
+    url = &#34;/tags/another-category1&#34;
+    parent = &#34;another-category&#34;
+    weight = 1
+  [[menu.main]]
+    identifier = &#34;another-category2&#34;
+    name = &#34;Another Category2&#34;
+    url = &#34;/tags/another-category2&#34;
+    parent = &#34;another-category&#34;
+    weight = 2
+  [[menu.main]]
+    identifier = &#34;about&#34;
+    name = &#34;About Us&#34;
+    url = &#34;/about/&#34;
+    weight = 4</code></pre></div><p>Bạn nên hiểu từng trường theo:<code>[[menu.main]]</code></p>
+<ul>
+<li><strong>Mã định danh</strong> phải là tên duy nhất của menu trong cấu trúc menu. Nó được sử dụng để xác định menu, menu con và mối quan hệ của chúng bằng cách hugo nội bộ.</li>
+<li><strong>Tên</strong> phải là tên mà bạn muốn hiển thị trên mục menu.</li>
+<li><strong>url</strong> là một URL tương đối sẽ được mở khi bạn nhấp vào mục menu.</li>
+<li><strong>Trọng lượng</strong> là để sắp xếp trình tự các mục menu. Các mục menu có trọng lượng ít hơn sẽ xuất hiện đầu tiên trong menu. Tương tự cũng được áp dụng cho menu con, các mục menu con có trọng lượng nhỏ hơn xuất hiện đầu tiên trong menu thả xuống.</li>
+<li><strong>Cha mẹ</strong> chỉ được sử dụng trong mục menu con để cho biết ai là cha mẹ của menu con. Bạn sử dụng mã <em>định danh</em> của menu cha mẹ trong trường này.</li>
+</ul>
+<p>Bây giờ chúng ta sẽ sử dụng cấu hình menu và menu con từ tệp để tạo một phần của chúng ta như bên dưới:<code>config.toml``menu.html</code></p>
+<p>Đây là điều cơ bản nếu bạn muốn tạo menu của riêng mình từ đầu.<code>menu.html</code></p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>&amp;lt;nav class=&#34;nav&#34;&amp;gt;
+  &amp;lt;ul class=&#34;menu&#34;&amp;gt;
+    {{ range .Site.Menus.main }}
+    &amp;lt;li class=&#34;{{ if $currentPage.HasMenuCurrent &#34;main&#34; . }}active{{ end }}&#34;&amp;gt;
+      &amp;lt;span&amp;gt;{{ .Name }}&amp;lt;/span&amp;gt;
+      {{ if .HasChildren }}
+      &amp;lt;span class=&#34;drop-icon&#34; for=&#34;{{ .Name }}&#34;&amp;gt;▾&amp;lt;/span&amp;gt;
+      &amp;lt;ul class=&#34;sub-menu&#34;&amp;gt;
+        {{ range .Children }}
+        &amp;lt;li class=&#34;{{ if $currentPage.HasMenuCurrent &#34;main&#34; . }}active{{ end }}&#34;&amp;gt;
+            &amp;lt;span&amp;gt;{{ .Name }}&amp;lt;/span&amp;gt;
+        &amp;lt;/li&amp;gt;
+        {{ end }}
+      &amp;lt;/ul&amp;gt;
+      {{ end }}
+    &amp;lt;/li&amp;gt;
+    {{ end }}
+  &amp;lt;/ul&amp;gt;
+&amp;lt;/nav&amp;gt;</code></pre></div><p>Đây là trang web blog của tôi được tạo bằng Chủ đề Hugo Mainroad.<code>menu.html</code></p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>{{- if .Site.Menus.main }}
+&amp;lt;nav class=&#34;menu&#34;&amp;gt;
+  &amp;lt;button class=&#34;menu__btn&#34; aria-haspopup=&#34;true&#34; aria-expanded=&#34;false&#34; tabindex=&#34;0&#34;&amp;gt;
+    &amp;lt;span class=&#34;menu__btn-title&#34; tabindex=&#34;-1&#34;&amp;gt;{{ T &#34;menu_label&#34; }}&amp;lt;/span&amp;gt;
+  &amp;lt;/button&amp;gt;
+  &amp;lt;ul class=&#34;menu__list&#34;&amp;gt;
+    {{- $currentNode := . }}
+    {{- range .Site.Menus.main }}
+    {{- if .Name }}
+    {{- if .HasChildren }}
+    &amp;lt;li class=&#34;menu__item menu__dropdown{{ if or ($currentNode.IsMenuCurrent &#34;main&#34; .) ($currentNode.HasMenuCurrent &#34;main&#34; .) }} menu__item--active{{ end }}&#34;&amp;gt;
+      &amp;lt;a class=&#34;menu__link&#34; href=&#34;{{ .URL }}&#34;&amp;gt;
+        {{ .Pre }}
+        &amp;lt;span class=&#34;menu__text&#34;&amp;gt;{{ .Name }}&amp;lt;/span&amp;gt;
+        &amp;lt;label class=&#34;drop-icon&#34; for=&#34;{{ .Name }}&#34;&amp;gt;▾&amp;lt;/label&amp;gt;
+        {{ .Post }}
+      &amp;lt;/a&amp;gt;
+      &amp;lt;input type=&#34;checkbox&#34; id=&#34;{{ .Name }}&#34;&amp;gt;
+      &amp;lt;ul class=&#34;submenu__list&#34;&amp;gt;
+        {{ range .Children }}
+          &amp;lt;li class=&#34;menu__item{{ if or ($currentNode.IsMenuCurrent &#34;main&#34; .) ($currentNode.HasMenuCurrent &#34;main&#34; .) }} menu__item--active{{ end }}&#34;&amp;gt;
+          &amp;lt;a class=&#34;menu__link&#34; href=&#34;{{ .URL }}&#34;&amp;gt;
+            {{ .Pre }}
+            &amp;lt;span class=&#34;menu__text&#34;&amp;gt;{{ .Name }}&amp;lt;/span&amp;gt;
+            {{ .Post }}
+          &amp;lt;/a&amp;gt;
+          &amp;lt;/li&amp;gt;
+        {{ end }}
+      &amp;lt;/ul&amp;gt;
+    &amp;lt;/li&amp;gt;
+    {{- else }}
+    &amp;lt;li class=&#34;menu__item{{ if or ($currentNode.IsMenuCurrent &#34;main&#34; .) ($currentNode.HasMenuCurrent &#34;main&#34; .) }} menu__item--active{{ end }}&#34;&amp;gt;
+      &amp;lt;a class=&#34;menu__link&#34; href=&#34;{{ .URL }}&#34;&amp;gt;
+        {{ .Pre }}
+          &amp;lt;span class=&#34;menu__text&#34;&amp;gt;{{ .Name }}&amp;lt;/span&amp;gt;
+        {{ .Post }}
+      &amp;lt;/a&amp;gt;
+    &amp;lt;/li&amp;gt;
+    {{- end }}
+    {{- end }}
+    {{- end }}
+  &amp;lt;/ul&amp;gt;
+&amp;lt;/nav&amp;gt;
+{{ else -}}
+&amp;lt;div class=&#34;divider&#34;&amp;gt;&amp;lt;/div&amp;gt;
+{{- end }}</code></pre></div><p>Lưu ý rằng nếu bạn đang sử dụng chủ đề, thì bạn có thể đã có <em>menu.html</em> phần. Trong trường hợp đó, chỉ cần cập nhật một phần <em>menu.html</em> hiện có. Những điều cần lưu ý trong phần trên là sử dụng điều kiện để kiểm tra xem menu con có trẻ em hay không. Nếu nó có con trong menu con, thì chúng tôi lặp lại chúng thông qua việc sử dụng .<code>{{- if .HasChildren }}``{{ range .Children }}</code></p>
+<p>Ngoài ra, lưu ý rằng bạn có thể cần thêm các lớp vào các phần tử HTML theo chủ đề bạn đang sử dụng.</p>
+<p>Khi bạn tạo hoặc cập nhật , hãy nhập phần này vào một trong hai hoặc tùy thuộc vào chủ đề bạn đang sử dụng, nếu không được nhập.<code>layouts/partials/menu.html``layouts/partials/header.html``layouts/defaults/baseof.html</code></p>
+<h3 id="tạocập-nhật-staticcssstylecss">Tạo/Cập nhật <code>static/css/style.css</code></h3>
+<p>Đây là phần quan trọng nhất của cấu trúc menu lồng nhau. Tôi đã đấu tranh rất nhiều để tạo ra CSS phù hợp cho một phần trên. Đây là phần có liên quan của CSS mà bạn cần thêm vào CSS hiện tại của mình để cấu trúc menu lồng nhau hoạt động.<code>menu.html</code></p>
+<h6 id="tĩnhcssstylecss">tĩnh/css/style.css</h6>
+<div class="highlight wrap-code"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="c">/* Main menu */</span> <span class="p">.</span><span class="nc">no-js</span> <span class="p">.</span><span class="nc">menu__btn</span> <span class="p">{</span> <span class="k">display</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__btn</span> <span class="p">{</span> <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span> <span class="k">width</span><span class="p">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span> <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span> <span class="k">font</span><span class="p">:</span> <span class="kc">inherit</span><span class="p">;</span> <span class="k">color</span><span class="p">:</span> <span class="mh">#fff</span><span class="p">;</span> <span class="k">background</span><span class="p">:</span> <span class="mh">#2a2a2a</span><span class="p">;</span> <span class="k">border</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span> <span class="k">outline</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__btn-title</span> <span class="p">{</span> <span class="k">position</span><span class="p">:</span> <span class="kc">relative</span><span class="p">;</span> <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span> <span class="k">padding</span><span class="p">:</span> <span class="mi">10</span><span class="kt">px</span> <span class="mi">15</span><span class="kt">px</span><span class="p">;</span> <span class="k">padding</span><span class="p">:</span> <span class="mf">0.625</span><span class="kt">rem</span> <span class="mf">0.9375</span><span class="kt">rem</span><span class="p">;</span> <span class="k">font-weight</span><span class="p">:</span> <span class="mi">700</span><span class="p">;</span> <span class="k">text-align</span><span class="p">:</span> <span class="kc">right</span><span class="p">;</span> <span class="k">text-transform</span><span class="p">:</span> <span class="kc">uppercase</span><span class="p">;</span> <span class="k">cursor</span><span class="p">:</span> <span class="kc">pointer</span><span class="p">;</span> <span class="kp">-webkit-</span><span class="k">user-select</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="kp">-moz-</span><span class="k">user-select</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="kp">-ms-</span><span class="k">user-select</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="kp">-o-</span><span class="k">user-select</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="k">user-select</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="p">}</span> <span class="p">:</span><span class="nd">focus</span> <span class="o">&gt;</span> <span class="p">.</span><span class="nc">menu__btn-title</span> <span class="p">{</span> <span class="k">box-shadow</span><span class="p">:</span> <span class="kc">inset</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">1</span><span class="kt">px</span> <span class="mi">3</span><span class="kt">px</span> <span class="mh">#e22d30</span><span class="p">;</span> <span class="p">}</span> <span class="nt">button</span><span class="p">:</span><span class="nd">not</span><span class="o">(</span><span class="p">:</span><span class="nd">-moz-focusring</span><span class="o">)</span><span class="p">:</span><span class="nd">focus</span> <span class="o">&gt;</span> <span class="p">.</span><span class="nc">menu__btn-title</span> <span class="p">{</span> <span class="k">box-shadow</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__btn</span><span class="p">:</span><span class="nd">focus</span><span class="o">,</span> <span class="p">.</span><span class="nc">menu__btn-title</span><span class="p">:</span><span class="nd">focus</span> <span class="p">{</span> <span class="k">outline</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">js</span> <span class="p">.</span><span class="nc">menu__btn--active</span> <span class="p">{</span> <span class="k">color</span><span class="p">:</span> <span class="mh">#e22d30</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__list</span><span class="o">,</span> <span class="p">.</span><span class="nc">submenu__list</span> <span class="p">{</span> <span class="k">list-style</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="k">background</span><span class="p">:</span> <span class="mh">#2a2a2a</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__item</span> <span class="p">{</span> <span class="k">transition</span><span class="p">:</span> <span class="k">background-color</span> <span class="mf">.25</span><span class="kt">s</span> <span class="kc">ease-out</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__item</span><span class="p">:</span><span class="nd">hover</span> <span class="o">&gt;</span> <span class="nt">a</span> <span class="p">{</span> <span class="k">color</span><span class="p">:</span> <span class="mh">#ffa500</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__item</span><span class="p">:</span><span class="nd">first-child</span> <span class="p">{</span> <span class="k">border</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__item--active</span> <span class="p">{</span> <span class="k">background</span><span class="p">:</span> <span class="mh">#e22d30</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__link</span> <span class="p">{</span> <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span> <span class="k">padding</span><span class="p">:</span> <span class="mi">10</span><span class="kt">px</span> <span class="mi">15</span><span class="kt">px</span><span class="p">;</span> <span class="k">padding</span><span class="p">:</span> <span class="mf">0.625</span><span class="kt">rem</span> <span class="mf">0.9375</span><span class="kt">rem</span><span class="p">;</span> <span class="k">font-weight</span><span class="p">:</span> <span class="mi">700</span><span class="p">;</span> <span class="k">color</span><span class="p">:</span> <span class="mh">#fff</span><span class="p">;</span> <span class="k">text-transform</span><span class="p">:</span> <span class="kc">uppercase</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__list</span> <span class="p">.</span><span class="nc">menu__item</span> <span class="p">.</span><span class="nc">submenu__list</span> <span class="p">{</span> <span class="k">background</span><span class="p">:</span> <span class="mh">#2a2a2a</span><span class="p">;</span> <span class="k">visibility</span><span class="p">:</span> <span class="kc">hidden</span><span class="p">;</span> <span class="k">opacity</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span> <span class="k">position</span><span class="p">:</span> <span class="kc">absolute</span><span class="p">;</span> <span class="k">max-width</span><span class="p">:</span> <span class="mi">15</span><span class="kt">rem</span><span class="p">;</span> <span class="k">transition</span><span class="p">:</span> <span class="kc">all</span> <span class="mf">0.5</span><span class="kt">s</span> <span class="kc">ease</span><span class="p">;</span> <span class="k">border-top</span><span class="p">:</span> <span class="mi">5</span><span class="kt">px</span> <span class="kc">solid</span> <span class="mh">#e22d30</span><span class="p">;</span> <span class="k">display</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__item</span><span class="p">.</span><span class="nc">menu__dropdown</span> <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;checkbox&#34;</span><span class="o">]</span> <span class="p">{</span> <span class="k">display</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__list</span> <span class="p">.</span><span class="nc">menu__item</span><span class="p">:</span><span class="nd">hover</span> <span class="o">&gt;</span> <span class="p">.</span><span class="nc">submenu__list</span><span class="o">,</span> <span class="p">.</span><span class="nc">menu__list</span> <span class="p">.</span><span class="nc">menu__item</span><span class="p">:</span><span class="nd">focus-within</span> <span class="o">&gt;</span> <span class="p">.</span><span class="nc">submenu__list</span><span class="o">,</span> <span class="p">.</span><span class="nc">menu__list</span> <span class="p">.</span><span class="nc">menu__item</span> <span class="p">.</span><span class="nc">submenu__list</span><span class="p">:</span><span class="nd">hover</span><span class="o">,</span> <span class="p">.</span><span class="nc">menu__list</span> <span class="p">.</span><span class="nc">menu__item</span> <span class="p">.</span><span class="nc">submenu__list</span><span class="p">:</span><span class="nd">focus</span> <span class="p">{</span> <span class="k">visibility</span><span class="p">:</span> <span class="kc">visible</span><span class="p">;</span> <span class="k">opacity</span><span class="p">:</span> <span class="mi">1</span><span class="p">;</span> <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__link</span><span class="p">:</span><span class="nd">hover</span> <span class="p">{</span> <span class="k">color</span><span class="p">:</span> <span class="mh">#fff</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">js</span> <span class="p">.</span><span class="nc">menu__list</span> <span class="p">{</span> <span class="k">position</span><span class="p">:</span> <span class="kc">absolute</span><span class="p">;</span> <span class="k">z-index</span><span class="p">:</span> <span class="mi">1</span><span class="p">;</span> <span class="k">width</span><span class="p">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span> <span class="k">visibility</span><span class="p">:</span> <span class="kc">hidden</span><span class="p">;</span> <span class="kp">-webkit-</span><span class="k">transform</span><span class="p">:</span> <span class="nb">scaleY</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span> <span class="k">transform</span><span class="p">:</span> <span class="nb">scaleY</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span> <span class="kp">-webkit-</span><span class="k">transform-origin</span><span class="p">:</span> <span class="kc">top</span> <span class="kc">left</span><span class="p">;</span> <span class="k">transform-origin</span><span class="p">:</span> <span class="kc">top</span> <span class="kc">left</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">js</span> <span class="p">.</span><span class="nc">menu__list--active</span> <span class="p">{</span> <span class="k">visibility</span><span class="p">:</span> <span class="kc">visible</span><span class="p">;</span> <span class="k">border-top</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">);</span> <span class="k">border-bottom</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">);</span> <span class="kp">-webkit-</span><span class="k">transform</span><span class="p">:</span> <span class="nb">scaleY</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span> <span class="k">transform</span><span class="p">:</span> <span class="nb">scaleY</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__list--transition</span> <span class="p">{</span> <span class="k">transition</span><span class="p">:</span> <span class="k">visibility</span> <span class="mf">0.15</span><span class="kt">s</span> <span class="kc">ease</span><span class="p">,</span> <span class="k">transform</span> <span class="mf">0.15</span><span class="kt">s</span> <span class="kc">ease</span><span class="p">,</span> <span class="kp">-webkit-</span><span class="k">transform</span> <span class="mf">0.15</span><span class="kt">s</span> <span class="kc">ease</span><span class="p">;</span> <span class="p">}</span> <span class="p">@</span><span class="k">media</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">min-width</span><span class="o">:</span> <span class="nt">767px</span><span class="o">)</span> <span class="p">{</span> <span class="p">.</span><span class="nc">menu</span> <span class="p">{</span> <span class="k">border-bottom</span><span class="p">:</span> <span class="mi">5</span><span class="kt">px</span> <span class="kc">solid</span> <span class="mh">#e22d30</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__btn</span> <span class="p">{</span> <span class="k">display</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__list</span><span class="o">,</span> <span class="p">.</span><span class="nc">js</span> <span class="p">.</span><span class="nc">menu__list</span> <span class="p">{</span> <span class="k">position</span><span class="p">:</span> <span class="kc">relative</span><span class="p">;</span> <span class="k">display</span><span class="p">:</span> <span class="kp">-webkit-</span><span class="kc">flex</span><span class="p">;</span> <span class="k">display</span><span class="p">:</span> <span class="kc">flex</span><span class="p">;</span> <span class="kp">-webkit-</span><span class="k">flex-wrap</span><span class="p">:</span> <span class="kc">wrap</span><span class="p">;</span> <span class="k">flex-wrap</span><span class="p">:</span> <span class="kc">wrap</span><span class="p">;</span> <span class="k">visibility</span><span class="p">:</span> <span class="kc">visible</span><span class="p">;</span> <span class="k">border</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span> <span class="kp">-webkit-</span><span class="k">transform</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="k">transform</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__item</span> <span class="p">{</span> <span class="k">border-left</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">);</span> <span class="p">}</span> <span class="p">}</span> <span class="p">@</span><span class="k">media</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">max-width</span><span class="o">:</span> <span class="nt">767px</span><span class="o">)</span> <span class="p">{</span> <span class="p">.</span><span class="nc">menu__item</span><span class="p">.</span><span class="nc">menu__dropdown</span> <span class="p">.</span><span class="nc">drop-icon</span> <span class="p">{</span> <span class="k">position</span><span class="p">:</span> <span class="kc">absolute</span><span class="p">;</span> <span class="k">right</span><span class="p">:</span> <span class="mi">1</span><span class="kt">rem</span><span class="p">;</span> <span class="k">top</span><span class="p">:</span> <span class="kc">auto</span><span class="p">;</span> <span class="k">width</span><span class="p">:</span> <span class="mi">50</span><span class="kt">%</span><span class="p">;</span> <span class="k">text-align</span><span class="p">:</span> <span class="kc">right</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__item</span><span class="p">.</span><span class="nc">menu__dropdown</span> <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;checkbox&#34;</span><span class="o">]</span> <span class="o">+</span> <span class="p">.</span><span class="nc">submenu__list</span> <span class="p">{</span> <span class="k">display</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__item</span><span class="p">.</span><span class="nc">menu__dropdown</span> <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;checkbox&#34;</span><span class="o">]</span><span class="p">:</span><span class="nd">checked</span> <span class="o">+</span> <span class="p">.</span><span class="nc">submenu__list</span> <span class="p">{</span> <span class="k">border</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="k">padding-left</span><span class="p">:</span> <span class="mi">20</span><span class="kt">px</span><span class="p">;</span> <span class="k">visibility</span><span class="p">:</span> <span class="kc">visible</span><span class="p">;</span> <span class="k">opacity</span><span class="p">:</span> <span class="mi">1</span><span class="p">;</span> <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span> <span class="k">position</span><span class="p">:</span> <span class="kc">relative</span><span class="p">;</span> <span class="k">max-width</span><span class="p">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span> <span class="p">}</span> <span class="p">}</span> <span class="p">@</span><span class="k">media</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">max-width</span><span class="o">:</span> <span class="nt">620px</span><span class="o">)</span> <span class="p">{</span> <span class="p">.</span><span class="nc">menu__item</span><span class="p">.</span><span class="nc">menu__dropdown</span> <span class="p">.</span><span class="nc">drop-icon</span> <span class="p">{</span> <span class="k">position</span><span class="p">:</span> <span class="kc">absolute</span><span class="p">;</span> <span class="k">right</span><span class="p">:</span> <span class="mi">1</span><span class="kt">rem</span><span class="p">;</span> <span class="k">top</span><span class="p">:</span> <span class="kc">auto</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__item</span><span class="p">.</span><span class="nc">menu__dropdown</span> <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;checkbox&#34;</span><span class="o">]</span> <span class="o">+</span> <span class="p">.</span><span class="nc">submenu__list</span> <span class="p">{</span> <span class="k">display</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="p">}</span> <span class="p">.</span><span class="nc">menu__item</span><span class="p">.</span><span class="nc">menu__dropdown</span> <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;checkbox&#34;</span><span class="o">]</span><span class="p">:</span><span class="nd">checked</span> <span class="o">+</span> <span class="p">.</span><span class="nc">submenu__list</span> <span class="p">{</span> <span class="k">border</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span> <span class="k">padding-left</span><span class="p">:</span> <span class="mi">20</span><span class="kt">px</span><span class="p">;</span> <span class="k">visibility</span><span class="p">:</span> <span class="kc">visible</span><span class="p">;</span> <span class="k">opacity</span><span class="p">:</span> <span class="mi">1</span><span class="p">;</span> <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span> <span class="k">position</span><span class="p">:</span> <span class="kc">relative</span><span class="p">;</span> <span class="k">max-width</span><span class="p">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span> <span class="p">}</span> <span class="p">}</span></span></span></code></pre></div><p>Nhập CSS này vào một trong hai hoặc tùy thuộc vào chủ đề bạn đang sử dụng, nếu không được nhập.<code>layouts/partials/header.html``layouts/defaults/baseof.html</code></p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>{{ $style := resources.Get &#34;css/style.css&#34; | resources.ExecuteAsTemplate &#34;css/style.css&#34; . -}}</code></pre></div><p>Nếu bạn không có javascript trong chủ đề hiện tại của mình, thì hãy sử dụng javascript này thay thế: -<code>menu.js</code></p>
+<div class="highlight wrap-code"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="s1">&#39;use strict&#39;</span><span class="p">;</span> <span class="p">(</span><span class="kd">function</span> <span class="nx">iifeMenu</span><span class="p">(</span><span class="nb">document</span><span class="p">,</span> <span class="nb">window</span><span class="p">,</span> <span class="kc">undefined</span><span class="p">)</span> <span class="p">{</span> <span class="kd">var</span> <span class="nx">menuBtn</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;.menu__btn&#39;</span><span class="p">);</span> <span class="kd">var</span> <span class="nx">menu</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;.menu__list&#39;</span><span class="p">);</span> <span class="kd">function</span> <span class="nx">toggleMenu</span><span class="p">()</span> <span class="p">{</span> <span class="nx">menu</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">toggle</span><span class="p">(</span><span class="s1">&#39;menu__list--active&#39;</span><span class="p">);</span> <span class="nx">menu</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">toggle</span><span class="p">(</span><span class="s1">&#39;menu__list--transition&#39;</span><span class="p">);</span> <span class="k">this</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">toggle</span><span class="p">(</span><span class="s1">&#39;menu__btn--active&#39;</span><span class="p">);</span> <span class="k">this</span><span class="p">.</span><span class="nx">setAttribute</span><span class="p">(</span> <span class="s1">&#39;aria-expanded&#39;</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">getAttribute</span><span class="p">(</span><span class="s1">&#39;aria-expanded&#39;</span><span class="p">)</span> <span class="o">===</span> <span class="s1">&#39;true&#39;</span> <span class="o">?</span> <span class="s1">&#39;false&#39;</span> <span class="o">:</span> <span class="s1">&#39;true&#39;</span> <span class="p">);</span> <span class="p">}</span> <span class="kd">function</span> <span class="nx">removeMenuTransition</span><span class="p">()</span> <span class="p">{</span> <span class="k">this</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">remove</span><span class="p">(</span><span class="s1">&#39;menu__list--transition&#39;</span><span class="p">);</span> <span class="p">}</span> <span class="k">if</span> <span class="p">(</span><span class="nx">menuBtn</span> <span class="o">&amp;&amp;</span> <span class="nx">menu</span><span class="p">)</span> <span class="p">{</span> <span class="nx">menuBtn</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="nx">toggleMenu</span><span class="p">,</span> <span class="kc">false</span><span class="p">);</span> <span class="nx">menu</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;transitionend&#39;</span><span class="p">,</span> <span class="nx">removeMenuTransition</span><span class="p">,</span> <span class="kc">false</span><span class="p">);</span> <span class="p">}</span> <span class="p">}(</span><span class="nb">document</span><span class="p">,</span> <span class="nb">window</span><span class="p">));</span></span></span></code></pre></div><p>Nhập JS này vào một trong hai hoặc tùy thuộc vào chủ đề bạn đang sử dụng, nếu không được nhập.<code>layouts/partials/header.html``layouts/defaults/baseof.html</code></p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>&amp;lt;script async defer src=&#34;{{ &#34;js/menu.js&#34; | relURL }}&#34;&amp;gt;&amp;lt;/script&amp;gt;</code></pre></div><p>Xin lưu ý rằng tôi đã giữ các tệp CSS và JS trong thư mục tĩnh. Đây là cách chúng tôi chỉ định điều đó trong cấu hình: -<code>config.toml</code></p>
+<h6 id="cấu-hìnhtoml-1">cấu hình.toml</h6>
+<div class="highlight wrap-code"><pre tabindex="0"><code>assetDir = &#34;static&#34;</code></pre></div><p>Bây giờ giả sử bạn đã tạo cấu trúc menu và menu con và bây giờ muốn ánh xạ các bài đăng của bạn trong mỗi menu và menu con. Tôi thường làm điều đó bằng cách sử dụng các thẻ.</p>
+<p>Giả sử, tôi muốn ánh xạ các bài đăng của mình trong <em>Danh mục</em> ➞ <em>Thể loại1</em>, tôi làm điều đó bằng cách thêm thẻ ở phía trước như thế này:</p>
+<h6 id="myblogpostmd">myblogpost.md</h6>
+<div class="highlight wrap-code"><pre tabindex="0"><code>---
+tags:
+  - &#34;category1&#34;
+---</code></pre></div><p>Bây giờ Hugo sẽ ánh xạ bạn đăng lên URL. Bạn có thể sử dụng URL này để ánh xạ menu con trong <code>/tags/category1``config.toml</code></p>
+<h6 id="cấu-hìnhtoml-2">cấu hình.toml</h6>
+<div class="highlight wrap-code"><pre tabindex="0"><code>  [[menu.main]]
+    identifier = &#34;category1&#34;
+    name = &#34;Category1&#34;
+    url = &#34;/tags/category1&#34;
+    parent = &#34;category&#34;
+    weight = 1</code></pre></div><h2 id="kết-thúc">Kết thúc</h2>
+<p>Xin lưu ý rằng tôi hiện đang sử dụng <strong>Hugo Mainroad Theme</strong> vì vậy ví dụ này sẽ chỉ hoạt động tốt cho chủ đề Mainroad. Đối với các chủ đề khác, bạn cần nỗ lực thêm về mặt tạo <em>menu.html</em> CSS một phần và phù hợp cho cấu trúc menu lồng nhau. Tôi hy vọng hướng dẫn này sẽ cung cấp cho bạn ý tưởng cơ bản về hướng bạn cần đi.</p>
+<p>Vui lòng bình luận trong trường hợp bạn tìm thấy bất kỳ vấn đề nào để làm theo hướng dẫn. Cảm ơn bạn đã đọc.</p>
+
+            <footer class="footline">
+<div class=" taxonomy-categories term-list cstyle  " title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="../../../categories/hugo/index.html">Hugo</a></li>
+  </ul>
+</div>
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="../../../js/clipboard.min.js?1713858606" defer></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1713858606" defer></script>
+    <script src="../../../js/theme.js?1713858606" defer></script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anki on Hugo Relearn Theme</title>
+    <link>https://example.com/categories/anki/index.html</link>
+    <description>Recent content in Anki on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://example.com/categories/anki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cách thêm nhanh thẻ tự vựng</title>
+      <link>https://example.com/tuhoc/anki/c%C3%A1ch-th%C3%AAm-h%C3%A0ng-tr%C4%83m-th%E1%BA%BB-t%E1%BB%AB-v%E1%BB%B1ng-anki-trong-v%C3%A0i-ph%C3%BAt--facebook/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/anki/c%C3%A1ch-th%C3%AAm-h%C3%A0ng-tr%C4%83m-th%E1%BA%BB-t%E1%BB%AB-v%E1%BB%B1ng-anki-trong-v%C3%A0i-ph%C3%BAt--facebook/index.html</guid>
+      <description>Excerpt Cách thêm hàng trăm thẻ từ vựng Anki trong vài phútDành cho người lười hoặc muốn làm thẻ nhanh để đỡ tốn thời gian Các ngôn ngữ hiện hỗ trợ : Anh, Việt, Pháp, NhậtCái add-ons này sẽ tiết kiệm rất nhiều thời gian của mọi người (đặc biệt là người mới, đang ngồi bục mặt ra làm thẻ Anki.Mình chỉ mới tìm ra nó thôi nhưng hiệu quả của nó có thể khiến mình ngỡ ngàng và dâng trào hạnh phúc (đỡ phải cực nhọc làm thẻ chứ sao :)))))))) Áp dụng cho ai có laptop hay máy bàn nha Bạn nào chỉ xài điện thoại có thể dành vài phút ở quán nét làm cũng lẹ lắm.</description>
+    </item>
+    <item>
+      <title>Cài Win từ WinPE</title>
+      <link>https://example.com/tips-pc/cai-win-tu-winpe/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tips-pc/cai-win-tu-winpe/index.html</guid>
+      <description>Đã có rất nhiều bài viết mà blogchiasekienthuc.com giới thiệu và hướng dẫn cho các bạn cách cài lại windows cho máy tính, nhưng có vẻ như chừng đó vẫn chưa đủ 😀
+Thú thật là với các bạn là phải viết blog hướng dẫn như mình thì các bạn mới biết được lắm yêu cầu phát sinh như thế nào, mỗi người một ý thích và mỗi người một câu hỏi khác nhau trong cùng một chủ đề.</description>
+    </item>
+    <item>
+      <title>Dùng AI soạn Từ vựng</title>
+      <link>https://example.com/tuhoc/anki/dung-ai-soan-tu-vung/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/anki/dung-ai-soan-tu-vung/index.html</guid>
+      <description>Hugging Face API Truy cập Huggingface tạo tài khoản và lấy key API Thiết lập cơ bản trên Obsidian Automatically update internal links Tạo folder attachment và set folder attachment Tạo folder template và set folder template Cài đặt plugin templater Tạo template để tra cứu từ vựng đồng thời thiết lập shortcut để thuận tiện cho việc tra cứu Thiết lập kết nối giữa Obsidian và Anki Cài đặt Obsidian_to_Anki Thiết lập AnkiConnect (mã addon: 2055492159) Tạo note type phù hợp với các field tương ứng trên template Templater // Nhập API key const api_key = &amp;#34;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&amp;#34; // Nhập folder attachment const attachment_folder = &amp;#34;Assets&amp;#34; // Nhập deck Anki để thêm từ vựng const deck = `English` const fs = require(&amp;#39;node:fs&amp;#39;) const model_audio = &amp;#34;https://api-inference.</description>
+    </item>
+    <item>
+      <title>Dùng Google Sheet</title>
+      <link>https://example.com/tuhoc/anki/dung-google-sheet/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/anki/dung-google-sheet/index.html</guid>
+      <description>Google Docs được tích hợp thêm một số tính năng mới hỗ trợ người dùng có thể dịch ngôn ngữ ở từng cell trên bảng tính sang một ngôn ngữ khác hoặc phát hiện ngôn ngữ cụ thể được sử dụng trong một bảng tính.
+Để dịch ngôn ngữ ở từng cell trên bảng tính sang một ngôn ngữ khác, bạn sử dụng hàm dưới đây:
+=GOOGLETRANSLATE(&amp;#34;văn bản cần dịch&amp;#34;; &amp;#34;ngôn ngữ nguồn&amp;#34;;&amp;#34;ngôn ngữ đích&amp;#34;)=GOOGLETRANSLATE(B64;&amp;#34;en&amp;#34;;&amp;#34;vi&amp;#34;)Sử dụng GoogleTranslate cùng hàm ImportFeed Dưới đây là ảnh động miêu tả cách sử dụng hàm Google Translate trong một bảng tính (cùng ImportFeed) để dịch feed từ ngôn ngữ khác sang ngôn ngữ của bạn.</description>
+    </item>
+    <item>
+      <title>Một mẹo nhỏ</title>
+      <link>https://example.com/tuhoc/anki/mot-meo-nho/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/anki/mot-meo-nho/index.html</guid>
+      <description>Một mẹo nhỏ cho các bạn muốn tải file mp3 phát âm của một từ tiếng Anh nào đó (dân làm flashcard chắc rất thích cái này)
+Click chuột phải vào một chỗ bất kỳ trên trang, chọn view page source.
+Chọn ctrl + F, gõ &amp;ldquo;.mp3&amp;rdquo; vào, sẽ ra link file audio của từ&#39;
+CÁCH 2: Cách tải file audio phát âm từ Google:
+Những file audio phát âm này có định dạng MP3, và bạn có thể trực tiếp truy cập chúng mà không cần sử dụng Google Search trước.</description>
+    </item>
+    <item>
+      <title>Tạo từ mới Anki</title>
+      <link>https://example.com/tuhoc/anki/t%E1%BA%A1o-t%E1%BB%AB-m%E1%BB%9Bi-anki/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/anki/t%E1%BA%A1o-t%E1%BB%AB-m%E1%BB%9Bi-anki/index.html</guid>
+      <description>Hướng dẫn cách tạo danh sách từ mới và làm bộ thẻ từ vựng chi tiết từ bài đọc một cách tự động.
+Chào các bạn, lại là mình, chàng trai tóc vàng cô đơn lúc đêm muộn, ngồi học tiếng Anh đây.
+Trong video dưới đây, mình xin chia sẻ cho các bạn một cách để cho máy tính giúp mình lọc ra danh sách từ mới đáng học từ bài đọc (dù bài dài hàng nghìn chữ), sau đó máy tính tự động giúp ta tra cứu và chép lại định nghĩa tiếng Anh của từng từ một, từ những nguồn uy tín như từ điển Oxford, Cambridge, Merriam-Webster.</description>
+    </item>
+    <item>
+      <title>Tạo USB nhiều chức năng</title>
+      <link>https://example.com/tips-pc/tao-usb-day-du-chuc-nang/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tips-pc/tao-usb-day-du-chuc-nang/index.html</guid>
+      <description>Bài viết này mình sẽ hướng dẫn chi tiết cho các bạn cách tạo một chiếc USB BOOT đầy đủ chức năng, và bản này là bản cải tiến của tác giả TranDuyLinh đã chia sẻ cho cộng đồng.
+Mình sẽ hướng dẫn chi tiết nhất (bằng hình ảnh ) để tạo một chiếc USB BOOT có đầy đủ chức năng và hỗ trợ các dòng máy tính đời mới chuẩn UEFI đảm bảo bạn sẽ hài lòng.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.124.1">
+    <meta name="generator" content="Relearn 5.26.2+tip">
+    <meta name="description" content="Documentation for Hugo Relearn Theme">
+    <meta name="author" content="Sören Weber">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/images/hero.png">
+    <meta name="twitter:title" content="Hướng dẫn cài đặt Wordpress :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="Hướng Dẫn Cài Đặt Wordpress Trên Localhost Chi Tiết Excerpt Hướng dẫn cài đặt WordPress trên localhost sử dụng Ampps, cách cài WordPress trên localhost hướng dẫn bằng hình ảnh rất chi tiết.
+Ở bài trước mình đã hướng dẫn cách tạo localhost với AMPPS trên máy tính rồi (nếu chưa biết bạn cần phải đọc bài đó trước). Tiếp theo, bài viết này mình sẽ hướng dẫn cách cài đặt WordPress trên localhost để khởi tạo một website WordPress trên máy tính.">
+    <meta property="og:title" content="Hướng dẫn cài đặt Wordpress :: Hugo Relearn Theme">
+    <meta property="og:description" content="Hướng Dẫn Cài Đặt Wordpress Trên Localhost Chi Tiết Excerpt Hướng dẫn cài đặt WordPress trên localhost sử dụng Ampps, cách cài WordPress trên localhost hướng dẫn bằng hình ảnh rất chi tiết.
+Ở bài trước mình đã hướng dẫn cách tạo localhost với AMPPS trên máy tính rồi (nếu chưa biết bạn cần phải đọc bài đó trước). Tiếp theo, bài viết này mình sẽ hướng dẫn cách cài đặt WordPress trên localhost để khởi tạo một website WordPress trên máy tính.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://localhost:1313/design/wordpress/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-wordpress-tr%C3%AAn-localhost-chi-ti%E1%BA%BFt/index.html">
+    <meta property="og:image" content="http://localhost:1313/images/hero.png">
+    <meta property="article:section" content="WORDPRESS :: Hugo Relearn Theme">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <title>Hướng dẫn cài đặt Wordpress :: Hugo Relearn Theme</title>
+    <link href="http://localhost:1313/design/wordpress/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-wordpress-tr%C3%AAn-localhost-chi-ti%E1%BA%BFt/index.html" rel="canonical" type="text/html" title="Hướng dẫn cài đặt Wordpress :: Hugo Relearn Theme">
+    <link href="../../../design/wordpress/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-wordpress-tr%C3%AAn-localhost-chi-ti%E1%BA%BFt/index.xml" rel="alternate" type="application/rss+xml" title="Hướng dẫn cài đặt Wordpress :: Hugo Relearn Theme">
+    <link href="../../../images/logo.svg?1713858605" rel="icon" type="image/svg+xml">
+    
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../../css/fontawesome-all.min.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/nucleus.css?1713858606" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar.min.css?1713858606" rel="stylesheet">
+    <link href="../../../css/fonts.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../../css/theme.css?1713858606" rel="stylesheet">
+    <link href="../../../css/theme-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-style">
+    <link href="../../../css/chroma-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="../../../css/variant.css?1713858606" rel="stylesheet">
+    <link href="../../../css/print.css?1713858606" rel="stylesheet" media="print">
+    <link href="../../../css/format-print.css?1713858606" rel="stylesheet">
+    <link href="../../../css/ie.css?1713858606" rel="stylesheet">
+    <script src="../../../js/url.js?1713858606"></script>
+    <script src="../../../js/variant.js?1713858606"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.index_js_url="../../../index.search.js";
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../../design/wordpress/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-wordpress-tr%C3%AAn-localhost-chi-ti%E1%BA%BFt/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">DESIGN</span><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">WORDPRESS</span><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Hướng dẫn cài đặt Wordpress</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+<div class=" taxonomy-tags term-list cstyle  tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <ul>
+    <li><a class="term-link" href="../../../tags/webdesign/index.html">WebDesign</a></li>
+    <li><a class="term-link" href="../../../tags/wordpress/index.html">Wordpress</a></li>
+  </ul>
+</div>
+            </header>
+<h1 id="hướng-dẫn-cài-đặt-wordpress">Hướng dẫn cài đặt Wordpress</h1>
+
+<h1 id="hướng-dẫn-cài-đặt-wordpress-trên-localhost-chi-tiết">Hướng Dẫn Cài Đặt Wordpress Trên Localhost Chi Tiết</h1>
+<blockquote>
+<h2 id="excerpt">Excerpt</h2>
+<p>Hướng dẫn cài đặt WordPress trên localhost sử dụng Ampps, cách cài WordPress trên localhost hướng dẫn bằng hình ảnh rất chi tiết.</p>
+</blockquote>
+<hr>
+<p>Ở bài trước mình đã hướng dẫn <a href="https://nguyenhung.net/huong-dan-cai-dat-localhost-tren-may-tinh-voi-ampps.html" target="_blank">cách tạo localhost với AMPPS</a> trên máy tính rồi (nếu chưa biết bạn cần phải đọc bài đó trước). Tiếp theo, bài viết này mình sẽ hướng dẫn cách <strong>cài đặt WordPress trên localhost</strong> để khởi tạo một website WordPress trên máy tính.</p>
+<p>Việc <strong>cài đặt WordPress trên localhost</strong> cũng khá đơn giản thôi. Chỉ cần làm 1 lần là bạn sẽ nắm vững được cấu trúc thư mục, các thành phần tạo lên web WordPress. Từ đó, khi bạn muốn cài đặt WordPress trên hosting, bạn sẽ làm được một cách đơn giản.</p>
+<p>Trong bài này mình sẽ hướng dẫn cách <a href="https://nguyenhung.net/huong-dan-cai-dat-website-wordpress-tren-localhost-dung-ampps.html" target="_blank">cài đặt WordPress trên localhost</a> dùng Ampps theo cách cơ bản nhất để người mới tìm hiểu về WordPress cũng có thể hiểu được.</p>
+<h3 id="bước-1-tải-bộ-cài-đặt-mã-nguồn-wordpress">Bước 1: Tải bộ cài đặt mã nguồn WordPress</h3>
+<p>Để <strong>cài đặt WordPress trên localhost</strong> bạn cần phải có bộ cài WordPress, bạn hãy tải phiên bản mới nhất của WordPress tại địa chỉ <a href="https://wordpress.org/latest.zip" target="_blank">https://wordpress.org/latest.zip</a></p>
+<p>Sau khi tải về bạn có được file wordpress-x.zip (x- ở đây là số phiên bản). Ở thời điển mình cập nhật bài này WordPress đang ở phiên bản <strong>wordpress-6.0.3.zip.</strong></p>
+<p><a href="https://nguyenhung.net/huong-dan-cach-nen-va-giai-nen-file-voi-winrar-free.html" target="_blank">Giải nén file</a> này ra sẽ được 1 thư mục có tên là “<em>wordpress</em>” trong thư mục này có chứ các file và thư mục như <em>wp-admin, wp-includes, wp-content</em> và <em>index.php, wp-config-sample.php</em>,…Tất cả file và thư mục trong này là bộ cài đặt của mã nguồn WordPress.</p>
+<p><a href="#R-image-15750711d7997191da189337fb74e266" class="lightbox-link"><img alt="full-bo-ma-nguon-wordpress" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2015/04/full-bo-ma-nguon-wordpress.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-15750711d7997191da189337fb74e266"><img alt="full-bo-ma-nguon-wordpress" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2015/04/full-bo-ma-nguon-wordpress.png"></a></p>
+<h3 id="bước-2-copy-mã-nguồn-wordpress-vào-thư-mục-web-trên-localhost">Bước 2. Copy mã nguồn WordPress vào thư mục web trên localhost</h3>
+<p>Bây giờ, hãy copy toàn bộ file và thư mục ở trong thư mục “<em>wordpress</em>” vừa giải nén ra vào thư mục lưu trữ của website trên localhost.</p>
+<p>Trong bài viết trước, mình đã tạo 1 website với domain ảo là <code>blogtietkiem.com</code> có đường dẫn lưu trữ là <code>C:\Ampps\www\blogtietkiem.com</code></p>
+<p>Tương tự như vậy, bạn đã tạo web với đường dẫn như nào thì copy source vào thư mục lưu trữ ở đường dẫn đó nha.</p>
+<p><a href="#R-image-46b639e10818f3f382262bdce9f5f75f" class="lightbox-link"><img alt="copy-ma-nguon-wordpress-vao-localhost" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2015/04/copy-ma-nguon-wordpress-vao-localhost.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-46b639e10818f3f382262bdce9f5f75f"><img alt="copy-ma-nguon-wordpress-vao-localhost" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2015/04/copy-ma-nguon-wordpress-vao-localhost.png"></a></p>
+<h3 id="bước-3-tạo-database-cho-web">Bước 3. Tạo database cho web</h3>
+<p>Để cài đặt được WordPress yêu cầu bạn phải có 1 database. Bởi WordPress sẽ lưu các dữ liệu động như nội dung bài viết, các thiết lập,… của website vào trong database đó.</p>
+<p>Trong bài hướng dẫn trước mình đã tạo được 1 database với thông tin như sau:</p>
+<ul>
+<li>Database name: blogtietkiem</li>
+<li>Database user: root (tên mặc định của Ampps)</li>
+<li>Database password: mysql (mật khẩu mặc định của Ampps)</li>
+<li>Database Host: localhost</li>
+</ul>
+<p>Nếu bạn đã tạo database theo như bài hướng dẫn đó của mình thì hãy sử dụng thông tin đó để cài đặt WordPress ở bước dưới. Còn bạn chưa biết tạo database thì có thể <a href="https://nguyenhung.net/huong-dan-cai-dat-localhost-tren-may-tinh-voi-ampps.html" target="_blank">xem hướng dẫn tạo database ở trong bài viết này</a>.</p>
+<h3 id="bước-4-tiến-hành-cài-đặt-wordpress-trên-localhost">Bước 4. Tiến hành cài đặt WordPress trên localhost</h3>
+<p>Sau khi chuẩn bị đầy đủ các bước cần thiết ở trên, bạn truy cập vào đường dẫn website. Ở đây mình truy cập vào địa chỉ <code>blogtietkiem.com</code>.</p>
+<p>– Ngay màn hình đầu tiên, nó sẽ hiện ra bảng chọn ngôn ngữ cần cài đặt cho WordPress, mình chọn <strong>Tiếng Việt</strong> và ấn <strong>Tiếp tục</strong>.</p>
+<p><a href="#R-image-e738f612ccae9cb9369f2d25a08ad680" class="lightbox-link"><img alt="cach-cai-dat-wordpress-tren-localhost-1" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2015/04/cach-cai-dat-wordpress-tren-localhost-1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e738f612ccae9cb9369f2d25a08ad680"><img alt="cach-cai-dat-wordpress-tren-localhost-1" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2015/04/cach-cai-dat-wordpress-tren-localhost-1.png"></a></p>
+<p>– WordPress sẽ nhắc bạn cần chuẩn bị các thông tin kết nối đến database để nó tạo file <em>wp-config.php</em>. Bạn hãy ấn <strong>Thực hiện ngay!</strong> để tiến hành cài đặt WordPress.</p>
+<p><a href="#R-image-7e5284ad2b7514b98fd71ae0b58bb9cd" class="lightbox-link"><img alt="cach-cai-dat-wordpress-tren-localhost-2" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2015/04/cach-cai-dat-wordpress-tren-localhost-2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7e5284ad2b7514b98fd71ae0b58bb9cd"><img alt="cach-cai-dat-wordpress-tren-localhost-2" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2015/04/cach-cai-dat-wordpress-tren-localhost-2.png"></a></p>
+<p>– Đến đây, bạn nhập thông tin database đã tạo trước đó vào để kết nối tới database như sau.</p>
+<p><a href="#R-image-2c762854418f13ef32a9984a72ba15c6" class="lightbox-link"><img alt="cach-cai-dat-wordpress-tren-localhost-3" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2015/04/cach-cai-dat-wordpress-tren-localhost-3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2c762854418f13ef32a9984a72ba15c6"><img alt="cach-cai-dat-wordpress-tren-localhost-3" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2015/04/cach-cai-dat-wordpress-tren-localhost-3.png"></a></p>
+<p>– <strong>Database Name</strong> (Tên cơ sở dữ liệu) là tên database đã tạo ở bước 3 (của mình là <em>blogtietkiem</em>).</p>
+<p>– Đối với localhost tạo bởi AMPPS bạn sẽ có các thông số mặc định như sau:</p>
+<ul>
+<li><strong>User Name (Tên cơ sở dữ liệu):</strong> root</li>
+<li><strong>Password (Mật khẩu):</strong> mysql</li>
+<li><strong>Database Host (Địa chỉ máy chủ databse):</strong> localhost</li>
+</ul>
+<p>– <strong>Table Prefix</strong> là tiền tố của database chứa dữ liệu WordPress, mặc định nó sẽ là <strong>wp_</strong>, chúng ta có thể đổi nó thành bất cứ cái gì nhưng phải bắt buộc có _ đằng sau. (bạn chưa hiểu rõ thì cứ để nguyên như vậy).</p>
+<p>– Khi nhập đầy đủ chính xác thông tin database, hãy ấn nút <strong>Gửi</strong> để tiến hành kết nối.</p>
+<p>– Nếu nó hiện ra như hình dưới thì nghĩa là bạn đã nhập thông tin database chính xác, hãy ấn nút <strong>Bắt đầu cài đặt</strong> để tiến hành cài đặt WordPress trên localhost.</p>
+<p><a href="#R-image-79bfb455ccbc3dfa821a96ce24438cb0" class="lightbox-link"><img alt="cach-cai-dat-wordpress-tren-localhost-4" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2015/04/cach-cai-dat-wordpress-tren-localhost-4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-79bfb455ccbc3dfa821a96ce24438cb0"><img alt="cach-cai-dat-wordpress-tren-localhost-4" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2015/04/cach-cai-dat-wordpress-tren-localhost-4.png"></a></p>
+<p>– Ở bước này, bạn cần thiết lập các thông tin cho website như <strong>Tên website, tên đăng nhập và mật khẩu, email</strong> tài khoản quản trị web.</p>
+<p>– Ở mục <strong>Hiển thị với công cụ tìm kiếm</strong> bạn <strong>không tích</strong> vào nếu muốn các công cụ tìm kiếm như Google, Bing, Cốc Cốc,… index trang web của bạn.</p>
+<p>– Nhập xong hãy ấn nút <strong>Cài đặt WordPress</strong>.</p>
+<p><a href="#R-image-d67ac71f5b9d0bfd78d7c7fab7ad639d" class="lightbox-link"><img alt="cach-cai-dat-wordpress-tren-localhost-5" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2015/04/cach-cai-dat-wordpress-tren-localhost-5.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d67ac71f5b9d0bfd78d7c7fab7ad639d"><img alt="cach-cai-dat-wordpress-tren-localhost-5" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2015/04/cach-cai-dat-wordpress-tren-localhost-5.png"></a></p>
+<p>– Nếu không có lỗi gì xảy ra màn hình thông báo <strong><em>Thành công!</em></strong> hiện lên nghĩa là bạn đã <strong>cài đặt WordPress trên localhost</strong> xong rồi.</p>
+<p><a href="#R-image-556d355a4bb4a5151b2061aadc68426d" class="lightbox-link"><img alt="cach-cai-dat-wordpress-tren-localhost-6" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2022/10/cach-cai-dat-wordpress-tren-localhost-6.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-556d355a4bb4a5151b2061aadc68426d"><img alt="cach-cai-dat-wordpress-tren-localhost-6" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2022/10/cach-cai-dat-wordpress-tren-localhost-6.png"></a></p>
+<p>– Bạn ấn vào <strong>Đăng nhập</strong> để vào trang quản trị của WordPress và bạn sẽ thấy giao diện trang quản trị WordPress như sau.</p>
+<p><a href="#R-image-2f3db6c40dd4cf3f2cac0772149c8529" class="lightbox-link"><img alt="giao-dien-trang-quan-tri-web-wordpress" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2015/04/giao-dien-trang-quan-tri-web-wordpress.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2f3db6c40dd4cf3f2cac0772149c8529"><img alt="giao-dien-trang-quan-tri-web-wordpress" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://nguyenhung.net/wp-content/uploads/2015/04/giao-dien-trang-quan-tri-web-wordpress.png"></a></p>
+<p><strong>Chú ý:</strong> Từ nay về sau, để truy cập vào trang quản trị web WordPress bạn cần chỉ cần thêm <code>/wp-admin</code> vào sau tên miền là được. Chẳng hạn: <code>blogtietkiem.com/wp-admin</code></p>
+<h2 id="lời-kết">Lời kết</h2>
+<p>Qua bài này, bạn đã biết <strong>cách cài đặt WordPress trên localhost</strong> dùng Ampps với các bước cơ bản là như thế nào rồi đó. Nếu muốn thực hành ngay trên hosting thì bạn có thể đọc và làm theo hướng dẫn ở bài viết <a href="https://nguyenhung.net/huong-dan-tao-website-bang-wordpress.html" target="_blank">hướng dẫn tạo website bằng WordPress này</a>.</p>
+<p>Tổng kết lại là để cài đặt WordPress bạn sẽ cần có bộ mã nguồn WordPress và 1 database để lưu trữ dữ liệu động của web.</p>
+<p>Bạn hãy thực hành cài đặt WordPress trên localhost thật nhiều lần cho quen đi nhé. Nếu có bất kỳ thắc mắc nào hãy cùng thảo luận ở bên dưới nhé.</p>
+<p>Khi đã thành thạo rồi thì chuyển sang bài viết tiếp theo của series <a href="https://nguyenhung.net/series-hoc-wordpress-co-ban.html" target="_blank">học WordPress</a> trên blog <a href="https://nguyenhung.net/" target="_blank">Nguyễn Hùng</a> nha!</p>
+<p><strong>Bài trước</strong>: <a href="https://nguyenhung.net/huong-dan-cai-dat-localhost-tren-may-tinh-voi-ampps.html" target="_blank">Hướng dẫn tạo localhost chuyên nghiệp với Ampps</a></p>
+<p><strong>Bài tiếp</strong>: <a href="https://nguyenhung.net/huong-dan-post-bai-viet-trong-wordpress.html" target="_blank">Hướng dẫn cách viết bài viết mới trong WordPress</a></p>
+<p><strong>Bạn thích nội dung như này?</strong></p>
+<p>Nguyễn Hùng sẽ gửi cho bạn những thông tin bổ ích như này qua email mỗi khi có bài mới. Hơn 2000+ người đang nhận thông tin!</p>
+<p>Nói không với spam!</p>
+<p><a href="#R-image-ec2ff7fce663e64571ede22d37a6038d" class="lightbox-link"><img class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://nguyenhung.net/wp-content/litespeed/avatar/4c6a729fb777a24959eb547b36a10d19.jpg?ver=1712288371" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ec2ff7fce663e64571ede22d37a6038d"><img class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://nguyenhung.net/wp-content/litespeed/avatar/4c6a729fb777a24959eb547b36a10d19.jpg?ver=1712288371"></a></p>
+<h5 id="nguyễn-hùnghttpswwwfacebookcomnguyenhungks9x-facebook-của-nguyễn-hùng">Nguyễn Hùng<a href="https://www.facebook.com/nguyenhung.ks9x" target="_blank" title="Facebook của Nguyễn Hùng"></a></h5>
+<p>Internet là nơi mình học được những gì về Wordpress, SEO, SEM, MMO và kiến thức máy tính. Những chia sẻ của mình là những thứ mình học được và đã làm thành công, có thể nó chưa được hoàn hảo nhưng nó sẽ hữu ích với bạn.</p>
+
+            <footer class="footline">
+<div class=" taxonomy-categories term-list cstyle  " title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="../../../categories/wordpress/index.html">Wordpress</a></li>
+  </ul>
+</div>
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="../../../js/clipboard.min.js?1713858606" defer></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1713858606" defer></script>
+    <script src="../../../js/theme.js?1713858606" defer></script>
+  </body>
+</html>

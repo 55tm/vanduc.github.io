@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress on Hugo Relearn Theme</title>
+    <link>https://example.com/tags/wordpress/index.html</link>
+    <description>Recent content in Wordpress on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://example.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4 bước tạo Website bằng Wordpress</title>
+      <link>https://example.com/design/wordpress/4-b%C6%B0%E1%BB%9Bc-t%E1%BA%A1o-website-b%E1%BA%B1ng-wordpress-cho-ng%C6%B0%E1%BB%9Di-m%E1%BB%9Bi-2024/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/wordpress/4-b%C6%B0%E1%BB%9Bc-t%E1%BA%A1o-website-b%E1%BA%B1ng-wordpress-cho-ng%C6%B0%E1%BB%9Di-m%E1%BB%9Bi-2024/index.html</guid>
+      <description>[4 Bước] Tạo Website Bằng Wordpress Cho Người Mới (2024) Excerpt Hướng dẫn 4 bước tạo website bằng Wordpress cho người mới bắt đầu tìm hiểu về web, người không biết lập trình, không được học gì về code có thể làm được web
+Tạo trang web rất đơn giản! Ngay cả với người không biết lập trình cũng có thể dễ dàng tạo cho mình 1 trang web bằng WordPress.</description>
+    </item>
+    <item>
+      <title>Hướng dẫn cách viết bài mới</title>
+      <link>https://example.com/design/wordpress/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A1ch-vi%E1%BA%BFt-b%C3%A0i-m%E1%BB%9Bi-t%E1%BA%A1o-post-tr%C3%AAn-wordpress/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/wordpress/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A1ch-vi%E1%BA%BFt-b%C3%A0i-m%E1%BB%9Bi-t%E1%BA%A1o-post-tr%C3%AAn-wordpress/index.html</guid>
+      <description>Hướng Dẫn Cách Viết Bài Mới (Tạo Post) Trên Wordpress Excerpt Hướng dẫn cách viết bài mới (tạo post) trên WordPress để đăng thông tin lên website WordPress, tìm hiểu chức năng soạn bài post trong WordPress.
+Qua 3 bài viết trước, bạn đã biết cách cài đặt WordPress rồi chứ? Vậy bây giờ, khi bạn đã có web bằng WordPress thì phải học để biết cách sử dụng và quản trị nó như nào chứ nhỉ?</description>
+    </item>
+    <item>
+      <title>Hướng dẫn cài đặt Wordpress</title>
+      <link>https://example.com/design/wordpress/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-wordpress-tr%C3%AAn-localhost-chi-ti%E1%BA%BFt/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/wordpress/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-wordpress-tr%C3%AAn-localhost-chi-ti%E1%BA%BFt/index.html</guid>
+      <description>Hướng Dẫn Cài Đặt Wordpress Trên Localhost Chi Tiết Excerpt Hướng dẫn cài đặt WordPress trên localhost sử dụng Ampps, cách cài WordPress trên localhost hướng dẫn bằng hình ảnh rất chi tiết.
+Ở bài trước mình đã hướng dẫn cách tạo localhost với AMPPS trên máy tính rồi (nếu chưa biết bạn cần phải đọc bài đó trước). Tiếp theo, bài viết này mình sẽ hướng dẫn cách cài đặt WordPress trên localhost để khởi tạo một website WordPress trên máy tính.</description>
+    </item>
+  </channel>
+</rss>

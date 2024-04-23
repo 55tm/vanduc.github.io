@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jekyll on Hugo Relearn Theme</title>
+    <link>https://example.com/categories/jekyll/index.html</link>
+    <description>Recent content in Jekyll on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://example.com/categories/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hướng dẫn cài đặt</title>
+      <link>https://example.com/design/jekyll/huong-dan-cai-dat/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/jekyll/huong-dan-cai-dat/index.html</guid>
+      <description>Hướng dẫn cách cài đặt Jekyll làm công cụ tạo trang web tĩnh (SSG) - LEarn Anything Giới thiệu¶ Jekyll là gì?
+Jekyll là một công cụ tạo trang web tĩnh (Static Site Generator, viết tắt SSG) viết bằng ngôn ngữ lập trình Ruby bởi Tom Preston-Werner. Jekyll được phân phối dạng mã nguồn mở theo giấy phép MIT.
+Sử dụng Jekyll ở đâu?¶ Tùy chọn cài đặt Jekyll nếu bạn muốn preview trang trên máy tính cục bộ (localhost), nếu không cài trên máy sẽ khó và mất thời gian hơn chút khi tùy biến trang web.</description>
+    </item>
+    <item>
+      <title>Quick start</title>
+      <link>https://example.com/design/jekyll/quick-start-jekyll/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/jekyll/quick-start-jekyll/index.html</guid>
+      <description>Quickstart | Jekyll • Simple, blog-aware, static sites Excerpt Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more.
+Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website.</description>
+    </item>
+    <item>
+      <title>Tạo trang Jekyll</title>
+      <link>https://example.com/design/jekyll/tao-trang-jekyll/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/jekyll/tao-trang-jekyll/index.html</guid>
+      <description>Tạo trang blog cá nhân đẹp và đơn giản với Jekyll YAT theme và Github Pages - LEarn Anything Excerpt Chia sẻ các bài viết từ Obsidian lên blog sử dụng Jekyll YAT theme và Github Pages hoàn toàn miễn phí
+Tổng quan các bước thực hiện¶ Sơ đồ này tóm tắt thành phần và chức năng các công cụ cần sử dụng trong hướng dẫn. Click để xem hình lớn hơn.</description>
+    </item>
+  </channel>
+</rss>

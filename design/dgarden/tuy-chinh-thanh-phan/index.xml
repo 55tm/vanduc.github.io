@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tùy chỉnh thành phần on Hugo Relearn Theme</title>
+    <link>https://example.com/design/dgarden/tuy-chinh-thanh-phan/index.html</link>
+    <description>Recent content in Tùy chỉnh thành phần on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://example.com/design/dgarden/tuy-chinh-thanh-phan/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chào mừng on Hugo Relearn Theme</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Chào mừng on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Mar 2024 09:57:41 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Can, Could, (be) able</title>
+      <link>http://localhost:1313/tuhoc/english/grammar/can-coud/</link>
+      <pubDate>Sun, 31 Mar 2024 09:57:41 +0700</pubDate>
+      <guid>http://localhost:1313/tuhoc/english/grammar/can-coud/</guid>
+      <description>Bài 02-Can, Could, (be) able Can, Could, và Be able to đều mang nghĩa “có thể”, diễn tả khả năng làm gì. Tuy nhiên, chúng vẫn có những sự khác nhau nhất định.&#xA;1. Can&#xA;Can được dùng để diễn đạt:&#xA;a. Khả năng ở hiện tại hoặc tương lai&#xA;Eg: I haven’t got time today, but I can see you tomorrow.&#xA;(Hôm nay tôi không có thời gian, nhưng tôi có thể gặp bạn vào ngày mai.</description>
+    </item>
+    <item>
+      <title>Động từ khuyết thiếu</title>
+      <link>http://localhost:1313/tuhoc/english/grammar/modal-verbs/</link>
+      <pubDate>Sun, 31 Mar 2024 09:57:41 +0700</pubDate>
+      <guid>http://localhost:1313/tuhoc/english/grammar/modal-verbs/</guid>
+      <description>Bài 01-Động từ khuyết thiếu(MODAL VERBS) Các động từ khuyết thiếu được sử dụng nhiều là Can, Will, May, Should, Must, Used to. Chúng ta cùng tìm hiểu về từng từ này với cách sử dụng riêng.&#xA;Modal verbs được sử dụng diễn tả mục đích và ngữ nghĩa của câu, bao gồm khả năng, sự cho phép, bắt buộc, cần thiết, dự đoán, yêu cầu,… .&#xA;ĐẶC ĐIỂM ĐỘNG TỪ KHUYẾT THIẾU:</description>
+    </item>
+    <item>
+      <title>Bài 01- Mở đầu</title>
+      <link>http://localhost:1313/design/dgarden/bat-dau/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/design/dgarden/bat-dau/</guid>
+      <description>Quá trình thiết lập ban đầu mất vài phút nhưng khi hoàn tất, bạn sẽ có một khu vườn kỹ thuật số nơi bạn có thể kiểm soát mọi phần của nó và có thể tùy chỉnh nó khi bạn thấy phù hợp. Đó là điều khiến khu vườn kỹ thuật số trở nên thú vị.&#xA;Tải xuống và cài đặt plugin cộng đồng Digital Garden trong Obsidian. Tiếp theo, bạn sẽ cần một tài khoản GitHub.</description>
+    </item>
+    <item>
+      <title>Bài 02-Lệnh</title>
+      <link>http://localhost:1313/design/dgarden/bai-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/design/dgarden/bai-02/</guid>
+      <description>02 lệnh Xuất bản ghi chú duy nhất Sẽ xuất bản ghi chú hiện đang hoạt động và chỉ điều này. dg-publish: truephải được đặt trên ghi chú đang hoạt động.&#xA;Thêm cờ xuất bản Điều này sẽ tự động thêm a dg-publish: truevào nội dung đầu trong ghi chú hiện đang hoạt động.&#xA;Sẽ thêm cờ xuất bản vào ghi chú hiện đang hoạt động, xuất bản nó và sao chép URL khu vườn vào khay nhớ tạm của bạn.</description>
+    </item>
+    <item>
+      <title>Bài 03-Cài đặt</title>
+      <link>http://localhost:1313/design/dgarden/bai-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/design/dgarden/bai-03/</guid>
+      <description>Theo mặc định, trang web rất đơn giản, chỉ hiển thị nội dung ghi chú của bạn và thanh điều hướng ở trên cùng. Nhưng plugin cũng hỗ trợ các tính năng như liên kết ngược, biểu đồ cục bộ và tìm kiếm.&#xA;Tất cả các cài đặt như vậy đều có sẵn trong hộp thoại &amp;ldquo;Cài đặt ghi chú&amp;rdquo;. Để chỉnh sửa chúng, hãy đi tới Cài đặt Obsidian &amp;gt; Digital Garden &amp;gt; Cài đặt ghi chú và nhấp vào nút &amp;ldquo;Chỉnh sửa&amp;rdquo; như hình bên dưới.</description>
+    </item>
+    <item>
+      <title>Bài 04-Cài đặt giao diện</title>
+      <link>http://localhost:1313/design/dgarden/cai-dat-ngoai-hinh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/design/dgarden/cai-dat-ngoai-hinh/</guid>
+      <description>Cài đặt giao diện có thể được truy cập trong menu cài đặt:&#xA;Chủ đề Khu vườn kỹ thuật số ngay lập tức được áp dụng chủ đề tối đơn giản. Nhưng plugin hỗ trợ sử dụng các chủ đề Obsidian của cộng đồng.&#xA;Tất cả các chủ đề cộng đồng đều được hỗ trợ. Một số có thể trông đẹp hơn những cái khác. Bạn có thể chọn chủ đề trong menu thả xuống &amp;ldquo;Chủ đề&amp;rdquo; trong cài đặt giao diện:</description>
+    </item>
+    <item>
+      <title>Quick start</title>
+      <link>http://localhost:1313/design/jekyll/quick-start-jekyll/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/design/jekyll/quick-start-jekyll/</guid>
+      <description>Quickstart | Jekyll • Simple, blog-aware, static sites Excerpt Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more.&#xA;Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website.</description>
+    </item>
+    <item>
+      <title>Tạo trang Jekyll</title>
+      <link>http://localhost:1313/design/jekyll/tao-trang-jekyll/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/design/jekyll/tao-trang-jekyll/</guid>
+      <description>Tạo trang blog cá nhân đẹp và đơn giản với Jekyll YAT theme và Github Pages - LEarn Anything Excerpt Chia sẻ các bài viết từ Obsidian lên blog sử dụng Jekyll YAT theme và Github Pages hoàn toàn miễn phí&#xA;Tổng quan các bước thực hiện¶ Sơ đồ này tóm tắt thành phần và chức năng các công cụ cần sử dụng trong hướng dẫn. Click để xem hình lớn hơn.</description>
+    </item>
+  </channel>
+</rss>

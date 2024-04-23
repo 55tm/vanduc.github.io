@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.124.1">
+    <meta name="generator" content="Relearn 5.26.2+tip">
+    <meta name="description" content="Documentation for Hugo Relearn Theme">
+    <meta name="author" content="Sören Weber">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://example.com/images/hero.png">
+    <meta name="twitter:title" content="Hướng dẫn sử dụng Obsidian :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="Obsidian là một ứng dụng ghi chú và quản lý kiến thức cá nhân mạnh mẽ giúp bạn có thể hệ thống những kiến thức có giá trị mình tiếp nhận được trong đời sống hàng ngày.
+Sau bài chia sẻ về các ứng dụng ghi chú cá nhân tốt nhất, tôi tiếp tục loạt bài viết cụ thể hơn về cách sử dụng Obsidian trong ghi chú và hệ thống hoá kiến thức cá nhân để các bạn đọc quan tâm thể bắt đầu làm quen với ứng dụng này dễ dàng hơn.">
+    <meta property="og:title" content="Hướng dẫn sử dụng Obsidian :: Hugo Relearn Theme">
+    <meta property="og:description" content="Obsidian là một ứng dụng ghi chú và quản lý kiến thức cá nhân mạnh mẽ giúp bạn có thể hệ thống những kiến thức có giá trị mình tiếp nhận được trong đời sống hàng ngày.
+Sau bài chia sẻ về các ứng dụng ghi chú cá nhân tốt nhất, tôi tiếp tục loạt bài viết cụ thể hơn về cách sử dụng Obsidian trong ghi chú và hệ thống hoá kiến thức cá nhân để các bạn đọc quan tâm thể bắt đầu làm quen với ứng dụng này dễ dàng hơn.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://example.com/tuhoc/obsidian/huong-dan-su-dung-obsidian-thinh-vu-blog/index.html">
+    <meta property="og:image" content="https://example.com/images/hero.png">
+    <meta property="article:section" content="OBSIDIAN :: Hugo Relearn Theme">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <title>Hướng dẫn sử dụng Obsidian :: Hugo Relearn Theme</title>
+    <link href="../../../tuhoc/obsidian/huong-dan-su-dung-obsidian-thinh-vu-blog/index.xml" rel="alternate" type="application/rss+xml" title="Hướng dẫn sử dụng Obsidian :: Hugo Relearn Theme">
+    <link href="../../../images/logo.svg?1713859222" rel="icon" type="image/svg+xml">
+    
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../../css/fontawesome-all.min.css?1713859223" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1713859223" rel="stylesheet"></noscript>
+    <link href="../../../css/nucleus.css?1713859223" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1713859223" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1713859223" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar.min.css?1713859223" rel="stylesheet">
+    <link href="../../../css/fonts.css?1713859223" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1713859223" rel="stylesheet"></noscript>
+    <link href="../../../css/theme.css?1713859223" rel="stylesheet">
+    <link href="../../../css/theme-relearn-auto.css?1713859223" rel="stylesheet" id="R-variant-style">
+    <link href="../../../css/chroma-relearn-auto.css?1713859223" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="../../../css/variant.css?1713859223" rel="stylesheet">
+    <link href="../../../css/print.css?1713859223" rel="stylesheet" media="print">
+    <link href="../../../css/ie.css?1713859223" rel="stylesheet">
+    <script src="../../../js/url.js?1713859223"></script>
+    <script src="../../../js/variant.js?1713859223"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/example.com';
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="../../../tuhoc/obsidian/huong-dan-su-dung-obsidian-thinh-vu-blog/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"><nav class="TableOfContents">
+  <ul>
+    <li><a href="#i-vì-sao-nên-ghi-chú-với-obsidian">I. Vì sao nên ghi chú với Obsidian?</a></li>
+    <li><a href="#review-ứng-dụng-ghi-chú-tốt-nhất-theo-từng-phong-cách-ghi-chúhttpsthinhvucom20210829review-ung-dung-ghi-chu-tot-nhat"><a href="https://thinhvu.com/2021/08/29/review-ung-dung-ghi-chu-tot-nhat/">Review ứng dụng ghi chú tốt nhất theo từng phong cách ghi chú</a></a></li>
+    <li><a href="#ii-cài-đặt-obsidian-để-sử-dụng">II. Cài đặt Obsidian để sử dụng</a>
+      <ul>
+        <li><a href="#21-cài-đặt">2.1. Cài đặt</a></li>
+        <li><a href="#22-thiết-lập-cơ-bản">2.2. Thiết lập cơ bản</a></li>
+        <li><a href="#23-sử-dụng-obsidian-plugin">2.3. Sử dụng Obsidian Plugin</a></li>
+        <li><a href="#24-đồng-bộ-dữ-liệu-obsidian-giữa-các-thiết-bị">2.4. Đồng bộ dữ liệu Obsidian giữa các thiết bị</a></li>
+      </ul>
+    </li>
+    <li><a href="#iii-ghi-chú-với-markdown-trong-obsidian">III. Ghi chú với markdown trong Obsidian</a>
+      <ul>
+        <li><a href="#markdown-là-gì-hướng-dẫn-sử-dụng-markdown-a-zhttpsthinhvucom20230406huong-dan-su-dung-markdown-la-gi"><a href="https://thinhvu.com/2023/04/06/huong-dan-su-dung-markdown-la-gi/">Markdown là gì? Hướng dẫn sử dụng Markdown A-Z</a></a></li>
+      </ul>
+    </li>
+    <li><a href="#iv-phương-pháp-ghi-chú-và-tổ-chức-thông-tin">IV. Phương pháp ghi chú và tổ chức thông tin</a>
+      <ul>
+        <li><a href="#41-phương-pháp-para">4.1. Phương pháp PARA</a></li>
+        <li><a href="#phương-pháp-para-trong-tổ-chức-thông-tin-hiệu-quảhttpsthinhvucom20230523phuong-phap-para-to-chuc-ghi-chu-obsidian"><a href="https://thinhvu.com/2023/05/23/phuong-phap-para-to-chuc-ghi-chu-obsidian/">Phương pháp PARA trong tổ chức thông tin hiệu quả</a></a></li>
+      </ul>
+    </li>
+    <li><a href="#v-kết-luận">V. Kết luận</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">TỰ HỌC</span><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">OBSIDIAN</span><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Hướng dẫn sử dụng Obsidian</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/TUHOC/OBSIDIAN/huong-dan-su-dung-Obsidian-Thinh-Vu%20Blog.md" target="_blank" title="Edit (CTRL&#43;ALT&#43;w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="../../../tuhoc/obsidian/giao-dien-va-tinh-nang/index.html" title="Giao diện và tính năng Obsidian (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="../../../tuhoc/obsidian/lam-viec-voi-bang-trong-obsidian/index.html" title="Làm việc với bảng (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+<div class=" taxonomy-tags term-list cstyle  tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <ul>
+    <li><a class="term-link" href="../../../tags/hoc/index.html">Hoc</a></li>
+    <li><a class="term-link" href="../../../tags/obsidian/index.html">Obsidian</a></li>
+  </ul>
+</div>
+            </header>
+<h1 id="hướng-dẫn-sử-dụng-obsidian">Hướng dẫn sử dụng Obsidian</h1>
+
+<blockquote>
+<p>Obsidian là một ứng dụng ghi chú và quản lý kiến thức cá nhân mạnh mẽ giúp bạn có thể hệ thống những kiến thức có giá trị mình tiếp nhận được trong đời sống hàng ngày.</p>
+</blockquote>
+<p>Sau bài chia sẻ về <a href="https://thinhvu.com/2021/08/29/review-ung-dung-ghi-chu-tot-nhat/" target="_blank">các ứng dụng ghi chú cá nhân tốt nhất</a>, tôi tiếp tục loạt bài viết cụ thể hơn về cách sử dụng Obsidian trong ghi chú và hệ thống hoá kiến thức cá nhân để các bạn đọc quan tâm thể bắt đầu làm quen với ứng dụng này dễ dàng hơn. Hành trình sử dụng Obsidian khá thú vị nhưng cũng không ít gian nan để có thể sử dụng thành thạo, trong khuôn khổ cuốn cẩm nang này, tôi sẽ cung cấp cho các bạn một lộ trình hoàn chỉnh để làm chủ Obsidian. Đừng quên bookmark bài viết này vì nội dung của bài viết sẽ liên tục được cập nhật (đây là một bài viết rất chi tiết và chuyên sâu). Bạn có thể tham khảo lộ trình làm chủ obsidian qua video chia sẻ dưới đây, sơ đồ mindmap được chia sẻ trong video <a href="https://thinhvu.com/shareable/lo-trinh-lam-chu-obsidian-mindmap-thinhvu-learn-anything.html" target="_blank">tại đây</a>.</p>
+<iframe title="Học cách làm chủ ứng dụng Obsidian trong ghi chú và quản lý công việc toàn diện." width="700" height="394" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-src="https://www.youtube.com/embed/CUZCP8K-Qkw?feature=oembed" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></iframe>
+<p>Nội dung chính [<a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/" target="_blank">Ẩn</a>]</p>
+<ul>
+<li><a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/#I_Vi_sao_nen_ghi_chu_voi_Obsidian" target="_blank">I. Vì sao nên ghi chú với Obsidian?</a></li>
+<li><a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/#Review_ung_dung_ghi_chu_tot_nhat_theo_tung_phong_cach_ghi_chu" target="_blank">Review ứng dụng ghi chú tốt nhất theo từng phong cách ghi chú</a></li>
+<li><a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/#II_Cai_dat_Obsidian_de_su_dung" target="_blank">II. Cài đặt Obsidian để sử dụng</a>
+<ul>
+<li><a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/#21_Cai_dat" target="_blank">2.1. Cài đặt</a></li>
+<li><a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/#22_Thiet_lap_co_ban" target="_blank">2.2. Thiết lập cơ bản</a></li>
+<li><a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/#23_Su_dung_Obsidian_Plugin" target="_blank">2.3. Sử dụng Obsidian Plugin</a>
+<ul>
+<li><a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/#231_Cac_Plugin_thiet_yeu" target="_blank">2.3.1. Các Plugin thiết yếu</a></li>
+<li><a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/#232_Cac_Plugin_nang_cao" target="_blank">2.3.2. Các Plugin nâng cao</a></li>
+</ul>
+</li>
+<li><a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/#24_Dong_bo_du_lieu_Obsidian_giua_cac_thiet_bi" target="_blank">2.4. Đồng bộ dữ liệu Obsidian giữa các thiết bị</a>
+<ul>
+<li><a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/#241_Dong_bo_du_lieu_giua_Desktop_va_cloud" target="_blank">2.4.1. Đồng bộ dữ liệu giữa Desktop và cloud</a></li>
+<li><a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/#242_Dong_bo_du_lieu_giua_Mobile_va_Cloud" target="_blank">2.4.2. Đồng bộ dữ liệu giữa Mobile và Cloud</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/#III_Ghi_chu_voi_markdown_trong_Obsidian" target="_blank">III. Ghi chú với markdown trong Obsidian</a>
+<ul>
+<li><a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/#Markdown_la_gi_Huong_dan_su_dung_Markdown_A-Z" target="_blank">Markdown là gì? Hướng dẫn sử dụng Markdown A-Z</a></li>
+</ul>
+</li>
+<li><a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/#IV_Phuong_phap_ghi_chu_va_to_chuc_thong_tin" target="_blank">IV. Phương pháp ghi chú và tổ chức thông tin</a>
+<ul>
+<li><a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/#41_Phuong_phap_PARA" target="_blank">4.1. Phương pháp PARA</a></li>
+<li><a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/#Phuong_phap_PARA_trong_to_chuc_thong_tin_hieu_qua" target="_blank">Phương pháp PARA trong tổ chức thông tin hiệu quả</a></li>
+</ul>
+</li>
+<li><a href="https://thinhvu.com/2023/01/29/huong-dan-su-dung-obsidian-toan-tap/#V_Ket_luan" target="_blank">V. Kết luận</a></li>
+</ul>
+<h2 id="i-vì-sao-nên-ghi-chú-với-obsidian">I. Vì sao nên ghi chú với Obsidian?</h2>
+<p>Trong thời đại kỹ thuật số, chúng ta tiếp xúc với một lượng lớn thông tin hàng ngày về mọi mặt của cuộc sống và tốc độ thay đổi chóng mặt của các kiến thức khiến nhu cầu về một công cụ quản lý kiến thức cá nhân (Personal Knowledge Management, viết tắt là PKM) dần trở nên quan trọng. Một ứng dụng PKM giúp bạn ghi lại và theo dõi các ý tưởng, tổ chức các thông tin thiết yếu và khiến chúng sẵn sàng để truy cập khi cần một cách tiện lợi. Tổ chức tốt một cơ sở dữ liệu cá nhân cũng giúp đầu óc bạn được thư giãn khi không phải ghi nhớ quá nhiều thông tin mà có thể tập trung nhiều hơn vào việc tạo ra các ý tưởng đột phá từ thông tin có được.</p>
+<p>Đây là 5 lý do bạn nên bắt đầu sử dụng Obsidian theo kinh nghiệm 2 năm sử dụng của tôi:</p>
+<ol>
+<li><strong>Obsidian là ứng dụng mã nguồn mở miễn phí, đa nền tảng</strong> và chạy cục bộ (không cần kết nối internet). Điều này có nghĩa là bạn có thể sử dụng Obsidian trên bất kỳ thiết bị nào từ máy tính đến smartphone dù chúng chạy bất kỳ hệ điều hành nào. Để ủng hộ nhà phát triển, bạn có thể chọn phiên bản trả phí để sử dụng tính năng đồng bộ dữ liệu, xuất bản thông tin lên web dễ dàng.</li>
+<li><strong>Obsidian <a href="https://thinhvu.com/2023/04/06/huong-dan-su-dung-markdown-la-gi/" target="_blank">sử dụng Markdown để định dạng ghi chú</a></strong>, đây là ngôn ngữ đánh dấu đơn giản và dễ học. Thực chất markdown là một file văn bản thuần túy (plain text) có thể đọc được bằng bất kỳ phần mềm soạn thảo văn bản mặc định nào trên các thiết bị từ máy tính đến smartphone. Điều này có nghĩa là bạn có thể yên tâm các ghi chú của mình sẽ tồn tại theo năm tháng cho đến tận đời con cháu vẫn có thể sủ dụng mà không cần mất thêm một đồng nào cho dịch vụ ghi chú có bản quyền. Với cú pháp markdown, ghi chú của bạn có thể được hiển thị với định dạng như các nội dung trên website khi mở bằng ứng dụng thích hợp. Thực tế nhiều người đang sử dụng các cú pháp markdown trong nhắn tin hoặc soạn thảo văn bản nhưng không hề biết về nó. Nếu bạn đã từng đọc phần giới thiệu của gói phần mềm bất kỳ trên Github có tên README.md, đó chính là nội dung ghi chú sử dụng định dạng markdown (file có phần mở rộng *.md). Cũng bởi</li>
+<li><strong>Obsidian cung cấp tính năng Backlink cho phép liên kết các ghi chú</strong> không giới hạn. Với backlink, bạn có thể tạo liên kết từ một ghi chú đến một ghi chú khác, giúp bạn dễ dàng truy cập và tổ chức các thông tin liên quan với nhau. Với tính năng backlink trong Obsidian, bạn có thể tạo cho riêng mình một kho kiến thức như thể wikipedia được cá nhân hóa vậy.</li>
+<li><strong>Obsidian cung cấp tính năng Graph view</strong> <strong>thú vị</strong> (biểu đồ thể hiện mạng liên kết giữa các ghi chú với nhau). Chế độ Graph view cho phép bạn dễ dàng hình dung và điều hướng các ghi chú cũng như ý tưởng của mình, giúp bạn dễ dàng hiểu được các kết nối và mối quan hệ các phần thông tin khác nhau. Điều này đặc biệt hữu ích khi bạn tiếp nhận và tổ chức các các kiến thức mới hàng ngày một cách linh hoạt mà không bị bó buộc phải sắp xếp chung thông tin vào một số file hay thư mục cụ thể như các công cụ ghi chú tuyến tính.</li>
+<li><strong>Obsidian cung cấp nhiều plugin và tích hợp mạnh mẽ và miễn phí</strong> từ nhóm phát triển lẫn cộng đồng đóng góp. Điều này giúp bạn dễ dàng tùy biến Obsidian theo cách mình thích và tích hợp không giới hạn với workflow (luồng công việc) của mình. Tất nhiên điều này cũng yêu cầu bạn có chút đam mê mày mò và khám phá như những người dùng có gu một chút. Nếu bạn không có nhiều thời gian nhưng vẫn muốn trải nghiệm đầy đủ các plugin chất lượng thì vẫn có cách tải thư mục cấu hình sẵn về máy để sử dụng ngay.</li>
+</ol>
+<p>Tóm lại, Obsidian là một ứng dụng quản lý kiến thức và ghi chú mạnh mẽ và linh hoạt có thể giúp bạn tăng năng suất và tối ưu hóa quy trình làm việc của mình. Nó cung cấp một loạt các tính năng và tích hợp để giúp bạn luôn ngăn nắp và hoàn thành công việc của mình một cách đầy hứng thú. Đây là một phần mềm nguồn mở hoàn toàn miễn phí sử dụng và tôi thực sự khuyên dùng phần mềm này cho bất kỳ ai đang tìm kiếm một công cụ quản lý kiến thức và ghi chú mạnh mẽ và hiệu quả.</p>
+<p><a href="#R-image-4bac7dc63a0af4525447b251ffd01574" class="lightbox-link"><img alt="Ứng dụng ghi chú tốt nhất" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2021/08/ung-dung-ghi-chu-ca-nhan-tot-nhat-768x432.jpg" style=" height: auto; width: auto;" title="Review ứng dụng ghi chú tốt nhất theo từng phong cách ghi chú 2"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4bac7dc63a0af4525447b251ffd01574"><img alt="Ứng dụng ghi chú tốt nhất" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2021/08/ung-dung-ghi-chu-ca-nhan-tot-nhat-768x432.jpg" title="Review ứng dụng ghi chú tốt nhất theo từng phong cách ghi chú 2"></a></p>
+<h2 id="review-ứng-dụng-ghi-chú-tốt-nhất-theo-từng-phong-cách-ghi-chúhttpsthinhvucom20210829review-ung-dung-ghi-chu-tot-nhat"><a href="https://thinhvu.com/2021/08/29/review-ung-dung-ghi-chu-tot-nhat/" target="_blank">Review ứng dụng ghi chú tốt nhất theo từng phong cách ghi chú</a></h2>
+<p>Khi bàn về việc tìm một ứng dụng ghi chú cá nhân (note-taking app) phù hợp cho nhu cầu soạn…</p>
+<h2 id="ii-cài-đặt-obsidian-để-sử-dụng">II. Cài đặt Obsidian để sử dụng</h2>
+<h3 id="21-cài-đặt">2.1. Cài đặt</h3>
+<p>**Bản desktop<br>
+**Bạn có thể tải Obsidian tại trang web chính thức: <a href="https://obsidian.md/" target="_blank">https://obsidian.md/</a>. Obsidian cung cấp ứng dụng desktop dành cho tất cả các hệ điều hành hiện nay gồm macOS, Windows, và Linux.</p>
+<p>**Bản cho thiết bị di động<br>
+**Trên các thiết bị di động, bạn có thể <a href="https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442" target="_blank">tải Obsidian cho iPhone, iPad</a> từ App Store hoặc <a href="https://play.google.com/store/apps/details?id=md.obsidian" target="_blank">tải Obsidian cho Android</a> từ Google Play Store.</p>
+<h3 id="22-thiết-lập-cơ-bản">2.2. Thiết lập cơ bản</h3>
+<p>Tôi cung cấp sẵn file zip chứa thư mục thiết lập sẵn để các bạn có thể tải về sử dụng ngay và bỏ qua các bước cài đặt rắc rối. Bạn truy cập vào Github rep <a href="https://github.com/thinh-vu/obsidian-pre-config/releases/tag/obsidian" target="_blank">tại đây</a> , chọn tải file Source code (zip) về máy. Bạn cũng có thể tìm thấy hướng dẫn và thông tin giới thiệu tại file <a href="https://github.com/thinh-vu/obsidian-pre-config" target="_blank">README.md</a> của repo này.</p>
+<iframe title="Quản lý công việc và cuộc sống toàn diện với Obsidian Go V3" width="700" height="394" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-src="https://www.youtube.com/embed/9b0hzohC7Ss?feature=oembed" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></iframe>
+<p>Đối với các bạn Newbie, thường sẽ mất khá nhiều thời gian để bắt đầu thiết lập Obsidian trong lần đầu sử dụng. Obsidian cho phép bạn cá nhân hoá phần mềm để sử dụng ở mức độ cao nhưng cũng đồng nghĩa với việc khi tải Obsidian về sử dụng lần đầu tiên, bạn sẽ không có gì ngoài một số tính năng cơ bản như những text editor thông thường (trình soạn thảo văn bản). Đây sẽ là những việc bạn sẽ phải làm nếu không sử dụng thư mục cấu hình sẵn:</p>
+<ol>
+<li>Thiết lập giao diện</li>
+<li>Tạo một cấu trúc các thư mục để tổ chức các ghi chú</li>
+<li>Tìm tòi các community plugin hay ho để cài đặt bổ sung tính năng cho Obsidian. Obsidian có thư viện plugin do cộng đồng đóng góp rất phong phú.</li>
+<li>Thiết lập các core plugin (tiện ích có sẵn của Obsidian khi cài đặt)</li>
+<li>Tạo các template ghi chú</li>
+<li>Thiết lập định dạng ngày, tháng, thời gian cho ghi chú</li>
+<li>Thiết lập phím tắt</li>
+</ol>
+<p><a href="#R-image-62b8bc6bf0703b7f4be610f4cfe26e68" class="lightbox-link"><img alt="Giao diện của Obsidian khi cài đặt theo Vault mẫu Obsidian Go V3" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2023/01/obsidian-ghi-chu-daily-journal.png" style=" height: auto; width: auto;" title="Hướng dẫn sử dụng Obsidian toàn tập 5"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-62b8bc6bf0703b7f4be610f4cfe26e68"><img alt="Giao diện của Obsidian khi cài đặt theo Vault mẫu Obsidian Go V3" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2023/01/obsidian-ghi-chu-daily-journal.png" title="Hướng dẫn sử dụng Obsidian toàn tập 5"></a></p>
+<p>Giao diện của Obsidian khi cài đặt theo Vault mẫu Obsidian Go V3</p>
+<h3 id="23-sử-dụng-obsidian-plugin">2.3. Sử dụng Obsidian Plugin</h3>
+<p>Trong Obsidian, plugin được chia thành 2 nhóm là Core plugins do Obsidian cung cấp và Community plugins do cộng đồng tự phát triển. </p>
+<ul>
+<li>
+<p><strong>Core plugins:</strong> có sẵn khi các bạn cài đặt Obsidian trên thiết bị, tuy nhiên bạn cần cấu hình các plugin để tiện lợi nhất theo nhu cầu sử dụng của mình.</p>
+</li>
+<li>
+<p><strong>Community plugins:</strong> theo mặc định thì tính năng này bị tắt, để có thể sử dụng community plugins (nếu bạn dùng sẵn file cấu hình tôi cung cấp) hoặc bắt đầu tìm kiếm để cài đặt thêm các plugin thì cần bật tính năng này lên. Hầu hết các plugin được dùng phổ biến trên Obsidian đều miễn phí, bạn có thể donate để ủng hộ tác giả, một số plugin đặc biệt thì cần mua. Hiện tại, tôi không dùng bất kỳ community plugin nào trả phí.</p>
+<p><a href="#R-image-da761a065b263db1faa29a919db960e7" class="lightbox-link"><img alt="Cho phép sử dụng Community Plugin trên Obsidian" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2023/01/bat-community-plugin-obsidian-scaled.jpg" style=" height: auto; width: auto;" title="Hướng dẫn sử dụng Obsidian toàn tập 6"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-da761a065b263db1faa29a919db960e7"><img alt="Cho phép sử dụng Community Plugin trên Obsidian" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2023/01/bat-community-plugin-obsidian-scaled.jpg" title="Hướng dẫn sử dụng Obsidian toàn tập 6"></a></p>
+<p>Cho phép sử dụng Community Plugin trên Obsidian</p>
+<p>Để cài đặt một Community plugin bất kỳ, bạn vào mục cài đặt (phím tắt <code>Cmd</code> + <code>,</code> trên macOS hoặc <code>Ctrl</code> + <code>,</code> trên Windows), tìm đến mục <code>Community plugins</code> &gt; <code>Browse</code> . Trong cửa sổ mở ra tiếp theo, hãy gõ tên plugin bạn cần tìm và cài đặt.</p>
+<p><a href="#R-image-27a87a23d0547de198ae3aa0d9bf1961" class="lightbox-link"><img alt="Tìm và cài đặt Community Plugin trên Obsidian" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2023/01/obsidian_community_plugin_browse_plugin.png" style=" height: auto; width: auto;" title="Hướng dẫn sử dụng Obsidian toàn tập 7"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-27a87a23d0547de198ae3aa0d9bf1961"><img alt="Tìm và cài đặt Community Plugin trên Obsidian" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2023/01/obsidian_community_plugin_browse_plugin.png" title="Hướng dẫn sử dụng Obsidian toàn tập 7"></a></p>
+<p>Tìm và cài đặt Community Plugin trên Obsidian</p>
+</li>
+</ul>
+<h4 id="231-các-plugin-thiết-yếu">2.3.1. Các Plugin thiết yếu</h4>
+<p>Tất cả các plugin có sẵn trong danh sách Core plugins đều được xem là nhóm plugin thiết yếu, bạn có thể bật hết các plugin này để sử dụng, ngoại trừ Sync và Publish (nếu bạn không dùng bản trả phí). Ngoài ra, tôi gợi ý thêm 1 số Community plugin quan trọng mà bạn nên cài đặt để bắt đầu:</p>
+<ol>
+<li>
+<p>Obsidian Editing Toolbar<br>
+Plugin này giúp bạn có thể định dạng ghi chú của mình với 1 thanh công cụ tương tự như khi soạn thảo văn bản với bộ công cụ Office (Words, Docs) để những bạn mới có thể thực hiện công việc của mình trơn tru trong khi làm quen với markdown. Mặc định, bạn chỉ gõ văn bản và định dạng kiểu cho ghi chú của mình bằng các ký tự (hoàn toàn dùng bàn phím mà không cần chuột) nên plugin này giúp bạn đỡ bị sốc khi chuyển đổi bộ công cụ của mình. </p>
+<p><a href="#R-image-adaa0e894fb509fc98fc817e32f0b6a6" class="lightbox-link"><img alt="Obsidian Editting Toolbar" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2023/01/community_plugin_obsidian_editting_toolbar-scaled.jpg" style=" height: auto; width: auto;" title="Hướng dẫn sử dụng Obsidian toàn tập 8"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-adaa0e894fb509fc98fc817e32f0b6a6"><img alt="Obsidian Editting Toolbar" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2023/01/community_plugin_obsidian_editting_toolbar-scaled.jpg" title="Hướng dẫn sử dụng Obsidian toàn tập 8"></a></p>
+<p>Obsidian Editting Toolbar</p>
+</li>
+<li>
+<p>**Advanced Mobile Toolbar<br>
+**Nếu sử dụng Obsidian bản mobile thì đây là công cụ không thể thiếu bởi gõ bằng bàn phím vật lý trên desktop và dùng markdown thì đơn giản nhưng soạn thảo văn bản bằng điện thoại (hoặc tablet) và gõ cú pháp markdown với bàn phím ảo nữa thì không hiệu quả và rất vất vả vì màn hình điện thoại bé thao tác cảm ứng mất thời gian.</p>
+<p><a href="#R-image-915f585adab63153dcf7de23f75e1d04" class="lightbox-link"><img alt="Obsidian Advanced Mobile Toolbar | Samsung Note" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2023/01/obsidian_community_plugin_advanced_mobile_toolbar-scaled.jpeg" style=" height: auto; width: auto;" title="Hướng dẫn sử dụng Obsidian toàn tập 9"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-915f585adab63153dcf7de23f75e1d04"><img alt="Obsidian Advanced Mobile Toolbar | Samsung Note" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2023/01/obsidian_community_plugin_advanced_mobile_toolbar-scaled.jpeg" title="Hướng dẫn sử dụng Obsidian toàn tập 9"></a></p>
+<p>Obsidian Advanced Mobile Toolbar | Samsung Galaxy Note</p>
+</li>
+<li>
+<p>**Advanced Tables<br>
+**Không sớm thì muộn, bạn cũng sẽ nhận ra việc tạo và quản lý nội dung một bảng với cú pháp markdown không được thuận tiện như khi làm việc với các công cụ soạn thảo văn bản trực quan khác. Đây là plugin bạn nên có để soạn thảo các bảng trong Obsidian tiện lợi và gọn gàng hơn. Nó sẽ giúp bạn canh dòng, quản lý hàng và cột tiện lợi, tự động điều chỉnh layout để trông đoạn text dùng cho việc định dạng bảng ngăn nắp hơn. Ngoài ra trên thanh sidebar cũng sẽ bổ sung công cụ định dạng để bạn chọn nhanh chóng.</p>
+</li>
+</ol>
+<h4 id="232-các-plugin-nâng-cao">2.3.2. Các Plugin nâng cao</h4>
+<p>Để đọc thêm thông tin chi tiết và cài đặt các plugin dưới đây để sử dụng, bạn có thể Browse để tìm Community Plugin trong phần cài đặt như hướng dẫn bên trên. Các community plugin hầu hết đều công khai mã nguồn (open-source) trên Github, bạn có thể xem source code và cân nhắc trước khi sử dụng nếu có kiến thức về lập trình. Dưới đây là các plugin tôi đã/đang sử dụng và thấy hữu ích, bạn có thể tham khảo để cài đặt nếu thấy phù hợp nhu cầu của mình.</p>
+<table>
+<thead>
+<tr>
+<th>Phân loại</th>
+<th>Tên Plugin</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Soạn thảo văn bản</td>
+<td>Outliner</td>
+<td>Định dạng và quản lý các ghi chú có chứa các danh sách (list) tiện lợi và trực quan, cho phép thu gọn/mở rộng theo mục.</td>
+</tr>
+<tr>
+<td></td>
+<td>Smart Typography</td>
+<td>Định dạng ghi chú tự động (linting) theo các “rule” phổ biến.</td>
+</tr>
+<tr>
+<td></td>
+<td>Data Loom</td>
+<td>Tạo và quản lý bảng tính trong Obsidian trực quan, thao tác kéo thả quen thuộc theo phong cách Notion.</td>
+</tr>
+<tr>
+<td></td>
+<td>Advanced Tables</td>
+<td>Tạo và chỉnh sửa bảng markdown tiện lợi và nhanh chóng.</td>
+</tr>
+<tr>
+<td></td>
+<td>Mind map</td>
+<td>Tạo mind map từ văn bản dạng danh sách (bullet points và đánh số thứ tự). Cần mở cửa sổ preview để xem.</td>
+</tr>
+<tr>
+<td></td>
+<td>Mermaid Tool</td>
+<td>Tạo và hiển thị các lưu đồ (flowchart) trong Obsidian sử dụng cú pháp mermaid.</td>
+</tr>
+<tr>
+<td></td>
+<td>Banners</td>
+<td>Cho phép chèn hình banner và avatar cho mỗi ghi chú tương tự Notion.</td>
+</tr>
+<tr>
+<td></td>
+<td>Natural Language Dates</td>
+<td>Chèn ngày tháng, thời gian vào ghi chú bằng ngôn ngữ tự nhiên. Ví dụ <code>@today</code> để chèn ngày hôm nay, <code>@time: now</code> để chèn giờ hiện tại. Bạn có thể tuỳ chình định dạng ngày tháng, thời gian theo sở thích.</td>
+</tr>
+<tr>
+<td></td>
+<td>Emoji shortcodes</td>
+<td>Chèn emoji bằng shortcode khi soạn văn bản. Ví dụ, để chèn ????, bạn gõ bằng <code>:</code>wink . Khi bắt đầu gõ <code>:</code> thì plugin này sẽ gợi ý cho bạn một danh sách emoji để chọn. Nếu không dùng plugin này, bạn mở hộp thoại chèn emoji trên macOS bằng <code>Ctr</code> + <code>Cmd</code> + <code>Space</code> hoặc <code>Windows</code> + <code>;</code> rồi chọn emoji.</td>
+</tr>
+<tr>
+<td></td>
+<td>Note Refactor</td>
+<td>Cho phép tinh chỉnh hành vi tự động của Obsidian khi bạn muốn tách nhỏ 1 ghi chú thành nhiều ghi chú nhỏ hơn.</td>
+</tr>
+<tr>
+<td>Ghi chú cá nhân (Journal)</td>
+<td>Calendar</td>
+<td>Cho phép hiển thị 1 ô chứa lịch (ngày tháng) để click chọn mở hoặc tạo mới ghi chú theo ngày trên lịch. Ghi chú được tạo cũng được tự động định dạng tên theo ngày tháng và một số thiết lập về nơi lưu trữ ghi chú, template được sử dụng, vv.</td>
+</tr>
+<tr>
+<td></td>
+<td>Periodic Notes</td>
+<td>Cho phép bạn thiết lập và quản lý các ghi chú thường xuyên theo ngày/tuần/tháng/quý/năm. Plugin này rất tiện lợi cho những người có thói quen viết ghi chú dạng “reflection” (suy tưởng).</td>
+</tr>
+<tr>
+<td>Ghi chú trực quan (Visual Note-taking)</td>
+<td>Excalidraw</td>
+<td>Một ứng dung tuyệt vời để vẽ (sketch/doodling), tạo ghi chú trực quan (visual note-taking) trong Obsidian. Plugin này sử dung mượt và nhiều tính năng thú vị, hoạt động tốt trên cả bản Obsidian desktop lẫn mobile.</td>
+</tr>
+<tr>
+<td>Xuất bản</td>
+<td>Pandoc Plugin</td>
+<td>Cho phép xuất ghi chú markdown sang bất cứ định dạng nào bạn muốn với Pandoc. Bạn cần cài đặt kèm <a href="https://pandoc.org/" target="_blank">pandoc</a> trên máy tính. Pandoc là một công cụ chuyển đổi tài liệu mạnh mẽ và đa năng, bạn có thể tìm hiểu thêm thông tin chi tiết tại pandoc.org.</td>
+</tr>
+<tr>
+<td>Quản lý thời gian/dự án</td>
+<td>Obsidian TODO</td>
+<td>Text-based GTD</td>
+</tr>
+<tr>
+<td></td>
+<td>Reminder</td>
+<td>Cho phép đặt lời nhắc để bạn thực hiện những việc trong to-do list của mình.</td>
+</tr>
+<tr>
+<td></td>
+<td>Tasks</td>
+<td>Plugin đi kèm để sử dụng Reminder.</td>
+</tr>
+<tr>
+<td></td>
+<td>Flexible Pomodoro for Obsidian</td>
+<td>Hiển thị đồng hồ bấm giờ Pomodoro và thực hiện công việc theo phong cach Pomodoro trong Obsidian khá tiện dụng. Cho phép theo dõi lại log các việc thực hiện với Pomodoro.</td>
+</tr>
+<tr>
+<td></td>
+<td>Kanban</td>
+<td>Cho phép tạo kanban board sử dụng để quản lý dự án rất tiện lợi.</td>
+</tr>
+<tr>
+<td>Tinh chỉnh giao diện</td>
+<td>Hider</td>
+<td>Cho phép ẩn các thành phần bất kỳ của Obsidian trên giao diện Obsidian, kích hoạt và tắt tính năng ẩn với phím tắt.</td>
+</tr>
+<tr>
+<td></td>
+<td>Icon Folder</td>
+<td>Một plugin đơn giản cho phép bạn tùy biến icon đại diện cho folder và file xuất hiện trong giao diện sử dụng của Obsidian. Bằng cách thêm các biểu tượng trực quan, tôi tìm và chuyển đổi giữa các thư mục, file quan trọng một cách nhanh chóng thay vì đọc tên của chúng.</td>
+</tr>
+<tr>
+<td></td>
+<td>Style</td>
+<td>Cho phép tùy chỉnh tất cả các mục xuất hiện trong Obsidian. Mình ít tùy biến Obsidian nhưng cài đặt hiển thị các màu sắc nổi bật cho heading để dễ nhìn khi kích thước font các heading không khác biệt nhiều.</td>
+</tr>
+<tr>
+<td>Truy vấn</td>
+<td>Dataview</td>
+<td>Cho phép sử dụng query để truy xuất các ghi chú và nội dung của nó trong Obsidian tương tự như bạn query với một database. Tôi sử dụng plugin này để chèn vào ghi chú mới khi viết Journal cho mục On this day.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="24-đồng-bộ-dữ-liệu-obsidian-giữa-các-thiết-bị">2.4. Đồng bộ dữ liệu Obsidian giữa các thiết bị</h3>
+<h4 id="241-đồng-bộ-dữ-liệu-giữa-desktop-và-cloud">2.4.1. Đồng bộ dữ liệu giữa Desktop và cloud</h4>
+<p>Hướng dẫn chính thức từ Obsidian bằng tiếng Anh <a href="https://help.obsidian.md/Getting+started/Sync+your+notes+across+devices" target="_blank">tại đây</a></p>
+<p><strong>a. macOS</strong></p>
+<p>Nếu bạn sử dụng Obsidian trên hệ sinh thái thiết bị của Apple thì iCloud là dịch vụ duy nhất bạn có thể sử dụng để đồng bộ dữ liệu/ghi chú của mình giữa thiết bị desktop với cloud và mobile. Cách thiết lập khá đơn giản:</p>
+<ul>
+<li>Tạo thư mục chứa các ghi chú Obsidian trong iCloud folder (mở bằng Finder)</li>
+<li>Từ Obsidian, chọn Open folder as Vault và tìm đến thư mục bạn chọn (như trên) và bắt đầu sử dụng.</li>
+</ul>
+<p>Nếu bạn bắt đầu sử dụng Obsidian với thư mục cấu hình sẵn (tôi chia sẻ trên Github ở mục Cài đặt của bài viết) thì chỉ cần copy thư mục sau khi giải nén vào iCloud và Open folder as vault để sử dụng.</p>
+<p><a href="#R-image-c5863cea5d51de2e84a6160212338662" class="lightbox-link"><img alt="Chọn thư mục lưu trữ ghi chú trong Obsidian. Open as Vault" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2023/01/Obsidian-open-folder-as-vaultjpg-scaled.jpg" style=" height: auto; width: auto;" title="Hướng dẫn sử dụng Obsidian toàn tập 10"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c5863cea5d51de2e84a6160212338662"><img alt="Chọn thư mục lưu trữ ghi chú trong Obsidian. Open as Vault" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2023/01/Obsidian-open-folder-as-vaultjpg-scaled.jpg" title="Hướng dẫn sử dụng Obsidian toàn tập 10"></a></p>
+<p>Chọn thư mục lưu trữ ghi chú trong Obsidian. Open as Vault</p>
+<p><strong>b. Windows/Linux:</strong></p>
+<p>Đối với máy tính Windows thì Onedrive đã được tích hợp sẵn vào hệ điều hành, bạn chỉ cần đăng nhập tài khoản Microsoft vào ứng dụng Onedrive trên máy tính để bắt đầu sử dụng. Các bước thực hiện đồng bộ tương tự như tôi hướng dẫn với macOS, trong trường hợp này bạn chọn nơi lưu trữ thư mục Obsidian là OneDrive thay vì iCloud. Trong trường hợp máy tính của bạn chưa được cài sẵn Onedrive, thì bạn có thể tải về <a href="https://www.microsoft.com/vi-vn/microsoft-365/onedrive/download" target="_blank">tại đây</a>.</p>
+<p>Nếu bạn sử dụng Google Drive làm dịch vụ đồng bộ thì chắc chắn cũng cần cài <a href="https://www.google.com/drive/download/" target="_blank">ứng dụng Google Drive trên máy tính</a> của mình, các bước thực hiện tương tự như Onedrive và iCloud. Tương tự với các dịch vụ cloud khác như Dropbox, vv hoặc kể cả bạn sử dụng Ubuntu hoặc các phiên bản hệ điều hành Linux.</p>
+<h4 id="242-đồng-bộ-dữ-liệu-giữa-mobile-và-cloud">2.4.2. Đồng bộ dữ liệu giữa Mobile và Cloud</h4>
+<p><strong>iPhone/iPad</strong></p>
+<p>Chỉ cần cài đặt Obsidian trên thiết bị và mở thư mục Obsidian từ iCloud trên bộ nhớ máy của bạn.</p>
+<p><strong>Android</strong></p>
+<p>Bạn có thể chọn một trong 2 ứng dụng từ bên thứ 3 là <a href="https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite&hl=en_US" target="_blank">Folder Sync</a> hoặc <a href="https://play.google.com/store/apps/details?id=com.ttxapps.dropsync" target="_blank">Drop Sync</a>. Tôi sử dụng Folder Sync bản trả phí (có thể dùng miễn phí kèm quảng cáo cũng không phiền lắm). Lý do phải dùng dịch vụ của bên thứ 3 mà không phải app chính thức OneDrive, Google Drive, vv là bởi các app này không cho phép đồng bộ dữ liệu và lưu trữ chúng vào một thư mục cụ thể trên bộ nhớ máy để bạn có thể mở và sửa đổi ghi chú với Obsidian.</p>
+<p>Dưới đây là video tôi hướng dẫn cụ thể cách thiết lập đồng bộ với Folder Sync và Onedrive.</p>
+<iframe title="Thiết lập đồng bộ dữ liệu Obsidian với dịch vụ đám mây với Folder Sync trên thiết bị Android" width="700" height="394" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-src="https://www.youtube.com/embed/aW5Xn2Y3VfE?feature=oembed" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></iframe>
+<h2 id="iii-ghi-chú-với-markdown-trong-obsidian">III. Ghi chú với markdown trong Obsidian</h2>
+<p>Ghi chú trong Obsidian sử dụng cú pháp markdown khá đơn giản, tuy nhiên quá trình làm quen với cách thức soạn thảo văn bản này xa lạ với phần lớn người dùng phổ thông. Một điểm thú vị khi ghi chú với markdown là bạn hoàn toàn chỉ cần gõ bằng bàn phím mà không bị mất tập trung vào các biểu tượng để định dạng văn bản như khi hầu hết chúng ta quen sử dụng Microsoft Word. Để trở thành một người dùng thành thạo loại ngôn ngữ đánh dấu này trong Obsidian, bạn cần ghi nhớ cú pháp định dạng và các nhóm phím tắt để thao tác nhanh. Hãy đọc thêm bài hướng dẫn chi tiết dưới đây về cách sử dụng markdown từ A-Z.</p>
+<p><a href="https://thinhvu.com/2023/04/06/huong-dan-su-dung-markdown-la-gi/" target="_blank"><a href="#R-image-f3a820d8aa1e838a7b31083e7b769af4" class="lightbox-link"><img alt="Hướng dẫn sử dụng markdown là gì" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2023/04/huong-dan-su-dung-markdown-la-gi_thinhvu-blog-1024x576.jpg" style=" height: auto; width: auto;" title="Markdown là gì? Hướng dẫn sử dụng Markdown A-Z 3"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f3a820d8aa1e838a7b31083e7b769af4"><img alt="Hướng dẫn sử dụng markdown là gì" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2023/04/huong-dan-su-dung-markdown-la-gi_thinhvu-blog-1024x576.jpg" title="Markdown là gì? Hướng dẫn sử dụng Markdown A-Z 3"></a></a></p>
+<h3 id="markdown-là-gì-hướng-dẫn-sử-dụng-markdown-a-zhttpsthinhvucom20230406huong-dan-su-dung-markdown-la-gi"><a href="https://thinhvu.com/2023/04/06/huong-dan-su-dung-markdown-la-gi/" target="_blank">Markdown là gì? Hướng dẫn sử dụng Markdown A-Z</a></h3>
+<p>Trong bài viết Hướng dẫn sử dụng Obsidian toàn tập, tôi đã đề cập đến Markdown như là phương thức soạn thảo ghi chú với ứng dụng này, trong bài viết này chúng ta cùng tìm hiểu cách sử dụng Markdown một cách trọn vẹn nhất nhé. I. Markdown là gì? Markdown là một dạng […]</p>
+<h2 id="iv-phương-pháp-ghi-chú-và-tổ-chức-thông-tin">IV. Phương pháp ghi chú và tổ chức thông tin</h2>
+<p>Cùng theo dõi video tôi chia sẻ về tư duy tổ chức thông tin trong Obsidian để bạn có thể hình dung được thực tế sử dụng Obsidian và tự xây dựng cho mình phương pháp phù hợp nhất.</p>
+<iframe title="Tư duy tổ chức thông tin trong Obsidian. Hiểu nguồn gốc để sáng tạo thay vì bắt chước." width="700" height="394" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-src="https://www.youtube.com/embed/O-v_4pHV77o?feature=oembed" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></iframe>
+<h3 id="41-phương-pháp-para">4.1. Phương pháp PARA</h3>
+<p>PARA là phương pháp tổ chức thông tin do Tiago Forte khởi xướng, được viết trong cuốn sách Building a Second Brain của tác giả. Bạn có thể đọc bài viết chi tiết về phương pháp này tại đây.</p>
+<p><a href="https://thinhvu.com/2023/05/23/phuong-phap-para-to-chuc-ghi-chu-obsidian/" target="_blank"><a href="#R-image-f457f29a8759f0c73dace40aab87599e" class="lightbox-link"><img alt="Phương pháp PARA trong tổ chức ghi chú Obsidian hiệu quả" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2023/05/phuong-phap-para-ghi-chu-obsidian-hieu-qua-1024x576.jpg" style=" height: auto; width: auto;" title="Phương pháp PARA trong tổ chức thông tin hiệu quả 4"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f457f29a8759f0c73dace40aab87599e"><img alt="Phương pháp PARA trong tổ chức ghi chú Obsidian hiệu quả" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://thinhvu.com/wp-content/uploads/2023/05/phuong-phap-para-ghi-chu-obsidian-hieu-qua-1024x576.jpg" title="Phương pháp PARA trong tổ chức thông tin hiệu quả 4"></a></a></p>
+<h3 id="phương-pháp-para-trong-tổ-chức-thông-tin-hiệu-quảhttpsthinhvucom20230523phuong-phap-para-to-chuc-ghi-chu-obsidian"><a href="https://thinhvu.com/2023/05/23/phuong-phap-para-to-chuc-ghi-chu-obsidian/" target="_blank">Phương pháp PARA trong tổ chức thông tin hiệu quả</a></h3>
+<p>Bạn có bao giờ cảm thấy mất kiểm soát trước lượng thông tin khổng lồ mà bạn tiếp nhận hàng ngày và băn khoăn về cách tổ chức chúng một cách hiệu quả chưa? Có lúc bạn đã dành nhiều thời gian để tạo ra hàng tá file và ghi chú, nhưng cuối cùng lại […]</p>
+<h2 id="v-kết-luận">V. Kết luận</h2>
+<p>Trong phần tiếp theo, tôi sẽ hướng dẫn cho bạn cách bắt đầu với Obsidian và tận dụng các tính năng mạnh mẽ của nó. Tôi sẽ đề cập đến cách thiết lập, tạo và sắp xếp các ghi chú phù hợp với nhu cầu của bạn.</p>
+
+            <footer class="footline">
+<div class=" taxonomy-categories term-list cstyle  " title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="../../../categories/obsidian/index.html">Obsidian</a></li>
+  </ul>
+</div>
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation showVisitedLinks">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <style>
+            #R-logo svg,
+            #R-logo svg * {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              fill: #282828 !important;
+              fill: var(--MENU-SECTIONS-BG-color) !important;
+              opacity: .945;
+            }
+            a#R-logo {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              font-family: 'Work Sans', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
+              font-size: 1.875rem;
+              font-weight: 300;
+              margin-top: -.8125rem;
+              max-width: 60%;
+              text-transform: uppercase;
+              width: 14.125rem;
+              white-space: nowrap;
+            }
+            a#R-logo:hover {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+            }
+            #R-logo svg {
+              margin-bottom: -1.25rem;
+              margin-inline-start: -1.47rem;
+              margin-inline-end: .5rem;
+              width: 40.5%;
+            }
+            @media only all and (max-width: 59.999rem) {
+              a#R-logo {
+                font-size: 1.5625rem;
+                margin-top: -.1875rem;
+              }
+              #R-logo svg {
+                margin-bottom: -.75rem;
+                margin-inline-start: -1.47rem;
+                margin-inline-end: .5rem;
+              }
+            }
+            @media all and (-ms-high-contrast:none) {
+              /* IE11s understanding of positioning is weird at best */
+              a#R-logo {
+                margin-top: -3.625rem;
+              }
+              #R-logo svg {
+                margin-bottom: -3.875rem;
+                margin-left: -1.47rem;
+                margin-right: .5rem;
+              }
+            }
+            @media only all and (-ms-high-contrast:none) and (max-width: 59.999rem) {
+              #R-logo svg {
+                margin-left: -1.47rem;
+                margin-right: .5rem;
+              }
+            }
+          </style>
+          <a id="R-logo" href="../../../index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.044 64.044">
+              <path d="M46.103 136.34c-.642-.394-1.222-2.242-1.98-2.358-.76-.117-1.353.506-1.618 1.519-.266 1.012-.446 4.188.173 5.538.213.435.482.787 1.03.845.547.057.967-.504 1.45-1.027.482-.523.437-.9 1.142-.612.705.289 1.051.4 1.586 1.229.535.828 1.085 4.043.868 5.598-.241 1.458-.531 2.8-.59 4.088.26.075.517.148.772.217 2.68.724 5.373 1.037 7.873.02.001-.028.01-.105.008-.11-.048-.165-.18-.41-.36-.698-.18-.29-.414-.645-.586-1.114a3.212 3.212 0 0 1-.125-1.735c.056-.21.153-.342.249-.475 1.237-1.193 2.932-1.373 4.244-1.384.557-.004 1.389.016 2.198.255.809.239 1.706.724 2.068 1.843.187.578.114 1.17-.043 1.623-.153.438-.369.783-.545 1.091-.178.31-.329.6-.401.821-.007.02-.003.071-.005.094 2.256 1.008 4.716.91 7.189.398.55-.114 1.11-.247 1.673-.377.344-1.085.678-2.145.852-3.208.124-.752.158-2.311-.078-3.538-.118-.613-.306-1.15-.52-1.489-.221-.349-.413-.501-.747-.538-.243-.027-.51.013-.796.098-.67.223-1.33.606-1.966.76l-.008.002-.109.032c-.556.152-1.233.158-1.797-.36-.556-.51-.89-1.367-1.117-2.596-.283-1.528-.075-3.279.89-4.518l.071-.09h.07c.65-.71 1.485-.802 2.16-.599.706.213 1.333.629 1.772.84.736.354 1.185.319 1.475.171.291-.148.5-.439.668-.955.332-1.017.301-2.819.022-4.106-.148-.684-.13-1.292-.13-1.883-1.558-.463-3.067-.982-4.574-1.208-1.128-.169-2.263-.173-3.298.164-.13.046-.256.095-.38.15-.373.164-.633.342-.805.52-.077.098-.081.105-.087.21-.004.068.031.289.13.571.1.282.256.634.467 1.03.279.524.448 1.063.431 1.618a2.12 2.12 0 0 1-.499 1.309 1.757 1.757 0 0 1-.62.51h-.002c-.515.291-1.107.404-1.723.464-.86.083-1.787.026-2.598-.097-.806-.123-1.47-.28-1.948-.555-.444-.256-.79-.547-1.037-.925a2.273 2.273 0 0 1-.356-1.301c.029-.837.403-1.437.625-1.897.111-.23.191-.433.236-.583.045-.15.044-.25.046-.24-.005-.029-.127-.355-1.015-.741-1.138-.495-2.322-.673-3.533-.668h-.015a9.711 9.711 0 0 0-.521.016h-.002c-1.163.057-2.35.308-3.541.569.383 1.531.79 2.753.818 4.502-.096 1.297.158 2.114-1.03 2.935-.85.588-1.508.729-2.15.335" style="fill:#282828;fill-opacity:1;stroke:none;stroke-width:1.03763;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" transform="translate(-40.698 -95.175)"/>
+              <path d="M61.472 101.34v.002c-.3-.003-.603.01-.894.04-.544.055-1.39.165-1.778.306-1.238.364.13 2.344.41 2.913.28.569.285 2.03.14 2.134-.144.103-.375.261-.934.345-.56.084.03-.037-1.589.086-1.62.122-5.506.29-8.265.248-.022.26-.036.521-.097.808-.309 1.442-.63 3.163-.494 4.074.071.473.168.65.414.8.23.14.737.235 1.62-.004.834-.227 1.3-.442 1.887-.456.595-.016 1.555.472 1.965.717.411.245-.03-.008.002 0s.128.05.176.102c.049.053-.276-.523.104.199.379.721.72 3.256.002 4.68-.46.913-1.01 1.49-1.64 1.711-.63.22-1.229.067-1.734-.135-.881-.353-1.584-.7-2.205-.647-1.199 1.94-1.186 4.17-.6 6.602.097.397.212.814.327 1.23 2.68-.556 5.542-1.016 8.337.132 1.064.437 1.73 1.015 1.902 1.857.169.831-.193 1.508-.438 1.986-.122.238-.23.46-.307.642-.07.164-.096.28-.104.324.069.429.309.723.686.945.385.227.89.355 1.35.423.723.104 1.567.152 2.287.086.693-.064 1.032-.338 1.241-.544a2.447 2.447 0 0 0 .303-.437.175.175 0 0 0 .013-.035c-.004-.066-.037-.246-.195-.527-.46-.816-.87-1.595-.817-2.51.028-.476.218-.938.529-1.288.304-.343.698-.586 1.186-.79 1.442-.606 2.96-.609 4.372-.409 1.525.216 2.963.679 4.378 1.083.226-2.09.784-3.9.592-5.77-.058-.565-.287-1.333-.598-1.827-.32-.508-.59-.717-1.036-.642-.648.11-1.472.935-2.707 1.078-.791.092-1.494-.267-1.95-.86-.45-.583-.678-1.335-.78-2.101-.202-1.525.031-3.229.89-4.27.615-.747 1.45-.887 2.15-.74.687.145 1.307.492 1.857.745v-.002c.546.252 1.033.388 1.281.344a.547.547 0 0 0 .353-.188c.113-.124.242-.35.384-.75.604-1.712.206-3.68-.303-5.654-.667.145-1.336.293-2.018.413-1.341.236-2.73.392-4.136.273-.656-.055-1.695-.085-2.58-.476-.442-.195-.903-.514-1.157-1.093-.259-.591-.205-1.313.08-2.014.223-.64 1.082-2.178.692-2.585-.391-.407-1.651-.56-2.554-.571z" style="fill:#282828;fill-opacity:1;stroke:none;stroke-width:.992837;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" transform="translate(-40.698 -95.175)"/>
+              <path d="M83.128 98.116c-.484 1.875-1.057 3.757-2.486 5.033-.638.57-1.13.666-1.483.548-.401-.134-.715-.506-1.058-.973-.338-.461-.655-.97-1.076-1.332-.192-.165-.404-.315-.683-.38-.279-.066-.599-.02-.9.102-.489.196-.89.58-1.28 1.047a6.1 6.1 0 0 0-.985 1.632c-.234.591-.356 1.174-.277 1.713.072.487.392.977.905 1.185.463.187.926.156 1.36.154.433 0 .843.01 1.242.147.55.189.79.736.822 1.368.034.66-.145 1.412-.393 1.988l-.008.021c-.74 1.705-1.946 2.893-3.004 4.349l-.664.915.979.099c.924.092 1.788.26 2.468.675.46.281 1.806 1.205 2.794 2.222.497.513.888 1.031 1.047 1.502.078.231.095.422.05.6a.93.93 0 0 1-.345.474c-.301.223-.606.395-.864.532l-.354.186c-.107.058-.189.087-.345.228a.637.637 0 0 1 .062-.045l-.064.041-.209.236-.103.343s.003.126.007.152c.003.017.003.007.004.015v.002c.016.195.061.307.133.476a4.1 4.1 0 0 0 .32.596 5.7 5.7 0 0 0 2.8 2.258c.284.108.908.321 1.548.36.33.02.59.015.912-.13h.002c.08-.037.228-.095.382-.281.153-.186.19-.355.212-.445l.019-.075.003-.078c.023-.585-.037-1.296.072-1.899.153-.657.435-.956 1.009-.909 2.771.239 4.74 1.955 6.693 3.83l.742.714.279-1.155c.55-2.29 1.093-4.464 2.928-5.977.692-.57 1.184-.642 1.527-.509.39.151.676.536.996.995.319.458.605.926 1.07 1.212.194.119.464.232.784.209.32-.024.638-.163.988-.384 1.022-.645 1.778-1.756 2.086-2.942.136-.522.102-.991-.046-1.301-.158-.334-.433-.553-.754-.707-.653-.314-1.468-.373-2.094-.486-.825-.15-1.22-.475-1.345-.878-.13-.417 0-.953.335-1.61.6-1.173 1.887-2.602 3.13-3.911l.498-.526-.449-.432c-1.545-1.49-3.163-3.01-5.252-3.715h-.002c-.473-.16-1.097-.413-1.73-.424h-.003c-.311-.004-.596.04-.883.24v.002c-.22.155-.483.537-.583.937l-.008.036-.006.038c-.116.773-.06 1.467-.217 1.995-.063.212-.198.418-.359.507-.202.111-.492.153-.976.072-.582-.097-1.978-.69-3.021-1.503-.523-.407-.934-.85-1.117-1.3a1.153 1.153 0 0 1-.083-.63c.03-.184.1-.477.308-.593.21-.116.941-.32 1.377-.642h.002c.192-.141.403-.367.518-.64.114-.275.127-.526.123-.774-.006-.142-.036-.192-.08-.3a8.417 8.417 0 0 0-3-3.027c-1.226-.725-2.585-1.135-3.927-1.539-.434-.12-.844-.111-1.02.466zm.912.947c1.186.364 2.357.718 3.345 1.303 1.035.612 1.864 1.488 2.507 2.528-.514.263-1.095.5-1.44.79-.345.29-.729.914-.815 1.434-.084.509 0 .968.155 1.347.301.74.85 1.276 1.44 1.735 1.18.92 2.554 1.545 3.47 1.698.604.1 1.186.088 1.739-.216.594-.327.935-.911 1.088-1.427.264-.884.193-1.664.262-2.17h.1c.3.006.926.206 1.417.371 1.646.554 3.044 1.773 4.431 3.089-1.102 1.174-2.222 2.423-2.888 3.73-.42.823-.73 1.789-.453 2.687.283.913 1.1 1.415 2.138 1.603.691.126 1.472.226 1.84.403.19.091.258.182.278.223.03.064.058.075-.023.387-.21.804-.761 1.598-1.413 2.01-.247.155-.365.183-.407.187-.042.003-.061.002-.172-.066-.144-.088-.455-.473-.772-.929-.317-.454-.714-1.07-1.452-1.356-.783-.304-1.776-.022-2.713.75-1.942 1.6-2.626 3.764-3.146 5.8-1.802-1.676-3.772-3.138-6.589-3.517h-.002c-.346-.095-1.013-.031-1.293.143-.735.501-1.005 1.132-1.168 2.007-.125.69-.082 1.216-.074 1.659-.055.006-.046.01-.104.006-.42-.026-1.035-.215-1.244-.295-.947-.361-1.774-1.006-2.314-1.857-.054-.085-.072-.132-.109-.2l.027-.016c.284-.15.656-.36 1.045-.648.44-.327.789-.798.93-1.35a2.4 2.4 0 0 0-.068-1.379c-.254-.751-.753-1.353-1.295-1.911-1.09-1.124-2.452-2.049-2.99-2.378-.609-.372-1.303-.44-1.981-.56.875-1.094 1.878-2.251 2.596-3.921.294-.823.543-1.907.513-2.658-.049-.97-.489-2.013-1.52-2.367-.579-.2-1.131-.204-1.58-.203-.45.002-.786-.006-.97-.08h-.002c-.264-.107-.236-.108-.268-.33-.025-.17.021-.553.183-.962a4.67 4.67 0 0 1 .725-1.192c.29-.348.617-.59.705-.626.142-.057.176-.05.22-.04.045.011.127.052.263.17.235.201.56.671.92 1.161.354.484.791 1.08 1.543 1.33.8.267 1.784-.052 2.671-.846 1.594-1.424 2.235-3.317 2.714-5.051zm11.705 7.023c-.02.014.042-.002.042 0l-.008.035c.05-.2-.028-.04-.034-.035zM79.472 122.45a.198.198 0 0 1 .005.023v.014c-.002-.01-.003-.03-.005-.037zm-.29.732-.006.01-.044.027c.016-.01.033-.024.05-.036z" style="color:#000;fill:#282828;stroke-width:1.02352;-inkscape-stroke:none" transform="translate(-40.698 -95.175)"/>
+              <path d="M76.694 128.845c-.85-.012-1.668.253-2.434.67-.01.592-.015 1.17.109 1.772.323 1.573.422 3.553-.07 5.147-.247.804-.684 1.535-1.347 1.891-.663.356-1.467.296-2.362-.159-.522-.266-1.059-.62-1.487-.757-.223-.072-.392-.096-.522-.069-.13.027-.232.094-.362.27-.53.719-.681 1.823-.497 2.876.177 1.012.418 1.438.543 1.56.143.137.26.154.604.055.548-.158 1.523-.857 2.573-.972l.02-.002.5.058c.686.081 1.247.562 1.622 1.19.372.62.591 1.37.73 2.136.279 1.532.25 3.16.083 4.232-.14.91-.394 1.72-.632 2.53 1.719-.385 3.485-.692 5.307-.36 1.174.214 2.749.574 3.762 1.977l.088.122.046.159c.162.551.16 1.114.024 1.578-.13.45-.348.772-.533 1.023-.181.246-.336.444-.437.606-.102.16-.141.275-.145.336-.01.17 0 .197.07.315.057.1.186.242.39.366.408.246 1.106.414 1.843.45a7.842 7.842 0 0 0 2.174-.21 4.28 4.28 0 0 0 .822-.296c.218-.106.385-.242.377-.233l.029-.031c.025-.035.05-.072.05-.068 0-.004 0-.017-.003-.05a2.733 2.733 0 0 0-.21-.579c-.26-.548-.839-1.333-.822-2.46.01-.657.27-1.21.598-1.576.32-.357.696-.575 1.074-.736.759-.323 1.57-.418 2.054-.458 1.653-.136 3.252.296 4.755.765.457.142.905.29 1.352.434.325-2.258.902-4.247.598-6.217-.071-.46-.25-1.169-.486-1.684-.238-.518-.495-.762-.675-.779-.351-.032-.716.14-1.174.418-.457.277-1.005.665-1.695.742-.745.082-1.406-.291-1.84-.908-.428-.608-.653-1.394-.754-2.196-.203-1.596.016-3.377.794-4.493.568-.813 1.358-.984 2.024-.835.65.146 1.243.51 1.769.779.524.267.99.413 1.237.365a.527.527 0 0 0 .346-.2c.11-.132.235-.373.37-.798.612-1.918.27-3.894-.246-6.054-2.815-.851-5.49-1.534-8.089-.267a.727.727 0 0 0-.223.148c-.024.028-.018.021-.026.056.001-.003-.01.178.07.44.162.522.611 1.29.911 1.978l.004.009.029.063.024.084V133c.162.635.016 1.297-.274 1.727-.272.404-.618.636-.952.81-.675.353-1.399.484-1.724.533a5.888 5.888 0 0 1-3.973-.795c-.512-.311-.876-.594-1.133-1.02-.282-.466-.318-1.084-.172-1.557.252-.814.715-1.266.971-1.89a.663.663 0 0 0 .047-.14c.001-.013 0-.006-.007-.037a.761.761 0 0 0-.184-.268c-.264-.267-.865-.595-1.54-.826-1.356-.462-3.07-.659-3.583-.686-.062-.002-.121-.006-.178-.006z" style="fill:#282828;fill-opacity:1;stroke:none;stroke-width:.991342;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" transform="translate(-40.698 -95.175)"/>
+            </svg>VanDuc
+          </a>
+          
+        </div>
+        <div class="searchbox default-animation">
+          <i class="fas fa-search" title="Search (CTRL+ALT+f)"></i>
+          <label class="a11y-only" for="R-search-by">Search</label>
+          <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+          <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+        </div>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="../../../js/auto-complete.js?1713859223" defer></script>
+        <script src="../../../js/lunr/lunr.min.js?1713859223" defer></script>
+        <script src="../../../js/lunr/lunr.stemmer.support.min.js?1713859223" defer></script>
+        <script src="../../../js/lunr/lunr.multi.min.js?1713859223" defer></script>
+        <script src="../../../js/lunr/lunr.en.min.js?1713859223" defer></script>
+        <script src="../../../js/search.js?1713859223" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation">
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="" class="parent "><input type="checkbox" id="R-section-ab88f5e19e060b2df34a2f21d4ae9656" aria-controls="R-subsections-ab88f5e19e060b2df34a2f21d4ae9656" checked><label for="R-section-ab88f5e19e060b2df34a2f21d4ae9656"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu TỰ HỌC</span></label><span class="padding">TỰ HỌC</span><ul id="R-subsections-ab88f5e19e060b2df34a2f21d4ae9656" class="morespace collapsible-menu">
+          <li data-nav-id="" class="alwaysopen"><input type="checkbox" id="R-section-8d9de0cb43242d8879b1481f2e6feeb4" aria-controls="R-subsections-8d9de0cb43242d8879b1481f2e6feeb4" checked><label for="R-section-8d9de0cb43242d8879b1481f2e6feeb4"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu ENGLISH</span></label><span class="padding">ENGLISH</span><ul id="R-subsections-8d9de0cb43242d8879b1481f2e6feeb4" class="morespace collapsible-menu">
+          <li data-nav-id="" class="alwaysopen"><input type="checkbox" id="R-section-9d0cc5c0e7bda7677f20be846711e6d0" aria-controls="R-subsections-9d0cc5c0e7bda7677f20be846711e6d0" checked><label for="R-section-9d0cc5c0e7bda7677f20be846711e6d0"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu GRAMMAR</span></label><span class="padding">GRAMMAR</span><ul id="R-subsections-9d0cc5c0e7bda7677f20be846711e6d0" class="morespace collapsible-menu">
+          <li data-nav-id="/tuhoc/english/grammar/can-coud/index.html" class=""><a class="padding" href="../../../tuhoc/english/grammar/can-coud/index.html">Can, Could, (be) able<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/english/grammar/modal-verbs/index.html" class=""><a class="padding" href="../../../tuhoc/english/grammar/modal-verbs/index.html">Động từ khuyết thiếu<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="" class=""><span class="padding">LESSON</span></li></ul></li>
+          <li data-nav-id="" class="alwaysopen"><input type="checkbox" id="R-section-8ef17d6d4e55e82042d1b8fc8c88ea35" aria-controls="R-subsections-8ef17d6d4e55e82042d1b8fc8c88ea35" checked><label for="R-section-8ef17d6d4e55e82042d1b8fc8c88ea35"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu ANKI</span></label><span class="padding">ANKI</span><ul id="R-subsections-8ef17d6d4e55e82042d1b8fc8c88ea35" class="morespace collapsible-menu">
+          <li data-nav-id="/tuhoc/anki/c%C3%A1ch-th%C3%AAm-h%C3%A0ng-tr%C4%83m-th%E1%BA%BB-t%E1%BB%AB-v%E1%BB%B1ng-anki-trong-v%C3%A0i-ph%C3%BAt--facebook/index.html" class=""><a class="padding" href="../../../tuhoc/anki/c%C3%A1ch-th%C3%AAm-h%C3%A0ng-tr%C4%83m-th%E1%BA%BB-t%E1%BB%AB-v%E1%BB%B1ng-anki-trong-v%C3%A0i-ph%C3%BAt--facebook/index.html">Cách thêm nhanh thẻ tự vựng<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/anki/dung-ai-soan-tu-vung/index.html" class=""><a class="padding" href="../../../tuhoc/anki/dung-ai-soan-tu-vung/index.html">Dùng AI soạn Từ vựng<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/anki/dung-google-sheet/index.html" class=""><a class="padding" href="../../../tuhoc/anki/dung-google-sheet/index.html">Dùng Google Sheet<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/anki/mot-meo-nho/index.html" class=""><a class="padding" href="../../../tuhoc/anki/mot-meo-nho/index.html">Một mẹo nhỏ<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/anki/t%E1%BA%A1o-t%E1%BB%AB-m%E1%BB%9Bi-anki/index.html" class=""><a class="padding" href="../../../tuhoc/anki/t%E1%BA%A1o-t%E1%BB%AB-m%E1%BB%9Bi-anki/index.html">Tạo từ mới Anki<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="" class="parent alwaysopen"><input type="checkbox" id="R-section-fb5afc6c1ebab30d599659ece0947d42" aria-controls="R-subsections-fb5afc6c1ebab30d599659ece0947d42" checked><label for="R-section-fb5afc6c1ebab30d599659ece0947d42"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu OBSIDIAN</span></label><span class="padding">OBSIDIAN</span><ul id="R-subsections-fb5afc6c1ebab30d599659ece0947d42" class="morespace collapsible-menu">
+          <li data-nav-id="/tuhoc/obsidian/obsidian-publish/index.html" class=""><a class="padding" href="../../../tuhoc/obsidian/obsidian-publish/index.html">Obsidian Publish<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/obsidian/bai-01-obsidian/index.html" class=""><a class="padding" href="../../../tuhoc/obsidian/bai-01-obsidian/index.html">Bài 01-Obsidian<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/obsidian/bai-02-obsidianlearn-anything/index.html" class=""><a class="padding" href="../../../tuhoc/obsidian/bai-02-obsidianlearn-anything/index.html">Bài 02-Obsidian<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/obsidian/bai-03-obsidianthienqc/index.html" class=""><a class="padding" href="../../../tuhoc/obsidian/bai-03-obsidianthienqc/index.html">Bài 03-Obsidian<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/obsidian/bai-04-kh%C3%B3a-h%E1%BB%8Dc-obsidian/index.html" class=""><a class="padding" href="../../../tuhoc/obsidian/bai-04-kh%C3%B3a-h%E1%BB%8Dc-obsidian/index.html">Bài 04-Obsidian<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/obsidian/bai-06-nh%E1%BB%AFng-link-t%C3%ACm-hi%E1%BB%83u-obsidian-hay/index.html" class=""><a class="padding" href="../../../tuhoc/obsidian/bai-06-nh%E1%BB%AFng-link-t%C3%ACm-hi%E1%BB%83u-obsidian-hay/index.html">Bài 06-Obsidian và Anki<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/obsidian/dong-bo-du-lieu/index.html" class=""><a class="padding" href="../../../tuhoc/obsidian/dong-bo-du-lieu/index.html">Đồng bộ dữ liệu trong Obsidian<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/obsidian/giao-dien-va-tinh-nang/index.html" class=""><a class="padding" href="../../../tuhoc/obsidian/giao-dien-va-tinh-nang/index.html">Giao diện và tính năng Obsidian<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/obsidian/huong-dan-su-dung-obsidian-thinh-vu-blog/index.html" class="active"><a class="padding" href="../../../tuhoc/obsidian/huong-dan-su-dung-obsidian-thinh-vu-blog/index.html">Hướng dẫn sử dụng Obsidian<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/obsidian/lam-viec-voi-bang-trong-obsidian/index.html" class=""><a class="padding" href="../../../tuhoc/obsidian/lam-viec-voi-bang-trong-obsidian/index.html">Làm việc với bảng<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/obsidian/markdown-trong-obsidian/index.html" class=""><a class="padding" href="../../../tuhoc/obsidian/markdown-trong-obsidian/index.html">Markdown trong Obsidian<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/obsidian/plugin-obsidian/index.html" class=""><a class="padding" href="../../../tuhoc/obsidian/plugin-obsidian/index.html">Plugin Obsidian<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/obsidian/plugin-obsidian-to-anki/index.html" class=""><a class="padding" href="../../../tuhoc/obsidian/plugin-obsidian-to-anki/index.html">Plugin Obsidian to Anki<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/obsidian/quan-ly-ghi-chu-obsidian/index.html" class=""><a class="padding" href="../../../tuhoc/obsidian/quan-ly-ghi-chu-obsidian/index.html">Quản lý ghi chú trong Obsidian<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/obsidian/thiet-lap-obsidian/index.html" class=""><a class="padding" href="../../../tuhoc/obsidian/thiet-lap-obsidian/index.html">Thiết lập Obsidian<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tuhoc/obsidian/to-chuc-thong-tin-trong-obsidian/index.html" class=""><a class="padding" href="../../../tuhoc/obsidian/to-chuc-thong-tin-trong-obsidian/index.html">Tổ chức thông tin trong Obsidian<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li></ul></li>
+          <li data-nav-id="" class=""><input type="checkbox" id="R-section-42525aefe773e4101e4318b699470d6e" aria-controls="R-subsections-42525aefe773e4101e4318b699470d6e"><label for="R-section-42525aefe773e4101e4318b699470d6e"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu TAKENOTE</span></label><span class="padding">TAKENOTE</span><ul id="R-subsections-42525aefe773e4101e4318b699470d6e" class="morespace collapsible-menu">
+          <li data-nav-id="" class="alwaysopen"><input type="checkbox" id="R-section-8f83c0bd78b17ca1f874aaa670a5d289" aria-controls="R-subsections-8f83c0bd78b17ca1f874aaa670a5d289" checked><label for="R-section-8f83c0bd78b17ca1f874aaa670a5d289"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu OBSIDIAN</span></label><span class="padding">OBSIDIAN</span><ul id="R-subsections-8f83c0bd78b17ca1f874aaa670a5d289" class="morespace collapsible-menu">
+          <li data-nav-id="/takenote/obsidian/obsidian-publish/index.html" class=""><a class="padding" href="../../../takenote/obsidian/obsidian-publish/index.html">Obsidian Publish<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="" class=""><span class="padding">LOGSEQ</span></li></ul></li>
+          <li data-nav-id="" class=""><input type="checkbox" id="R-section-808eae100e7bcd282699f696d1201c79" aria-controls="R-subsections-808eae100e7bcd282699f696d1201c79"><label for="R-section-808eae100e7bcd282699f696d1201c79"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu TIPS PC</span></label><span class="padding">TIPS PC</span><ul id="R-subsections-808eae100e7bcd282699f696d1201c79" class="morespace collapsible-menu">
+          <li data-nav-id="/tips-pc/boot-adv-2024/index.html" class=""><a class="padding" href="../../../tips-pc/boot-adv-2024/index.html">Boot Anhdv<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tips-pc/cai-win-tu-winpe/index.html" class=""><a class="padding" href="../../../tips-pc/cai-win-tu-winpe/index.html">Cài Win từ WinPE<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tips-pc/tich-hop-bo-cai-win-adv/index.html" class=""><a class="padding" href="../../../tips-pc/tich-hop-bo-cai-win-adv/index.html">Cài Win và Boot<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tips-pc/update-driver/index.html" class=""><a class="padding" href="../../../tips-pc/update-driver/index.html">Cập nhật Driver<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tips-pc/hoc-cai-win/index.html" class=""><a class="padding" href="../../../tips-pc/hoc-cai-win/index.html">Học cài Win<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tips-pc/tai-bo-cai-windowsoffice/index.html" class=""><a class="padding" href="../../../tips-pc/tai-bo-cai-windowsoffice/index.html">Tải bộ cài WindowsOffice<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tips-pc/tao-usb-day-du-chuc-nang/index.html" class=""><a class="padding" href="../../../tips-pc/tao-usb-day-du-chuc-nang/index.html">Tạo USB nhiều chức năng<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tips-pc/usb-boot-wintousb/index.html" class=""><a class="padding" href="../../../tips-pc/usb-boot-wintousb/index.html">USB Boot WintoUSB<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="" class=""><input type="checkbox" id="R-section-e653141d71210cf0b97a57ab33111fa3" aria-controls="R-subsections-e653141d71210cf0b97a57ab33111fa3"><label for="R-section-e653141d71210cf0b97a57ab33111fa3"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu DESIGN</span></label><span class="padding">DESIGN</span><ul id="R-subsections-e653141d71210cf0b97a57ab33111fa3" class="morespace collapsible-menu">
+          <li data-nav-id="" class="alwaysopen"><input type="checkbox" id="R-section-93bc79b0cfff3d7ec73c112a899822d0" aria-controls="R-subsections-93bc79b0cfff3d7ec73c112a899822d0" checked><label for="R-section-93bc79b0cfff3d7ec73c112a899822d0"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu HUGO</span></label><span class="padding">HUGO</span><ul id="R-subsections-93bc79b0cfff3d7ec73c112a899822d0" class="morespace collapsible-menu">
+          <li data-nav-id="/design/hugo/yout/index.html" class=""><a class="padding" href="../../../design/hugo/yout/index.html">Layouts Hugo<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/hugo/them-menu-phu/index.html" class=""><a class="padding" href="../../../design/hugo/them-menu-phu/index.html">Thêm Menu phụ<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="" class="alwaysopen"><input type="checkbox" id="R-section-ead150661003f2c1eabc9b5583af9f3d" aria-controls="R-subsections-ead150661003f2c1eabc9b5583af9f3d" checked><label for="R-section-ead150661003f2c1eabc9b5583af9f3d"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu DGARDEN</span></label><span class="padding">DGARDEN</span><ul id="R-subsections-ead150661003f2c1eabc9b5583af9f3d" class="morespace collapsible-menu">
+          <li data-nav-id="/design/dgarden/bat-dau/index.html" class=""><a class="padding" href="../../../design/dgarden/bat-dau/index.html">Bài 01- Mở đầu<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/dgarden/bai-02/index.html" class=""><a class="padding" href="../../../design/dgarden/bai-02/index.html">Bài 02-Lệnh<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/dgarden/bai-03/index.html" class=""><a class="padding" href="../../../design/dgarden/bai-03/index.html">Bài 03-Cài đặt<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/dgarden/cai-dat-ngoai-hinh/index.html" class=""><a class="padding" href="../../../design/dgarden/cai-dat-ngoai-hinh/index.html">Bài 04-Cài đặt giao diện<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/dgarden/05-cai-dat-khac/index.html" class=""><a class="padding" href="../../../design/dgarden/05-cai-dat-khac/index.html">Bài 05-Cài đặt khác<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/dgarden/06-cap-nhat-mau/index.html" class=""><a class="padding" href="../../../design/dgarden/06-cap-nhat-mau/index.html">Bài 06-Cập nhật mẫu<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/dgarden/cac-lua-chon-thay-the/index.html" class=""><a class="padding" href="../../../design/dgarden/cac-lua-chon-thay-the/index.html">Các lựa chọn thay thế<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/dgarden/meo-va-thu-thuat/index.html" class=""><a class="padding" href="../../../design/dgarden/meo-va-thu-thuat/index.html">Các mẹo và thủ thuật<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/dgarden/dac-trung/index.html" class=""><a class="padding" href="../../../design/dgarden/dac-trung/index.html">Đặc trưng<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/dgarden/so-sanh-voi-giai-phap-khac/index.html" class=""><a class="padding" href="../../../design/dgarden/so-sanh-voi-giai-phap-khac/index.html">So sánh với các giải pháp khác<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/dgarden/them-nhan-xet/index.html" class=""><a class="padding" href="../../../design/dgarden/them-nhan-xet/index.html">Thêm nhận xét<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/dgarden/tuy-chinh-css/index.html" class=""><a class="padding" href="../../../design/dgarden/tuy-chinh-css/index.html">Tùy chỉnh css<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/dgarden/tuy-chinh-thanh-phan/index.html" class=""><a class="padding" href="../../../design/dgarden/tuy-chinh-thanh-phan/index.html">Tùy chỉnh thành phần<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="" class="alwaysopen"><input type="checkbox" id="R-section-da4853a2c2658d025d21fc3376af6b11" aria-controls="R-subsections-da4853a2c2658d025d21fc3376af6b11" checked><label for="R-section-da4853a2c2658d025d21fc3376af6b11"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu JEKYLL</span></label><span class="padding">JEKYLL</span><ul id="R-subsections-da4853a2c2658d025d21fc3376af6b11" class="morespace collapsible-menu">
+          <li data-nav-id="/design/jekyll/huong-dan-cai-dat/index.html" class=""><a class="padding" href="../../../design/jekyll/huong-dan-cai-dat/index.html">Hướng dẫn cài đặt<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/jekyll/quick-start-jekyll/index.html" class=""><a class="padding" href="../../../design/jekyll/quick-start-jekyll/index.html">Quick start<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/jekyll/tao-trang-jekyll/index.html" class=""><a class="padding" href="../../../design/jekyll/tao-trang-jekyll/index.html">Tạo trang Jekyll<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="" class="alwaysopen"><input type="checkbox" id="R-section-743b1448f31c60a931a730901573ecec" aria-controls="R-subsections-743b1448f31c60a931a730901573ecec" checked><label for="R-section-743b1448f31c60a931a730901573ecec"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu WORDPRESS</span></label><span class="padding">WORDPRESS</span><ul id="R-subsections-743b1448f31c60a931a730901573ecec" class="morespace collapsible-menu">
+          <li data-nav-id="/design/wordpress/4-b%C6%B0%E1%BB%9Bc-t%E1%BA%A1o-website-b%E1%BA%B1ng-wordpress-cho-ng%C6%B0%E1%BB%9Di-m%E1%BB%9Bi-2024/index.html" class=""><a class="padding" href="../../../design/wordpress/4-b%C6%B0%E1%BB%9Bc-t%E1%BA%A1o-website-b%E1%BA%B1ng-wordpress-cho-ng%C6%B0%E1%BB%9Di-m%E1%BB%9Bi-2024/index.html">4 bước tạo Website bằng Wordpress<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/wordpress/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A1ch-vi%E1%BA%BFt-b%C3%A0i-m%E1%BB%9Bi-t%E1%BA%A1o-post-tr%C3%AAn-wordpress/index.html" class=""><a class="padding" href="../../../design/wordpress/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A1ch-vi%E1%BA%BFt-b%C3%A0i-m%E1%BB%9Bi-t%E1%BA%A1o-post-tr%C3%AAn-wordpress/index.html">Hướng dẫn cách viết bài mới<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/wordpress/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-wordpress-tr%C3%AAn-localhost-chi-ti%E1%BA%BFt/index.html" class=""><a class="padding" href="../../../design/wordpress/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-wordpress-tr%C3%AAn-localhost-chi-ti%E1%BA%BFt/index.html">Hướng dẫn cài đặt Wordpress<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="" class="alwaysopen"><input type="checkbox" id="R-section-5631b3282789e604847f9837357a4d09" aria-controls="R-subsections-5631b3282789e604847f9837357a4d09" checked><label for="R-section-5631b3282789e604847f9837357a4d09"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu GITHUB</span></label><span class="padding">GITHUB</span><ul id="R-subsections-5631b3282789e604847f9837357a4d09" class="morespace collapsible-menu">
+          <li data-nav-id="/design/github/19-bi-kip-voi-github/index.html" class=""><a class="padding" href="../../../design/github/19-bi-kip-voi-github/index.html">19 bí kíp với Github<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/github/github-pages/index.html" class=""><a class="padding" href="../../../design/github/github-pages/index.html">About Github Pages and Jekyll<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/github/bat-dau/index.html" class=""><a class="padding" href="../../../design/github/bat-dau/index.html">Bắt đầu với Github<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/github/cac-trinh-tich-hop/index.html" class=""><a class="padding" href="../../../design/github/cac-trinh-tich-hop/index.html">Các trình tích hợp với Github<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design/github/a-practical-guide-to-github-actions/index.html" class=""><a class="padding" href="../../../design/github/a-practical-guide-to-github-actions/index.html">Practical Guide<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li></ul></li>
+          <li data-nav-id="" class=""><input type="checkbox" id="R-section-7706d08d56c4b23ede31e0a14d8fe6d2" aria-controls="R-subsections-7706d08d56c4b23ede31e0a14d8fe6d2"><label for="R-section-7706d08d56c4b23ede31e0a14d8fe6d2"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu ABOUT THEMES</span></label><span class="padding">ABOUT THEMES</span><ul id="R-subsections-7706d08d56c4b23ede31e0a14d8fe6d2" class="morespace collapsible-menu">
+          <li data-nav-id="/tipsrelearn/basics/index.html" class="alwaysopen"><input type="checkbox" id="R-section-78ca05e7a12af03d07529cca078e90be" aria-controls="R-subsections-78ca05e7a12af03d07529cca078e90be" checked><label for="R-section-78ca05e7a12af03d07529cca078e90be"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Basics</span></label><a class="padding" href="../../../tipsrelearn/basics/index.html">Basics<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-78ca05e7a12af03d07529cca078e90be" class="morespace collapsible-menu">
+          <li data-nav-id="/tipsrelearn/basics/migration/index.html" class=""><a class="padding" href="../../../tipsrelearn/basics/migration/index.html">What&#39;s New<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/basics/requirements/index.html" class=""><a class="padding" href="../../../tipsrelearn/basics/requirements/index.html">Requirements<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/basics/installation/index.html" class=""><a class="padding" href="../../../tipsrelearn/basics/installation/index.html">Installation<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/basics/configuration/index.html" class=""><a class="padding" href="../../../tipsrelearn/basics/configuration/index.html">Configuration<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/basics/branding/index.html" class=""><a class="padding" href="../../../tipsrelearn/basics/branding/index.html">Branding<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/basics/customization/index.html" class=""><a class="padding" href="../../../tipsrelearn/basics/customization/index.html">Customization<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/basics/generator/index.html" class=""><a class="padding" href="../../../tipsrelearn/basics/generator/index.html">Stylesheet generator<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/basics/topbar/index.html" class=""><a class="padding" href="../../../tipsrelearn/basics/topbar/index.html">Topbar Modification<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/basics/history/index.html" class=""><a class="padding" href="../../../tipsrelearn/basics/history/index.html">History<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/tipsrelearn/cont/index.html" class="alwaysopen"><input type="checkbox" id="R-section-b5d36c67a342e924dd6cb7a75d16bba5" aria-controls="R-subsections-b5d36c67a342e924dd6cb7a75d16bba5" checked><label for="R-section-b5d36c67a342e924dd6cb7a75d16bba5"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Content</span></label><a class="padding" href="../../../tipsrelearn/cont/index.html">Content<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-b5d36c67a342e924dd6cb7a75d16bba5" class="morespace collapsible-menu">
+          <li data-nav-id="/tipsrelearn/cont/pages/index.html" class=""><a class="padding" href="../../../tipsrelearn/cont/pages/index.html">Pages organization<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/cont/frontmatter/index.html" class=""><a class="padding" href="../../../tipsrelearn/cont/frontmatter/index.html">Frontmatter<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/cont/archetypes/index.html" class=""><a class="padding" href="../../../tipsrelearn/cont/archetypes/index.html">Archetypes<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/cont/markdown/index.html" class=""><a class="padding" href="../../../tipsrelearn/cont/markdown/index.html">Markdown syntax<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/cont/imageeffects/index.html" class=""><a class="padding" href="../../../tipsrelearn/cont/imageeffects/index.html">Image Effects<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/cont/menushortcuts/index.html" class=""><a class="padding" href="../../../tipsrelearn/cont/menushortcuts/index.html">Menu extra shortcuts<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/cont/i18n/index.html" class=""><a class="padding" href="../../../tipsrelearn/cont/i18n/index.html">Multilingual<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/cont/taxonomy/index.html" class=""><a class="padding" href="../../../tipsrelearn/cont/taxonomy/index.html">Taxonomy<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/index.html" class="alwaysopen"><input type="checkbox" id="R-section-e690fd9c283c35f3b6e761457ae82a8c" aria-controls="R-subsections-e690fd9c283c35f3b6e761457ae82a8c" checked><label for="R-section-e690fd9c283c35f3b6e761457ae82a8c"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Shortcodes</span></label><a class="padding" href="../../../tipsrelearn/shortcodes/index.html">Shortcodes<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-e690fd9c283c35f3b6e761457ae82a8c" class="morespace collapsible-menu">
+          <li data-nav-id="/tipsrelearn/shortcodes/badge/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/badge/index.html">Badge<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/button/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/button/index.html">Button<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/children/index.html" class=""><input type="checkbox" id="R-section-0bce2c181a114a3c9143a9f8aeb4aa91" aria-controls="R-subsections-0bce2c181a114a3c9143a9f8aeb4aa91"><label for="R-section-0bce2c181a114a3c9143a9f8aeb4aa91"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Children</span></label><a class="padding" href="../../../tipsrelearn/shortcodes/children/index.html">Children<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-0bce2c181a114a3c9143a9f8aeb4aa91" class="morespace collapsible-menu">
+          <li data-nav-id="/tipsrelearn/shortcodes/children/test/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/children/test/index.html">page X<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/children/children-1/index.html" class=""><input type="checkbox" id="R-section-5bcc18c1fd4cd8e49abd7f9a7b3e897f" aria-controls="R-subsections-5bcc18c1fd4cd8e49abd7f9a7b3e897f"><label for="R-section-5bcc18c1fd4cd8e49abd7f9a7b3e897f"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu page 1</span></label><a class="padding" href="../../../tipsrelearn/shortcodes/children/children-1/index.html">page 1<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-5bcc18c1fd4cd8e49abd7f9a7b3e897f" class="morespace collapsible-menu">
+          <li data-nav-id="/tipsrelearn/shortcodes/children/children-1/children-1-1/index.html" class="alwaysopen"><input type="checkbox" id="R-section-40ec8d0dd6e08a0df0fa2d15fe78cc0d" aria-controls="R-subsections-40ec8d0dd6e08a0df0fa2d15fe78cc0d" checked><label for="R-section-40ec8d0dd6e08a0df0fa2d15fe78cc0d"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu page 1-1</span></label><a class="padding" href="../../../tipsrelearn/shortcodes/children/children-1/children-1-1/index.html">page 1-1<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-40ec8d0dd6e08a0df0fa2d15fe78cc0d" class="morespace collapsible-menu">
+          <li data-nav-id="" class="alwaysopen"><input type="checkbox" id="R-section-24faae51bc42fd7a64bebe99ffe9c6d9" aria-controls="R-subsections-24faae51bc42fd7a64bebe99ffe9c6d9" checked><label for="R-section-24faae51bc42fd7a64bebe99ffe9c6d9"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu page 1-1-2 (headless)</span></label><span class="padding">page 1-1-2 (headless)</span><ul id="R-subsections-24faae51bc42fd7a64bebe99ffe9c6d9" class="morespace collapsible-menu">
+          <li data-nav-id="/tipsrelearn/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1/index.html">page 1-1-2-1<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2/index.html">page 1-1-2-2<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/children/children-1/children-1-1/children-1-1-3/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/children/children-1/children-1-1/children-1-1-3/index.html">page 1-1-3<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li></ul></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/children/children-2/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/children/children-2/index.html">page 2<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/children/children-3/index.html" class=""><input type="checkbox" id="R-section-1f7fac9149c814325b087134ef173b76" aria-controls="R-subsections-1f7fac9149c814325b087134ef173b76"><label for="R-section-1f7fac9149c814325b087134ef173b76"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu page 3</span></label><a class="padding" href="../../../tipsrelearn/shortcodes/children/children-3/index.html">page 3<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-1f7fac9149c814325b087134ef173b76" class="morespace collapsible-menu">
+          <li data-nav-id="/tipsrelearn/shortcodes/children/children-3/test3/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/children/children-3/test3/index.html">page 3-1<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li></ul></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/expand/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/expand/index.html">Expand<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/highlight/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/highlight/index.html">Highlight<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/icon/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/icon/index.html">Icon<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/include/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/include/index.html">Include<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/math/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/math/index.html">Math<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/mermaid/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/mermaid/index.html">Mermaid<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/notice/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/notice/index.html">Notice<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/openapi/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/openapi/index.html">OpenAPI<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/resources/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/resources/index.html">Resources<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/siteparam/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/siteparam/index.html">SiteParam<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/tab/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/tab/index.html">Tab<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/tipsrelearn/shortcodes/tabs/index.html" class=""><a class="padding" href="../../../tipsrelearn/shortcodes/tabs/index.html">Tabs<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li></ul></li>
+          </ul>
+        </div>
+        <div id="R-shortcuts">
+          <div class="nav-title padding">More</div>
+          <ul class="space">
+            <li><a class="padding" href="https://github.com/McShelby/hugo-theme-relearn"><i class='fa-fw fab fa-github'></i> GitHub repo</a></li>
+            <li><a class="padding" href="../../../showcase/index.html"><i class='fa-fw fas fa-camera'></i> Showcases</a></li>
+            <li><a class="padding" href="../../../more/credits/index.html"><i class='fa-fw fas fa-bullhorn'></i> Credits</a></li>
+            <li><a class="padding" href="../../../tags/index.html"><i class='fa-fw fas fa-tags'></i> Tags</a></li>
+            <li><a class="padding" href="../../../categories/index.html"><i class='fa-fw fas fa-layer-group'></i> Categories</a></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showLangSwitch showVariantSwitch showVisitedLinks showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showLangSwitch showVariantSwitch showVisitedLinks showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showLangSwitch showVariantSwitch showVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch showLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="../../../tuhoc/obsidian/huong-dan-su-dung-obsidian-thinh-vu-blog/index.html" lang="en" selected>English</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch showVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-relearn-auto" value="relearn-auto" selected>Relearn Light/Dark</option>
+                      <option id="R-select-variant-relearn-light" value="relearn-light">Relearn Light</option>
+                      <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                      <option id="R-select-variant-relearn-bright" value="relearn-bright">Relearn Bright</option>
+                      <option id="R-select-variant-zen-auto" value="zen-auto">Zen Light/Dark</option>
+                      <option id="R-select-variant-zen-light" value="zen-light">Zen Light</option>
+                      <option id="R-select-variant-zen-dark" value="zen-dark">Zen Dark</option>
+                      <option id="R-select-variant-neon" value="neon">Neon</option>
+                      <option id="R-select-variant-learn" value="learn">Learn</option>
+                      <option id="R-select-variant-blue" value="blue">Blue</option>
+                      <option id="R-select-variant-green" value="green">Green</option>
+                      <option id="R-select-variant-red" value="red">Red</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks showVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+	    <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="../../../js/clipboard.min.js?1713859223" defer></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1713859223" defer></script>
+    <script src="../../../js/theme.js?1713859223" defer></script>
+  </body>
+</html>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Obsidian on Hugo Relearn Theme</title>
+    <link>https://example.com/categories/obsidian/index.html</link>
+    <description>Recent content in Obsidian on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Mar 2024 09:57:41 +0700</lastBuildDate>
+    <atom:link href="https://example.com/categories/obsidian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsidian Publish</title>
+      <link>https://example.com/takenote/obsidian/obsidian-publish/index.html</link>
+      <pubDate>Sun, 31 Mar 2024 09:57:41 +0700</pubDate>
+      <guid>https://example.com/takenote/obsidian/obsidian-publish/index.html</guid>
+      <description>Obsidian Publish™ là một dịch vụ lưu trữ trả phí cho các ghi chú của bạn.
+Để biết hướng dẫn về cách publish ghi chú của bạn từ bên trong ứng dụng Obsidian, hãy tham khảo Publish plugin.
+Privacy Bạn có toàn quyền kiểm soát những gì sẽ publish thông qua publish plugin - toàn bộ vault của bạn hoặc chỉ các ghi chú đã chọn trong vault của bạn. Đối với bất kỳ ghi chú nào bạn chọn không publish, bạn có thể tin tưởng rằng những ghi chú đó vẫn hoàn toàn privacy và Obsidian Publish không hề biết về chúng.</description>
+    </item>
+    <item>
+      <title>Obsidian Publish</title>
+      <link>https://example.com/tuhoc/obsidian/obsidian-publish/index.html</link>
+      <pubDate>Sun, 31 Mar 2024 09:57:41 +0700</pubDate>
+      <guid>https://example.com/tuhoc/obsidian/obsidian-publish/index.html</guid>
+      <description>Obsidian Publish™ là một dịch vụ lưu trữ trả phí cho các ghi chú của bạn.
+Để biết hướng dẫn về cách publish ghi chú của bạn từ bên trong ứng dụng Obsidian, hãy tham khảo Publish plugin.
+Privacy Bạn có toàn quyền kiểm soát những gì sẽ publish thông qua publish plugin - toàn bộ vault của bạn hoặc chỉ các ghi chú đã chọn trong vault của bạn. Đối với bất kỳ ghi chú nào bạn chọn không publish, bạn có thể tin tưởng rằng những ghi chú đó vẫn hoàn toàn privacy và Obsidian Publish không hề biết về chúng.</description>
+    </item>
+    <item>
+      <title>Bài 01-Obsidian</title>
+      <link>https://example.com/tuhoc/obsidian/bai-01-obsidian/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/obsidian/bai-01-obsidian/index.html</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>Bài 02-Obsidian</title>
+      <link>https://example.com/tuhoc/obsidian/bai-02-obsidianlearn-anything/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/obsidian/bai-02-obsidianlearn-anything/index.html</guid>
+      <description>Duyệt trang &amp;ldquo;Learn Anything&amp;rdquo; để xem đầy đủ về Obsidian:
+https://learn-anything.vn/kien-thuc/obsidian/</description>
+    </item>
+    <item>
+      <title>Bài 03-Obsidian</title>
+      <link>https://example.com/tuhoc/obsidian/bai-03-obsidianthienqc/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/obsidian/bai-03-obsidianthienqc/index.html</guid>
+      <description>Đọc thêm về Obsidian &amp;ldquo;thienqc&amp;rdquo; ở đây:
+https://thienqc.github.io/blog/post/obsidian-nen-doc/#tip</description>
+    </item>
+    <item>
+      <title>Bài 04-Obsidian</title>
+      <link>https://example.com/tuhoc/obsidian/bai-04-kh%C3%B3a-h%E1%BB%8Dc-obsidian/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/obsidian/bai-04-kh%C3%B3a-h%E1%BB%8Dc-obsidian/index.html</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>Bài 06-Obsidian và Anki</title>
+      <link>https://example.com/tuhoc/obsidian/bai-06-nh%E1%BB%AFng-link-t%C3%ACm-hi%E1%BB%83u-obsidian-hay/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/obsidian/bai-06-nh%E1%BB%AFng-link-t%C3%ACm-hi%E1%BB%83u-obsidian-hay/index.html</guid>
+      <description>Các trang Web về Obsidian nên xem:
+Obsidian
+Luutrukienthuc
+sudungobsidian
+obsidian
+anki
+GroupObsidian2
+KhoahocObsidian
+PubblishObsidian
+SudungMarkdown
+SudungObsidian
+GroupObsidianNHH
+HocAnki
+GroupHocAnki
+GroupAnki
+FacebookAnkiDat
+Sẽ bổ sung thêm ở đây!</description>
+    </item>
+    <item>
+      <title>Đồng bộ dữ liệu trong Obsidian</title>
+      <link>https://example.com/tuhoc/obsidian/dong-bo-du-lieu/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/obsidian/dong-bo-du-lieu/index.html</guid>
+      <description>Excerpt Hướng dẫn cách đồng bộ dữ liệu trên các thiết bị khác nhau dùng Obsidian.
+obsidian thiết lập ban đầu
+Đồng bộ máy tính với đám mây¶ macOS¶ Nếu bạn sử dụng Obsidian trên thiết bị iOS, macOS của Apple thì iCloud là lựa chọn duy nhất để đồng bộ Obsidian với các thiết bị khác nhau từ macbook tới cloud và iphone. Các bước thực hiện như sau:</description>
+    </item>
+    <item>
+      <title>Giao diện và tính năng Obsidian</title>
+      <link>https://example.com/tuhoc/obsidian/giao-dien-va-tinh-nang/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/obsidian/giao-dien-va-tinh-nang/index.html</guid>
+      <description>Excerpt Hướng dẫn làm quen với giao diện Obsidian và các tính năng thiết yếu.
+obsidian sử dụng hàng ngày
+Giới thiệu
+Sau khi hoàn thành các bước thiết lập, khởi động Obsidian lần đầu tiên bạn sẽ làm quen với bố cục và các chức năng trong không gian làm việc của phần mềm. Dưới đây là các bố cục chính giúp bạn làm quen và bắt đầu sử dụng Obsidian bớt bị choáng ngợp.</description>
+    </item>
+    <item>
+      <title>Hướng dẫn sử dụng Obsidian</title>
+      <link>https://example.com/tuhoc/obsidian/huong-dan-su-dung-obsidian-thinh-vu-blog/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/obsidian/huong-dan-su-dung-obsidian-thinh-vu-blog/index.html</guid>
+      <description>Obsidian là một ứng dụng ghi chú và quản lý kiến thức cá nhân mạnh mẽ giúp bạn có thể hệ thống những kiến thức có giá trị mình tiếp nhận được trong đời sống hàng ngày.
+Sau bài chia sẻ về các ứng dụng ghi chú cá nhân tốt nhất, tôi tiếp tục loạt bài viết cụ thể hơn về cách sử dụng Obsidian trong ghi chú và hệ thống hoá kiến thức cá nhân để các bạn đọc quan tâm thể bắt đầu làm quen với ứng dụng này dễ dàng hơn.</description>
+    </item>
+    <item>
+      <title>Làm việc với bảng</title>
+      <link>https://example.com/tuhoc/obsidian/lam-viec-voi-bang-trong-obsidian/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/obsidian/lam-viec-voi-bang-trong-obsidian/index.html</guid>
+      <description>Tính năng Table từ Obsidian v1.5.3
+Obsidian mới ra mắt tính năng làm việc với bảng hoàn toàn mới trong phiên bản 1.5 vừa ra mắt ngày 26/12. Trong video này mình chia sẻ với các bạn cách chỉnh sửa bảng với giao diện chỉnh sửa mới rất trực quan của Obsidian. Bạn sẽ không cần phải cài Advanced Table community plugin để tạo và sửa bảng nữa.
+Đây là một trong những tính năng mình cho rằng cực kỳ căn bản khi soạn thảo tài liệu bên cạnh heading, body text, hình ảnh, link.</description>
+    </item>
+    <item>
+      <title>Markdown trong Obsidian</title>
+      <link>https://example.com/tuhoc/obsidian/markdown-trong-obsidian/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/obsidian/markdown-trong-obsidian/index.html</guid>
+      <description>Excerpt Làm quen nhanh chóng với cú pháp markdown để soạn thảo ghi chú trong Obsidian.
+Obsidian markdown
+Obsidian sử dụng Markdown là cú pháp định dạng các ghi chú trong ứng dụng. Tuy nhiên tính năng thú vị nhất của Obsidian không phải là soạn thảo văn bản mà là quản lý cơ sở tri thức của bạn được liên kết chặt chẽ thông qua các ghi chú.</description>
+    </item>
+    <item>
+      <title>Plugin Obsidian</title>
+      <link>https://example.com/tuhoc/obsidian/plugin-obsidian/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/obsidian/plugin-obsidian/index.html</guid>
+      <description>Excerpt Tận dụng sức mạnh của kho plugin đồ sộ trong Obsidian để nâng cao hiệu quả công việc.
+Soạn thảo văn bản Outliner Định dạng và quản lý các ghi chú có chứa các danh sách (list) tiện lợi và trực quan, cho phép thu gọn/mở rộng theo mục. Smart Typography Định dạng ghi chú tự động (linting) theo các “rule” phổ biến. Data Loom Tạo và quản lý bảng tính trong Obsidian trực quan, thao tác kéo thả quen thuộc theo phong cách Notion.</description>
+    </item>
+    <item>
+      <title>Plugin Obsidian to Anki</title>
+      <link>https://example.com/tuhoc/obsidian/plugin-obsidian-to-anki/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/obsidian/plugin-obsidian-to-anki/index.html</guid>
+      <description>1)Truy cập Huggingface tạo tài khoản và lấy key API paste key vào templater 2)Vào &amp;ldquo;File and link&amp;rdquo; enable &amp;ldquo;Automatically update internal links&amp;rdquo; 3)Tạo folder &amp;ldquo;assets&amp;rdquo; attachment và set folder attachment 4)Tạo folder template và set folder template 5)Cài đặt plugin &amp;ldquo;templater&amp;rdquo; 6)Tạo template để tra cứu từ vựng đồng thời thiết lập shortcut để thuận tiện cho việc tra cứu 7)## Thiết lập kết nối giữa Obsidian và Anki</description>
+    </item>
+    <item>
+      <title>Quản lý ghi chú trong Obsidian</title>
+      <link>https://example.com/tuhoc/obsidian/quan-ly-ghi-chu-obsidian/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/obsidian/quan-ly-ghi-chu-obsidian/index.html</guid>
+      <description>Excerpt Sử dụng properties (metadata) và các trường thông tin mô tả một ghi chú bất kỳ giúp bạn phân loại và tổ chức thông tin trong Obsidian khoa học, thuận tiện.
+obsidian sử dụng hàng ngày properties metadata
+Giới thiệu
+Metadata hay properties trong Obsidian (hay YAML frontmatter trong markdown) là những thông tin bạn miêu tả các thuộc tính, đặc điểm nhận dạng một ghi chú bất kỳ của bạn.</description>
+    </item>
+    <item>
+      <title>Thiết lập Obsidian</title>
+      <link>https://example.com/tuhoc/obsidian/thiet-lap-obsidian/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/obsidian/thiet-lap-obsidian/index.html</guid>
+      <description>Excerpt Hướng dẫn cách thiết lập ban đầu để sử dụng Obsidian nhanh chóng.
+obsidian thiết lập ban đầu
+Cài đặt Obsidian¶ Tải Obsidian
+Obsidian trên máy tính
+Bạn có thể tải Obsidian tại trang web chính thức: Obsidian.md. Obsidian hoạt động trên tất cả các hệ điều hành máy tính hiện nay bao gồm macOS, Windows, và Linux.
+Obsidian cho điện thoại, máy tính bảng
+Bạn có thể sử dụng Obsidian trên thiết bị di động iOS như iPhone, iPad hoặc nền tảng Android tùy ý.</description>
+    </item>
+    <item>
+      <title>Tổ chức thông tin trong Obsidian</title>
+      <link>https://example.com/tuhoc/obsidian/to-chuc-thong-tin-trong-obsidian/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tuhoc/obsidian/to-chuc-thong-tin-trong-obsidian/index.html</guid>
+      <description>Excerpt Các gợi ý và ví dụ minh họa giúp bạn cấu trúc thông tin trong Obsidian đúng nhu cầu.
+obsidian kiến thức nâng cao
+Cấu trúc Obsidian Vault Tổ chức ghi chú theo phương pháp PARA¶ Giới thiệu
+PARA là viết tắt của “Projects” (Dự án), “Areas” (Lĩnh vực), “Resources” (Tài nguyên) và “Archives” (Lưu trữ). Đây là bốn phân loại chính mà tác giả Tiago Forte đề xuất chúng ta nên sử dụng để tổ chức thông tin trong cuộc sống và công việc của mình.</description>
+    </item>
+  </channel>
+</rss>

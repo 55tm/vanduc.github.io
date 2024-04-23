@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Relearn Theme</title>
+    <link>http://localhost:1313/tuhoc/english/grammar/index.html</link>
+    <description>Recent content on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Mar 2024 09:57:41 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tuhoc/english/grammar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Can, Could, (be) able</title>
+      <link>http://localhost:1313/tuhoc/english/grammar/can-coud/index.html</link>
+      <pubDate>Sun, 31 Mar 2024 09:57:41 +0700</pubDate>
+      <guid>http://localhost:1313/tuhoc/english/grammar/can-coud/index.html</guid>
+      <description>Bài 02-Can, Could, (be) able Can, Could, và Be able to đều mang nghĩa “có thể”, diễn tả khả năng làm gì. Tuy nhiên, chúng vẫn có những sự khác nhau nhất định.
+1. Can
+Can được dùng để diễn đạt:
+a. Khả năng ở hiện tại hoặc tương lai
+Eg: I haven’t got time today, but I can see you tomorrow.
+(Hôm nay tôi không có thời gian, nhưng tôi có thể gặp bạn vào ngày mai.</description>
+    </item>
+    <item>
+      <title>Động từ khuyết thiếu</title>
+      <link>http://localhost:1313/tuhoc/english/grammar/modal-verbs/index.html</link>
+      <pubDate>Sun, 31 Mar 2024 09:57:41 +0700</pubDate>
+      <guid>http://localhost:1313/tuhoc/english/grammar/modal-verbs/index.html</guid>
+      <description>Bài 01-Động từ khuyết thiếu(MODAL VERBS) Các động từ khuyết thiếu được sử dụng nhiều là Can, Will, May, Should, Must, Used to. Chúng ta cùng tìm hiểu về từng từ này với cách sử dụng riêng.
+Modal verbs được sử dụng diễn tả mục đích và ngữ nghĩa của câu, bao gồm khả năng, sự cho phép, bắt buộc, cần thiết, dự đoán, yêu cầu,… .
+ĐẶC ĐIỂM ĐỘNG TỪ KHUYẾT THIẾU:</description>
+    </item>
+  </channel>
+</rss>

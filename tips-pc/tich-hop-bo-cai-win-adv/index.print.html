@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.124.1">
+    <meta name="generator" content="Relearn 5.26.2+tip">
+    <meta name="description" content="Documentation for Hugo Relearn Theme">
+    <meta name="author" content="Sören Weber">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/images/hero.png">
+    <meta name="twitter:title" content="Cài Win và Boot :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="Làm thế nào để tích hợp bộ cài Win vào usb cứu hộ Anhdv Boot được rất nhiều bạn quan tâm. Hôm nay, mình sẽ hướng dẫn cách thêm menu cài đặt Windows vào giao diện của Anhdv Boot 2019. Cách này giúp bạn tạo usb boot vừa cài Win trực tiếp, lại vừa có đầy đủ công cụ cứu hộ của Anhdv Boot. Đương nhiên, cách tích hợp bộ cài Windows này hỗ trợ cả 2 chuẩn UEFI – Legacy.">
+    <meta property="og:title" content="Cài Win và Boot :: Hugo Relearn Theme">
+    <meta property="og:description" content="Làm thế nào để tích hợp bộ cài Win vào usb cứu hộ Anhdv Boot được rất nhiều bạn quan tâm. Hôm nay, mình sẽ hướng dẫn cách thêm menu cài đặt Windows vào giao diện của Anhdv Boot 2019. Cách này giúp bạn tạo usb boot vừa cài Win trực tiếp, lại vừa có đầy đủ công cụ cứu hộ của Anhdv Boot. Đương nhiên, cách tích hợp bộ cài Windows này hỗ trợ cả 2 chuẩn UEFI – Legacy.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://localhost:1313/tips-pc/tich-hop-bo-cai-win-adv/index.html">
+    <meta property="og:image" content="http://localhost:1313/images/hero.png">
+    <meta property="article:section" content="TIPS PC :: Hugo Relearn Theme">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <title>Cài Win và Boot :: Hugo Relearn Theme</title>
+    <link href="http://localhost:1313/tips-pc/tich-hop-bo-cai-win-adv/index.html" rel="canonical" type="text/html" title="Cài Win và Boot :: Hugo Relearn Theme">
+    <link href="../../tips-pc/tich-hop-bo-cai-win-adv/index.xml" rel="alternate" type="application/rss+xml" title="Cài Win và Boot :: Hugo Relearn Theme">
+    <link href="../../images/logo.svg?1713858605" rel="icon" type="image/svg+xml">
+    
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../css/fontawesome-all.min.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fontawesome-all.min.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../css/nucleus.css?1713858606" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/auto-complete.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../css/perfect-scrollbar.min.css?1713858606" rel="stylesheet">
+    <link href="../../css/fonts.css?1713858606" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fonts.css?1713858606" rel="stylesheet"></noscript>
+    <link href="../../css/theme.css?1713858606" rel="stylesheet">
+    <link href="../../css/theme-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-style">
+    <link href="../../css/chroma-relearn-auto.css?1713858606" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="../../css/variant.css?1713858606" rel="stylesheet">
+    <link href="../../css/print.css?1713858606" rel="stylesheet" media="print">
+    <link href="../../css/format-print.css?1713858606" rel="stylesheet">
+    <link href="../../css/ie.css?1713858606" rel="stylesheet">
+    <script src="../../js/url.js?1713858606"></script>
+    <script src="../../js/variant.js?1713858606"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.index_js_url="../../index.search.js";
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../tips-pc/tich-hop-bo-cai-win-adv/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">TIPS PC</span><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Cài Win và Boot</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+<div class=" taxonomy-tags term-list cstyle  tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <ul>
+    <li><a class="term-link" href="../../tags/tips/index.html">Tips</a></li>
+  </ul>
+</div>
+            </header>
+<h1 id="cài-win-và-boot">Cài Win và Boot</h1>
+
+<p>Làm thế nào để tích hợp bộ cài Win vào usb cứu hộ Anhdv Boot được rất nhiều bạn quan tâm. Hôm nay, mình sẽ hướng dẫn cách thêm menu cài đặt Windows vào giao diện của Anhdv Boot 2019. Cách này giúp bạn tạo usb boot vừa cài Win trực tiếp, lại vừa có đầy đủ công cụ cứu hộ của Anhdv Boot. Đương nhiên, cách tích hợp bộ cài Windows này hỗ trợ cả 2 chuẩn UEFI – Legacy.</p>
+<p>Nếu sử dụng Anhdv Boot 2020 thì bạn có thể tích hợp nhiều bộ cài windows dạng ISO rất dễ dàng theo <strong><a href="https://anhdvboot.com/huong-dan/tich-hop-bo-cai-windows-vao-usb-hdd-anhdv-boot-2020/" target="_blank">hướng dẫn này</a></strong>.</p>
+<p>Tạo USB cài Win thuần (<a href="https://anh-dv.com/usb-boot/tao-usb-boot-cai-win-cuc-chuan-uefi-legacy" target="_blank">ví dụ WinToUSB</a>) có ưu điểm là dễ làm. Nhưng bạn sẽ đồng ý quan điểm với mình rằng làm thế sẽ rất lãng phí. Lý do là usb đó chỉ dùng để cài file ISO Win nhất định. Muốn cài bản Windows khác bạn lại phải tạo lại usb boot. Hay muốn <a href="https://anh-dv.com/category/ghost" target="_blank">Ghost Win</a>, <a href="https://anh-dv.com/windows-10/chuyen-doi-tu-mbr-sang-gpt-khong-mat-du-lieu" target="_blank">cứu dữ liệu</a>, <a href="https://anh-dv.com/sua-loi-windows/sua-loi-khoi-dong-windows-macrium-reflect" target="_blank">sửa lỗi màn hình xanh</a> … thì làm thế nào?</p>
+<p>Sử dụng Anhdv Boot sẽ giúp bạn có usb boot đa năng vừa dùng để cài nhiều bản Win, lại vừa có đầy đủ công cụ cứu hộ. Anhdv Boot sẽ trở nên đa năng hơn nữa khi được tích hợp bộ cài Win.</p>
+<p>Ưu điểm khi tích hợp bộ cài Win vào USB cứu hộ Anhdv Boot</p>
+<ol>
+<li>Giúp cài đặt Windows trực tiếp từ menu của USB Anhdv Boot.</li>
+<li>Hỗ trợ tính năng Repair Windows</li>
+<li>Vẫn dùng đầy đủ công cụ cứu hộ của Anhdv Boot (Mini Windows 10, 8, 7, XP, và các phần mềm khác)</li>
+<li>Hỗ trợ cài đặt Windows theo cả 2 chuẩn UEFI – GPT và Legacy – MBR.</li>
+</ol>
+<p>Nhược điểm của cách này là tích hợp được 01 bộ cài Windows và khó thực hiện. Cách tối ưu nhất vẫn là <strong><a href="https://anh-dv.com/windows-10/cai-dat-windows-10-64-bit-uefi-chuan-muot" target="_blank">cài đặt Windows từ Mini Windows 10</a></strong>, tức muốn cài Win nào thì copy file iso bộ cài vào usb.</p>
+<p><strong>Đọc thêm</strong></p>
+<ul>
+<li><a href="https://anhdvboot.com/huong-dan/anhdv-boot-2020-v2-0-bo-cong-cu-cuu-ho-may-tinh-chuyen-nghiep/" target="_blank">Tìm hiểu về Anhdv Boot 2018</a></li>
+<li><a href="https://anh-dv.com/windows-10/cai-dat-windows-10-64-bit-uefi-chuan-muot" target="_blank">Hướng dẫn cài đặt Windows từ Mini Windows 10 (Win10PE)</a></li>
+</ul>
+<h2 id="hướng-dẫn-tích-hợp-bộ-cài-win-vào-usb-anhdv-boot">Hướng dẫn tích hợp bộ cài Win vào usb Anhdv Boot</h2>
+<h3 id="bước-1-tạo-usb-cứu-hộ-andv-boot-hỗ-trợ-cả-2-chuẩn-uefi--legacy">Bước 1: Tạo usb cứu hộ Andv Boot hỗ trợ cả 2 chuẩn UEFI – Legacy</h3>
+<p>Việc tạo usb boot cứu hộ Anhdv Boot rất đơn giản với chỉ 1 click chuột: <a href="https://anh-dv.com/winpe/tao-usb-boot-uefi-legacy-cuu-ho-may-tinh-chuyen" target="_blank">tạo usb boot cứu hộ đa năng với 1 click</a>. Nếu USB từ 8GB trở lên, thì bạn nên lựa chọn tạo usb boot với phân vùng ẩn nhé.</p>
+<h3 id="bước-2-chạy-lại-công-cụ-1-click-anhdv-boot-để-hiện-phân-vùng-usb-boot-ẩn">Bước 2: Chạy lại công cụ 1 click Anhdv Boot để hiện phân vùng usb boot ẩn</h3>
+<p>Sau khi tạo usb boot xong, bạn sẽ nhận được thông báo:</p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/01/1-click-tao-usb-boot-anhdv-8.png?ssl=1" target="_blank"><a href="#R-image-4439578cbe66a6a27eeb97356742e68a" class="lightbox-link"><img alt="Thông báo tạo usb boot thành công với 1 click" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/01/1-click-tao-usb-boot-anhdv-8.png?resize=696%2C416&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4439578cbe66a6a27eeb97356742e68a"><img alt="Thông báo tạo usb boot thành công với 1 click" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/01/1-click-tao-usb-boot-anhdv-8.png?resize=696%2C416&ssl=1"></a></a></p>
+<p>Việc cần làm là ngắt usb ra và cắm lại, sau đó chạy lại công cụ 1 click Anhdv Boot. Sau bước lựa chọn ngôn ngữ và usb, bạn sẽ nhận được các lựa chọn như hình sau:</p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/01/1_click_anhdv_boot_2018_2.png?ssl=1" target="_blank"><a href="#R-image-cc6004dcbafdc11aaa5bdffa4eabb952" class="lightbox-link"><img alt="1 Click Anhdv Boot 2018 tạo usb uefi legacy" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/01/1_click_anhdv_boot_2018_2.png?resize=551%2C263&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cc6004dcbafdc11aaa5bdffa4eabb952"><img alt="1 Click Anhdv Boot 2018 tạo usb uefi legacy" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/01/1_click_anhdv_boot_2018_2.png?resize=551%2C263&ssl=1"></a></a></p>
+<p>Nhập vào <strong>4</strong> để hiện phân vùng ẩn USB-BOOT (nếu có) sẽ hiện lên.</p>
+<h3 id="bước-3-thêm-menu-của-bộ-cài-windows-vào-giao-diện-usb-anhdv-boot">Bước 3: Thêm Menu của bộ cài Windows vào giao diện USB Anhdv Boot</h3>
+<p>Sử dụng công cụ BootIce có sẵn trong file Anhdv Boot tải về.</p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/Parts-manage-bootice.png?ssl=1" target="_blank"><a href="#R-image-539909e157469e103747fcb91e5e8c2f" class="lightbox-link"><img alt="Partition Manage BootIce 1" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/Parts-manage-bootice.png?resize=413%2C294&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-539909e157469e103747fcb91e5e8c2f"><img alt="Partition Manage BootIce 1" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/Parts-manage-bootice.png?resize=413%2C294&ssl=1"></a></a></p>
+<p>Chọn USB và chọn thẻ <strong>BCD</strong></p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/sua-BCD-Anhdv-Boot.png?ssl=1" target="_blank"><a href="#R-image-68daf6312e1884e90c2adffabb4ef39c" class="lightbox-link"><img alt="Sửa BCD Anhdv Boot" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/sua-BCD-Anhdv-Boot.png?resize=413%2C294&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-68daf6312e1884e90c2adffabb4ef39c"><img alt="Sửa BCD Anhdv Boot" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/sua-BCD-Anhdv-Boot.png?resize=413%2C294&ssl=1"></a></a></p>
+<p>Chọn <strong>Other BCD file</strong> và dẫn đến file X:\boot\BCD của phân vùng USB-BOOT như hình trên. Bấm <strong>Easy mode</strong> để thêm menu boot bộ cài Win. Riêng với Anhdv Boot 2020 trở lên thì file BCD hiện đổi thành WIN.</p>
+<p><strong>Sửa file BCD legacy</strong></p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tich-hop-bo-cai-win-vao-usb-cuu-ho-Anhdv-Boot-1.png?ssl=1" target="_blank"><a href="#R-image-bc319476a518cd0b3435ebef1a8c9d9a" class="lightbox-link"><img alt="Tích hợp bộ cài Win vào USB cứu hộ Anhdv Boot 1" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tich-hop-bo-cai-win-vao-usb-cuu-ho-Anhdv-Boot-1.png?resize=563%2C505&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-bc319476a518cd0b3435ebef1a8c9d9a"><img alt="Tích hợp bộ cài Win vào USB cứu hộ Anhdv Boot 1" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tich-hop-bo-cai-win-vao-usb-cuu-ho-Anhdv-Boot-1.png?resize=563%2C505&ssl=1"></a></a></p>
+<p>Bấm <strong>Add</strong> &gt; N<strong>ew WIM boot entry</strong></p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tich-hop-bo-cai-win-vao-usb-cuu-ho-Anhdv-Boot-2.png?ssl=1" target="_blank"><a href="#R-image-6eb2f509585285f072401e106e7b1bd9" class="lightbox-link"><img alt="Tích hợp bộ cài Win vào USB cứu hộ Anhdv Boot 2" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tich-hop-bo-cai-win-vao-usb-cuu-ho-Anhdv-Boot-2.png?resize=563%2C505&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6eb2f509585285f072401e106e7b1bd9"><img alt="Tích hợp bộ cài Win vào USB cứu hộ Anhdv Boot 2" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tich-hop-bo-cai-win-vao-usb-cuu-ho-Anhdv-Boot-2.png?resize=563%2C505&ssl=1"></a></a></p>
+<p>Lần lượt làm các bước như hình trên</p>
+<ul>
+<li>Mục số 1: Lựa chọn USB.</li>
+<li>Mục số 2: Lựa chọn phân vùng USB-DATA (nếu tạo usb boot phân vùng ẩn). Còn không thì USB chỉ có 1 phân vùng USB-BOOT.</li>
+<li>Mục số 3 và 5: Cần nhập đúng như hình trên (nhớ là Winload.exe với Legacy)</li>
+<li>Mục số 4: Tên của Menu boot (bạn có thể thay đổi theo ý mình).</li>
+<li>Sau khi lưu ở mục số 6, 7 thì bấm <strong>Close</strong> để thoát</li>
+</ul>
+<p>Nếu bạn thêm <a href="https://anh-dv.com/windows/download-windows-10-7-aio-cap-nhat-moi-nhat" target="_blank">Windows AIO Anhdv</a> thì cần thay đổi đường dẫn ở mục File như mục số 4 (<strong>\x64\sources\boot.wim</strong>). Để cài windows 32 bit trong aio thì thêm tiếp Menu với mục File là <strong>\x86\sources\boot.wim</strong>.</p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/huong-dan-tich-hop-bo-cai-win-aio-vao-usb-anhdv-boot.png?ssl=1" target="_blank"><a href="#R-image-4861b7a991a513cc9815bbcf68511645" class="lightbox-link"><img alt="Hướng dẫn cách tích hợp bộ cài win aio anhdv vào usb" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/huong-dan-tich-hop-bo-cai-win-aio-vao-usb-anhdv-boot.png?resize=563%2C505&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4861b7a991a513cc9815bbcf68511645"><img alt="Hướng dẫn cách tích hợp bộ cài win aio anhdv vào usb" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/huong-dan-tich-hop-bo-cai-win-aio-vao-usb-anhdv-boot.png?resize=563%2C505&ssl=1"></a></a></p>
+<p><strong>Sửa file BCD UEFI</strong></p>
+<p>Mở file BCD theo đường dẫn <strong>X:\efi\Microsoft\Boot\BCD</strong> của USB.</p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/sua-BCD-UEFI-Anhdv-Boot.png?ssl=1" target="_blank"><a href="#R-image-f6e361d5ac85eb45780cf739a119d6cd" class="lightbox-link"><img alt="Sửa file BCD UEFI của Anhdv Boot" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/sua-BCD-UEFI-Anhdv-Boot.png?resize=413%2C294&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f6e361d5ac85eb45780cf739a119d6cd"><img alt="Sửa file BCD UEFI của Anhdv Boot" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/sua-BCD-UEFI-Anhdv-Boot.png?resize=413%2C294&ssl=1"></a></a></p>
+<p>Chọn <strong>Easy mode</strong></p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tich-hop-bo-cai-win-vao-usb-cuu-ho-Anhdv-Boot-3.png?ssl=1" target="_blank"><a href="#R-image-cc8f54718b0fc19485ecc611cf809069" class="lightbox-link"><img alt="Tích hợp bộ cài Win vào USB cứu hộ Anhdv Boot 3" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tich-hop-bo-cai-win-vao-usb-cuu-ho-Anhdv-Boot-3.png?resize=563%2C505&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cc8f54718b0fc19485ecc611cf809069"><img alt="Tích hợp bộ cài Win vào USB cứu hộ Anhdv Boot 3" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tich-hop-bo-cai-win-vao-usb-cuu-ho-Anhdv-Boot-3.png?resize=563%2C505&ssl=1"></a></a></p>
+<p>Bấm <strong>Add</strong> &gt; <strong>New WIM boot entry</strong></p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tich-hop-bo-cai-win-vao-usb-cuu-ho-Anhdv-Boot-4.png?ssl=1" target="_blank"><a href="#R-image-fe569c95e5bf6ba52a2391a4db8a6a74" class="lightbox-link"><img alt="Tích hợp bộ cài Win vào USB cứu hộ Anhdv Boot 4" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tich-hop-bo-cai-win-vao-usb-cuu-ho-Anhdv-Boot-4.png?resize=563%2C505&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fe569c95e5bf6ba52a2391a4db8a6a74"><img alt="Tích hợp bộ cài Win vào USB cứu hộ Anhdv Boot 4" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/tich-hop-bo-cai-win-vao-usb-cuu-ho-Anhdv-Boot-4.png?resize=563%2C505&ssl=1"></a></a></p>
+<ul>
+<li>Mục số 1: Lựa chọn USB</li>
+<li>Mục số 2: Chọn phân vùng NTFS USB-DATA</li>
+<li>Mục số 3 và 5: Nhập đúng như hình trên (với winload.efi cho Windows UEFI)</li>
+<li>Mục số 4: Tên của Menu boot, bạn có thể thay đổi theo ý mình.</li>
+</ul>
+<p>Như vậy là quá trình tạo Menu tích hợp bộ cài Windows vào usb boot đã hoàn tất. Bạn có thể chạy Qemu (có trong file tải về của Anhdv Boot) để thử xem tạo usb boot cài Win thành công hay chưa.</p>
+<h3 id="bước-4-copy-bộ-cài-windows-vào-usb-anhdv-boot">Bước 4: Copy bộ cài Windows vào USB Anhdv Boot</h3>
+<p>Nếu chưa có bộ cài Windows thì tham khảo một số bộ cài mình làm sẵn ở dưới đây</p>
+<ul>
+<li><strong><a href="https://anh-dv.com/windows/windows-10-pro-version-2004-aio-2-in-1-full-software-va-no-software" target="_blank">Windows 10 Version 20H2 AIO 2in 1 siêu mượt by anhdv</a></strong></li>
+<li><a href="https://anh-dv.com/ghost/windows-10-ltsc-2019-cap-nhat-moi-nhat-ghost-iso" target="_blank"><strong>Tải về bộ cài Windows 10 LTSC 2019 by anhdv</strong></a></li>
+<li><a href="https://anh-dv.com/windows/windows-7-tich-hop-driver-usb-3-0-va-nvme-aio-4-in-1-moi-nhat" target="_blank"><strong>Tải về Windows 7 SP1 cập nhật mới nhất và tích hợp sẵn driver sata, usb 3.0</strong></a></li>
+</ul>
+<p>Trước khi copy bộ cài Win vào USB thì cần phải kiểm tra tính toàn vẹn của file <a href="https://anh-dv.com/system/kiem-tra-tinh-toan-ven-cua-file-tai-ve-ma-md5-sha1" target="_blank">theo hướng dẫn này.</a> Khi cài đặt Windows 7 thì bạn cũng cần tải sẵn driver từ trang chủ laptop hay mainboard.</p>
+<p>Nhấp đúp (với win 10, 8.1) vào file ISO của bộ cài đặt Windows cần tích hợp. Với Windows 7 hay XP thì bạn có thể sử dụng phần mềm ổ ảo hay 7zip, Winrar. Copy (hay trích xuất) thư mục <strong>sources</strong> của bộ cài tới phân vùng USB-DATA. Tức bạn nhấp phải vào thư mục sources rồi chọn send to tới phân vùng usb-data.</p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/copy-bo-cai-win-toi-usb-anhdv-boot.png?ssl=1" target="_blank"><a href="#R-image-8813116707bd7527831477fba4c822a1" class="lightbox-link"><img alt="Copy bộ cài Win tới USB Anhdv Boot" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/copy-bo-cai-win-toi-usb-anhdv-boot.png?resize=696%2C381&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8813116707bd7527831477fba4c822a1"><img alt="Copy bộ cài Win tới USB Anhdv Boot" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/copy-bo-cai-win-toi-usb-anhdv-boot.png?resize=696%2C381&ssl=1"></a></a></p>
+<p>Nếu dùng Windows AIO anhdv thì mở file iso aio lên và copy 2 thư mục <strong>x64</strong> và <strong>x86</strong> vào USB.</p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/Huong-dan-cach-tich-hop-bo-cai-win-vao-usb-Anhdv-Boot-1.png?ssl=1" target="_blank"><a href="#R-image-2b55db8db97b88b1b12ec72065128e82" class="lightbox-link"><img alt="Copy bộ cài Win AIO anhdv vào usb boot" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/Huong-dan-cach-tich-hop-bo-cai-win-vao-usb-Anhdv-Boot-1.png?resize=691%2C336&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2b55db8db97b88b1b12ec72065128e82"><img alt="Copy bộ cài Win AIO anhdv vào usb boot" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/Huong-dan-cach-tich-hop-bo-cai-win-vao-usb-Anhdv-Boot-1.png?resize=691%2C336&ssl=1"></a></a></p>
+<p>Khi việc Copy hoàn tất thì quay trở lại cửa sổ công cụ 1 click Anhdv boot, nhập số 3 để ẩn lại phân vùng USB-BOOT</p>
+<p><a href="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/An-phan-vung-boot.png?ssl=1" target="_blank"><a href="#R-image-dfb55b28aa951428d014405225fa0215" class="lightbox-link"><img alt="Ẩn phân vùng USB-BOOT của Anhdv Boot" class="bg-white border lazy lightbox noshadow figure-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/An-phan-vung-boot.png?resize=554%2C213&ssl=1" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-dfb55b28aa951428d014405225fa0215"><img alt="Ẩn phân vùng USB-BOOT của Anhdv Boot" class="bg-white border lazy lightbox noshadow lightbox-image" loading="lazy" src="https://i0.wp.com/anh-dv.com/wp-content/uploads/2017/10/An-phan-vung-boot.png?resize=554%2C213&ssl=1"></a></a></p>
+<p>Khi cài Win trực tiếp từ Anhdv Boot thì chọn <strong>Boot Mini Windows</strong> &gt; <strong>Install Windows ….</strong></p>
+<p><strong>Đọc thêm</strong>: <a href="https://anh-dv.com/windows-10/cai-win-10-moi-nhat-ca-chuan-uefi-gpt-va-legacy" target="_blank">Hướng dẫn chi tiết các cài Win 10 mới nhất</a></p>
+<h2 id="kết-luận">Kết luận</h2>
+<p>Trên đây mình đã hướng dẫn cách tích hợp bộ cài Win vào usb cứu hộ Anhdv Boot. Nếu muốn tích hợp bộ cài AIO của anh-dv.com vào thì bạn có thể tạo hai folder x64 và x86 ở USB-DATA. Sau đó lần lượt copy thư mục sources trong x64 và x86 của AIo vào hai mục vừa tạo tương ứng trên USB. Hoặc để nhanh thì copy luôn 2 folder x64 và x86 trong AIO anhdv vào phân vùng USB-DATA. Tại mục File thì cần chỉnh lại thành <strong>\x64\sources\boot.wim</strong>. Và tạo thêm menu cài win AIO 32 bit với đường dẫn <strong>\x86\sources\boot.wim</strong>.</p>
+<p>Bạn có thể Like <strong><a href="https://facebook.com/anhdvboot" target="_blank">Fanpage</a></strong> để nhận được thông tin sớm nhất về các bộ cài Windows khác. Chúc thành công!</p>
+
+            <footer class="footline">
+<div class=" taxonomy-categories term-list cstyle  " title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="../../categories/th%E1%BB%A7-thu%E1%BA%ADt-pc/index.html">Thủ Thuật PC</a></li>
+  </ul>
+</div>
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="../../js/clipboard.min.js?1713858606" defer></script>
+    <script src="../../js/perfect-scrollbar.min.js?1713858606" defer></script>
+    <script src="../../js/theme.js?1713858606" defer></script>
+  </body>
+</html>

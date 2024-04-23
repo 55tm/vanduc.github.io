@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on Hugo Relearn Theme</title>
+    <link>https://example.com/tags/github/index.html</link>
+    <description>Recent content in Github on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://example.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>19 bí kíp với Github</title>
+      <link>https://example.com/design/github/19-bi-kip-voi-github/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/github/19-bi-kip-voi-github/index.html</guid>
+      <description>Bài viết được dịch từ bài Gitでやらかした時に使える19個の奥義 của tác giả muran001 trên Qiita.
+(Image Source: Medium)
+Những nội dung sau rất nguy hiểm, nếu bạn làm theo, xin hãy chịu trách nhiệm về bản thân mình.
+Nếu có gì sai sót, mong bạn hãy chỉ ra để tôi được biết
+Ở trên local Có hiệu quả khi làm việc trên môi truờng phát triển của bản thân, không làm ảnh hưởng đến người khác.</description>
+    </item>
+    <item>
+      <title>About Github Pages and Jekyll</title>
+      <link>https://example.com/design/github/github-pages/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/github/github-pages/index.html</guid>
+      <description>Jekyll is a static site generator with built-in support for GitHub Pages.
+Who can use this feature? GitHub Pages is available in public repositories with GitHub Free and GitHub Free for organizations, and in public and private repositories with GitHub Pro, GitHub Team, GitHub Enterprise Cloud, and GitHub Enterprise Server. For more information, see &amp;ldquo;GitHub’s plans.&amp;rdquo;
+About Jekyll Jekyll is a static site generator with built-in support for GitHub Pages and a simplified build process.</description>
+    </item>
+    <item>
+      <title>Bắt đầu với Github</title>
+      <link>https://example.com/design/github/bat-dau/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/github/bat-dau/index.html</guid>
+      <description>1. Vấn đề đặt ra Nhiều bạn sẽ đặt câu hỏi tại sao lại phải có hẳn một chương trình để quản lí và chia sẻ source code trong khi code thì ở trong tay mình, do mình toàn quyền quản lí, còn việc chia sẻ thì quá đơn giản: nén lại rồi gửi qua usb/mail/chatwork/&amp;hellip;? Trước đây mình cũng nghĩ như vậy và cũng đã làm như vậy (copy source code từ máy này sang máy khác qua usb ^^) &amp;mdash;&amp;gt; mình xin gọi cách làm này là &amp;ldquo;cách nông dân&amp;rdquo; Cho đến khi gặp phải một project lớn mà một mình mình không thể ôm hết được và bắt buộc phải có thêm 1 người nữa code cùng mình, vấn đề của &amp;ldquo;cách nông dân&amp;rdquo; kia bắt đầu xuất hiện.</description>
+    </item>
+    <item>
+      <title>Các trình tích hợp với Github</title>
+      <link>https://example.com/design/github/cac-trinh-tich-hop/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/github/cac-trinh-tich-hop/index.html</guid>
+      <description>GitHub có lẽ là một trong những nền tảng nổi tiếng nhất trong cộng đồng dev, một trong những nền tảng được sử dụng nhiều nhất (nằm ngay bên cạnh những nền tảng khác như Stackoverflow). Nó cho phép công khai các dự án của bạn, quản lý chúng và thậm chí tìm những người khác để giúp đỡ về những nỗ lực nguồn mở của họ. Một điều chúng ta thường không thực sự chú ý là khả năng tích hợp vào các hệ thống khác của nó.</description>
+    </item>
+    <item>
+      <title>Practical Guide</title>
+      <link>https://example.com/design/github/a-practical-guide-to-github-actions/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/github/a-practical-guide-to-github-actions/index.html</guid>
+      <description>A Practical Guide To GitHub Actions Excerpt The software development lifecycle, such as writing, testing, and pushing code to the GitHub repository, takes a lot of effort and is quite time-consuming. To save time and avoid manual effort, we can automate the entire software development lifecycl&amp;hellip;
+Vòng đời phát triển phần mềm như viết, kiểm tra và đẩy mã lên kho GitHub tốn rất nhiều công sức và khá thời gian.</description>
+    </item>
+  </channel>
+</rss>

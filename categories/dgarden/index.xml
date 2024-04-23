@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DGarden on Hugo Relearn Theme</title>
+    <link>https://example.com/categories/dgarden/index.html</link>
+    <description>Recent content in DGarden on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://example.com/categories/dgarden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bài 01- Mở đầu</title>
+      <link>https://example.com/design/dgarden/bat-dau/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/bat-dau/index.html</guid>
+      <description>Quá trình thiết lập ban đầu mất vài phút nhưng khi hoàn tất, bạn sẽ có một khu vườn kỹ thuật số nơi bạn có thể kiểm soát mọi phần của nó và có thể tùy chỉnh nó khi bạn thấy phù hợp. Đó là điều khiến khu vườn kỹ thuật số trở nên thú vị.
+Tải xuống và cài đặt plugin cộng đồng Digital Garden trong Obsidian. Tiếp theo, bạn sẽ cần một tài khoản GitHub.</description>
+    </item>
+    <item>
+      <title>Bài 02-Lệnh</title>
+      <link>https://example.com/design/dgarden/bai-02/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/bai-02/index.html</guid>
+      <description>02 lệnh Xuất bản ghi chú duy nhất Sẽ xuất bản ghi chú hiện đang hoạt động và chỉ điều này. dg-publish: truephải được đặt trên ghi chú đang hoạt động.
+Thêm cờ xuất bản Điều này sẽ tự động thêm a dg-publish: truevào nội dung đầu trong ghi chú hiện đang hoạt động.
+Sẽ thêm cờ xuất bản vào ghi chú hiện đang hoạt động, xuất bản nó và sao chép URL khu vườn vào khay nhớ tạm của bạn.</description>
+    </item>
+    <item>
+      <title>Bài 03-Cài đặt</title>
+      <link>https://example.com/design/dgarden/bai-03/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/bai-03/index.html</guid>
+      <description>Theo mặc định, trang web rất đơn giản, chỉ hiển thị nội dung ghi chú của bạn và thanh điều hướng ở trên cùng. Nhưng plugin cũng hỗ trợ các tính năng như liên kết ngược, biểu đồ cục bộ và tìm kiếm.
+Tất cả các cài đặt như vậy đều có sẵn trong hộp thoại &amp;ldquo;Cài đặt ghi chú&amp;rdquo;. Để chỉnh sửa chúng, hãy đi tới Cài đặt Obsidian &amp;gt; Digital Garden &amp;gt; Cài đặt ghi chú và nhấp vào nút &amp;ldquo;Chỉnh sửa&amp;rdquo; như hình bên dưới.</description>
+    </item>
+    <item>
+      <title>Bài 04-Cài đặt giao diện</title>
+      <link>https://example.com/design/dgarden/cai-dat-ngoai-hinh/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/cai-dat-ngoai-hinh/index.html</guid>
+      <description>Cài đặt giao diện có thể được truy cập trong menu cài đặt:
+Chủ đề Khu vườn kỹ thuật số ngay lập tức được áp dụng chủ đề tối đơn giản. Nhưng plugin hỗ trợ sử dụng các chủ đề Obsidian của cộng đồng.
+Tất cả các chủ đề cộng đồng đều được hỗ trợ. Một số có thể trông đẹp hơn những cái khác. Bạn có thể chọn chủ đề trong menu thả xuống &amp;ldquo;Chủ đề&amp;rdquo; trong cài đặt giao diện:</description>
+    </item>
+    <item>
+      <title>Bài 05-Cài đặt khác</title>
+      <link>https://example.com/design/dgarden/05-cai-dat-khac/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/05-cai-dat-khac/index.html</guid>
+      <description>Slugify URL ghi chú Plugin &amp;ldquo;slugify&amp;rdquo; URL của bạn theo mặc định. Về bản chất, điều này có nghĩa là một ghi chú có đường dẫn &amp;ldquo;My Folder/My Note.md &amp;quot; sẽ nhận được URL &amp;ldquo;my-folder/my-note&amp;rdquo;.
+Bạn có thể tắt tính năng này bằng cách tắt cài đặt này.
+Ký tự không phải tiếng Anh
+Việc trượt URL khiến một số ký tự không phải tiếng Anh, như ký tự tiếng Trung, biến mất.</description>
+    </item>
+    <item>
+      <title>Bài 06-Cập nhật mẫu</title>
+      <link>https://example.com/design/dgarden/06-cap-nhat-mau/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/06-cap-nhat-mau/index.html</guid>
+      <description>Đang cập nhật mẫu Trong menu cài đặt cho plugin, ngoài các cài đặt đã đề cập trước đó, còn có một cài đặt có tên &amp;ldquo;Cập nhật trang web lên mẫu mới nhất&amp;rdquo; với nút có nội dung &amp;ldquo;Tạo PR&amp;rdquo;. Bất cứ khi nào mẫu này nhận được bất kỳ bản cập nhật nào, nút này có thể được sử dụng để cập nhật trang web của bạn. Nó sẽ tạo một nhánh mới trong repo của bạn với những thay đổi và tạo Yêu cầu kéo tới nhánh chính của bạn.</description>
+    </item>
+    <item>
+      <title>Các lựa chọn thay thế</title>
+      <link>https://example.com/design/dgarden/cac-lua-chon-thay-the/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/cac-lua-chon-thay-the/index.html</guid>
+      <description>Trong khi 01 Bắt đầu sử dụng Vercel làm nền tảng lưu trữ, trang web có thể chạy trên bất kỳ nền tảng lưu trữ nào khác. Một số lựa chọn thay thế được liệt kê dưới đây.
+Tự lưu trữ Nếu bạn muốn lưu trữ cái này trên máy chủ của riêng mình, bạn có thể sử dụng phương pháp được giải thích trong cuộc thảo luận GitHub sau đây</description>
+    </item>
+    <item>
+      <title>Các mẹo và thủ thuật</title>
+      <link>https://example.com/design/dgarden/meo-va-thu-thuat/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/meo-va-thu-thuat/index.html</guid>
+      <description>Dưới đây là bộ sưu tập các mẹo và thủ thuật có thể hữu ích khi xuất bản ghi chú của bạn.
+Xuất bản excalidrawing Nếu bạn muốn xuất bản một bản excalidraw mà không cần phải chuyển nó sang một ghi chú khác, bạn chỉ cần thêm cờ dg-publish: true vào phần đầu của tệp excalidraw. Sau đó, nó sẽ được xuất bản dưới dạng một ghi chú độc lập, chỉ hiển thị bản rút tiền.</description>
+    </item>
+    <item>
+      <title>Đặc trưng</title>
+      <link>https://example.com/design/dgarden/dac-trung/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/dac-trung/index.html</guid>
+      <description>Bạn có thể bật các tính năng sau trong khu vườn kỹ thuật số của mình trong cài đặt ghi chú :
+Đồ thị cục bộ Đồ thị toàn cầu Liên kết ngược Mục lục Điều hướng cây tập tin Xem trước liên kết Tìm kiếm Thẻ Frontmatter Ngoài ra, khu vườn còn hỗ trợ nhiều định dạng và loại nội dung trong ghi chú của bạn.
+Wikilinks Link như bình thường ở Obisidan, với [[Wikilink]]cú pháp</description>
+    </item>
+    <item>
+      <title>So sánh với các giải pháp khác</title>
+      <link>https://example.com/design/dgarden/so-sanh-voi-giai-phap-khac/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/so-sanh-voi-giai-phap-khac/index.html</guid>
+      <description>Ưu điểm Một trong những khác biệt chính giữa plugin này và các khu vườn kỹ thuật số phổ biến khác là nó tích hợp với Obsidian thông qua plugin. Bỏ qua thiết lập ban đầu, bạn sẽ không bao giờ phải chạm vào Git. (Trừ khi bạn muốn.) Xuất bản một ghi chú mới cũng đơn giản như sử dụng lệnh xuất bản một ghi chú .
+Điều này cũng giúp việc chỉ xuất bản một số ghi chú của bạn thay vì toàn bộ kho lưu trữ lên khu vườn kỹ thuật số của bạn trở nên dễ dàng hơn nhiều.</description>
+    </item>
+    <item>
+      <title>Thêm nhận xét</title>
+      <link>https://example.com/design/dgarden/them-nhan-xet/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/them-nhan-xet/index.html</guid>
+      <description>Bằng cách sử dụng các thành phần tùy chỉnh , bạn có thể thêm hệ thống bình luận.
+Dưới đây là một số lựa chọn thay thế sẽ hoạt động khá tốt:
+giscus lời nói sự khó chịu Bạn có thể xem ví dụ về một khu vườn sử dụng disqus tại đây</description>
+    </item>
+    <item>
+      <title>Tùy chỉnh css</title>
+      <link>https://example.com/design/dgarden/tuy-chinh-css/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/tuy-chinh-css/index.html</guid>
+      <description>CSS/SCSS động Bất kỳ tệp css/scss nào được đặt bên dưới src/site/styles/user sẽ tự động được liên kết vào phần đầu ngay sau tất cả các kiểu dáng khác. Có nghĩa là kiểu dáng được thêm vào ở đây sẽ chiếm ưu thế hơn mọi thứ khác.
+Các biến css có sẵn Không phải tất cả các chủ đề đều có vẻ tốt. Mẫu này cung cấp một số biến css để tùy chỉnh các thuộc tính css khác nhau nhằm tùy chỉnh nó theo nhu cầu của bạn.</description>
+    </item>
+    <item>
+      <title>Tùy chỉnh thành phần</title>
+      <link>https://example.com/design/dgarden/tuy-chinh-thanh-phan/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/tuy-chinh-thanh-phan/index.html</guid>
+      <description>Bản phát hành 1.39.0 của mẫu đã giới thiệu một cách mới để thêm các thành phần tùy chỉnh vào trang web của bạn. Trước đây, mọi tùy chỉnh được thực hiện trong mẫu sẽ bị ghi đè bất cứ khi nào bạn cập nhật mẫu , khiến việc duy trì trở nên khó khăn nếu bạn muốn có bản cập nhật mới nhất.
+Mẫu hiện có khái niệm về vị trí, nơi bạn có thể thêm bất kỳ nội dung nào bạn muốn.</description>
+    </item>
+  </channel>
+</rss>

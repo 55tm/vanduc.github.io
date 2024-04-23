@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ANKI on Hugo Relearn Theme</title>
+    <link>http://localhost:1313/tuhoc/anki/index.html</link>
+    <description>Recent content in ANKI on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tuhoc/anki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dùng Google Sheet</title>
+      <link>http://localhost:1313/tuhoc/anki/dung-google-sheet/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tuhoc/anki/dung-google-sheet/index.html</guid>
+      <description>Google Docs được tích hợp thêm một số tính năng mới hỗ trợ người dùng có thể dịch ngôn ngữ ở từng cell trên bảng tính sang một ngôn ngữ khác hoặc phát hiện ngôn ngữ cụ thể được sử dụng trong một bảng tính.
+Để dịch ngôn ngữ ở từng cell trên bảng tính sang một ngôn ngữ khác, bạn sử dụng hàm dưới đây:
+=GOOGLETRANSLATE(&amp;#34;văn bản cần dịch&amp;#34;; &amp;#34;ngôn ngữ nguồn&amp;#34;;&amp;#34;ngôn ngữ đích&amp;#34;)=GOOGLETRANSLATE(B64;&amp;#34;en&amp;#34;;&amp;#34;vi&amp;#34;)Sử dụng GoogleTranslate cùng hàm ImportFeed Dưới đây là ảnh động miêu tả cách sử dụng hàm Google Translate trong một bảng tính (cùng ImportFeed) để dịch feed từ ngôn ngữ khác sang ngôn ngữ của bạn.</description>
+    </item>
+    <item>
+      <title>Một mẹo nhỏ</title>
+      <link>http://localhost:1313/tuhoc/anki/mot-meo-nho/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tuhoc/anki/mot-meo-nho/index.html</guid>
+      <description>Một mẹo nhỏ cho các bạn muốn tải file mp3 phát âm của một từ tiếng Anh nào đó (dân làm flashcard chắc rất thích cái này)
+Click chuột phải vào một chỗ bất kỳ trên trang, chọn view page source.
+Chọn ctrl + F, gõ &amp;ldquo;.mp3&amp;rdquo; vào, sẽ ra link file audio của từ&#39;
+CÁCH 2: Cách tải file audio phát âm từ Google:
+Những file audio phát âm này có định dạng MP3, và bạn có thể trực tiếp truy cập chúng mà không cần sử dụng Google Search trước.</description>
+    </item>
+  </channel>
+</rss>

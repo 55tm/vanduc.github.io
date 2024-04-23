@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WebDesign on Hugo Relearn Theme</title>
+    <link>https://example.com/tags/webdesign/index.html</link>
+    <description>Recent content in WebDesign on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://example.com/tags/webdesign/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>19 bí kíp với Github</title>
+      <link>https://example.com/design/github/19-bi-kip-voi-github/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/github/19-bi-kip-voi-github/index.html</guid>
+      <description>Bài viết được dịch từ bài Gitでやらかした時に使える19個の奥義 của tác giả muran001 trên Qiita.
+(Image Source: Medium)
+Những nội dung sau rất nguy hiểm, nếu bạn làm theo, xin hãy chịu trách nhiệm về bản thân mình.
+Nếu có gì sai sót, mong bạn hãy chỉ ra để tôi được biết
+Ở trên local Có hiệu quả khi làm việc trên môi truờng phát triển của bản thân, không làm ảnh hưởng đến người khác.</description>
+    </item>
+    <item>
+      <title>4 bước tạo Website bằng Wordpress</title>
+      <link>https://example.com/design/wordpress/4-b%C6%B0%E1%BB%9Bc-t%E1%BA%A1o-website-b%E1%BA%B1ng-wordpress-cho-ng%C6%B0%E1%BB%9Di-m%E1%BB%9Bi-2024/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/wordpress/4-b%C6%B0%E1%BB%9Bc-t%E1%BA%A1o-website-b%E1%BA%B1ng-wordpress-cho-ng%C6%B0%E1%BB%9Di-m%E1%BB%9Bi-2024/index.html</guid>
+      <description>[4 Bước] Tạo Website Bằng Wordpress Cho Người Mới (2024) Excerpt Hướng dẫn 4 bước tạo website bằng Wordpress cho người mới bắt đầu tìm hiểu về web, người không biết lập trình, không được học gì về code có thể làm được web
+Tạo trang web rất đơn giản! Ngay cả với người không biết lập trình cũng có thể dễ dàng tạo cho mình 1 trang web bằng WordPress.</description>
+    </item>
+    <item>
+      <title>About Github Pages and Jekyll</title>
+      <link>https://example.com/design/github/github-pages/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/github/github-pages/index.html</guid>
+      <description>Jekyll is a static site generator with built-in support for GitHub Pages.
+Who can use this feature? GitHub Pages is available in public repositories with GitHub Free and GitHub Free for organizations, and in public and private repositories with GitHub Pro, GitHub Team, GitHub Enterprise Cloud, and GitHub Enterprise Server. For more information, see &amp;ldquo;GitHub’s plans.&amp;rdquo;
+About Jekyll Jekyll is a static site generator with built-in support for GitHub Pages and a simplified build process.</description>
+    </item>
+    <item>
+      <title>Bài 01- Mở đầu</title>
+      <link>https://example.com/design/dgarden/bat-dau/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/bat-dau/index.html</guid>
+      <description>Quá trình thiết lập ban đầu mất vài phút nhưng khi hoàn tất, bạn sẽ có một khu vườn kỹ thuật số nơi bạn có thể kiểm soát mọi phần của nó và có thể tùy chỉnh nó khi bạn thấy phù hợp. Đó là điều khiến khu vườn kỹ thuật số trở nên thú vị.
+Tải xuống và cài đặt plugin cộng đồng Digital Garden trong Obsidian. Tiếp theo, bạn sẽ cần một tài khoản GitHub.</description>
+    </item>
+    <item>
+      <title>Bài 02-Lệnh</title>
+      <link>https://example.com/design/dgarden/bai-02/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/bai-02/index.html</guid>
+      <description>02 lệnh Xuất bản ghi chú duy nhất Sẽ xuất bản ghi chú hiện đang hoạt động và chỉ điều này. dg-publish: truephải được đặt trên ghi chú đang hoạt động.
+Thêm cờ xuất bản Điều này sẽ tự động thêm a dg-publish: truevào nội dung đầu trong ghi chú hiện đang hoạt động.
+Sẽ thêm cờ xuất bản vào ghi chú hiện đang hoạt động, xuất bản nó và sao chép URL khu vườn vào khay nhớ tạm của bạn.</description>
+    </item>
+    <item>
+      <title>Bài 03-Cài đặt</title>
+      <link>https://example.com/design/dgarden/bai-03/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/bai-03/index.html</guid>
+      <description>Theo mặc định, trang web rất đơn giản, chỉ hiển thị nội dung ghi chú của bạn và thanh điều hướng ở trên cùng. Nhưng plugin cũng hỗ trợ các tính năng như liên kết ngược, biểu đồ cục bộ và tìm kiếm.
+Tất cả các cài đặt như vậy đều có sẵn trong hộp thoại &amp;ldquo;Cài đặt ghi chú&amp;rdquo;. Để chỉnh sửa chúng, hãy đi tới Cài đặt Obsidian &amp;gt; Digital Garden &amp;gt; Cài đặt ghi chú và nhấp vào nút &amp;ldquo;Chỉnh sửa&amp;rdquo; như hình bên dưới.</description>
+    </item>
+    <item>
+      <title>Bài 04-Cài đặt giao diện</title>
+      <link>https://example.com/design/dgarden/cai-dat-ngoai-hinh/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/cai-dat-ngoai-hinh/index.html</guid>
+      <description>Cài đặt giao diện có thể được truy cập trong menu cài đặt:
+Chủ đề Khu vườn kỹ thuật số ngay lập tức được áp dụng chủ đề tối đơn giản. Nhưng plugin hỗ trợ sử dụng các chủ đề Obsidian của cộng đồng.
+Tất cả các chủ đề cộng đồng đều được hỗ trợ. Một số có thể trông đẹp hơn những cái khác. Bạn có thể chọn chủ đề trong menu thả xuống &amp;ldquo;Chủ đề&amp;rdquo; trong cài đặt giao diện:</description>
+    </item>
+    <item>
+      <title>Bài 05-Cài đặt khác</title>
+      <link>https://example.com/design/dgarden/05-cai-dat-khac/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/05-cai-dat-khac/index.html</guid>
+      <description>Slugify URL ghi chú Plugin &amp;ldquo;slugify&amp;rdquo; URL của bạn theo mặc định. Về bản chất, điều này có nghĩa là một ghi chú có đường dẫn &amp;ldquo;My Folder/My Note.md &amp;quot; sẽ nhận được URL &amp;ldquo;my-folder/my-note&amp;rdquo;.
+Bạn có thể tắt tính năng này bằng cách tắt cài đặt này.
+Ký tự không phải tiếng Anh
+Việc trượt URL khiến một số ký tự không phải tiếng Anh, như ký tự tiếng Trung, biến mất.</description>
+    </item>
+    <item>
+      <title>Bài 06-Cập nhật mẫu</title>
+      <link>https://example.com/design/dgarden/06-cap-nhat-mau/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/06-cap-nhat-mau/index.html</guid>
+      <description>Đang cập nhật mẫu Trong menu cài đặt cho plugin, ngoài các cài đặt đã đề cập trước đó, còn có một cài đặt có tên &amp;ldquo;Cập nhật trang web lên mẫu mới nhất&amp;rdquo; với nút có nội dung &amp;ldquo;Tạo PR&amp;rdquo;. Bất cứ khi nào mẫu này nhận được bất kỳ bản cập nhật nào, nút này có thể được sử dụng để cập nhật trang web của bạn. Nó sẽ tạo một nhánh mới trong repo của bạn với những thay đổi và tạo Yêu cầu kéo tới nhánh chính của bạn.</description>
+    </item>
+    <item>
+      <title>Bắt đầu với Github</title>
+      <link>https://example.com/design/github/bat-dau/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/github/bat-dau/index.html</guid>
+      <description>1. Vấn đề đặt ra Nhiều bạn sẽ đặt câu hỏi tại sao lại phải có hẳn một chương trình để quản lí và chia sẻ source code trong khi code thì ở trong tay mình, do mình toàn quyền quản lí, còn việc chia sẻ thì quá đơn giản: nén lại rồi gửi qua usb/mail/chatwork/&amp;hellip;? Trước đây mình cũng nghĩ như vậy và cũng đã làm như vậy (copy source code từ máy này sang máy khác qua usb ^^) &amp;mdash;&amp;gt; mình xin gọi cách làm này là &amp;ldquo;cách nông dân&amp;rdquo; Cho đến khi gặp phải một project lớn mà một mình mình không thể ôm hết được và bắt buộc phải có thêm 1 người nữa code cùng mình, vấn đề của &amp;ldquo;cách nông dân&amp;rdquo; kia bắt đầu xuất hiện.</description>
+    </item>
+    <item>
+      <title>Các lựa chọn thay thế</title>
+      <link>https://example.com/design/dgarden/cac-lua-chon-thay-the/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/cac-lua-chon-thay-the/index.html</guid>
+      <description>Trong khi 01 Bắt đầu sử dụng Vercel làm nền tảng lưu trữ, trang web có thể chạy trên bất kỳ nền tảng lưu trữ nào khác. Một số lựa chọn thay thế được liệt kê dưới đây.
+Tự lưu trữ Nếu bạn muốn lưu trữ cái này trên máy chủ của riêng mình, bạn có thể sử dụng phương pháp được giải thích trong cuộc thảo luận GitHub sau đây</description>
+    </item>
+    <item>
+      <title>Các mẹo và thủ thuật</title>
+      <link>https://example.com/design/dgarden/meo-va-thu-thuat/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/meo-va-thu-thuat/index.html</guid>
+      <description>Dưới đây là bộ sưu tập các mẹo và thủ thuật có thể hữu ích khi xuất bản ghi chú của bạn.
+Xuất bản excalidrawing Nếu bạn muốn xuất bản một bản excalidraw mà không cần phải chuyển nó sang một ghi chú khác, bạn chỉ cần thêm cờ dg-publish: true vào phần đầu của tệp excalidraw. Sau đó, nó sẽ được xuất bản dưới dạng một ghi chú độc lập, chỉ hiển thị bản rút tiền.</description>
+    </item>
+    <item>
+      <title>Các trình tích hợp với Github</title>
+      <link>https://example.com/design/github/cac-trinh-tich-hop/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/github/cac-trinh-tich-hop/index.html</guid>
+      <description>GitHub có lẽ là một trong những nền tảng nổi tiếng nhất trong cộng đồng dev, một trong những nền tảng được sử dụng nhiều nhất (nằm ngay bên cạnh những nền tảng khác như Stackoverflow). Nó cho phép công khai các dự án của bạn, quản lý chúng và thậm chí tìm những người khác để giúp đỡ về những nỗ lực nguồn mở của họ. Một điều chúng ta thường không thực sự chú ý là khả năng tích hợp vào các hệ thống khác của nó.</description>
+    </item>
+    <item>
+      <title>Đặc trưng</title>
+      <link>https://example.com/design/dgarden/dac-trung/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/dac-trung/index.html</guid>
+      <description>Bạn có thể bật các tính năng sau trong khu vườn kỹ thuật số của mình trong cài đặt ghi chú :
+Đồ thị cục bộ Đồ thị toàn cầu Liên kết ngược Mục lục Điều hướng cây tập tin Xem trước liên kết Tìm kiếm Thẻ Frontmatter Ngoài ra, khu vườn còn hỗ trợ nhiều định dạng và loại nội dung trong ghi chú của bạn.
+Wikilinks Link như bình thường ở Obisidan, với [[Wikilink]]cú pháp</description>
+    </item>
+    <item>
+      <title>Hướng dẫn cách viết bài mới</title>
+      <link>https://example.com/design/wordpress/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A1ch-vi%E1%BA%BFt-b%C3%A0i-m%E1%BB%9Bi-t%E1%BA%A1o-post-tr%C3%AAn-wordpress/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/wordpress/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A1ch-vi%E1%BA%BFt-b%C3%A0i-m%E1%BB%9Bi-t%E1%BA%A1o-post-tr%C3%AAn-wordpress/index.html</guid>
+      <description>Hướng Dẫn Cách Viết Bài Mới (Tạo Post) Trên Wordpress Excerpt Hướng dẫn cách viết bài mới (tạo post) trên WordPress để đăng thông tin lên website WordPress, tìm hiểu chức năng soạn bài post trong WordPress.
+Qua 3 bài viết trước, bạn đã biết cách cài đặt WordPress rồi chứ? Vậy bây giờ, khi bạn đã có web bằng WordPress thì phải học để biết cách sử dụng và quản trị nó như nào chứ nhỉ?</description>
+    </item>
+    <item>
+      <title>Hướng dẫn cài đặt</title>
+      <link>https://example.com/design/jekyll/huong-dan-cai-dat/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/jekyll/huong-dan-cai-dat/index.html</guid>
+      <description>Hướng dẫn cách cài đặt Jekyll làm công cụ tạo trang web tĩnh (SSG) - LEarn Anything Giới thiệu¶ Jekyll là gì?
+Jekyll là một công cụ tạo trang web tĩnh (Static Site Generator, viết tắt SSG) viết bằng ngôn ngữ lập trình Ruby bởi Tom Preston-Werner. Jekyll được phân phối dạng mã nguồn mở theo giấy phép MIT.
+Sử dụng Jekyll ở đâu?¶ Tùy chọn cài đặt Jekyll nếu bạn muốn preview trang trên máy tính cục bộ (localhost), nếu không cài trên máy sẽ khó và mất thời gian hơn chút khi tùy biến trang web.</description>
+    </item>
+    <item>
+      <title>Hướng dẫn cài đặt Wordpress</title>
+      <link>https://example.com/design/wordpress/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-wordpress-tr%C3%AAn-localhost-chi-ti%E1%BA%BFt/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/wordpress/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-wordpress-tr%C3%AAn-localhost-chi-ti%E1%BA%BFt/index.html</guid>
+      <description>Hướng Dẫn Cài Đặt Wordpress Trên Localhost Chi Tiết Excerpt Hướng dẫn cài đặt WordPress trên localhost sử dụng Ampps, cách cài WordPress trên localhost hướng dẫn bằng hình ảnh rất chi tiết.
+Ở bài trước mình đã hướng dẫn cách tạo localhost với AMPPS trên máy tính rồi (nếu chưa biết bạn cần phải đọc bài đó trước). Tiếp theo, bài viết này mình sẽ hướng dẫn cách cài đặt WordPress trên localhost để khởi tạo một website WordPress trên máy tính.</description>
+    </item>
+    <item>
+      <title>Layouts Hugo</title>
+      <link>https://example.com/design/hugo/yout/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/hugo/yout/index.html</guid>
+      <description>Bài giảng về Layouts Hugo trên Youtube của &amp;ldquo;Cloudcannon&amp;rdquo;. Những bài giảng cụ thể này, step by step, đúng là cầm tay chỉ việc! Những playlist hữu ích này nên thường xuyên xem để nâng tầm Level! </description>
+    </item>
+    <item>
+      <title>Practical Guide</title>
+      <link>https://example.com/design/github/a-practical-guide-to-github-actions/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/github/a-practical-guide-to-github-actions/index.html</guid>
+      <description>A Practical Guide To GitHub Actions Excerpt The software development lifecycle, such as writing, testing, and pushing code to the GitHub repository, takes a lot of effort and is quite time-consuming. To save time and avoid manual effort, we can automate the entire software development lifecycl&amp;hellip;
+Vòng đời phát triển phần mềm như viết, kiểm tra và đẩy mã lên kho GitHub tốn rất nhiều công sức và khá thời gian.</description>
+    </item>
+    <item>
+      <title>Quick start</title>
+      <link>https://example.com/design/jekyll/quick-start-jekyll/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/jekyll/quick-start-jekyll/index.html</guid>
+      <description>Quickstart | Jekyll • Simple, blog-aware, static sites Excerpt Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more.
+Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website.</description>
+    </item>
+    <item>
+      <title>So sánh với các giải pháp khác</title>
+      <link>https://example.com/design/dgarden/so-sanh-voi-giai-phap-khac/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/so-sanh-voi-giai-phap-khac/index.html</guid>
+      <description>Ưu điểm Một trong những khác biệt chính giữa plugin này và các khu vườn kỹ thuật số phổ biến khác là nó tích hợp với Obsidian thông qua plugin. Bỏ qua thiết lập ban đầu, bạn sẽ không bao giờ phải chạm vào Git. (Trừ khi bạn muốn.) Xuất bản một ghi chú mới cũng đơn giản như sử dụng lệnh xuất bản một ghi chú .
+Điều này cũng giúp việc chỉ xuất bản một số ghi chú của bạn thay vì toàn bộ kho lưu trữ lên khu vườn kỹ thuật số của bạn trở nên dễ dàng hơn nhiều.</description>
+    </item>
+    <item>
+      <title>Tạo trang Jekyll</title>
+      <link>https://example.com/design/jekyll/tao-trang-jekyll/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/jekyll/tao-trang-jekyll/index.html</guid>
+      <description>Tạo trang blog cá nhân đẹp và đơn giản với Jekyll YAT theme và Github Pages - LEarn Anything Excerpt Chia sẻ các bài viết từ Obsidian lên blog sử dụng Jekyll YAT theme và Github Pages hoàn toàn miễn phí
+Tổng quan các bước thực hiện¶ Sơ đồ này tóm tắt thành phần và chức năng các công cụ cần sử dụng trong hướng dẫn. Click để xem hình lớn hơn.</description>
+    </item>
+    <item>
+      <title>Thêm Menu phụ</title>
+      <link>https://example.com/design/hugo/them-menu-phu/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/hugo/them-menu-phu/index.html</guid>
+      <description>Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách thêm menu phụ (menu lồng nhau) trong Hugo Website.
+Tổng quan Khi bạn tạo một trang web bằng cách sử dụng trình tạo trang web tĩnh Hugo, bạn thường hiển thị tiêu đề menu trên trang web và các trang khác. Đôi khi bạn cần một sự hỗ trợ cho cấu trúc menu lồng nhau mà không có sẵn với Hugo.</description>
+    </item>
+    <item>
+      <title>Thêm nhận xét</title>
+      <link>https://example.com/design/dgarden/them-nhan-xet/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/them-nhan-xet/index.html</guid>
+      <description>Bằng cách sử dụng các thành phần tùy chỉnh , bạn có thể thêm hệ thống bình luận.
+Dưới đây là một số lựa chọn thay thế sẽ hoạt động khá tốt:
+giscus lời nói sự khó chịu Bạn có thể xem ví dụ về một khu vườn sử dụng disqus tại đây</description>
+    </item>
+    <item>
+      <title>Tùy chỉnh css</title>
+      <link>https://example.com/design/dgarden/tuy-chinh-css/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/tuy-chinh-css/index.html</guid>
+      <description>CSS/SCSS động Bất kỳ tệp css/scss nào được đặt bên dưới src/site/styles/user sẽ tự động được liên kết vào phần đầu ngay sau tất cả các kiểu dáng khác. Có nghĩa là kiểu dáng được thêm vào ở đây sẽ chiếm ưu thế hơn mọi thứ khác.
+Các biến css có sẵn Không phải tất cả các chủ đề đều có vẻ tốt. Mẫu này cung cấp một số biến css để tùy chỉnh các thuộc tính css khác nhau nhằm tùy chỉnh nó theo nhu cầu của bạn.</description>
+    </item>
+    <item>
+      <title>Tùy chỉnh thành phần</title>
+      <link>https://example.com/design/dgarden/tuy-chinh-thanh-phan/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/design/dgarden/tuy-chinh-thanh-phan/index.html</guid>
+      <description>Bản phát hành 1.39.0 của mẫu đã giới thiệu một cách mới để thêm các thành phần tùy chỉnh vào trang web của bạn. Trước đây, mọi tùy chỉnh được thực hiện trong mẫu sẽ bị ghi đè bất cứ khi nào bạn cập nhật mẫu , khiến việc duy trì trở nên khó khăn nếu bạn muốn có bản cập nhật mới nhất.
+Mẫu hiện có khái niệm về vị trí, nơi bạn có thể thêm bất kỳ nội dung nào bạn muốn.</description>
+    </item>
+  </channel>
+</rss>

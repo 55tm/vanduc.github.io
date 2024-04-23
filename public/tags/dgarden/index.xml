@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DGarden on Hugo Relearn Theme</title>
+    <link>http://localhost:1313/tags/dgarden/</link>
+    <description>Recent content in DGarden on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/dgarden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bài 01- Mở đầu</title>
+      <link>http://localhost:1313/design/dgarden/bat-dau/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/design/dgarden/bat-dau/</guid>
+      <description>Quá trình thiết lập ban đầu mất vài phút nhưng khi hoàn tất, bạn sẽ có một khu vườn kỹ thuật số nơi bạn có thể kiểm soát mọi phần của nó và có thể tùy chỉnh nó khi bạn thấy phù hợp. Đó là điều khiến khu vườn kỹ thuật số trở nên thú vị.&#xA;Tải xuống và cài đặt plugin cộng đồng Digital Garden trong Obsidian. Tiếp theo, bạn sẽ cần một tài khoản GitHub.</description>
+    </item>
+    <item>
+      <title>Bài 02-Lệnh</title>
+      <link>http://localhost:1313/design/dgarden/bai-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/design/dgarden/bai-02/</guid>
+      <description>02 lệnh Xuất bản ghi chú duy nhất Sẽ xuất bản ghi chú hiện đang hoạt động và chỉ điều này. dg-publish: truephải được đặt trên ghi chú đang hoạt động.&#xA;Thêm cờ xuất bản Điều này sẽ tự động thêm a dg-publish: truevào nội dung đầu trong ghi chú hiện đang hoạt động.&#xA;Sẽ thêm cờ xuất bản vào ghi chú hiện đang hoạt động, xuất bản nó và sao chép URL khu vườn vào khay nhớ tạm của bạn.</description>
+    </item>
+    <item>
+      <title>Bài 03-Cài đặt</title>
+      <link>http://localhost:1313/design/dgarden/bai-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/design/dgarden/bai-03/</guid>
+      <description>Theo mặc định, trang web rất đơn giản, chỉ hiển thị nội dung ghi chú của bạn và thanh điều hướng ở trên cùng. Nhưng plugin cũng hỗ trợ các tính năng như liên kết ngược, biểu đồ cục bộ và tìm kiếm.&#xA;Tất cả các cài đặt như vậy đều có sẵn trong hộp thoại &amp;ldquo;Cài đặt ghi chú&amp;rdquo;. Để chỉnh sửa chúng, hãy đi tới Cài đặt Obsidian &amp;gt; Digital Garden &amp;gt; Cài đặt ghi chú và nhấp vào nút &amp;ldquo;Chỉnh sửa&amp;rdquo; như hình bên dưới.</description>
+    </item>
+    <item>
+      <title>Bài 04-Cài đặt giao diện</title>
+      <link>http://localhost:1313/design/dgarden/cai-dat-ngoai-hinh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/design/dgarden/cai-dat-ngoai-hinh/</guid>
+      <description>Cài đặt giao diện có thể được truy cập trong menu cài đặt:&#xA;Chủ đề Khu vườn kỹ thuật số ngay lập tức được áp dụng chủ đề tối đơn giản. Nhưng plugin hỗ trợ sử dụng các chủ đề Obsidian của cộng đồng.&#xA;Tất cả các chủ đề cộng đồng đều được hỗ trợ. Một số có thể trông đẹp hơn những cái khác. Bạn có thể chọn chủ đề trong menu thả xuống &amp;ldquo;Chủ đề&amp;rdquo; trong cài đặt giao diện:</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hướng dẫn sử dụng Obsidian on Hugo Relearn Theme</title>
+    <link>https://example.com/tuhoc/obsidian/huong-dan-su-dung-obsidian-thinh-vu-blog/index.html</link>
+    <description>Recent content in Hướng dẫn sử dụng Obsidian on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://example.com/tuhoc/obsidian/huong-dan-su-dung-obsidian-thinh-vu-blog/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
